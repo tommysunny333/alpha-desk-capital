@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 540882,
-    "last_updated": "2026-06-01T10:00:00-04:00",
+    "last_updated": "2026-06-01T10:59:04.737005-04:00",
     "last_trading_day": "2026-06-01",
     "total_sessions": 1,
     "regime": "STRONG_BULL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": 0,
-    "portfolio_value": 540882,
+    "spy_ytd_return": -0.13,
+    "portfolio_value": 539331.4,
     "cash": 500000,
-    "cumulative_return_pct": 0,
-    "alpha_vs_spy": 0,
+    "cumulative_return_pct": -46.07,
+    "alpha_vs_spy": -45.94,
     "circuit_breaker_active": false,
     "daily_high_watermark": 540882
   },
@@ -22,7 +22,7 @@
       "entry_price": 212.49,
       "current_price": 212.49,
       "shares": 51,
-      "stop_price": 186.99,
+      "stop_price": 193.25,
       "days_held": 0
     },
     {
@@ -40,7 +40,7 @@
       "entry_price": 446.77,
       "current_price": 446.77,
       "shares": 5,
-      "stop_price": 393.16,
+      "stop_price": 400.85,
       "days_held": 0
     },
     {
@@ -58,7 +58,7 @@
       "entry_price": 124.68,
       "current_price": 124.68,
       "shares": 16,
-      "stop_price": 109.72,
+      "stop_price": 111.33,
       "days_held": 0
     },
     {
@@ -67,7 +67,7 @@
       "entry_price": 182.4,
       "current_price": 182.4,
       "shares": 10,
-      "stop_price": 160.51,
+      "stop_price": 165.31,
       "days_held": 0
     },
     {
@@ -94,7 +94,7 @@
       "entry_price": 123.05,
       "current_price": 123.05,
       "shares": 8,
-      "stop_price": 108.28,
+      "stop_price": 122.87,
       "days_held": 0
     },
     {
@@ -164,15 +164,26 @@
   "daily_snapshots": [
     {
       "date": "2026-06-01",
-      "portfolio_value": 540882,
-      "daily_pnl": 0,
-      "cumulative_return": 0,
-      "spy_return": 0,
-      "alpha": 0,
+      "portfolio_value": 539331.4,
+      "daily_pnl": -1550.6,
+      "cumulative_return": -46.07,
+      "spy_return": -0.13,
+      "alpha": -45.94,
       "regime": "STRONG_BULL",
       "num_positions": 15,
       "cash": 500000
     }
   ],
-  "agent_decision_log": []
+  "agent_decision_log": [
+    {
+      "timestamp": "2026-06-01T10:59:02.419302-04:00",
+      "regime": "STRONG_BULL",
+      "regime_score": 5,
+      "portfolio_value": 539331.4,
+      "cash": 500000,
+      "actions_taken": 0,
+      "commentary": "API error: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+      "risk_notes": ""
+    }
+  ]
 }
