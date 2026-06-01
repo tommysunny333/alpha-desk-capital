@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 540882,
-    "last_updated": "2026-06-01T11:25:20.347015-04:00",
+    "last_updated": "2026-06-01T11:29:17.548035-04:00",
     "last_trading_day": "2026-06-01",
     "total_sessions": 1,
     "regime": "STRONG_BULL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -0.02,
-    "portfolio_value": 539388.4,
+    "spy_ytd_return": -0.03,
+    "portfolio_value": 539395.69,
     "cash": 501964.06,
     "cumulative_return_pct": -46.06,
-    "alpha_vs_spy": -46.04,
+    "alpha_vs_spy": -46.03,
     "circuit_breaker_active": false,
     "daily_high_watermark": 540882
   },
@@ -165,11 +165,11 @@
   "daily_snapshots": [
     {
       "date": "2026-06-01",
-      "portfolio_value": 539388.4,
-      "daily_pnl": -20.49,
+      "portfolio_value": 539395.69,
+      "daily_pnl": 7.29,
       "cumulative_return": -46.06,
-      "spy_return": -0.02,
-      "alpha": -46.04,
+      "spy_return": -0.03,
+      "alpha": -46.03,
       "regime": "STRONG_BULL",
       "num_positions": 14,
       "cash": 501964.06
@@ -234,6 +234,16 @@
       "cash": 501964.06,
       "actions_taken": 0,
       "commentary": "API error: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+      "risk_notes": ""
+    },
+    {
+      "timestamp": "2026-06-01T11:29:15.204477-04:00",
+      "regime": "STRONG_BULL",
+      "regime_score": 5,
+      "portfolio_value": 539395.69,
+      "cash": 501964.06,
+      "actions_taken": 0,
+      "commentary": "API error: ANTHROPIC_API_KEY is empty. Check GitHub secret: Settings \u2192 Secrets \u2192 Actions \u2192 ANTHROPIC_API_KEY. The value must be the full key starting with 'sk-ant-'.",
       "risk_notes": ""
     }
   ]
