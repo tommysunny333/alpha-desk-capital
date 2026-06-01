@@ -2,18 +2,15 @@ name: Alpha Desk — Autonomous Trading Agent
  
 on:
   schedule:
-    # Every 15 minutes, Mon-Fri 09:30-16:15 ET (13:30-20:15 UTC)
-    # GitHub cron uses UTC. ET = UTC-4 (EDT summer) / UTC-5 (EST winter)
-    # These times cover EDT (summer) — adjust by 1hr in winter
-    - cron: '30,45 13 * * 1-5'    # 09:30, 09:45
-    - cron: '0,15,30 14 * * 1-5'  # 10:00-10:30
-    - cron: '0,15,30 15 * * 1-5'  # 11:00-11:30
-    - cron: '0,15,30 16 * * 1-5'  # 12:00-12:30
-    - cron: '0,15,30 17 * * 1-5'  # 13:00-13:30
-    - cron: '0,15,30 18 * * 1-5'  # 14:00-14:30
-    - cron: '0,15,30 19 * * 1-5'  # 15:00-15:30
-    - cron: '0 20 * * 1-5'         # 16:00 (EOD)
-  workflow_dispatch:  # Allow manual trigger for testing
+    - cron: '30,45 13 * * 1-5'
+    - cron: '0,15,30 14 * * 1-5'
+    - cron: '0,15,30 15 * * 1-5'
+    - cron: '0,15,30 16 * * 1-5'
+    - cron: '0,15,30 17 * * 1-5'
+    - cron: '0,15,30 18 * * 1-5'
+    - cron: '0,15,30 19 * * 1-5'
+    - cron: '0 20 * * 1-5'
+  workflow_dispatch:
  
 permissions:
   contents: write
@@ -22,6 +19,8 @@ jobs:
   trade:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
  
     steps:
       - name: Checkout repo
@@ -43,6 +42,20 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
  
+      - name: Verify API key exists
+        run: |
+          if [ -z "$ANTHROPIC_API_KEY" ]; then
+            echo "::error::ANTHROPIC_API_KEY secret is EMPTY or MISSING"
+            echo "Go to: Settings → Secrets and variables → Actions"
+            echo "Create a Repository secret named exactly: ANTHROPIC_API_KEY"
+            echo "Value: your full API key starting with sk-ant-"
+            exit 1
+          else
+            KEY_LEN=${#ANTHROPIC_API_KEY}
+            KEY_PREFIX=${ANTHROPIC_API_KEY:0:10}
+            echo "✓ API key found: ${KEY_PREFIX}... (length: ${KEY_LEN})"
+          fi
+ 
       - name: Check NYSE market hours
         id: market_check
         run: |
@@ -54,7 +67,6 @@ jobs:
           et = pytz.timezone("America/New_York")
           now = datetime.now(et)
  
-          # US market holidays 2026
           holidays_2026 = {
               "2026-01-01", "2026-01-19", "2026-02-16",
               "2026-04-03", "2026-05-25", "2026-07-03",
@@ -73,15 +85,12 @@ jobs:
           print(f"Market open: {is_market_hours}, Holiday: {is_holiday}, Weekday: {is_weekday}")
           print(f"Should trade: {should_trade}")
  
-          # Write output using the correct env var path
           with open(os.environ["GITHUB_OUTPUT"], "a") as f:
               f.write(f"should_trade={'true' if should_trade else 'false'}\n")
           PYTHON
  
       - name: Run trading agent
         if: steps.market_check.outputs.should_trade == 'true'
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python3 trading_agent.py
  
       - name: Commit updated portfolio state
@@ -96,3 +105,4 @@ jobs:
       - name: Skip (market closed)
         if: steps.market_check.outputs.should_trade == 'false'
         run: echo "Market closed or holiday — skipping this cycle."
+ 
