@@ -1,14 +1,14 @@
 {
   "meta": {
     "starting_capital": 540882,
-    "last_updated": "2026-06-01T11:14:10.469462-04:00",
+    "last_updated": "2026-06-01T11:20:35.700787-04:00",
     "last_trading_day": "2026-06-01",
     "total_sessions": 1,
     "regime": "STRONG_BULL",
     "vix": 15.32,
     "spy_price": 756.48,
     "spy_ytd_return": -0.05,
-    "portfolio_value": 539376.01,
+    "portfolio_value": 539408.89,
     "cash": 501964.06,
     "cumulative_return_pct": -46.06,
     "alpha_vs_spy": -46.01,
@@ -22,7 +22,7 @@
       "entry_price": 212.49,
       "current_price": 219.27,
       "shares": 51,
-      "stop_price": 193.25,
+      "stop_price": 193.5,
       "days_held": 0
     },
     {
@@ -40,7 +40,7 @@
       "entry_price": 446.77,
       "current_price": 456.28,
       "shares": 5,
-      "stop_price": 401.53,
+      "stop_price": 402.3,
       "days_held": 0
     },
     {
@@ -58,7 +58,7 @@
       "entry_price": 124.68,
       "current_price": 126.9,
       "shares": 16,
-      "stop_price": 111.75,
+      "stop_price": 111.91,
       "days_held": 0
     },
     {
@@ -94,7 +94,7 @@
       "entry_price": 123.05,
       "current_price": 140.49,
       "shares": 8,
-      "stop_price": 123.63,
+      "stop_price": 123.67,
       "days_held": 0
     },
     {
@@ -165,8 +165,8 @@
   "daily_snapshots": [
     {
       "date": "2026-06-01",
-      "portfolio_value": 539376.01,
-      "daily_pnl": 41.11,
+      "portfolio_value": 539408.89,
+      "daily_pnl": 32.88,
       "cumulative_return": -46.06,
       "spy_return": -0.05,
       "alpha": -46.01,
@@ -211,6 +211,16 @@
       "regime": "STRONG_BULL",
       "regime_score": 5,
       "portfolio_value": 539376.01,
+      "cash": 501964.06,
+      "actions_taken": 0,
+      "commentary": "API error: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+      "risk_notes": ""
+    },
+    {
+      "timestamp": "2026-06-01T11:20:33.524187-04:00",
+      "regime": "STRONG_BULL",
+      "regime_score": 5,
+      "portfolio_value": 539408.89,
       "cash": 501964.06,
       "actions_taken": 0,
       "commentary": "API error: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
