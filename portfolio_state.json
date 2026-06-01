@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 540882,
-    "last_updated": "2026-06-01T11:11:11.962664-04:00",
+    "last_updated": "2026-06-01T11:14:10.469462-04:00",
     "last_trading_day": "2026-06-01",
     "total_sessions": 1,
     "regime": "STRONG_BULL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -0.07,
-    "portfolio_value": 539334.9,
-    "cash": 500000,
-    "cumulative_return_pct": -46.07,
-    "alpha_vs_spy": -45.99,
+    "spy_ytd_return": -0.05,
+    "portfolio_value": 539376.01,
+    "cash": 501964.06,
+    "cumulative_return_pct": -46.06,
+    "alpha_vs_spy": -46.01,
     "circuit_breaker_active": false,
     "daily_high_watermark": 540882
   },
@@ -20,7 +20,7 @@
       "ticker": "NVDA",
       "entry_date": "2026-06-01",
       "entry_price": 212.49,
-      "current_price": 212.49,
+      "current_price": 219.27,
       "shares": 51,
       "stop_price": 193.25,
       "days_held": 0
@@ -29,7 +29,7 @@
       "ticker": "AAPL",
       "entry_date": "2026-06-01",
       "entry_price": 311.35,
-      "current_price": 311.35,
+      "current_price": 306.9,
       "shares": 5,
       "stop_price": 273.99,
       "days_held": 0
@@ -38,16 +38,16 @@
       "ticker": "AVGO",
       "entry_date": "2026-06-01",
       "entry_price": 446.77,
-      "current_price": 446.77,
+      "current_price": 456.28,
       "shares": 5,
-      "stop_price": 401.24,
+      "stop_price": 401.53,
       "days_held": 0
     },
     {
       "ticker": "QCOM",
       "entry_date": "2026-06-01",
       "entry_price": 251.02,
-      "current_price": 251.02,
+      "current_price": 234.46,
       "shares": 9,
       "stop_price": 220.9,
       "days_held": 0
@@ -56,7 +56,7 @@
       "ticker": "C",
       "entry_date": "2026-06-01",
       "entry_price": 124.68,
-      "current_price": 124.68,
+      "current_price": 126.9,
       "shares": 16,
       "stop_price": 111.75,
       "days_held": 0
@@ -65,7 +65,7 @@
       "ticker": "CVX",
       "entry_date": "2026-06-01",
       "entry_price": 182.4,
-      "current_price": 182.4,
+      "current_price": 187.2,
       "shares": 10,
       "stop_price": 165.31,
       "days_held": 0
@@ -74,7 +74,7 @@
       "ticker": "INTC",
       "entry_date": "2026-06-01",
       "entry_price": 115.33,
-      "current_price": 115.33,
+      "current_price": 111.13,
       "shares": 7,
       "stop_price": 101.49,
       "days_held": 0
@@ -83,7 +83,7 @@
       "ticker": "KO",
       "entry_date": "2026-06-01",
       "entry_price": 80.41,
-      "current_price": 80.41,
+      "current_price": 78.69,
       "shares": 14,
       "stop_price": 70.76,
       "days_held": 0
@@ -92,16 +92,16 @@
       "ticker": "OKTA",
       "entry_date": "2026-06-01",
       "entry_price": 123.05,
-      "current_price": 123.05,
+      "current_price": 140.49,
       "shares": 8,
-      "stop_price": 122.87,
+      "stop_price": 123.63,
       "days_held": 0
     },
     {
       "ticker": "PG",
       "entry_date": "2026-06-01",
       "entry_price": 143.38,
-      "current_price": 143.38,
+      "current_price": 139.77,
       "shares": 7,
       "stop_price": 126.17,
       "days_held": 0
@@ -110,7 +110,7 @@
       "ticker": "WELL",
       "entry_date": "2026-06-01",
       "entry_price": 207.12,
-      "current_price": 207.12,
+      "current_price": 201.64,
       "shares": 11,
       "stop_price": 182.27,
       "days_held": 0
@@ -119,7 +119,7 @@
       "ticker": "SPY",
       "entry_date": "2026-06-01",
       "entry_price": 756.48,
-      "current_price": 756.48,
+      "current_price": 756.1,
       "shares": 12,
       "stop_price": 665.7,
       "days_held": 0
@@ -127,21 +127,10 @@
   ],
   "swing_positions": [
     {
-      "ticker": "AAOI",
-      "entry_date": "2026-06-01",
-      "entry_price": 158.41,
-      "current_price": 158.41,
-      "shares": 11,
-      "stop_price": 150.49,
-      "take_profit": 177.42,
-      "signal": "MOMENTUM",
-      "days_held": 0
-    },
-    {
       "ticker": "IONQ",
       "entry_date": "2026-06-01",
       "entry_price": 72.07,
-      "current_price": 72.07,
+      "current_price": 71.38,
       "shares": 14,
       "stop_price": 68.47,
       "take_profit": 80.72,
@@ -152,7 +141,7 @@
       "ticker": "RGTI",
       "entry_date": "2026-06-01",
       "entry_price": 24.4,
-      "current_price": 24.4,
+      "current_price": 25.66,
       "shares": 5,
       "stop_price": 23.18,
       "take_profit": 27.33,
@@ -160,18 +149,30 @@
       "days_held": 0
     }
   ],
-  "trade_log": [],
+  "trade_log": [
+    {
+      "action": "SELL",
+      "ticker": "AAOI",
+      "strategy": "SWING",
+      "price": 178.64,
+      "quantity": 11,
+      "reasoning": "Take profit hit: $178.64 >= $177.42",
+      "signal": "TAKE_PROFIT",
+      "realized_pnl": 221.55,
+      "timestamp": "2026-06-01T11:14:07.758378-04:00"
+    }
+  ],
   "daily_snapshots": [
     {
       "date": "2026-06-01",
-      "portfolio_value": 539334.9,
-      "daily_pnl": -9.99,
-      "cumulative_return": -46.07,
-      "spy_return": -0.07,
-      "alpha": -45.99,
+      "portfolio_value": 539376.01,
+      "daily_pnl": 41.11,
+      "cumulative_return": -46.06,
+      "spy_return": -0.05,
+      "alpha": -46.01,
       "regime": "STRONG_BULL",
-      "num_positions": 15,
-      "cash": 500000
+      "num_positions": 14,
+      "cash": 501964.06
     }
   ],
   "agent_decision_log": [
@@ -201,6 +202,16 @@
       "regime_score": 5,
       "portfolio_value": 539334.9,
       "cash": 500000,
+      "actions_taken": 0,
+      "commentary": "API error: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+      "risk_notes": ""
+    },
+    {
+      "timestamp": "2026-06-01T11:14:07.758378-04:00",
+      "regime": "STRONG_BULL",
+      "regime_score": 5,
+      "portfolio_value": 539376.01,
+      "cash": 501964.06,
       "actions_taken": 0,
       "commentary": "API error: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
       "risk_notes": ""
