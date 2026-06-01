@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 540882,
-    "last_updated": "2026-06-01T11:06:28.338196-04:00",
+    "last_updated": "2026-06-01T11:11:11.962664-04:00",
     "last_trading_day": "2026-06-01",
     "total_sessions": 1,
     "regime": "STRONG_BULL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -0.06,
-    "portfolio_value": 539344.89,
+    "spy_ytd_return": -0.07,
+    "portfolio_value": 539334.9,
     "cash": 500000,
     "cumulative_return_pct": -46.07,
-    "alpha_vs_spy": -46.0,
+    "alpha_vs_spy": -45.99,
     "circuit_breaker_active": false,
     "daily_high_watermark": 540882
   },
@@ -40,7 +40,7 @@
       "entry_price": 446.77,
       "current_price": 446.77,
       "shares": 5,
-      "stop_price": 400.87,
+      "stop_price": 401.24,
       "days_held": 0
     },
     {
@@ -164,11 +164,11 @@
   "daily_snapshots": [
     {
       "date": "2026-06-01",
-      "portfolio_value": 539344.89,
-      "daily_pnl": 13.49,
+      "portfolio_value": 539334.9,
+      "daily_pnl": -9.99,
       "cumulative_return": -46.07,
-      "spy_return": -0.06,
-      "alpha": -46.0,
+      "spy_return": -0.07,
+      "alpha": -45.99,
       "regime": "STRONG_BULL",
       "num_positions": 15,
       "cash": 500000
@@ -190,6 +190,16 @@
       "regime": "STRONG_BULL",
       "regime_score": 5,
       "portfolio_value": 539344.89,
+      "cash": 500000,
+      "actions_taken": 0,
+      "commentary": "API error: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+      "risk_notes": ""
+    },
+    {
+      "timestamp": "2026-06-01T11:11:08.711746-04:00",
+      "regime": "STRONG_BULL",
+      "regime_score": 5,
+      "portfolio_value": 539334.9,
       "cash": 500000,
       "actions_taken": 0,
       "commentary": "API error: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
