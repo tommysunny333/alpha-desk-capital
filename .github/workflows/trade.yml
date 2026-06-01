@@ -1,62 +1,66 @@
 name: Alpha Desk — Autonomous Trading Agent
-
+ 
 on:
   schedule:
-    # Every 15 minutes, Mon–Fri 09:30–16:15 ET (13:30–20:15 UTC)
+    # Every 15 minutes, Mon-Fri 09:30-16:15 ET (13:30-20:15 UTC)
     # GitHub cron uses UTC. ET = UTC-4 (EDT summer) / UTC-5 (EST winter)
     # These times cover EDT (summer) — adjust by 1hr in winter
-    - cron: '30,45 13 * * 1-5'   # 09:30, 09:45
-    - cron: '0,15,30 14 * * 1-5'  # 10:00–10:45
-    - cron: '0,15,30 15 * * 1-5'  # 11:00–11:45
-    - cron: '0,15,30 16 * * 1-5'  # 12:00–12:45
-    - cron: '0,15,30 17 * * 1-5'  # 13:00–13:45
-    - cron: '0,15,30 18 * * 1-5'  # 14:00–14:45
-    - cron: '0,15,30 19 * * 1-5'  # 15:00–15:45
-    - cron: '0 20 * * 1-5'         # 16:00, 16:15 (EOD)
+    - cron: '30,45 13 * * 1-5'    # 09:30, 09:45
+    - cron: '0,15,30 14 * * 1-5'  # 10:00-10:30
+    - cron: '0,15,30 15 * * 1-5'  # 11:00-11:30
+    - cron: '0,15,30 16 * * 1-5'  # 12:00-12:30
+    - cron: '0,15,30 17 * * 1-5'  # 13:00-13:30
+    - cron: '0,15,30 18 * * 1-5'  # 14:00-14:30
+    - cron: '0,15,30 19 * * 1-5'  # 15:00-15:30
+    - cron: '0 20 * * 1-5'         # 16:00 (EOD)
   workflow_dispatch:  # Allow manual trigger for testing
-
+ 
 permissions:
-  contents: write  # Needed to commit portfolio_state.json back to repo
-
+  contents: write
+ 
 jobs:
   trade:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-
+ 
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-
+ 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
+ 
       - name: Cache pip dependencies
         uses: actions/cache@v4
         with:
           path: ~/.cache/pip
           key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
-
+ 
       - name: Install dependencies
         run: pip install -r requirements.txt
-
+ 
       - name: Check NYSE market hours
         id: market_check
         run: |
-          python3 - << 'PYTHON'
+          python3 << 'PYTHON'
+          import os
           from datetime import datetime
           import pytz
+ 
           et = pytz.timezone("America/New_York")
           now = datetime.now(et)
-          # Skip US federal holidays (hardcoded 2026)
+ 
+          # US market holidays 2026
           holidays_2026 = {
               "2026-01-01", "2026-01-19", "2026-02-16",
               "2026-04-03", "2026-05-25", "2026-07-03",
               "2026-09-07", "2026-11-26", "2026-12-25"
           }
+ 
           today_str = now.strftime("%Y-%m-%d")
           is_holiday = today_str in holidays_2026
           is_weekday = now.weekday() < 5
@@ -64,18 +68,22 @@ jobs:
           market_close = now.replace(hour=16, minute=15, second=0, microsecond=0)
           is_market_hours = market_open <= now <= market_close
           should_trade = is_weekday and not is_holiday and is_market_hours
+ 
           print(f"Time: {now.strftime('%A %Y-%m-%d %H:%M ET')}")
           print(f"Market open: {is_market_hours}, Holiday: {is_holiday}, Weekday: {is_weekday}")
-          with open("$GITHUB_OUTPUT", "a") as f:
+          print(f"Should trade: {should_trade}")
+ 
+          # Write output using the correct env var path
+          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
               f.write(f"should_trade={'true' if should_trade else 'false'}\n")
           PYTHON
-
+ 
       - name: Run trading agent
         if: steps.market_check.outputs.should_trade == 'true'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python3 trading_agent.py
-
+ 
       - name: Commit updated portfolio state
         if: steps.market_check.outputs.should_trade == 'true'
         run: |
@@ -84,7 +92,7 @@ jobs:
           git add portfolio_state.json
           git diff --staged --quiet || git commit -m "🤖 Trading cycle $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
-
+ 
       - name: Skip (market closed)
         if: steps.market_check.outputs.should_trade == 'false'
         run: echo "Market closed or holiday — skipping this cycle."
