@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 540882,
-    "last_updated": "2026-06-01T11:51:33.862030-04:00",
+    "last_updated": "2026-06-01T11:55:19.459979-04:00",
     "last_trading_day": "2026-06-01",
     "total_sessions": 1,
     "regime": "STRONG_BULL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": 0.06,
-    "portfolio_value": 539415.48,
-    "cash": 501964.06,
+    "spy_ytd_return": 0.07,
+    "portfolio_value": 539427.26,
+    "cash": 500657.63,
     "cumulative_return_pct": -46.06,
-    "alpha_vs_spy": -46.12,
+    "alpha_vs_spy": -46.13,
     "circuit_breaker_active": false,
     "daily_high_watermark": 540882
   },
@@ -20,7 +20,7 @@
       "ticker": "NVDA",
       "entry_date": "2026-06-01",
       "entry_price": 212.49,
-      "current_price": 219.27,
+      "current_price": 220.14,
       "shares": 51,
       "stop_price": 193.73,
       "days_held": 0
@@ -29,7 +29,7 @@
       "ticker": "AAPL",
       "entry_date": "2026-06-01",
       "entry_price": 311.35,
-      "current_price": 306.9,
+      "current_price": 306.74,
       "shares": 5,
       "stop_price": 273.99,
       "days_held": 0
@@ -38,25 +38,16 @@
       "ticker": "AVGO",
       "entry_date": "2026-06-01",
       "entry_price": 446.77,
-      "current_price": 456.28,
+      "current_price": 459.08,
       "shares": 5,
-      "stop_price": 403.96,
-      "days_held": 0
-    },
-    {
-      "ticker": "QCOM",
-      "entry_date": "2026-06-01",
-      "entry_price": 251.02,
-      "current_price": 234.46,
-      "shares": 9,
-      "stop_price": 220.9,
+      "stop_price": 403.99,
       "days_held": 0
     },
     {
       "ticker": "C",
       "entry_date": "2026-06-01",
       "entry_price": 124.68,
-      "current_price": 126.9,
+      "current_price": 127.59,
       "shares": 16,
       "stop_price": 112.33,
       "days_held": 0
@@ -65,25 +56,16 @@
       "ticker": "CVX",
       "entry_date": "2026-06-01",
       "entry_price": 182.4,
-      "current_price": 187.2,
+      "current_price": 186.4,
       "shares": 10,
       "stop_price": 165.31,
-      "days_held": 0
-    },
-    {
-      "ticker": "INTC",
-      "entry_date": "2026-06-01",
-      "entry_price": 115.33,
-      "current_price": 111.13,
-      "shares": 7,
-      "stop_price": 101.49,
       "days_held": 0
     },
     {
       "ticker": "KO",
       "entry_date": "2026-06-01",
       "entry_price": 80.41,
-      "current_price": 78.69,
+      "current_price": 78.67,
       "shares": 14,
       "stop_price": 70.76,
       "days_held": 0
@@ -92,8 +74,8 @@
       "ticker": "OKTA",
       "entry_date": "2026-06-01",
       "entry_price": 123.05,
-      "current_price": 140.49,
-      "shares": 8,
+      "current_price": 139.9,
+      "shares": 5,
       "stop_price": 123.67,
       "days_held": 0
     },
@@ -101,7 +83,7 @@
       "ticker": "PG",
       "entry_date": "2026-06-01",
       "entry_price": 143.38,
-      "current_price": 139.77,
+      "current_price": 140.0,
       "shares": 7,
       "stop_price": 126.17,
       "days_held": 0
@@ -110,7 +92,7 @@
       "ticker": "WELL",
       "entry_date": "2026-06-01",
       "entry_price": 207.12,
-      "current_price": 201.64,
+      "current_price": 200.26,
       "shares": 11,
       "stop_price": 182.27,
       "days_held": 0
@@ -119,9 +101,18 @@
       "ticker": "SPY",
       "entry_date": "2026-06-01",
       "entry_price": 756.48,
-      "current_price": 756.1,
+      "current_price": 757.01,
       "shares": 12,
       "stop_price": 666.35,
+      "days_held": 0
+    },
+    {
+      "ticker": "MSFT",
+      "entry_date": "2026-06-01",
+      "entry_price": 461.0704,
+      "current_price": 460.84,
+      "shares": 10,
+      "stop_price": 405.54,
       "days_held": 0
     }
   ],
@@ -130,7 +121,7 @@
       "ticker": "IONQ",
       "entry_date": "2026-06-01",
       "entry_price": 72.07,
-      "current_price": 71.38,
+      "current_price": 71.51,
       "shares": 14,
       "stop_price": 68.47,
       "take_profit": 80.72,
@@ -141,7 +132,7 @@
       "ticker": "RGTI",
       "entry_date": "2026-06-01",
       "entry_price": 24.4,
-      "current_price": 25.66,
+      "current_price": 26.11,
       "shares": 5,
       "stop_price": 23.18,
       "take_profit": 27.33,
@@ -160,19 +151,70 @@
       "signal": "TAKE_PROFIT",
       "realized_pnl": 221.55,
       "timestamp": "2026-06-01T11:14:07.758378-04:00"
+    },
+    {
+      "action": "SELL",
+      "ticker": "QCOM",
+      "strategy": "LONG_TERM",
+      "signal": "UNDERPERFORMANCE_EXIT",
+      "quantity": 9,
+      "price": 233.69,
+      "stop_price": 220.9,
+      "take_profit": 0.0,
+      "reasoning": "QCOM is down 6.9% from entry at $251.02 and is the worst performer in the long book by a margin. In a STRONG_BULL tape where semis broadly are ripping \u2014 NVDA +3.6%, AVGO +2.8% \u2014 QCOM's inability to participate is a loud signal. The stock is sitting at $233.69, which is $13 above the stop at $220.90 but trending toward it with no visible catalyst to reverse. This is not a pullback in an uptrend; it's relative weakness in a sector that has tailwinds. Rotating out of the laggard and reclaiming $2,103 in capital to redeploy into higher-conviction ideas is the right call here.",
+      "realized_pnl": -157.02,
+      "timestamp": "2026-06-01T11:54:32.389689-04:00"
+    },
+    {
+      "action": "SELL",
+      "ticker": "INTC",
+      "strategy": "LONG_TERM",
+      "signal": "UNDERPERFORMANCE_EXIT",
+      "quantity": 7,
+      "price": 111.86,
+      "stop_price": 101.49,
+      "take_profit": 0.0,
+      "reasoning": "INTC is down 3.0% from entry at $115.33, currently at $111.86 \u2014 another semi that's failing to track the sector's bull move. With NVDA breaking out and MRVL at $217, INTC is structurally disadvantaged and the position is just dead weight. The stop is at $101.49, which means there's another 9.3% of downside risk still on the table if the name rolls. That's an asymmetric loser in a book that needs to rebuild from -46%. Cutting this frees $782 and eliminates a tail risk position.",
+      "realized_pnl": -24.68,
+      "timestamp": "2026-06-01T11:54:32.389689-04:00"
+    },
+    {
+      "action": "TRIM",
+      "ticker": "OKTA",
+      "strategy": "LONG_TERM",
+      "signal": "PARTIAL_PROFIT_TAKE",
+      "quantity": 3,
+      "price": 139.9,
+      "stop_price": 123.67,
+      "take_profit": 0.0,
+      "reasoning": "OKTA is the standout winner in the long book at +13.7%, entry $123.05, current $139.90. The stop has already been trailed up to $123.67, which is essentially breakeven-plus. Trimming 3 of 8 shares locks in roughly $50/share of realized gain on those lots \u2014 approximately $500 in cash \u2014 while leaving 5 shares to run with the trailing stop. At 11:54 ET near the close of the morning session, taking some chips off a 13%+ winner in a position that's approaching prior resistance levels is disciplined risk management, not timidity. The remaining 5-share position still participates in any continuation.",
+      "realized_pnl": 50.34,
+      "timestamp": "2026-06-01T11:54:32.389689-04:00"
+    },
+    {
+      "action": "BUY",
+      "ticker": "MSFT",
+      "strategy": "LONG_TERM",
+      "signal": "BULL_MARKET_LEADERSHIP",
+      "quantity": 10,
+      "price": 460.84,
+      "stop_price": 405.54,
+      "take_profit": 0.0,
+      "reasoning": "MSFT at $460.84 is notable by its absence from this book given a 5/5 bull regime. The stock is mega-cap quality, has AI/cloud exposure that's directly in the market's current thematic lane, and at 10 shares represents a $4,608 notional \u2014 under 1% of portfolio, well within the 10% max. Stop set at 12% trailing ($405.54). This is a core blue-chip addition that reduces the book's tilt toward more volatile semis and fills a gaping hole in mega-cap tech exposure. The bull regime fully supports this entry.",
+      "timestamp": "2026-06-01T11:54:32.389689-04:00"
     }
   ],
   "daily_snapshots": [
     {
       "date": "2026-06-01",
-      "portfolio_value": 539415.48,
-      "daily_pnl": -31.01,
+      "portfolio_value": 539427.26,
+      "daily_pnl": 11.78,
       "cumulative_return": -46.06,
-      "spy_return": 0.06,
-      "alpha": -46.12,
+      "spy_return": 0.07,
+      "alpha": -46.13,
       "regime": "STRONG_BULL",
-      "num_positions": 14,
-      "cash": 501964.06
+      "num_positions": 13,
+      "cash": 500657.63
     }
   ],
   "agent_decision_log": [
@@ -275,6 +317,16 @@
       "actions_taken": 0,
       "commentary": "API error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-sonnet-4-20250514'}, 'request_id': 'req_011Cbcom3HNhrbZehcGszknJ'}",
       "risk_notes": ""
+    },
+    {
+      "timestamp": "2026-06-01T11:54:32.389689-04:00",
+      "regime": "STRONG_BULL",
+      "regime_score": 5,
+      "portfolio_value": 539427.26,
+      "cash": 500657.63,
+      "actions_taken": 4,
+      "commentary": "The tape is as clean as it gets \u2014 SPY $757 above both moving averages, VIX sub-16, QQQ $742 with a 50-day gap of $86, and a 20-day return of 5% \u2014 this is a fully confirmed STRONG_BULL and the regime read alone gives you permission to be net-long and leaning in. The problem is the book itself: we're sitting at -46% cumulative with over 93% of capital in cash, which tells you we've been burned by this portfolio's history and the priority isn't getting aggressive, it's getting right. The key action today is pruning the underperformers \u2014 QCOM and INTC are both down in a tape where semis are printing all-time highs, and that divergence is information; rotating out of losers in a winner's sector and redeploying into MSFT, which is conspicuously absent from a book that should own it, is the cleaner trade. OKTA at +13.7% is the single best position we have and trimming 3 shares here is not a conviction call against the name \u2014 it's basic discipline, locking in gains on the best winner while the trailing stop continues to work on the remainder. The risk I'm watching most closely is RGTI at $26.11 with TP at $27.33 \u2014 that's 4.7% away and could print in the next session, so I need to be ready to execute the exit rather than let a winner turn. Into the next cycle, I want to see whether WELL and KO can stabilize or whether the bull tape's rotation out of defensives accelerates \u2014 if those positions continue bleeding in a 5/5 bull environment, that's the clearest signal they don't belong here.",
+      "risk_notes": "1) RGTI at $26.11 is approaching its TP of $27.33 \u2014 that's only $1.22 away (4.7%), so be ready to exit or trail next cycle. 2) IONQ is at -0.8% but the stop is $68.47 against current $71.51, so $3.04 of room \u2014 watch for continuation or cut it loose if it can't reclaim $72.07 entry. 3) WELL at $200.26 is -3.3% from entry $207.12 with stop at $182.27 \u2014 healthcare REITs are a headwind in a bull tape; this is worth monitoring for continued relative weakness. 4) KO at $78.67 vs entry $80.41 (-2.2%) and PG at $140.00 vs entry $143.38 (-2.4%) are both defensive names underperforming in a risk-on tape \u2014 both are still stops-away from hard exit but deserve a close look next cycle. 5) SPY position at 12 shares/$757 with a stop at $666.35 is a 12% drawdown buffer \u2014 in a STRONG_BULL with RSI at 68, that stop is loose by design but a -12% SPY move would trigger broad book damage simultaneously."
     }
   ]
 }
