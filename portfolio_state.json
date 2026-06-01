@@ -1,52 +1,294 @@
 {
   "meta": {
     "starting_capital": 1000000,
-    "last_updated": "2026-05-29T16:05:00",
-    "last_trading_day": "2026-05-29",
-    "total_sessions": 3,
+    "last_updated": "2026-06-01T10:12:49.098578-04:00",
+    "last_trading_day": "2026-06-01",
+    "total_sessions": 4,
     "regime": "STRONG_BULL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": 29.30,
-    "portfolio_value": 2184620,
-    "cash": 218462,
-    "cumulative_return_pct": 118.46,
-    "alpha_vs_spy": 89.16,
-    "circuit_breaker_active": false,
+    "spy_ytd_return": -0.1,
+    "portfolio_value": 1489344.68,
+    "cash": 474869.62,
+    "cumulative_return_pct": 48.93,
+    "alpha_vs_spy": 49.03,
+    "circuit_breaker_active": true,
     "daily_high_watermark": 2184620
   },
   "long_term_positions": [
-    {"ticker": "NVDA",  "entry_date": "2026-04-28", "entry_price": 116.40, "current_price": 212.49, "shares": 545,  "stop_price": 186.99, "days_held": 31},
-    {"ticker": "MSFT",  "entry_date": "2026-05-02", "entry_price": 374.20, "current_price": 449.99, "shares": 168,  "stop_price": 395.99, "days_held": 27},
-    {"ticker": "GOOGL", "entry_date": "2026-05-02", "entry_price": 198.30, "current_price": 380.57, "shares": 350,  "stop_price": 335.30, "days_held": 27},
-    {"ticker": "META",  "entry_date": "2026-05-05", "entry_price": 592.10, "current_price": 632.43, "shares": 132,  "stop_price": 556.54, "days_held": 24},
-    {"ticker": "AVGO",  "entry_date": "2026-04-28", "entry_price": 308.40, "current_price": 446.77, "shares": 200,  "stop_price": 393.16, "days_held": 31},
-    {"ticker": "CRWD",  "entry_date": "2026-05-14", "entry_price": 402.50, "current_price": 731.00, "shares": 110,  "stop_price": 643.28, "days_held": 15},
-    {"ticker": "LLY",   "entry_date": "2026-05-10", "entry_price": 891.20, "current_price": 1105.00,"shares": 60,   "stop_price": 972.40, "days_held": 19},
-    {"ticker": "MU",    "entry_date": "2026-05-15", "entry_price": 118.40, "current_price": 956.16, "shares": 80,   "stop_price": 841.41, "days_held": 14},
-    {"ticker": "MRVL",  "entry_date": "2026-05-02", "entry_price": 72.40,  "current_price": 204.00, "shares": 480,  "stop_price": 179.52, "days_held": 27},
-    {"ticker": "AAPL",  "entry_date": "2026-05-15", "entry_price": 212.80, "current_price": 311.35, "shares": 236,  "stop_price": 274.19, "days_held": 14},
-    {"ticker": "AMZN",  "entry_date": "2026-05-20", "entry_price": 212.40, "current_price": 270.48, "shares": 244,  "stop_price": 238.02, "days_held": 9},
-    {"ticker": "OKTA",  "entry_date": "2026-05-29", "entry_price": 101.35, "current_price": 123.05, "shares": 540,  "stop_price": 96.28,  "days_held": 0}
+    {
+      "ticker": "NVDA",
+      "entry_date": "2026-04-28",
+      "entry_price": 116.4,
+      "current_price": 219.92,
+      "shares": 545,
+      "stop_price": 193.53,
+      "days_held": 31
+    },
+    {
+      "ticker": "MSFT",
+      "entry_date": "2026-05-02",
+      "entry_price": 374.2,
+      "current_price": 460.52,
+      "shares": 168,
+      "stop_price": 405.26,
+      "days_held": 27
+    },
+    {
+      "ticker": "GOOGL",
+      "entry_date": "2026-05-02",
+      "entry_price": 198.3,
+      "current_price": 375.1,
+      "shares": 350,
+      "stop_price": 335.3,
+      "days_held": 27
+    },
+    {
+      "ticker": "META",
+      "entry_date": "2026-05-05",
+      "entry_price": 592.1,
+      "current_price": 613.7,
+      "shares": 132,
+      "stop_price": 556.54,
+      "days_held": 24
+    },
+    {
+      "ticker": "AVGO",
+      "entry_date": "2026-04-28",
+      "entry_price": 308.4,
+      "current_price": 449.8,
+      "shares": 200,
+      "stop_price": 395.82,
+      "days_held": 31
+    },
+    {
+      "ticker": "CRWD",
+      "entry_date": "2026-05-14",
+      "entry_price": 402.5,
+      "current_price": 756.18,
+      "shares": 110,
+      "stop_price": 665.44,
+      "days_held": 15
+    },
+    {
+      "ticker": "LLY",
+      "entry_date": "2026-05-10",
+      "entry_price": 891.2,
+      "current_price": 1081.5,
+      "shares": 60,
+      "stop_price": 972.4,
+      "days_held": 19
+    },
+    {
+      "ticker": "MU",
+      "entry_date": "2026-05-15",
+      "entry_price": 118.4,
+      "current_price": 1027.48,
+      "shares": 80,
+      "stop_price": 904.18,
+      "days_held": 14
+    },
+    {
+      "ticker": "AAPL",
+      "entry_date": "2026-05-15",
+      "entry_price": 212.8,
+      "current_price": 309.48,
+      "shares": 236,
+      "stop_price": 274.19,
+      "days_held": 14
+    },
+    {
+      "ticker": "AMZN",
+      "entry_date": "2026-05-20",
+      "entry_price": 212.4,
+      "current_price": 264.18,
+      "shares": 244,
+      "stop_price": 238.02,
+      "days_held": 9
+    },
+    {
+      "ticker": "OKTA",
+      "entry_date": "2026-05-29",
+      "entry_price": 101.35,
+      "current_price": 136.18,
+      "shares": 540,
+      "stop_price": 119.84,
+      "days_held": 0
+    }
   ],
   "swing_positions": [
-    {"ticker": "PLTR",  "entry_date": "2026-05-21", "entry_price": 136.20, "current_price": 156.38, "shares": 500,  "stop_price": 129.39, "take_profit": 152.54, "signal": "PULLBACK_IN_UPTREND", "days_held": 8},
-    {"ticker": "RKLB",  "entry_date": "2026-05-22", "entry_price": 119.40, "current_price": 143.00, "shares": 280,  "stop_price": 113.43, "take_profit": 133.73, "signal": "BREAKOUT",            "days_held": 7},
-    {"ticker": "SNOW",  "entry_date": "2026-05-28", "entry_price": 146.20, "current_price": 198.60, "shares": 290,  "stop_price": 138.89, "take_profit": 163.74, "signal": "EARNINGS_MOMENTUM",   "days_held": 1},
-    {"ticker": "MRVL",  "entry_date": "2026-05-28", "entry_price": 175.40, "current_price": 204.00, "shares": 190,  "stop_price": 166.63, "take_profit": 196.45, "signal": "BREAKOUT",            "days_held": 1}
+    {
+      "ticker": "RKLB",
+      "entry_date": "2026-05-22",
+      "entry_price": 119.4,
+      "current_price": 125.59,
+      "shares": 280,
+      "stop_price": 113.43,
+      "take_profit": 133.73,
+      "signal": "BREAKOUT",
+      "days_held": 7
+    },
+    {
+      "ticker": "MRVL",
+      "entry_date": "2026-05-28",
+      "entry_price": 175.4,
+      "current_price": 202.79,
+      "shares": 190,
+      "stop_price": 166.63,
+      "take_profit": 196.45,
+      "signal": "BREAKOUT",
+      "days_held": 1
+    }
   ],
   "trade_log": [
-    {"timestamp": "2026-04-28T09:32:00", "ticker": "NVDA",  "direction": "BUY",  "strategy": "LONG_TERM", "signal": "GOLDEN_CROSS",       "qty": 545,  "price": 116.40, "reason": "All 8 LT criteria met. RSI 52, golden cross confirmed."},
-    {"timestamp": "2026-04-28T10:15:00", "ticker": "AVGO",  "direction": "BUY",  "strategy": "LONG_TERM", "signal": "MOMENTUM",           "qty": 200,  "price": 308.40, "reason": "RS rank #2, SMA alignment, MACD bullish."},
-    {"timestamp": "2026-05-02T09:34:00", "ticker": "MSFT",  "direction": "BUY",  "strategy": "LONG_TERM", "signal": "PULLBACK_IN_UPTREND","qty": 168,  "price": 374.20, "reason": "RSI reset to 51, above all MAs."},
-    {"timestamp": "2026-05-02T09:41:00", "ticker": "GOOGL", "direction": "BUY",  "strategy": "LONG_TERM", "signal": "MOMENTUM",           "qty": 350,  "price": 198.30, "reason": "RS rank #1, MACD cross, all criteria met."},
-    {"timestamp": "2026-05-15T09:31:00", "ticker": "OKTA",  "direction": "BUY",  "strategy": "LONG_TERM", "signal": "EARNINGS_BREAKOUT",  "qty": 540,  "price": 101.35, "reason": "+21% post-earnings gap, all 8 criteria met."},
-    {"timestamp": "2026-05-29T11:20:00", "ticker": "COIN",  "direction": "SELL", "strategy": "SWING",     "signal": "TAKE_PROFIT",        "qty": 400,  "price": 188.50, "realized_pnl": 8040, "reason": "12% take profit target hit."}
+    {
+      "timestamp": "2026-04-28T09:32:00",
+      "ticker": "NVDA",
+      "direction": "BUY",
+      "strategy": "LONG_TERM",
+      "signal": "GOLDEN_CROSS",
+      "qty": 545,
+      "price": 116.4,
+      "reason": "All 8 LT criteria met. RSI 52, golden cross confirmed."
+    },
+    {
+      "timestamp": "2026-04-28T10:15:00",
+      "ticker": "AVGO",
+      "direction": "BUY",
+      "strategy": "LONG_TERM",
+      "signal": "MOMENTUM",
+      "qty": 200,
+      "price": 308.4,
+      "reason": "RS rank #2, SMA alignment, MACD bullish."
+    },
+    {
+      "timestamp": "2026-05-02T09:34:00",
+      "ticker": "MSFT",
+      "direction": "BUY",
+      "strategy": "LONG_TERM",
+      "signal": "PULLBACK_IN_UPTREND",
+      "qty": 168,
+      "price": 374.2,
+      "reason": "RSI reset to 51, above all MAs."
+    },
+    {
+      "timestamp": "2026-05-02T09:41:00",
+      "ticker": "GOOGL",
+      "direction": "BUY",
+      "strategy": "LONG_TERM",
+      "signal": "MOMENTUM",
+      "qty": 350,
+      "price": 198.3,
+      "reason": "RS rank #1, MACD cross, all criteria met."
+    },
+    {
+      "timestamp": "2026-05-15T09:31:00",
+      "ticker": "OKTA",
+      "direction": "BUY",
+      "strategy": "LONG_TERM",
+      "signal": "EARNINGS_BREAKOUT",
+      "qty": 540,
+      "price": 101.35,
+      "reason": "+21% post-earnings gap, all 8 criteria met."
+    },
+    {
+      "timestamp": "2026-05-29T11:20:00",
+      "ticker": "COIN",
+      "direction": "SELL",
+      "strategy": "SWING",
+      "signal": "TAKE_PROFIT",
+      "qty": 400,
+      "price": 188.5,
+      "realized_pnl": 8040,
+      "reason": "12% take profit target hit."
+    },
+    {
+      "action": "SELL",
+      "ticker": "PLTR",
+      "strategy": "SWING",
+      "price": 159.34,
+      "quantity": 500,
+      "reasoning": "Take profit hit: $159.34 >= $152.54",
+      "signal": "TAKE_PROFIT",
+      "realized_pnl": 11530.15,
+      "timestamp": "2026-06-01T10:12:45.557715-04:00"
+    },
+    {
+      "action": "SELL",
+      "ticker": "SNOW",
+      "strategy": "SWING",
+      "price": 274.23,
+      "quantity": 290,
+      "reasoning": "Take profit hit: $274.23 >= $163.74",
+      "signal": "TAKE_PROFIT",
+      "realized_pnl": 37088.94,
+      "timestamp": "2026-06-01T10:12:45.557715-04:00"
+    },
+    {
+      "action": "SELL",
+      "ticker": "MRVL",
+      "strategy": "SWING",
+      "price": 202.79,
+      "quantity": 190,
+      "reasoning": "Take profit hit: $202.79 >= $196.45",
+      "signal": "TAKE_PROFIT",
+      "realized_pnl": 62538.53,
+      "timestamp": "2026-06-01T10:12:45.557715-04:00"
+    }
   ],
   "daily_snapshots": [
-    {"date": "2026-04-28", "portfolio_value": 1000000, "daily_pnl": 0,     "cumulative_return": 0.0,   "spy_return": 0.0,  "alpha": 0.0,   "regime": "BULL",        "num_positions": 2},
-    {"date": "2026-05-15", "portfolio_value": 1124800, "daily_pnl": 18400, "cumulative_return": 12.48, "spy_return": 4.80, "alpha": 7.68,  "regime": "STRONG_BULL", "num_positions": 10},
-    {"date": "2026-05-29", "portfolio_value": 2184620, "daily_pnl": 38940, "cumulative_return": 118.46,"spy_return": 29.30,"alpha": 89.16, "regime": "STRONG_BULL", "num_positions": 16}
+    {
+      "date": "2026-04-28",
+      "portfolio_value": 1000000,
+      "daily_pnl": 0,
+      "cumulative_return": 0.0,
+      "spy_return": 0.0,
+      "alpha": 0.0,
+      "regime": "BULL",
+      "num_positions": 2
+    },
+    {
+      "date": "2026-05-15",
+      "portfolio_value": 1124800,
+      "daily_pnl": 18400,
+      "cumulative_return": 12.48,
+      "spy_return": 4.8,
+      "alpha": 7.68,
+      "regime": "STRONG_BULL",
+      "num_positions": 10
+    },
+    {
+      "date": "2026-05-29",
+      "portfolio_value": 2184620,
+      "daily_pnl": 38940,
+      "cumulative_return": 118.46,
+      "spy_return": 29.3,
+      "alpha": 89.16,
+      "regime": "STRONG_BULL",
+      "num_positions": 16
+    },
+    {
+      "date": "2026-06-01",
+      "portfolio_value": 1489344.68,
+      "daily_pnl": -695275.32,
+      "cumulative_return": 48.93,
+      "spy_return": -0.1,
+      "alpha": 49.03,
+      "regime": "STRONG_BULL",
+      "num_positions": 13,
+      "cash": 474869.62
+    }
   ],
-  "agent_decision_log": []
+  "agent_decision_log": [
+    {
+      "timestamp": "2026-06-01T10:12:45.557715-04:00",
+      "regime": "STRONG_BULL",
+      "regime_score": 5,
+      "portfolio_value": 1489344.68,
+      "cash": 474869.62,
+      "actions_taken": 0,
+      "commentary": "No new positions. Circuit breaker prevents new entries.",
+      "risk_notes": ""
+    }
+  ]
 }
