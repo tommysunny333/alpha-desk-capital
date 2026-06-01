@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 540882,
-    "last_updated": "2026-06-01T11:20:35.700787-04:00",
+    "last_updated": "2026-06-01T11:25:20.347015-04:00",
     "last_trading_day": "2026-06-01",
     "total_sessions": 1,
     "regime": "STRONG_BULL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -0.05,
-    "portfolio_value": 539408.89,
+    "spy_ytd_return": -0.02,
+    "portfolio_value": 539388.4,
     "cash": 501964.06,
     "cumulative_return_pct": -46.06,
-    "alpha_vs_spy": -46.01,
+    "alpha_vs_spy": -46.04,
     "circuit_breaker_active": false,
     "daily_high_watermark": 540882
   },
@@ -40,7 +40,7 @@
       "entry_price": 446.77,
       "current_price": 456.28,
       "shares": 5,
-      "stop_price": 402.3,
+      "stop_price": 402.38,
       "days_held": 0
     },
     {
@@ -58,7 +58,7 @@
       "entry_price": 124.68,
       "current_price": 126.9,
       "shares": 16,
-      "stop_price": 111.91,
+      "stop_price": 112.19,
       "days_held": 0
     },
     {
@@ -165,11 +165,11 @@
   "daily_snapshots": [
     {
       "date": "2026-06-01",
-      "portfolio_value": 539408.89,
-      "daily_pnl": 32.88,
+      "portfolio_value": 539388.4,
+      "daily_pnl": -20.49,
       "cumulative_return": -46.06,
-      "spy_return": -0.05,
-      "alpha": -46.01,
+      "spy_return": -0.02,
+      "alpha": -46.04,
       "regime": "STRONG_BULL",
       "num_positions": 14,
       "cash": 501964.06
@@ -221,6 +221,16 @@
       "regime": "STRONG_BULL",
       "regime_score": 5,
       "portfolio_value": 539408.89,
+      "cash": 501964.06,
+      "actions_taken": 0,
+      "commentary": "API error: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+      "risk_notes": ""
+    },
+    {
+      "timestamp": "2026-06-01T11:25:18.157188-04:00",
+      "regime": "STRONG_BULL",
+      "regime_score": 5,
+      "portfolio_value": 539388.4,
       "cash": 501964.06,
       "actions_taken": 0,
       "commentary": "API error: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
