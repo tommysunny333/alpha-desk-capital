@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 540882,
-    "last_updated": "2026-06-01T11:46:00.961168-04:00",
+    "last_updated": "2026-06-01T11:51:33.862030-04:00",
     "last_trading_day": "2026-06-01",
     "total_sessions": 1,
     "regime": "STRONG_BULL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": 0.1,
-    "portfolio_value": 539446.49,
+    "spy_ytd_return": 0.06,
+    "portfolio_value": 539415.48,
     "cash": 501964.06,
     "cumulative_return_pct": -46.06,
-    "alpha_vs_spy": -46.15,
+    "alpha_vs_spy": -46.12,
     "circuit_breaker_active": false,
     "daily_high_watermark": 540882
   },
@@ -165,11 +165,11 @@
   "daily_snapshots": [
     {
       "date": "2026-06-01",
-      "portfolio_value": 539446.49,
-      "daily_pnl": 12.64,
+      "portfolio_value": 539415.48,
+      "daily_pnl": -31.01,
       "cumulative_return": -46.06,
-      "spy_return": 0.1,
-      "alpha": -46.15,
+      "spy_return": 0.06,
+      "alpha": -46.12,
       "regime": "STRONG_BULL",
       "num_positions": 14,
       "cash": 501964.06
@@ -264,6 +264,16 @@
       "cash": 501964.06,
       "actions_taken": 0,
       "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbcoLVq7Cxo52ETJmDFNk'}",
+      "risk_notes": ""
+    },
+    {
+      "timestamp": "2026-06-01T11:51:31.143968-04:00",
+      "regime": "STRONG_BULL",
+      "regime_score": 5,
+      "portfolio_value": 539415.48,
+      "cash": 501964.06,
+      "actions_taken": 0,
+      "commentary": "API error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-sonnet-4-20250514'}, 'request_id': 'req_011Cbcom3HNhrbZehcGszknJ'}",
       "risk_notes": ""
     }
   ]
