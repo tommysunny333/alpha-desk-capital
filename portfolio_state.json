@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 540882,
-    "last_updated": "2026-06-01T11:32:53.218932-04:00",
+    "last_updated": "2026-06-01T11:46:00.961168-04:00",
     "last_trading_day": "2026-06-01",
     "total_sessions": 1,
     "regime": "STRONG_BULL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": 0.07,
-    "portfolio_value": 539433.85,
+    "spy_ytd_return": 0.1,
+    "portfolio_value": 539446.49,
     "cash": 501964.06,
     "cumulative_return_pct": -46.06,
-    "alpha_vs_spy": -46.13,
+    "alpha_vs_spy": -46.15,
     "circuit_breaker_active": false,
     "daily_high_watermark": 540882
   },
@@ -22,7 +22,7 @@
       "entry_price": 212.49,
       "current_price": 219.27,
       "shares": 51,
-      "stop_price": 193.5,
+      "stop_price": 193.73,
       "days_held": 0
     },
     {
@@ -40,7 +40,7 @@
       "entry_price": 446.77,
       "current_price": 456.28,
       "shares": 5,
-      "stop_price": 402.72,
+      "stop_price": 403.96,
       "days_held": 0
     },
     {
@@ -121,7 +121,7 @@
       "entry_price": 756.48,
       "current_price": 756.1,
       "shares": 12,
-      "stop_price": 666.2,
+      "stop_price": 666.35,
       "days_held": 0
     }
   ],
@@ -165,11 +165,11 @@
   "daily_snapshots": [
     {
       "date": "2026-06-01",
-      "portfolio_value": 539433.85,
-      "daily_pnl": 38.16,
+      "portfolio_value": 539446.49,
+      "daily_pnl": 12.64,
       "cumulative_return": -46.06,
-      "spy_return": 0.07,
-      "alpha": -46.13,
+      "spy_return": 0.1,
+      "alpha": -46.15,
       "regime": "STRONG_BULL",
       "num_positions": 14,
       "cash": 501964.06
@@ -254,6 +254,16 @@
       "cash": 501964.06,
       "actions_taken": 0,
       "commentary": "API error: ANTHROPIC_API_KEY is empty. Check GitHub secret: Settings \u2192 Secrets \u2192 Actions \u2192 ANTHROPIC_API_KEY. The value must be the full key starting with 'sk-ant-'.",
+      "risk_notes": ""
+    },
+    {
+      "timestamp": "2026-06-01T11:45:55.981245-04:00",
+      "regime": "STRONG_BULL",
+      "regime_score": 5,
+      "portfolio_value": 539446.49,
+      "cash": 501964.06,
+      "actions_taken": 0,
+      "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CbcoLVq7Cxo52ETJmDFNk'}",
       "risk_notes": ""
     }
   ]
