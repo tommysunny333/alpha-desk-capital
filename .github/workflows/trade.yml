@@ -2,15 +2,20 @@ name: Alpha Desk — Autonomous Trading Agent
  
 on:
   schedule:
-    # Once per hour, Mon-Fri during NYSE hours (EDT = UTC-4)
-    - cron: '30 13 * * 1-5'    # 09:30 ET — market open
+    - cron: '30 13 * * 1-5'    # 09:30 ET
+    - cron: '0 14 * * 1-5'     # 10:00 ET
     - cron: '30 14 * * 1-5'    # 10:30 ET
+    - cron: '0 15 * * 1-5'     # 11:00 ET
     - cron: '30 15 * * 1-5'    # 11:30 ET
+    - cron: '0 16 * * 1-5'     # 12:00 ET
     - cron: '30 16 * * 1-5'    # 12:30 ET
+    - cron: '0 17 * * 1-5'     # 13:00 ET
     - cron: '30 17 * * 1-5'    # 13:30 ET
+    - cron: '0 18 * * 1-5'     # 14:00 ET
     - cron: '30 18 * * 1-5'    # 14:30 ET
+    - cron: '0 19 * * 1-5'     # 15:00 ET
     - cron: '30 19 * * 1-5'    # 15:30 ET
-    - cron: '0 20 * * 1-5'     # 16:00 ET — market close / EOD
+    - cron: '0 20 * * 1-5'     # 16:00 ET EOD
   workflow_dispatch:
  
 permissions:
