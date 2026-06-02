@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-06-02T09:53:30.588540-04:00",
+    "last_updated": "2026-06-02T10:37:11.738885-04:00",
     "last_trading_day": "2026-06-02",
     "total_sessions": 1,
     "regime": "STRONG_BULL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": 0.15,
-    "portfolio_value": 242214.18,
+    "spy_ytd_return": 0.29,
+    "portfolio_value": 242092.99,
     "cash": 202769.67,
-    "cumulative_return_pct": -75.78,
-    "alpha_vs_spy": -75.93,
+    "cumulative_return_pct": -75.79,
+    "alpha_vs_spy": -76.08,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -31,7 +31,7 @@
       "entry_price": 623.09,
       "current_price": 757.59,
       "shares": 13,
-      "stop_price": 666.68,
+      "stop_price": 667.64,
       "days_held": 0
     },
     {
@@ -103,7 +103,7 @@
       "entry_price": 132.82,
       "current_price": 130.11,
       "shares": 8,
-      "stop_price": 114.5,
+      "stop_price": 115.99,
       "days_held": 0
     },
     {
@@ -203,11 +203,11 @@
   "daily_snapshots": [
     {
       "date": "2026-06-02",
-      "portfolio_value": 242214.18,
-      "daily_pnl": 986.18,
-      "cumulative_return": -75.78,
-      "spy_return": 0.15,
-      "alpha": -75.93,
+      "portfolio_value": 242092.99,
+      "daily_pnl": -121.19,
+      "cumulative_return": -75.79,
+      "spy_return": 0.29,
+      "alpha": -76.08,
       "regime": "STRONG_BULL",
       "num_positions": 13,
       "cash": 202769.67
@@ -223,6 +223,16 @@
       "actions_taken": 3,
       "commentary": "The tape is about as clean as it gets \u2014 SPY at $758, QQQ at $743, VIX at 16.1, both indices miles above their 50 and 200-day averages with RSI confirming momentum without being dangerously extended. In a regime scoring 5/5, the primary job is to stay positioned and not let risk management become an excuse for under-participation. That said, this book has a -75.78% cumulative hole to climb out of, which means every position needs to earn its slot \u2014 dead weight gets recycled, not carried. The P&L leaders right now are C (+47%), NVDA (+35.7%), and SPY (+21.6%), and those are doing exactly what they should in this environment. The move this cycle is cutting PG \u2014 down 15.9% in a STRONG_BULL tape, consumer staples are structurally wrong for this regime, and the trailing stop at $126.17 was giving it far too much rope; better to take the known loss now than ride it to the stop. I'm also trimming half the INTC position which is sitting $4.24 above its hard stop with zero momentum \u2014 keeping a residual stub in case semiconductors broadly lift it, but I'm not letting that become a full stop-out. The freed capital goes into META at $605, a name with real earnings power and AI optionality that's actually participating in this move \u2014 modest 3-share position, disciplined 12% stop discipline at $533. Into the next cycle I'm watching RGTI approaching its $28.82 take-profit target, and I want to see QCOM and AAPL show some life or they'll face the same scrutiny as PG next review.",
       "risk_notes": "1. CUMULATIVE DRAWDOWN: -75.78% from $1M starting capital is the dominant risk \u2014 this book needs to rebuild carefully, not swing for fences. 2. PG at -15.9% ($139.44 vs $165.83 entry) is being cut this cycle; stop at $126.17 was too far away for a lagging staple. 3. INTC at $105.73 is $4.24 above hard stop $101.49 \u2014 trimmed to half position, remaining 4 shares have tight leash. 4. CVX at -2.3% and AAPL at -1.1% are both mild underperformers but above their stops ($164.67 and $273.99 respectively) \u2014 watching for further deterioration. 5. QCOM at -0.4% is essentially flat; stop at $220.90 is $10.73 away \u2014 acceptable, but no thesis acceleration. 6. RGTI swing at $26.65 is approaching take-profit of $28.82 (8% away) \u2014 will monitor for TP trigger. 7. Concentration in semiconductor/tech remains elevated: NVDA, AVGO, INTC, QCOM, OKTA. 8. After actions, cash will be approximately $202K+ \u2014 maintaining well above 10% minimum reserve."
+    },
+    {
+      "timestamp": "2026-06-02T10:36:49.318122-04:00",
+      "regime": "STRONG_BULL",
+      "regime_score": 5,
+      "portfolio_value": 242092.99,
+      "cash": 202769.67,
+      "actions_taken": 0,
+      "commentary": "The tape is running hot \u2014 SPY at $759 with an RSI of 70.7, a 5.7% 20-day return, and QQQ clearing $744 well above its 50-day at $659. This is not a market asking for caution, it's a market rewarding exposure, and the honest read on this book is that we're not taking full advantage of it. The winners are working: NVDA is up 33.9% and C is up 46.1%, those two positions alone are doing the heavy lifting while the rest of the book is essentially flat to slightly negative. I'm holding everything this cycle because all 12 long-term slots are full, we have no room to add without trimming something, and I'm not going to cut NVDA or C \u2014 the leaders in a bull tape \u2014 to free up slots for lower-conviction names. The most important risk I'm tracking is INTC at $106.81, which has $5.32 to its $101.49 stop; if Intel breaks that level I'm out immediately with no debate, the thesis hasn't played and the stock is underperforming badly in a market where semis like NVDA are flying. Into the next cycle I want to watch whether RGTI accelerates toward its $28.82 take profit \u2014 if it tags that level I'll book the gain and free up a swing slot \u2014 and I'm keeping an eye on whether CVX can stabilize above $186, because energy is the one sector where the macro headwind could turn a stop into a real loss.",
+      "risk_notes": "Primary concern remains the catastrophic drawdown from starting capital \u2014 down 75.79% to $242K from $1M, which means this book needs compounding over a long runway, not heroics. INTC is the ugliest position at -8.1% with price at $106.81 against a $101.49 stop \u2014 only $5.32 of cushion left, worth watching closely. CVX at -2.6% with $186.68 vs $164.67 stop is manageable but oil macro has been choppy. AAPL at -0.5% and META at -0.3% are essentially flat \u2014 neither is triggering action but both need to see follow-through soon or they become dead weight in a full-slot book. All 12 long-term slots are occupied, limiting optionality in a bull tape. RGTI swing at $26.18 is +1.7% and within range of the $28.82 TP \u2014 watching for acceleration. Concentration risk: NVDA at +33.9% is the single biggest winner and a reversal there would sting. Portfolio is 83.8% cash by dollar but only 17.2% deployed by value \u2014 the cash drag is the real risk in a STRONG_BULL regime."
     }
   ]
 }
