@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-06-02T09:30:00-04:00",
+    "last_updated": "2026-06-02T09:53:30.588540-04:00",
     "last_trading_day": "2026-06-02",
     "total_sessions": 1,
     "regime": "STRONG_BULL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": 0,
-    "portfolio_value": 241228,
-    "cash": 200000,
-    "cumulative_return_pct": 0,
-    "alpha_vs_spy": 0,
+    "spy_ytd_return": 0.15,
+    "portfolio_value": 242214.18,
+    "cash": 202769.67,
+    "cumulative_return_pct": -75.78,
+    "alpha_vs_spy": -75.93,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -20,34 +20,34 @@
       "ticker": "NVDA",
       "entry_date": "2026-06-02",
       "entry_price": 170.3,
-      "current_price": 212.49,
+      "current_price": 231.1,
       "shares": 50,
-      "stop_price": 186.99,
+      "stop_price": 203.37,
       "days_held": 0
     },
     {
       "ticker": "SPY",
       "entry_date": "2026-06-02",
       "entry_price": 623.09,
-      "current_price": 756.48,
+      "current_price": 757.59,
       "shares": 13,
-      "stop_price": 665.7,
+      "stop_price": 666.68,
       "days_held": 0
     },
     {
       "ticker": "AVGO",
       "entry_date": "2026-06-02",
       "entry_price": 446.54,
-      "current_price": 446.77,
+      "current_price": 484.49,
       "shares": 8,
-      "stop_price": 393.16,
+      "stop_price": 426.35,
       "days_held": 0
     },
     {
       "ticker": "QCOM",
       "entry_date": "2026-06-02",
       "entry_price": 232.64,
-      "current_price": 251.02,
+      "current_price": 231.63,
       "shares": 10,
       "stop_price": 220.9,
       "days_held": 0
@@ -56,7 +56,7 @@
       "ticker": "WELL",
       "entry_date": "2026-06-02",
       "entry_price": 174.95,
-      "current_price": 207.12,
+      "current_price": 195.82,
       "shares": 12,
       "stop_price": 182.27,
       "days_held": 0
@@ -65,7 +65,7 @@
       "ticker": "AAPL",
       "entry_date": "2026-06-02",
       "entry_price": 311.81,
-      "current_price": 311.35,
+      "current_price": 308.5,
       "shares": 6,
       "stop_price": 273.99,
       "days_held": 0
@@ -74,85 +74,63 @@
       "ticker": "C",
       "entry_date": "2026-06-02",
       "entry_price": 89.3,
-      "current_price": 124.68,
+      "current_price": 131.29,
       "shares": 8,
-      "stop_price": 109.72,
+      "stop_price": 115.54,
       "days_held": 0
     },
     {
       "ticker": "CVX",
       "entry_date": "2026-06-02",
       "entry_price": 191.57,
-      "current_price": 182.4,
+      "current_price": 187.13,
       "shares": 10,
-      "stop_price": 160.51,
+      "stop_price": 164.67,
       "days_held": 0
     },
     {
       "ticker": "KO",
       "entry_date": "2026-06-02",
       "entry_price": 77.91,
-      "current_price": 80.41,
+      "current_price": 78.59,
       "shares": 15,
       "stop_price": 70.76,
-      "days_held": 0
-    },
-    {
-      "ticker": "PG",
-      "entry_date": "2026-06-02",
-      "entry_price": 165.83,
-      "current_price": 143.38,
-      "shares": 8,
-      "stop_price": 126.17,
       "days_held": 0
     },
     {
       "ticker": "OKTA",
       "entry_date": "2026-06-02",
       "entry_price": 132.82,
-      "current_price": 123.05,
+      "current_price": 130.11,
       "shares": 8,
-      "stop_price": 108.28,
+      "stop_price": 114.5,
       "days_held": 0
     },
     {
       "ticker": "INTC",
       "entry_date": "2026-06-02",
       "entry_price": 116.27,
-      "current_price": 115.33,
-      "shares": 8,
+      "current_price": 105.73,
+      "shares": 4,
       "stop_price": 101.49,
+      "days_held": 0
+    },
+    {
+      "ticker": "META",
+      "entry_date": "2026-06-02",
+      "entry_price": 605.9728,
+      "current_price": 605.67,
+      "shares": 3,
+      "stop_price": 533.0,
       "days_held": 0
     }
   ],
   "swing_positions": [
     {
-      "ticker": "AAOI",
-      "entry_date": "2026-06-02",
-      "entry_price": 158.77,
-      "current_price": 196.58,
-      "shares": 10,
-      "stop_price": 150.83,
-      "take_profit": 177.82,
-      "signal": "MOMENTUM",
-      "days_held": 0
-    },
-    {
-      "ticker": "IONQ",
-      "entry_date": "2026-06-02",
-      "entry_price": 34.31,
-      "current_price": 68.57,
-      "shares": 15,
-      "stop_price": 32.59,
-      "take_profit": 38.43,
-      "signal": "BREAKOUT",
-      "days_held": 0
-    },
-    {
       "ticker": "RGTI",
       "entry_date": "2026-06-02",
       "entry_price": 25.73,
-      "current_price": 25.63,
+      "current_price": 26.65,
       "shares": 10,
       "stop_price": 24.44,
       "take_profit": 28.82,
@@ -160,19 +138,91 @@
       "days_held": 0
     }
   ],
-  "trade_log": [],
+  "trade_log": [
+    {
+      "action": "SELL",
+      "ticker": "AAOI",
+      "strategy": "SWING",
+      "price": 198.48,
+      "quantity": 10,
+      "reasoning": "Take profit hit: $198.48 >= $177.82",
+      "signal": "TAKE_PROFIT",
+      "realized_pnl": 396.11,
+      "timestamp": "2026-06-02T09:52:54.138418-04:00"
+    },
+    {
+      "action": "SELL",
+      "ticker": "IONQ",
+      "strategy": "SWING",
+      "price": 71.11,
+      "quantity": 15,
+      "reasoning": "Take profit hit: $71.11 >= $38.43",
+      "signal": "TAKE_PROFIT",
+      "realized_pnl": 551.47,
+      "timestamp": "2026-06-02T09:52:54.138418-04:00"
+    },
+    {
+      "action": "SELL",
+      "ticker": "PG",
+      "strategy": "LONG_TERM",
+      "signal": "UNDERPERFORMER_EXIT",
+      "quantity": 8,
+      "price": 139.44,
+      "stop_price": 126.17,
+      "take_profit": 0.0,
+      "reasoning": "PG is down 15.9% from entry at $165.83 and is the worst performer in the book by a wide margin \u2014 dragging alpha in a STRONG_BULL regime where everything else is working. Defensive consumer staples are structurally underperforming in this tape. The trailing stop at $126.17 is far away and would lock in an even larger loss if triggered. Better to recycle this $1,115 of dead weight into names actually participating in the move. No catalyst to reverse the trend; cutting the position now is active capital management, not capitulation.",
+      "realized_pnl": -211.68,
+      "timestamp": "2026-06-02T09:52:54.138418-04:00"
+    },
+    {
+      "action": "TRIM",
+      "ticker": "INTC",
+      "strategy": "LONG_TERM",
+      "signal": "STOP_PROXIMITY_TRIM",
+      "quantity": 4,
+      "price": 105.73,
+      "stop_price": 101.49,
+      "take_profit": 0.0,
+      "reasoning": "INTC is down 9.1% from entry at $116.27, only $4.24 above the hard stop at $101.49 \u2014 that's roughly 4% cushion in a name with no momentum. Semiconductor cycle isn't done but INTC continues to lag NVDA and AVGO which are both in the book and working. Trimming half (4 shares) here reduces downside exposure, frees ~$423, and keeps a residual position in case of a sector-driven bounce. Risk/reward on full size doesn't justify holding 8 shares through a potential stop-out.",
+      "realized_pnl": -42.37,
+      "timestamp": "2026-06-02T09:52:54.138418-04:00"
+    },
+    {
+      "action": "BUY",
+      "ticker": "META",
+      "strategy": "LONG_TERM",
+      "signal": "STRONG_BULL_MOMENTUM",
+      "quantity": 3,
+      "price": 605.67,
+      "stop_price": 533.0,
+      "take_profit": 0.0,
+      "reasoning": "META at $605.67 is a high-quality compounder participating fully in this bull tape \u2014 ad revenue cycle is strong, AI monetization narrative intact, and the stock is trending cleanly above its key moving averages. With PG proceeds and INTC trim, adding 3 shares at ~$1,817 total notional is 0.75% of portfolio \u2014 well within limits. Stop at $533 represents 12% trailing stop discipline. This fills one of the 12 long-term slots being vacated by PG and diversifies away from our overweight in legacy tech (INTC) toward a high-momentum large-cap that's actually leading. Position size is intentionally modest given we're already at -75.78% cumulative drawdown and need to rebuild with disciplined sizing.",
+      "timestamp": "2026-06-02T09:52:54.138418-04:00"
+    }
+  ],
   "daily_snapshots": [
     {
       "date": "2026-06-02",
-      "portfolio_value": 241228,
-      "daily_pnl": 0,
-      "cumulative_return": 0,
-      "spy_return": 0,
-      "alpha": 0,
+      "portfolio_value": 242214.18,
+      "daily_pnl": 986.18,
+      "cumulative_return": -75.78,
+      "spy_return": 0.15,
+      "alpha": -75.93,
       "regime": "STRONG_BULL",
-      "num_positions": 15,
-      "cash": 200000
+      "num_positions": 13,
+      "cash": 202769.67
     }
   ],
-  "agent_decision_log": []
+  "agent_decision_log": [
+    {
+      "timestamp": "2026-06-02T09:52:54.138418-04:00",
+      "regime": "STRONG_BULL",
+      "regime_score": 5,
+      "portfolio_value": 242214.18,
+      "cash": 202769.67,
+      "actions_taken": 3,
+      "commentary": "The tape is about as clean as it gets \u2014 SPY at $758, QQQ at $743, VIX at 16.1, both indices miles above their 50 and 200-day averages with RSI confirming momentum without being dangerously extended. In a regime scoring 5/5, the primary job is to stay positioned and not let risk management become an excuse for under-participation. That said, this book has a -75.78% cumulative hole to climb out of, which means every position needs to earn its slot \u2014 dead weight gets recycled, not carried. The P&L leaders right now are C (+47%), NVDA (+35.7%), and SPY (+21.6%), and those are doing exactly what they should in this environment. The move this cycle is cutting PG \u2014 down 15.9% in a STRONG_BULL tape, consumer staples are structurally wrong for this regime, and the trailing stop at $126.17 was giving it far too much rope; better to take the known loss now than ride it to the stop. I'm also trimming half the INTC position which is sitting $4.24 above its hard stop with zero momentum \u2014 keeping a residual stub in case semiconductors broadly lift it, but I'm not letting that become a full stop-out. The freed capital goes into META at $605, a name with real earnings power and AI optionality that's actually participating in this move \u2014 modest 3-share position, disciplined 12% stop discipline at $533. Into the next cycle I'm watching RGTI approaching its $28.82 take-profit target, and I want to see QCOM and AAPL show some life or they'll face the same scrutiny as PG next review.",
+      "risk_notes": "1. CUMULATIVE DRAWDOWN: -75.78% from $1M starting capital is the dominant risk \u2014 this book needs to rebuild carefully, not swing for fences. 2. PG at -15.9% ($139.44 vs $165.83 entry) is being cut this cycle; stop at $126.17 was too far away for a lagging staple. 3. INTC at $105.73 is $4.24 above hard stop $101.49 \u2014 trimmed to half position, remaining 4 shares have tight leash. 4. CVX at -2.3% and AAPL at -1.1% are both mild underperformers but above their stops ($164.67 and $273.99 respectively) \u2014 watching for further deterioration. 5. QCOM at -0.4% is essentially flat; stop at $220.90 is $10.73 away \u2014 acceptable, but no thesis acceleration. 6. RGTI swing at $26.65 is approaching take-profit of $28.82 (8% away) \u2014 will monitor for TP trigger. 7. Concentration in semiconductor/tech remains elevated: NVDA, AVGO, INTC, QCOM, OKTA. 8. After actions, cash will be approximately $202K+ \u2014 maintaining well above 10% minimum reserve."
+    }
+  ]
 }
