@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-06-02T10:37:11.738885-04:00",
-    "last_trading_day": "2026-06-02",
-    "total_sessions": 1,
-    "regime": "STRONG_BULL",
+    "last_updated": "2026-06-04T10:37:30.643482-04:00",
+    "last_trading_day": "2026-06-04",
+    "total_sessions": 2,
+    "regime": "BULL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": 0.29,
-    "portfolio_value": 242092.99,
-    "cash": 202769.67,
-    "cumulative_return_pct": -75.79,
-    "alpha_vs_spy": -76.08,
+    "spy_ytd_return": -0.35,
+    "portfolio_value": 240912.25,
+    "cash": 205557.12,
+    "cumulative_return_pct": -75.91,
+    "alpha_vs_spy": -75.56,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -20,7 +20,7 @@
       "ticker": "NVDA",
       "entry_date": "2026-06-02",
       "entry_price": 170.3,
-      "current_price": 231.1,
+      "current_price": 213.92,
       "shares": 50,
       "stop_price": 203.37,
       "days_held": 0
@@ -29,25 +29,16 @@
       "ticker": "SPY",
       "entry_date": "2026-06-02",
       "entry_price": 623.09,
-      "current_price": 757.59,
+      "current_price": 753.85,
       "shares": 13,
       "stop_price": 667.64,
-      "days_held": 0
-    },
-    {
-      "ticker": "AVGO",
-      "entry_date": "2026-06-02",
-      "entry_price": 446.54,
-      "current_price": 484.49,
-      "shares": 8,
-      "stop_price": 426.35,
       "days_held": 0
     },
     {
       "ticker": "QCOM",
       "entry_date": "2026-06-02",
       "entry_price": 232.64,
-      "current_price": 231.63,
+      "current_price": 238.82,
       "shares": 10,
       "stop_price": 220.9,
       "days_held": 0
@@ -56,7 +47,7 @@
       "ticker": "WELL",
       "entry_date": "2026-06-02",
       "entry_price": 174.95,
-      "current_price": 195.82,
+      "current_price": 201.15,
       "shares": 12,
       "stop_price": 182.27,
       "days_held": 0
@@ -65,7 +56,7 @@
       "ticker": "AAPL",
       "entry_date": "2026-06-02",
       "entry_price": 311.81,
-      "current_price": 308.5,
+      "current_price": 310.37,
       "shares": 6,
       "stop_price": 273.99,
       "days_held": 0
@@ -74,70 +65,49 @@
       "ticker": "C",
       "entry_date": "2026-06-02",
       "entry_price": 89.3,
-      "current_price": 131.29,
+      "current_price": 132.84,
       "shares": 8,
-      "stop_price": 115.54,
+      "stop_price": 116.9,
       "days_held": 0
     },
     {
       "ticker": "CVX",
       "entry_date": "2026-06-02",
       "entry_price": 191.57,
-      "current_price": 187.13,
+      "current_price": 189.09,
       "shares": 10,
-      "stop_price": 164.67,
+      "stop_price": 166.4,
       "days_held": 0
     },
     {
       "ticker": "KO",
       "entry_date": "2026-06-02",
       "entry_price": 77.91,
-      "current_price": 78.59,
+      "current_price": 79.11,
       "shares": 15,
       "stop_price": 70.76,
-      "days_held": 0
-    },
-    {
-      "ticker": "OKTA",
-      "entry_date": "2026-06-02",
-      "entry_price": 132.82,
-      "current_price": 130.11,
-      "shares": 8,
-      "stop_price": 115.99,
-      "days_held": 0
-    },
-    {
-      "ticker": "INTC",
-      "entry_date": "2026-06-02",
-      "entry_price": 116.27,
-      "current_price": 105.73,
-      "shares": 4,
-      "stop_price": 101.49,
       "days_held": 0
     },
     {
       "ticker": "META",
       "entry_date": "2026-06-02",
       "entry_price": 605.9728,
-      "current_price": 605.67,
+      "current_price": 635.43,
       "shares": 3,
-      "stop_price": 533.0,
+      "stop_price": 559.18,
       "days_held": 0
-    }
-  ],
-  "swing_positions": [
+    },
     {
-      "ticker": "RGTI",
-      "entry_date": "2026-06-02",
-      "entry_price": 25.73,
-      "current_price": 26.65,
-      "shares": 10,
-      "stop_price": 24.44,
-      "take_profit": 28.82,
-      "signal": "SPECULATIVE",
+      "ticker": "MSFT",
+      "entry_date": "2026-06-04",
+      "entry_price": 429.8748,
+      "current_price": 429.66,
+      "shares": 5,
+      "stop_price": 378.1,
       "days_held": 0
     }
   ],
+  "swing_positions": [],
   "trade_log": [
     {
       "action": "SELL",
@@ -198,6 +168,66 @@
       "take_profit": 0.0,
       "reasoning": "META at $605.67 is a high-quality compounder participating fully in this bull tape \u2014 ad revenue cycle is strong, AI monetization narrative intact, and the stock is trending cleanly above its key moving averages. With PG proceeds and INTC trim, adding 3 shares at ~$1,817 total notional is 0.75% of portfolio \u2014 well within limits. Stop at $533 represents 12% trailing stop discipline. This fills one of the 12 long-term slots being vacated by PG and diversifies away from our overweight in legacy tech (INTC) toward a high-momentum large-cap that's actually leading. Position size is intentionally modest given we're already at -75.78% cumulative drawdown and need to rebuild with disciplined sizing.",
       "timestamp": "2026-06-02T09:52:54.138418-04:00"
+    },
+    {
+      "action": "SELL",
+      "ticker": "RGTI",
+      "strategy": "SWING",
+      "price": 23.97,
+      "quantity": 10,
+      "reasoning": "Stop loss hit: $23.97 <= $24.44",
+      "signal": "STOP_LOSS",
+      "realized_pnl": -17.72,
+      "timestamp": "2026-06-04T10:36:47.648806-04:00"
+    },
+    {
+      "action": "SELL",
+      "ticker": "AVGO",
+      "strategy": "LONG_TERM",
+      "price": 409.33,
+      "quantity": 8,
+      "reasoning": "Stop loss hit: $409.33 <= $426.35",
+      "signal": "STOP_LOSS",
+      "realized_pnl": -299.32,
+      "timestamp": "2026-06-04T10:36:47.648806-04:00"
+    },
+    {
+      "action": "SELL",
+      "ticker": "OKTA",
+      "strategy": "LONG_TERM",
+      "signal": "stop_proximity_exit",
+      "quantity": 8,
+      "price": 123.06,
+      "stop_price": 115.99,
+      "take_profit": 0.0,
+      "reasoning": "OKTA is down 7.3% from entry at $132.82, trading at $123.06 with a stop at $115.99 \u2014 only $7.07 of cushion left, roughly 5.7% downside before forced exit. The stock has shown no recovery momentum in a confirmed bull tape where everything else in the book is either holding gains or tracking higher. With 11/12 LT slots occupied and the portfolio sitting at -75.91% cumulative, I need to free capital from losers that aren't working and redeploy into names with cleaner setups. Selling here at $123.06 crystallizes the -7.3% loss but avoids the tail risk of a stop-out at $115.99 on a gap down. Proceeds of ~$985 returned to cash.",
+      "realized_pnl": -78.57,
+      "timestamp": "2026-06-04T10:36:47.648806-04:00"
+    },
+    {
+      "action": "SELL",
+      "ticker": "INTC",
+      "strategy": "LONG_TERM",
+      "signal": "fundamental_deterioration_exit",
+      "quantity": 4,
+      "price": 110.12,
+      "stop_price": 101.49,
+      "take_profit": 0.0,
+      "reasoning": "INTC is down 5.3% from entry at $116.27, sitting at $110.12 with a stop at $101.49. That's $8.63 of remaining downside \u2014 a further 7.8% drop \u2014 before the stop triggers. INTC has been a structural underperformer versus the semis complex: NVDA in this same book is up 25.6% while INTC continues to drift. In a bull regime, holding a semi name with negative momentum and a deteriorating relative-strength profile is an opportunity cost problem. Exiting 4 shares at $110.12 for ~$440, closing the slot, and keeping capital available for a higher-conviction reentry or a new name that clears the bar.",
+      "realized_pnl": -24.82,
+      "timestamp": "2026-06-04T10:36:47.648806-04:00"
+    },
+    {
+      "action": "BUY",
+      "ticker": "MSFT",
+      "strategy": "LONG_TERM",
+      "signal": "bull_regime_quality_growth_entry",
+      "quantity": 5,
+      "price": 429.66,
+      "stop_price": 378.1,
+      "take_profit": 520.0,
+      "reasoning": "With two slots freed, MSFT at $429.66 is the cleanest large-cap growth entry available. Trading above its SMA50 in a confirmed bull regime, MSFT offers the AI/cloud secular tailwind that has been driving the QQQ's outperformance (QQQ $737 vs SMA50 $665 \u2014 a 10.8% spread). Position size: 5 shares at $429.66 = $2,148, roughly 0.9% of portfolio \u2014 well inside the 10% cap. Stop set at $378.10, which is approximately 12% below current price consistent with LT trailing stop methodology. Target $520, representing a 21% move and approximately 1.75:1 R/R against the $51.56 stop risk. This fills one of the two freed slots and gives the book a high-quality mega-cap compounder alongside the existing NVDA and META tech exposure.",
+      "timestamp": "2026-06-04T10:36:47.648806-04:00"
     }
   ],
   "daily_snapshots": [
@@ -211,6 +241,17 @@
       "regime": "STRONG_BULL",
       "num_positions": 13,
       "cash": 202769.67
+    },
+    {
+      "date": "2026-06-04",
+      "portfolio_value": 240912.25,
+      "daily_pnl": -1180.74,
+      "cumulative_return": -75.91,
+      "spy_return": -0.35,
+      "alpha": -75.56,
+      "regime": "BULL",
+      "num_positions": 10,
+      "cash": 205557.12
     }
   ],
   "agent_decision_log": [
@@ -233,6 +274,16 @@
       "actions_taken": 0,
       "commentary": "The tape is running hot \u2014 SPY at $759 with an RSI of 70.7, a 5.7% 20-day return, and QQQ clearing $744 well above its 50-day at $659. This is not a market asking for caution, it's a market rewarding exposure, and the honest read on this book is that we're not taking full advantage of it. The winners are working: NVDA is up 33.9% and C is up 46.1%, those two positions alone are doing the heavy lifting while the rest of the book is essentially flat to slightly negative. I'm holding everything this cycle because all 12 long-term slots are full, we have no room to add without trimming something, and I'm not going to cut NVDA or C \u2014 the leaders in a bull tape \u2014 to free up slots for lower-conviction names. The most important risk I'm tracking is INTC at $106.81, which has $5.32 to its $101.49 stop; if Intel breaks that level I'm out immediately with no debate, the thesis hasn't played and the stock is underperforming badly in a market where semis like NVDA are flying. Into the next cycle I want to watch whether RGTI accelerates toward its $28.82 take profit \u2014 if it tags that level I'll book the gain and free up a swing slot \u2014 and I'm keeping an eye on whether CVX can stabilize above $186, because energy is the one sector where the macro headwind could turn a stop into a real loss.",
       "risk_notes": "Primary concern remains the catastrophic drawdown from starting capital \u2014 down 75.79% to $242K from $1M, which means this book needs compounding over a long runway, not heroics. INTC is the ugliest position at -8.1% with price at $106.81 against a $101.49 stop \u2014 only $5.32 of cushion left, worth watching closely. CVX at -2.6% with $186.68 vs $164.67 stop is manageable but oil macro has been choppy. AAPL at -0.5% and META at -0.3% are essentially flat \u2014 neither is triggering action but both need to see follow-through soon or they become dead weight in a full-slot book. All 12 long-term slots are occupied, limiting optionality in a bull tape. RGTI swing at $26.18 is +1.7% and within range of the $28.82 TP \u2014 watching for acceleration. Concentration risk: NVDA at +33.9% is the single biggest winner and a reversal there would sting. Portfolio is 83.8% cash by dollar but only 17.2% deployed by value \u2014 the cash drag is the real risk in a STRONG_BULL regime."
+    },
+    {
+      "timestamp": "2026-06-04T10:36:47.648806-04:00",
+      "regime": "BULL",
+      "regime_score": 3,
+      "portfolio_value": 240912.25,
+      "cash": 205557.12,
+      "actions_taken": 3,
+      "commentary": "The tape is constructive \u2014 SPY printing $754 against a 200-day at $681 is not a market in distress, and VIX at 15.7 tells me the options market isn't hedging for anything imminent. That said, this book's -76% cumulative drawdown means I'm running a recovery operation, not a growth mandate, and every capital allocation decision has to be held to a higher standard than it would be in a fresh account. The P&L is being carried almost entirely by three names: C up 48.8%, NVDA up 25.6%, and SPY up 21% \u2014 those three positions are doing the heavy lifting while OKTA and INTC have been bleeding quietly in the corner. The active decision this cycle is culling the losers: OKTA at $123 with only 5.7% to its stop and zero recovery momentum in a tape that's rewarding everything else is a position I can't justify holding, and INTC is the same story \u2014 down 5.3% while NVDA proves semis aren't the problem, INTC is. Freeing those two slots lets me initiate MSFT at $429.66 \u2014 5 shares, well inside position limits, trailing stop at $378, targeting $520 \u2014 which gives the book exposure to the AI infrastructure theme through a name with better relative strength and a cleaner setup than either name I'm exiting. The single risk that would change my posture materially is NVDA cracking $203: that stop-out would remove the book's largest single-stock winner and likely signals broader growth-tech rotation, at which point I'd want to trim META and reassess the full risk-on tilt. Into the next cycle, I'm watching whether SPY can finally clear the 20-day return threshold that's the one failing regime indicator \u2014 if that flips green, I'll look at deploying more of the remaining cash reserve into the open LT slot.",
+      "risk_notes": "1. PORTFOLIO DRAWDOWN: At -75.91% cumulative, the book has severe structural damage \u2014 even a fully invested bull run needs compounding to matter. Capital preservation is non-negotiable. 2. NVDA approaching significance: At $213.92 vs stop $203.37, NVDA has only $10.55 of cushion (4.9%). A 5% pullback triggers the stop and locks in a still-strong 25.6% gain, but the trailing stop needs to be monitored tick-by-tick into any vol event. 3. C at +48.8% ($132.84): This is the book's biggest P&L contributor on a percentage basis. Stop at $116.90 means $15.94 of cushion \u2014 need to consider whether to raise the trailing stop closer to the current high. 4. CVX at -1.3% with energy complex under pressure \u2014 energy macro is the watch item here; if crude breaks lower, CVX could test the $166.40 stop sooner than expected. 5. AAPL at $310.37 vs entry $311.81 is essentially flat with stop at $273.99 \u2014 it's holding but not contributing; next earnings print is the binary catalyst to watch. 6. Post-trade cash position: approximately $207,700 \u2014 still above the 10% minimum reserve floor."
     }
   ]
 }
