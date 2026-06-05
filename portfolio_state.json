@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-06-04T10:37:30.643482-04:00",
-    "last_trading_day": "2026-06-04",
-    "total_sessions": 2,
-    "regime": "BULL",
+    "last_updated": "2026-06-05T15:25:19.492294-04:00",
+    "last_trading_day": "2026-06-05",
+    "total_sessions": 3,
+    "regime": "NEUTRAL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -0.35,
-    "portfolio_value": 240912.25,
-    "cash": 205557.12,
-    "cumulative_return_pct": -75.91,
-    "alpha_vs_spy": -75.56,
+    "spy_ytd_return": -2.59,
+    "portfolio_value": 239921.45,
+    "cash": 207728.83,
+    "cumulative_return_pct": -76.01,
+    "alpha_vs_spy": -73.41,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -20,7 +20,7 @@
       "ticker": "NVDA",
       "entry_date": "2026-06-02",
       "entry_price": 170.3,
-      "current_price": 213.92,
+      "current_price": 205.6,
       "shares": 50,
       "stop_price": 203.37,
       "days_held": 0
@@ -29,34 +29,25 @@
       "ticker": "SPY",
       "entry_date": "2026-06-02",
       "entry_price": 623.09,
-      "current_price": 753.85,
+      "current_price": 736.86,
       "shares": 13,
       "stop_price": 667.64,
-      "days_held": 0
-    },
-    {
-      "ticker": "QCOM",
-      "entry_date": "2026-06-02",
-      "entry_price": 232.64,
-      "current_price": 238.82,
-      "shares": 10,
-      "stop_price": 220.9,
       "days_held": 0
     },
     {
       "ticker": "WELL",
       "entry_date": "2026-06-02",
       "entry_price": 174.95,
-      "current_price": 201.15,
+      "current_price": 209.05,
       "shares": 12,
-      "stop_price": 182.27,
+      "stop_price": 183.96,
       "days_held": 0
     },
     {
       "ticker": "AAPL",
       "entry_date": "2026-06-02",
       "entry_price": 311.81,
-      "current_price": 310.37,
+      "current_price": 307.86,
       "shares": 6,
       "stop_price": 273.99,
       "days_held": 0
@@ -65,7 +56,7 @@
       "ticker": "C",
       "entry_date": "2026-06-02",
       "entry_price": 89.3,
-      "current_price": 132.84,
+      "current_price": 131.65,
       "shares": 8,
       "stop_price": 116.9,
       "days_held": 0
@@ -74,7 +65,7 @@
       "ticker": "CVX",
       "entry_date": "2026-06-02",
       "entry_price": 191.57,
-      "current_price": 189.09,
+      "current_price": 187.99,
       "shares": 10,
       "stop_price": 166.4,
       "days_held": 0
@@ -83,7 +74,7 @@
       "ticker": "KO",
       "entry_date": "2026-06-02",
       "entry_price": 77.91,
-      "current_price": 79.11,
+      "current_price": 80.02,
       "shares": 15,
       "stop_price": 70.76,
       "days_held": 0
@@ -92,7 +83,7 @@
       "ticker": "META",
       "entry_date": "2026-06-02",
       "entry_price": 605.9728,
-      "current_price": 635.43,
+      "current_price": 589.51,
       "shares": 3,
       "stop_price": 559.18,
       "days_held": 0
@@ -101,7 +92,7 @@
       "ticker": "MSFT",
       "entry_date": "2026-06-04",
       "entry_price": 429.8748,
-      "current_price": 429.66,
+      "current_price": 415.15,
       "shares": 5,
       "stop_price": 378.1,
       "days_held": 0
@@ -228,6 +219,17 @@
       "take_profit": 520.0,
       "reasoning": "With two slots freed, MSFT at $429.66 is the cleanest large-cap growth entry available. Trading above its SMA50 in a confirmed bull regime, MSFT offers the AI/cloud secular tailwind that has been driving the QQQ's outperformance (QQQ $737 vs SMA50 $665 \u2014 a 10.8% spread). Position size: 5 shares at $429.66 = $2,148, roughly 0.9% of portfolio \u2014 well inside the 10% cap. Stop set at $378.10, which is approximately 12% below current price consistent with LT trailing stop methodology. Target $520, representing a 21% move and approximately 1.75:1 R/R against the $51.56 stop risk. This fills one of the two freed slots and gives the book a high-quality mega-cap compounder alongside the existing NVDA and META tech exposure.",
       "timestamp": "2026-06-04T10:36:47.648806-04:00"
+    },
+    {
+      "action": "SELL",
+      "ticker": "QCOM",
+      "strategy": "LONG_TERM",
+      "price": 217.28,
+      "quantity": 10,
+      "reasoning": "Stop loss hit: $217.28 <= $220.90",
+      "signal": "STOP_LOSS",
+      "realized_pnl": -154.69,
+      "timestamp": "2026-06-05T15:24:58.917139-04:00"
     }
   ],
   "daily_snapshots": [
@@ -252,6 +254,17 @@
       "regime": "BULL",
       "num_positions": 10,
       "cash": 205557.12
+    },
+    {
+      "date": "2026-06-05",
+      "portfolio_value": 239921.45,
+      "daily_pnl": -990.8,
+      "cumulative_return": -76.01,
+      "spy_return": -2.59,
+      "alpha": -73.41,
+      "regime": "NEUTRAL",
+      "num_positions": 9,
+      "cash": 207728.83
     }
   ],
   "agent_decision_log": [
@@ -284,6 +297,16 @@
       "actions_taken": 3,
       "commentary": "The tape is constructive \u2014 SPY printing $754 against a 200-day at $681 is not a market in distress, and VIX at 15.7 tells me the options market isn't hedging for anything imminent. That said, this book's -76% cumulative drawdown means I'm running a recovery operation, not a growth mandate, and every capital allocation decision has to be held to a higher standard than it would be in a fresh account. The P&L is being carried almost entirely by three names: C up 48.8%, NVDA up 25.6%, and SPY up 21% \u2014 those three positions are doing the heavy lifting while OKTA and INTC have been bleeding quietly in the corner. The active decision this cycle is culling the losers: OKTA at $123 with only 5.7% to its stop and zero recovery momentum in a tape that's rewarding everything else is a position I can't justify holding, and INTC is the same story \u2014 down 5.3% while NVDA proves semis aren't the problem, INTC is. Freeing those two slots lets me initiate MSFT at $429.66 \u2014 5 shares, well inside position limits, trailing stop at $378, targeting $520 \u2014 which gives the book exposure to the AI infrastructure theme through a name with better relative strength and a cleaner setup than either name I'm exiting. The single risk that would change my posture materially is NVDA cracking $203: that stop-out would remove the book's largest single-stock winner and likely signals broader growth-tech rotation, at which point I'd want to trim META and reassess the full risk-on tilt. Into the next cycle, I'm watching whether SPY can finally clear the 20-day return threshold that's the one failing regime indicator \u2014 if that flips green, I'll look at deploying more of the remaining cash reserve into the open LT slot.",
       "risk_notes": "1. PORTFOLIO DRAWDOWN: At -75.91% cumulative, the book has severe structural damage \u2014 even a fully invested bull run needs compounding to matter. Capital preservation is non-negotiable. 2. NVDA approaching significance: At $213.92 vs stop $203.37, NVDA has only $10.55 of cushion (4.9%). A 5% pullback triggers the stop and locks in a still-strong 25.6% gain, but the trailing stop needs to be monitored tick-by-tick into any vol event. 3. C at +48.8% ($132.84): This is the book's biggest P&L contributor on a percentage basis. Stop at $116.90 means $15.94 of cushion \u2014 need to consider whether to raise the trailing stop closer to the current high. 4. CVX at -1.3% with energy complex under pressure \u2014 energy macro is the watch item here; if crude breaks lower, CVX could test the $166.40 stop sooner than expected. 5. AAPL at $310.37 vs entry $311.81 is essentially flat with stop at $273.99 \u2014 it's holding but not contributing; next earnings print is the binary catalyst to watch. 6. Post-trade cash position: approximately $207,700 \u2014 still above the 10% minimum reserve floor."
+    },
+    {
+      "timestamp": "2026-06-05T15:24:58.917139-04:00",
+      "regime": "NEUTRAL",
+      "regime_score": 1,
+      "portfolio_value": 239921.45,
+      "cash": 207728.83,
+      "actions_taken": 0,
+      "commentary": "The tape is in a holding pattern \u2014 SPY above both the 50 and 200-day by a comfortable margin, but RSI at 48.1 and a 0.7% 20-day return tell me the market is rotating and consolidating rather than pressing new highs. That kind of environment rewards patience over aggression, and with a neutral regime score of 1/5, I'm applying the 30% size reduction rule to any prospective adds, which in this book means the bar for initiating is high. The P&L drivers right now are C (+47.4%), NVDA (+20.7%), WELL (+19.5%), and SPY (+18.3%) \u2014 these four names are carrying the book; without them, the picture is materially worse. The reason I'm taking no action this cycle is deliberate: NVDA's trailing stop at $203.37 is 1.1% away from spot, and touching that position right now \u2014 either adding or trimming \u2014 introduces unnecessary noise when the stock may simply be breathing before another leg; I'd rather let the stop manage the risk mechanically. The single most important level I'm watching is NVDA $203 \u2014 if it closes through that stop, I lose my biggest winner and the book's character changes, so that's the line that would force a full portfolio reassessment. Into the next session I'm also watching MSFT and META for any technical stabilization above their respective entry levels; if either rolls further, I'll revisit whether proactive closure ahead of the stops makes more sense than waiting for the mechanical exit.",
+      "risk_notes": "NVDA at $205.60 is trading just $2.23 above its trailing stop at $203.37 \u2014 that stop is live and tight; a bad print or sector rotation could close this position involuntarily before I can act. META at $589.51 is -2.7% from entry with stop at $559.18, and MSFT at $415.15 is -3.4% from entry with stop at $378.10 \u2014 both are underwater and need to find footing or they become candidates for proactive cuts. CVX at $187.99 is -1.9% from entry, energy has been a drag. Cumulative drawdown of -76.01% from peak capital is the dominant risk \u2014 the book is fragile and I cannot afford another leg down on multiple names simultaneously. Correlation risk is real: NVDA, META, MSFT, AAPL are all tech/growth and would sell off together in a risk-off flush. Cash at 86.6% is actually the main buffer here. No upcoming earnings flags in this data set, but NVDA and MSFT are always event-dense names."
     }
   ]
 }
