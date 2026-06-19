@@ -1,7 +1,7 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-06-19T15:18:51.426887-04:00",
+    "last_updated": "2026-06-19T15:19:52.580700-04:00",
     "last_trading_day": "2026-06-19",
     "total_sessions": 4,
     "regime": "NEUTRAL",
@@ -273,7 +273,7 @@
     {
       "date": "2026-06-19",
       "portfolio_value": 239910.17,
-      "daily_pnl": -11.28,
+      "daily_pnl": 0.0,
       "cumulative_return": -76.01,
       "spy_return": -1.31,
       "alpha": -74.7,
@@ -332,6 +332,16 @@
       "actions_taken": 1,
       "commentary": "The tape is in that frustrating middle zone where the index is technically constructive \u2014 SPY at $747 is comfortably above both the 50 and 200-day \u2014 but the internals don't have conviction behind them. RSI at 46 and a 1% 20-day return tell me this is a market that's holding its breath, not one that's building momentum, and that informs every sizing decision we make today. The book's P&L story right now is being written by three names: C is the star at +60.2% and its stop at $125.92 gives it room to breathe, NVDA at +23.4% is the momentum anchor, and WELL at +18.1% is quietly doing its job in a defensive sleeve \u2014 those three are carrying the gross. On the other side, MSFT is the action this cycle: at $379.05 against a stop of $378.10, I'm not waiting for the tape to make the decision for me \u2014 we're exiting cleanly and removing a broken position from the book. META and CVX are both on watch; META has 3.1% to its stop at $559.18 and hasn't shown me anything to add to, while CVX at $173.58 with a $166.40 stop is one energy down-day from being tested. The single risk I'm watching most closely is NVDA: it's our largest winner and at $210.23 the trailing stop sits at $203.37 \u2014 a 3.3% pullback in a name this volatile is routine, and losing that position to a shakeout after a 23% run would be a meaningful P&L event for a book this size. Into the next cycle I want to see SPY RSI push back above 50 and that 20-day return start to build before I deploy any of the $207K in cash \u2014 the dry powder is intentional, not indecision.",
       "risk_notes": "MSFT stop at $378.10 vs current $379.05 \u2014 effectively at the line, exiting this cycle. META stop at $559.18 vs $577.22 \u2014 only 3.1% of cushion remaining; one weak session closes that gap. CVX stop at $166.40 vs $173.58 \u2014 4.1% buffer, energy names are fragile in a neutral-to-soft macro. AAPL at $297.89 vs entry $311.81 is -4.5% with stop at $273.99 \u2014 has room but the trend is wrong. NVDA is the book's standout at +23.4% with current price $210.23; trailing stop at $203.37 needs monitoring as any volatility spike could clip this winner. C at +60.2% ($143.09) is the biggest dollar winner \u2014 stop at $125.92 is well-placed but a 12% drawdown from here would still represent a significant P&L giveback. Correlation risk is elevated: SPY, NVDA, MSFT, META, AAPL, GOOGL-adjacent names move together in a risk-off tape. Overall book is 86.6% cash post any action, which reflects the cumulative -76% drawdown from starting capital \u2014 the priority is capital preservation and selective deployment, not recovery trading."
+    },
+    {
+      "timestamp": "2026-06-19T15:19:28.752884-04:00",
+      "regime": "NEUTRAL",
+      "regime_score": 1,
+      "portfolio_value": 239910.17,
+      "cash": 209623.13,
+      "actions_taken": 0,
+      "commentary": "The tape is in a holding pattern \u2014 SPY at $747 is comfortably above both the 50-day ($728) and 200-day ($684), which tells you the structural bid is still there, but RSI at 46 and a 1% 20-day return say the market is digesting, not accelerating. That read keeps me in size-reduction mode per neutral regime rules, and frankly given the state of this book, that posture is correct anyway. The P&L leaders \u2014 C at +60%, NVDA at +23%, SPY at +20%, and WELL at +18% \u2014 are doing exactly what long-term compounders should do, and I have no reason to disturb them; the trailing stops are working as intended and the positions are small enough that they're not creating outsized concentration risk. The three underwater names \u2014 CVX, AAPL, and META \u2014 are the real conversation: none of them have triggered stops yet, but CVX is the one I'm watching most acutely because the energy sector thesis has deteriorated and I'm four percent from being taken out mechanically; I'd rather that stop do its job than try to manage around it. With $209K in cash and only 4 long-term slots open, I'm not chasing setups in a neutral regime with sub-50 RSI \u2014 the bar for new capital deployment is a clean technical setup with a clear catalyst, and nothing in the watchlist clears that bar today. Into the next cycle I'm focused on whether SPY can reclaim RSI 50 and whether VIX holds below 20, because those two together would shift my posture toward opportunistic adds in the names already working.",
+      "risk_notes": "CVX is the most urgent watch: trading at $173.58 against a stop at $166.40, only 4.1% of cushion remaining, and energy has been the weakest macro sector this tape \u2014 if crude rolls over again this name gets stopped. META at $577.22 is 3.2% above its $559.18 stop; the position is underwater -4.7% from entry and hasn't shown any recovery catalyst. AAPL is -4.5% from entry at $311.81, stop sitting at $273.99 \u2014 more room to run but also more capital at risk on a name that's underperforming the book. Correlation risk is real: NVDA, AAPL, and META are all effectively long AI/mega-cap tech; a sector rotation or macro shock hits all three simultaneously. C is the standout at +60.2% and is approaching a level where the 12% trailing stop needs to be recalculated off the running high \u2014 make sure that stop is current and tightened. Portfolio is 87.4% cash, which is extreme for a hedge fund mandate and reflects the -76% cumulative drawdown; the book needs to earn its way back carefully, not swing for fences. No earnings flags in the immediate term on held names, but NVDA is always one data center capex headline away from a 5% gap."
     }
   ]
 }
