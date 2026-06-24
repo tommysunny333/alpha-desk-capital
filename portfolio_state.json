@@ -1,35 +1,26 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-06-19T15:19:52.580700-04:00",
-    "last_trading_day": "2026-06-19",
-    "total_sessions": 4,
+    "last_updated": "2026-06-24T15:19:52.099045-04:00",
+    "last_trading_day": "2026-06-24",
+    "total_sessions": 5,
     "regime": "NEUTRAL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -1.31,
-    "portfolio_value": 239910.17,
-    "cash": 209623.13,
-    "cumulative_return_pct": -76.01,
-    "alpha_vs_spy": -74.7,
+    "spy_ytd_return": -3.27,
+    "portfolio_value": 239199.72,
+    "cash": 221151.97,
+    "cumulative_return_pct": -76.08,
+    "alpha_vs_spy": -72.81,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
   "long_term_positions": [
     {
-      "ticker": "NVDA",
-      "entry_date": "2026-06-02",
-      "entry_price": 170.3,
-      "current_price": 210.23,
-      "shares": 50,
-      "stop_price": 203.37,
-      "days_held": 0
-    },
-    {
       "ticker": "SPY",
       "entry_date": "2026-06-02",
       "entry_price": 623.09,
-      "current_price": 746.59,
+      "current_price": 731.72,
       "shares": 13,
       "stop_price": 667.64,
       "days_held": 0
@@ -38,16 +29,16 @@
       "ticker": "WELL",
       "entry_date": "2026-06-02",
       "entry_price": 174.95,
-      "current_price": 206.65,
+      "current_price": 222.89,
       "shares": 12,
-      "stop_price": 183.96,
+      "stop_price": 196.14,
       "days_held": 0
     },
     {
       "ticker": "AAPL",
       "entry_date": "2026-06-02",
       "entry_price": 311.81,
-      "current_price": 297.89,
+      "current_price": 295.08,
       "shares": 6,
       "stop_price": 273.99,
       "days_held": 0
@@ -56,16 +47,16 @@
       "ticker": "C",
       "entry_date": "2026-06-02",
       "entry_price": 89.3,
-      "current_price": 143.09,
+      "current_price": 144.16,
       "shares": 8,
-      "stop_price": 125.92,
+      "stop_price": 126.86,
       "days_held": 0
     },
     {
       "ticker": "CVX",
       "entry_date": "2026-06-02",
       "entry_price": 191.57,
-      "current_price": 173.58,
+      "current_price": 172.09,
       "shares": 10,
       "stop_price": 166.4,
       "days_held": 0
@@ -74,18 +65,9 @@
       "ticker": "KO",
       "entry_date": "2026-06-02",
       "entry_price": 77.91,
-      "current_price": 79.37,
+      "current_price": 81.07,
       "shares": 15,
-      "stop_price": 70.76,
-      "days_held": 0
-    },
-    {
-      "ticker": "META",
-      "entry_date": "2026-06-02",
-      "entry_price": 605.9728,
-      "current_price": 577.22,
-      "shares": 3,
-      "stop_price": 559.18,
+      "stop_price": 71.34,
       "days_held": 0
     }
   ],
@@ -234,6 +216,28 @@
       "reasoning": "MSFT is trading at $379.05 against a trailing stop of $378.10 \u2014 we are literally one bad tick away from a forced exit. The stock is down 11.8% from entry at $429.87 and has shown no technical base-building. With a neutral regime and no catalyst on the immediate horizon to reverse the trend, waiting for the stop to print is undisciplined. Taking the loss now at $379.05 versus $378.10 saves pennies but more importantly it's a conscious decision to exit a broken position rather than a reactive one. Freeing up ~$1,895 in capital and one LT slot for a cleaner setup.",
       "realized_pnl": -255.07,
       "timestamp": "2026-06-19T15:18:22.450536-04:00"
+    },
+    {
+      "action": "SELL",
+      "ticker": "NVDA",
+      "strategy": "LONG_TERM",
+      "price": 197.16,
+      "quantity": 50,
+      "reasoning": "Stop loss hit: $197.16 <= $203.37",
+      "signal": "STOP_LOSS",
+      "realized_pnl": 1338.07,
+      "timestamp": "2026-06-24T15:19:28.897733-04:00"
+    },
+    {
+      "action": "SELL",
+      "ticker": "META",
+      "strategy": "LONG_TERM",
+      "price": 558.87,
+      "quantity": 3,
+      "reasoning": "Stop loss hit: $558.87 <= $559.18",
+      "signal": "STOP_LOSS",
+      "realized_pnl": -142.15,
+      "timestamp": "2026-06-24T15:19:28.897733-04:00"
     }
   ],
   "daily_snapshots": [
@@ -280,6 +284,17 @@
       "regime": "NEUTRAL",
       "num_positions": 8,
       "cash": 209623.13
+    },
+    {
+      "date": "2026-06-24",
+      "portfolio_value": 239199.72,
+      "daily_pnl": -710.45,
+      "cumulative_return": -76.08,
+      "spy_return": -3.27,
+      "alpha": -72.81,
+      "regime": "NEUTRAL",
+      "num_positions": 6,
+      "cash": 221151.97
     }
   ],
   "agent_decision_log": [
@@ -342,6 +357,16 @@
       "actions_taken": 0,
       "commentary": "The tape is in a holding pattern \u2014 SPY at $747 is comfortably above both the 50-day ($728) and 200-day ($684), which tells you the structural bid is still there, but RSI at 46 and a 1% 20-day return say the market is digesting, not accelerating. That read keeps me in size-reduction mode per neutral regime rules, and frankly given the state of this book, that posture is correct anyway. The P&L leaders \u2014 C at +60%, NVDA at +23%, SPY at +20%, and WELL at +18% \u2014 are doing exactly what long-term compounders should do, and I have no reason to disturb them; the trailing stops are working as intended and the positions are small enough that they're not creating outsized concentration risk. The three underwater names \u2014 CVX, AAPL, and META \u2014 are the real conversation: none of them have triggered stops yet, but CVX is the one I'm watching most acutely because the energy sector thesis has deteriorated and I'm four percent from being taken out mechanically; I'd rather that stop do its job than try to manage around it. With $209K in cash and only 4 long-term slots open, I'm not chasing setups in a neutral regime with sub-50 RSI \u2014 the bar for new capital deployment is a clean technical setup with a clear catalyst, and nothing in the watchlist clears that bar today. Into the next cycle I'm focused on whether SPY can reclaim RSI 50 and whether VIX holds below 20, because those two together would shift my posture toward opportunistic adds in the names already working.",
       "risk_notes": "CVX is the most urgent watch: trading at $173.58 against a stop at $166.40, only 4.1% of cushion remaining, and energy has been the weakest macro sector this tape \u2014 if crude rolls over again this name gets stopped. META at $577.22 is 3.2% above its $559.18 stop; the position is underwater -4.7% from entry and hasn't shown any recovery catalyst. AAPL is -4.5% from entry at $311.81, stop sitting at $273.99 \u2014 more room to run but also more capital at risk on a name that's underperforming the book. Correlation risk is real: NVDA, AAPL, and META are all effectively long AI/mega-cap tech; a sector rotation or macro shock hits all three simultaneously. C is the standout at +60.2% and is approaching a level where the 12% trailing stop needs to be recalculated off the running high \u2014 make sure that stop is current and tightened. Portfolio is 87.4% cash, which is extreme for a hedge fund mandate and reflects the -76% cumulative drawdown; the book needs to earn its way back carefully, not swing for fences. No earnings flags in the immediate term on held names, but NVDA is always one data center capex headline away from a 5% gap."
+    },
+    {
+      "timestamp": "2026-06-24T15:19:28.897733-04:00",
+      "regime": "NEUTRAL",
+      "regime_score": 1,
+      "portfolio_value": 239199.72,
+      "cash": 221151.97,
+      "actions_taken": 0,
+      "commentary": "The tape is giving us a mixed read: SPY is technically above both moving averages, which keeps us from going fully defensive, but an RSI at 40 and a -2.3% 20-day return tell me the near-term momentum is still working against new longs \u2014 this is a market that wants to retest rather than extend. With the book already down 76% from peak and sitting 92.5% cash, I'm not in a position to be aggressive, and frankly the regime doesn't reward aggression right now anyway; the 30% size reduction rule in Neutral is aligned with my instinct to preserve what's left. The two names doing real work for us are C at +61.4% and WELL at +27.4% \u2014 those are meaningful winners on a small equity base and I don't want to disrupt them while they're still trading above their trailing stops. On the other side, CVX and AAPL are both underwater and CVX in particular is getting close enough to its $166.40 stop that I'm watching it tick by tick \u2014 I won't anticipate the stop, but I won't look away either. No new setups cleared the bar this cycle: nothing in the watchlist is showing an RSI reset with volume confirmation in a low-momentum tape, and adding exposure just to deploy cash would be undisciplined. Into the next session I'm focused on whether CVX holds its stop level and whether the SPY RSI can recover through 50 \u2014 that single indicator moving back above 50 would shift my posture toward opportunistic swing entries in the strongest names on the list.",
+      "risk_notes": "CVX is 3.4% above its stop at $166.40 with price at $172.09 \u2014 one bad energy session closes that gap; watching crude for any further leg down. AAPL at $295.08 sits 5.4% underwater vs. entry and $21 above stop at $273.99 \u2014 if this rolls with any tech selling pressure it gets uncomfortable fast. The book is concentrated in only 6 names across a portfolio down 76% from peak, so each individual stop-out has outsized P&L impact. C (+61.4%) and WELL (+27.4%) are the two names carrying the book \u2014 both well above stops but both have run hard and a risk-off move could compress them quickly. Total equity exposure is only ~$18K on a $239K book, which is effectively a near-cash posture. No swing positions open, which is appropriate given the neutral regime and negative short-term momentum. Upcoming macro catalysts (Fed speakers, any CPI revision) could reprice the tape sharply \u2014 VIX at 19.8 is not pricing complacency but isn't elevated enough to signal panic either."
     }
   ]
 }
