@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-06-26T15:24:11.461697-04:00",
-    "last_trading_day": "2026-06-26",
-    "total_sessions": 6,
-    "regime": "NEUTRAL",
+    "last_updated": "2026-06-29T15:28:34.040230-04:00",
+    "last_trading_day": "2026-06-29",
+    "total_sessions": 7,
+    "regime": "BULL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -3.25,
-    "portfolio_value": 239154.87,
+    "spy_ytd_return": -2.05,
+    "portfolio_value": 239282.23,
     "cash": 221151.97,
-    "cumulative_return_pct": -76.08,
-    "alpha_vs_spy": -72.83,
+    "cumulative_return_pct": -76.07,
+    "alpha_vs_spy": -74.02,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -306,6 +306,17 @@
       "regime": "NEUTRAL",
       "num_positions": 6,
       "cash": 221151.97
+    },
+    {
+      "date": "2026-06-29",
+      "portfolio_value": 239282.23,
+      "daily_pnl": 127.36,
+      "cumulative_return": -76.07,
+      "spy_return": -2.05,
+      "alpha": -74.02,
+      "regime": "BULL",
+      "num_positions": 6,
+      "cash": 221151.97
     }
   ],
   "agent_decision_log": [
@@ -388,6 +399,16 @@
       "actions_taken": 0,
       "commentary": "The tape is stuck in no-man's land \u2014 SPY holding above the 200-day at $687 gives us the technical floor, but the failure to reclaim the 50-day at $733 and an RSI that can't get above 50 tells me the path of least resistance is sideways-to-lower until proven otherwise. Given that read, I'm not deploying capital into new positions this cycle; the rules call for 30% size reduction in Neutral, and frankly, at 92.5% cash we are already expressing maximum defensiveness \u2014 adding here without a clear edge would be forcing the book. The two names I'm watching most carefully are CVX and AAPL: CVX at $170.12 is 2.2% above its trailing stop of $166.40 and the energy complex hasn't found a bid, so I'm prepared to let the stop do the work rather than preemptively trim into weakness and create a taxable event on a loser \u2014 if it breaks $166.40, we're out, no discretion. AAPL is a similar story at $5.76 above stop, but I want to see whether it can stabilize around $278-$280 before I touch it; the stop is there for exactly this scenario. The single biggest risk I'm carrying is a correlated drawdown that simultaneously triggers CVX and AAPL stops while C and SPY roll over \u2014 that would push us from 92.5% cash toward 97%, which is fine mechanically but would confirm we have no working book at all. Into next cycle, the level that changes my mind on adding exposure is SPY reclaiming and closing above $733 on volume \u2014 that would flip the 50-day signal positive and give me two of three regime criteria to upgrade to Cautious Bullish, at which point I'd look at adding a swing position in something like AMZN or MSFT that's been consolidating.",
       "risk_notes": "CVX at $170.12 is within $3.72 of its $166.40 trailing stop \u2014 that's a 2.2% buffer with energy sector under pressure; watching closely for a flush through that level. AAPL at $279.75 is $5.76 above its $273.99 stop, also thin. Both names are underwater from cost basis and sitting near stop triggers, so any broad tape deterioration could force two simultaneous exits. C is the standout at +58.7% and the trailing stop at $126.86 gives ample room, but financials tend to correlate with macro vol spikes \u2014 worth noting if VIX breaks back above 20. Portfolio is down 76% cumulative on starting capital, meaning we are in serious capital preservation mode; the $221K cash position is the asset right now. No earnings catalysts in the immediate window for held names, but CVX is commodity-linked and any crude drawdown accelerates stop risk. Max position size at 10% of $239K is ~$23.9K \u2014 most existing positions are well under that, so sizing isn't the constraint, regime and conviction are."
+    },
+    {
+      "timestamp": "2026-06-29T15:28:06.572127-04:00",
+      "regime": "BULL",
+      "regime_score": 3,
+      "portfolio_value": 239282.23,
+      "cash": 221151.97,
+      "actions_taken": 0,
+      "commentary": "The tape is showing a split personality today \u2014 SPY is above both moving averages and VIX is calm at 17.6, but that negative 20-day return tells you the market has been grinding sideways-to-lower in the near term even as the structural trend holds. That's a backdrop where I want to be long but I'm not chasing, and nothing in the universe I'm scanning this cycle offered a setup clean enough to put new capital to work. Inside the book, C is the name doing the heavy lifting at +60.3%, and WELL has been a quiet compounder at +29.8% \u2014 both of those positions are well above their trailing stops and I have no reason to touch them. The two positions I'm watching most carefully are CVX and AAPL: CVX is essentially living on the stop at $166.40, and if energy rolls over another point or two we're out mechanically and I'm fine with that outcome \u2014 the thesis hasn't been confirmed. AAPL at $282.85 is frustrating; the stock entered a pullback from our $311.81 cost basis and hasn't shown a technical base yet, but the stop at $273.99 is doing the job of defining the risk and I'll let that work rather than taking a discretionary loss ahead of it. The single risk I'm most focused on is CVX triggering its stop in an energy sell-off that then drags broader risk sentiment \u2014 that would be the domino that has me reassessing the whole posture. Into next cycle I want to see SPY reclaim positive 20-day momentum and ideally a clean breakout in a name like NVDA or MSFT above recent range highs before I start allocating meaningful swing capital from this $221K cash position.",
+      "risk_notes": "CVX is trading at $169.13 against a stop of $166.40 \u2014 that's 1.6% of cushion, essentially a stop-touch away from an exit; energy tape needs to hold here or we're out. AAPL at $282.85 is sitting 3.2% above its $273.99 stop with the stock down 9.3% from our entry \u2014 no technical recovery in sight and the position is costing us. C is our standout at +60.3% and $143.11; we're watching the trailing stop at $126.86 but have significant room. Total equity exposure is roughly $18,100 on $239,282 AUM \u2014 under 8% gross long, which is a symptom of the -76% cumulative drawdown context and extreme risk aversion baked into this book. Concentration: six LT positions, zero swing trades. No earnings flags on held names in the immediate window but AAPL's next print is a calendar watch item. Dry powder is $221K but the 10% cash floor is not the binding constraint \u2014 the real constraint is finding setups that clear the bar after this drawdown history."
     }
   ]
 }
