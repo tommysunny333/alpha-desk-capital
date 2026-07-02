@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-02T13:10:43.982735-04:00",
+    "last_updated": "2026-07-02T13:57:08.905766-04:00",
     "last_trading_day": "2026-07-02",
     "total_sessions": 10,
     "regime": "BULL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -1.97,
-    "portfolio_value": 239474.73,
+    "spy_ytd_return": -2.1,
+    "portfolio_value": 239455.06,
     "cash": 222815.94,
     "cumulative_return_pct": -76.05,
-    "alpha_vs_spy": -74.08,
+    "alpha_vs_spy": -73.95,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -31,7 +31,7 @@
       "entry_price": 174.95,
       "current_price": 228.01,
       "shares": 12,
-      "stop_price": 206.2,
+      "stop_price": 206.31,
       "days_held": 0
     },
     {
@@ -346,11 +346,11 @@
     },
     {
       "date": "2026-07-02",
-      "portfolio_value": 239474.73,
-      "daily_pnl": -23.69,
+      "portfolio_value": 239455.06,
+      "daily_pnl": -19.67,
       "cumulative_return": -76.05,
-      "spy_return": -1.97,
-      "alpha": -74.08,
+      "spy_return": -2.1,
+      "alpha": -73.95,
       "regime": "BULL",
       "num_positions": 5,
       "cash": 222815.94
@@ -516,6 +516,16 @@
       "actions_taken": 0,
       "commentary": "The tape is telling a nuanced story today: SPY at $742 is holding above both the 50 and 200-day with RSI at 53 \u2014 that's a market in decent technical shape, but the negative 20-day return confirms we're in a consolidation phase rather than a momentum leg. Given that backdrop, I'm not chasing anything. The book's P&L story is really being written by three names: C at +55.4%, WELL at +33.9%, and SPY at +19% \u2014 those positions are working and the trailing stops are well-positioned to let them run without giving back the house. I'm holding all five long-term positions unchanged this cycle because none of them have deteriorated technically and none have triggered a trim signal; touching winners in a consolidation just to feel active is how you underperform. AAPL is the one I'm watching most carefully \u2014 at $308.24 against a $311.81 entry, it's slightly underwater and lagging the broader tech tape where NVDA and MSFT are holding up better; if it can't reclaim the entry price on the next up-day, I'll revisit whether this slot is better deployed elsewhere. The single most important risk I'm monitoring is whether SPY's 20-day return turns more negative \u2014 a break below $736 (the SMA50) would shift my posture meaningfully and trigger a re-evaluation of adding any new exposure. Into the next cycle I want to see if the consolidation resolves higher; if SPY can post a positive 20-day return and RSI pushes through 55, that's when I'd start building swing exposure with the $222K in dry powder \u2014 but that capital is too precious right now to deploy into a market that hasn't yet shown its hand.",
       "risk_notes": "Primary concern is the catastrophic drawdown: portfolio is down 76% from $1M starting capital, sitting at $239K. This isn't a risk note \u2014 it's an existential context. C at +55.4% is the book's biggest winner and is 12% above entry; at $138.81 it's well clear of its $126.86 stop. WELL at +33.9% similarly healthy. AAPL is the weak link at -1.1% with current price $308.24 against a $273.99 stop \u2014 11.1% of buffer remaining, not yet actionable but worth watching if it continues to lag the tape. With 93% cash ($222K), the real risk is opportunity cost and over-caution, but given the portfolio's history, capital preservation is paramount. No positions are approaching stops imminently. Concentration in only 5 long-term names across financials, healthcare, consumer staples, and tech \u2014 reasonable diversification given the small active book."
+    },
+    {
+      "timestamp": "2026-07-02T13:56:42.046575-04:00",
+      "regime": "BULL",
+      "regime_score": 3,
+      "portfolio_value": 239455.06,
+      "cash": 222815.94,
+      "actions_taken": 0,
+      "commentary": "The tape is in a functional bull regime \u2014 SPY at $741 above both the 50 ($736) and 200 ($689), VIX sitting comfortably at 16.9 \u2014 but that negative 20-day return tells me this isn't a market that's sprinting; it's grinding, and grinding markets punish over-eager entries. Given where this book sits at $239K after starting at $1M, I'm not going to manufacture trades just to show activity \u2014 every dollar we deploy needs to clear a higher bar than it would in a healthy account. The P&L story right now is being written entirely by C and WELL: Citigroup at +55% is remarkable given the entry at $89.30, and Welltower at +34% from $174.95 reflects a well-timed healthcare REIT position in a rate-sensitive recovery. These two names are doing the heavy lifting and I'm not touching them \u2014 the trailing stops are properly set and letting winners run is exactly right here. AAPL concerns me more than it did last cycle; it's marginally negative in an environment where large-cap tech should be bid, and at $307.47 versus the $311.81 entry it's underperforming QQQ's positioning above its 50-day \u2014 I'm watching whether it can reclaim $311 or if it continues to lag, which would push me toward trimming and recycling that capital. The single risk I'm most focused on is a correlated drawdown in the financial and REIT complex that takes out C below $126.86 and WELL below $206.31 simultaneously \u2014 that scenario would crystallize losses we cannot recover given the capital base, so I'll be watching credit spreads and rate-sensitive tape action closely into the next cycle.",
+      "risk_notes": "Portfolio is deeply impaired at -76% cumulative return with $239K remaining from $1M starting capital \u2014 capital preservation is paramount. C at +55% ($138.41, stop $126.86) is the book's biggest winner and the stop is nearly 9% below current price, so a sharp reversal could surrender meaningful gains before the trailing stop triggers. WELL at +34% (stop $206.31 vs. current $234.44) is in the same boat \u2014 stop is ~12% below high, which is technically correct but represents real dollar risk on an extended name. AAPL at -1.4% ($307.47, entry $311.81, stop $273.99) is the weakest position \u2014 it's not broken yet but it's underperforming a bull tape and the stop is 10.9% below current, leaving the position exposed to further drift. SPY 20d return of -1.6% suggests the tape has stalled in the near term even if the intermediate trend is intact. No positions are approaching their stops imminently, but the combination of concentrated unrealized gains in C and WELL with a deeply depleted total book means a correlated selloff would be disproportionately painful. No upcoming earnings flags in the immediate term for held names, but monitoring AAPL which has been lagging tech peers."
     }
   ]
 }
