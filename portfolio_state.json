@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-02T12:18:37.091387-04:00",
+    "last_updated": "2026-07-02T12:54:54.595147-04:00",
     "last_trading_day": "2026-07-02",
     "total_sessions": 10,
     "regime": "BULL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -1.63,
-    "portfolio_value": 239500.27,
+    "spy_ytd_return": -1.78,
+    "portfolio_value": 239498.42,
     "cash": 222815.94,
     "cumulative_return_pct": -76.05,
-    "alpha_vs_spy": -74.42,
+    "alpha_vs_spy": -74.27,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -31,7 +31,7 @@
       "entry_price": 174.95,
       "current_price": 228.01,
       "shares": 12,
-      "stop_price": 206.01,
+      "stop_price": 206.2,
       "days_held": 0
     },
     {
@@ -346,11 +346,11 @@
     },
     {
       "date": "2026-07-02",
-      "portfolio_value": 239500.27,
-      "daily_pnl": -0.56,
+      "portfolio_value": 239498.42,
+      "daily_pnl": -1.85,
       "cumulative_return": -76.05,
-      "spy_return": -1.63,
-      "alpha": -74.42,
+      "spy_return": -1.78,
+      "alpha": -74.27,
       "regime": "BULL",
       "num_positions": 5,
       "cash": 222815.94
@@ -496,6 +496,16 @@
       "actions_taken": 0,
       "commentary": "The tape is in a low-volatility grind higher \u2014 SPY at $744 is above both the 50 and 200-day, VIX at 16.8 is benign, and the regime read of 3/5 says risk-on is the posture but not with conviction. That said, I'm not adding anything this cycle, and that's a deliberate call: with the book down 76% from starting capital, the math of recovery is brutal \u2014 we need roughly a 317% return just to get back to $1M, which means capital preservation and high-conviction entries only, not filling slots for the sake of activity. The P&L story right now is C and WELL carrying the long-term book \u2014 Citigroup up 56.3% is the single best trade we have on, and Welltower at 33.6% shows the healthcare REIT thesis is working \u2014 neither is near its stop and both are riding trailing levels that give them room to breathe. AAPL is the one I'm watching most carefully: it's gone nowhere since entry at $311.81, sitting at $307.34 today with a -1.4% loss, and if it doesn't reclaim $311 soon I'll be looking to exit that slot and redeploy into something with actual momentum rather than babysit dead weight. On the new-entry side, NVDA at $194 and MRVL at $249 have my attention as semiconductor setups, but I want to see a cleaner technical trigger \u2014 a decisive close above recent resistance with volume confirmation \u2014 before committing capital given how thin this book already is. Next cycle I'm watching whether SPY can hold $740 on any intraday weakness; a break there with VIX expansion would make me trim the weakest names and go deeper into cash until the picture clarifies.",
       "risk_notes": "Primary concern is catastrophic drawdown: book is down 76% from $1M starting capital, sitting at $239,500 \u2014 this is an existential situation for the fund. C at $139.59 with 56.3% gain is the book's best performer; stop at $126.86 needs monitoring if financials rotate. WELL up 33.6% with stop at $206.01 \u2014 12% trailing stop is well-placed but a 6-point gap down would threaten it. AAPL at -1.4% with stop $273.99 is the weakest link; current price $307.34 leaves roughly $33 of cushion but the name has been dead weight. SPY position itself is the book's hedge anchor \u2014 stop at $667.64 is 10.3% below current price. Cash at 93% ($222,816) is both a safety net and an indictment of prior positioning. With 7 long-term slots open and 5 swing slots empty, there is capacity to deploy but the priority is NOT losing more of what's left."
+    },
+    {
+      "timestamp": "2026-07-02T12:54:31.653166-04:00",
+      "regime": "BULL",
+      "regime_score": 3,
+      "portfolio_value": 239498.42,
+      "cash": 222815.94,
+      "actions_taken": 0,
+      "commentary": "The tape is in a mild consolidation phase within a bull structure \u2014 SPY at $743 is holding above both the 50-day ($736) and 200-day ($689) convincingly, but the negative 20-day return of -1.2% tells me the market is catching its breath rather than pressing higher, and I'm not chasing into that ambiguity. The book's P&L story this cycle is really a two-name story: C is doing the heavy lifting at +56% and WELL is a strong second at +33.9%, and together they're the reason this portfolio has any value at all given the cumulative drawdown we're sitting on. I'm holding everything flat this cycle because none of the candidates I'm monitoring \u2014 NVDA near $194, MSFT at $390, META at $586 \u2014 have presented a clean entry with a defined risk level I'm comfortable with; forced entries into a digesting market with a damaged book is exactly how you compound losses, and with 93% cash I can afford patience. The number that changes my mind on adding swing exposure is SPY reclaiming momentum on the 20-day \u2014 if that flips positive and RSI pushes toward 60, I'll start layering into NVDA or MSFT with defined 5% stops. Into the next cycle, I'm watching C closely: it's up 56% and approaching levels where sector rotation or a broader financial sell-off could unwind gains quickly \u2014 that stop at $126.86 is my hard line, but I'll be mentally prepared to trim half the position if it trades below $133 on elevated volume.",
+      "risk_notes": "Portfolio is carrying a -76% cumulative drawdown from starting capital, which is the dominant risk context \u2014 this book has been severely impaired and capital preservation is paramount. C is the single largest P&L contributor at +56% on 8 shares, currently trading at $139.30 with a stop at $126.86; a break of $130 would warrant reassessment before the stop triggers. WELL at +33.9% has its trailing stop at $206.20, roughly 12% below the $234 handle \u2014 comfortable buffer but worth watching if financials/REITs see sector rotation. AAPL is the lone underwater name at -1.1% ($308.37 vs $311.81 entry), stop sits at $273.99 \u2014 not in danger but it's dead weight until it reclaims entry. Cash is 93% of NAV ($222,816), meaning the book has enormous optionality but also reflects how risk-averse the posture has been. Max new position size is capped at ~$23,950 (10% of $239,498). No swing positions open despite 5 available slots \u2014 watching NVDA ($193.94), MSFT ($390.29), and META ($586.22) but none have cleared a high-conviction setup bar this cycle. Correlation risk: SPY, AAPL, NVDA, MSFT, META all move together in a risk-off tape."
     }
   ]
 }
