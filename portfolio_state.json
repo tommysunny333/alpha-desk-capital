@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-06T12:40:35.341073-04:00",
+    "last_updated": "2026-07-06T12:51:10.106820-04:00",
     "last_trading_day": "2026-07-06",
     "total_sessions": 11,
     "regime": "BULL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -0.77,
-    "portfolio_value": 239619.53,
+    "spy_ytd_return": -0.72,
+    "portfolio_value": 239629.73,
     "cash": 218148.73,
     "cumulative_return_pct": -76.04,
-    "alpha_vs_spy": -75.27,
+    "alpha_vs_spy": -75.31,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -40,7 +40,7 @@
       "entry_price": 311.81,
       "current_price": 307.29,
       "shares": 6,
-      "stop_price": 274.67,
+      "stop_price": 275.32,
       "days_held": 0
     },
     {
@@ -404,11 +404,11 @@
     },
     {
       "date": "2026-07-06",
-      "portfolio_value": 239619.53,
-      "daily_pnl": 54.15,
+      "portfolio_value": 239629.73,
+      "daily_pnl": 10.2,
       "cumulative_return": -76.04,
-      "spy_return": -0.77,
-      "alpha": -75.27,
+      "spy_return": -0.72,
+      "alpha": -75.31,
       "regime": "BULL",
       "num_positions": 7,
       "cash": 218148.73
@@ -644,6 +644,16 @@
       "actions_taken": 0,
       "commentary": "The tape is telling a coherent but unexciting story: SPY at $751 is comfortably above both the 50 ($737) and 200 ($689) day moving averages, VIX is benign at 15.9, and the regime scores a clean bull at 3/5 \u2014 but that flat-to-slightly-negative 20-day return means we're in a consolidation within an uptrend, not a breakout leg. That's an environment where I want to let existing winners breathe rather than chase new entries at extended levels. The book's P&L is being driven by two names: C at +59.9% and WELL at +32.8% are doing the heavy lifting on the long-term side, and both are trading well above their trailing stops \u2014 those positions are working exactly as designed, and touching them right now would be performance-chasing in reverse. MSFT is the one swing name that's keeping me honest: it's down 1.6% from entry at $390.86 and has narrowed its stop cushion to roughly 3.5 points, so I'm watching the $375-$371 zone closely \u2014 if it doesn't find a bid this week, I'll cut it before the stop triggers and redeploy into a cleaner setup. The most important risk I'm carrying into the next cycle is the asymmetry of this book's situation: at $239K against a $1M base, a 10% drawdown on deployed capital is proportionally punishing, so I'm not going to force new entries just because cash is sitting heavy at 91%. What I want to see before adding swing exposure is either MSFT resolving higher above $390 or one of the momentum names \u2014 NVDA, AVGO, or CRWD \u2014 setting up a proper pullback-to-support entry rather than buying into mid-range. Patience here is the alpha.",
       "risk_notes": "Primary concern is the catastrophic drawdown context: portfolio is down 76% from $1M starting capital, sitting at $239K. Every decision carries outsized consequence because there is no cushion to absorb a sequence of losses. C is the standout long-term winner at +59.9% with stop at $126.86 vs current $142.82 \u2014 that stop is 11.2% below current price, within trailing stop parameters but worth watching if financials rotate. WELL at +32.8% is similarly extended; stop at $207.65 is 10.7% below $232.41. MSFT swing is underwater at -1.6%, sitting at $384.55 vs entry $390.86 and stop $371.13 \u2014 it has 3.5% of cushion left before stop triggers. NVDA at +1.7% is fine but stop at $183.74 is 6.7% below current \u2014 manageable. AAPL is essentially flat at +0.1%, $312.13 vs entry $311.81; it's not hurting us but it's not earning its slot either. Cash reserve at 91% is well above the 10% minimum, leaving ~$215K deployable, but given the drawdown context, new positions must clear a very high bar on setup quality."
+    },
+    {
+      "timestamp": "2026-07-06T12:50:47.714038-04:00",
+      "regime": "BULL",
+      "regime_score": 3,
+      "portfolio_value": 239629.73,
+      "cash": 218148.73,
+      "actions_taken": 0,
+      "commentary": "The tape is in a grinding bull \u2014 SPY at $751 is holding its trend structure cleanly with RSI at 56.9, but the flat 20-day return tells you this isn't a momentum market right now, it's a stock-picker's tape where you need to be in the right names rather than just being long beta. The book is working where it should: C at $142.90 against an $89.30 entry is the single best trade in the portfolio and I've let it run, stop now needs to be walked up toward $130 to lock in more of that 60% gain. WELL is the other quiet winner, +32.8%, and it's barely discussed because it just keeps going. MSFT is the one name I'm actively watching \u2014 entered at $390.86, it's sitting at $385.01 with a stop at $371.13, and at -1.5% it hasn't broken anything yet, but I need to see it reclaim $390 within the next few sessions or the thesis of a large-cap quality reentry in a bull regime starts to look like it was early. Holding everything this cycle is the correct active decision \u2014 there are no swing setups in the watchlist that have cleared my bar with enough R/R at current prices, and deploying into a consolidating tape just to reduce cash feels like forcing trades when the existing book already has the right exposures working. What I'm watching into the next cycle: SPY holding $740 support, any MSFT print back above $390 would confirm the setup is alive, and I want to see if NVDA can push toward the $210 range before sizing up.",
+      "risk_notes": "Portfolio is in severe drawdown \u2014 down 76% from $1M starting capital to $239K. The book is 91% cash, which is both a symptom of past losses and current protection. Long-term book: C is the star at +60% with stop at $126.86 vs current $142.90 \u2014 trailing stop needs to be walked up. WELL +32.8% stop at $207.65 vs $232.36, healthy cushion. SPY +20.5%, stop at $667.64, no action needed. AAPL at +0.3% with stop $275.32 \u2014 essentially flat and stop is 12% below, so it's a free look but not contributing. KO +6.1%, defensive anchor. Swing book: MSFT at -1.5% entry $390.86, current $385.01, stop $371.13 \u2014 watching this; it has $14 of cushion to stop but needs to regain entry soon or it becomes dead weight. NVDA +1.6%, comfortable. Key risk: with only $239K total equity and 7 positions open, available cash is $218K but max position size is 10% = ~$23.9K per new position \u2014 deeply constrained. No earnings alerts flagged but NVDA and MSFT are perpetually in play. MSFT approaching the zone where it either reclaims $390 or we need to reassess."
     }
   ]
 }
