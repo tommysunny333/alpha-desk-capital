@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-06T13:48:50.201615-04:00",
+    "last_updated": "2026-07-06T13:57:30.961828-04:00",
     "last_trading_day": "2026-07-06",
     "total_sessions": 11,
     "regime": "BULL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -0.82,
-    "portfolio_value": 239611.92,
+    "spy_ytd_return": -0.85,
+    "portfolio_value": 239599.66,
     "cash": 215961.72,
     "cumulative_return_pct": -76.04,
-    "alpha_vs_spy": -75.22,
+    "alpha_vs_spy": -75.19,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -427,11 +427,11 @@
     },
     {
       "date": "2026-07-06",
-      "portfolio_value": 239611.92,
-      "daily_pnl": -22.87,
+      "portfolio_value": 239599.66,
+      "daily_pnl": -12.26,
       "cumulative_return": -76.04,
-      "spy_return": -0.82,
-      "alpha": -75.22,
+      "spy_return": -0.85,
+      "alpha": -75.19,
       "regime": "BULL",
       "num_positions": 8,
       "cash": 215961.72
@@ -697,6 +697,16 @@
       "actions_taken": 1,
       "commentary": "The regime reads bull but it's a bull with a limp \u2014 SPY is above both averages and VIX is benign at 15.9, but that negative 20-day return tells me we've been grinding sideways to slightly lower in the near term, which argues for precision over aggression. The book's P&L story is almost entirely written by three long-term names: C at +60%, WELL at +32.8%, and SPY itself at +20.4% \u2014 those three positions are doing all the heavy lifting while AAPL barely registers and KO is a slow drift. On the swing book, NVDA is behaving but needs $200 to prove itself, and MSFT is the one I'm watching most carefully \u2014 it's offside by 1.6% and $371 is the line in the sand; I'll give it through this week but I won't let it drift to the stop without re-evaluating the setup. I initiated GOOGL on the third swing slot today: it's lagged the semis, carries real AI optionality, and the risk structure is clean at 5% stop and 12% target \u2014 this is the kind of asymmetric setup that makes sense when the macro backdrop is constructive but not screaming. The single most important risk I'm monitoring is the SPY 20-day momentum turning negative while the structural trend holds \u2014 that divergence is historically where you get choppy, frustrating tape that eats stops and generates whipsaws, so I'm keeping cash reserves elevated and avoiding crowded adds. Into next cycle I want to see NVDA clear $200 with volume, MSFT stabilize above $385, and GOOGL confirm the entry \u2014 if two of three aren't working in five sessions, I'll reassess the swing thesis entirely.",
       "risk_notes": "Primary risk: catastrophic drawdown context \u2014 portfolio is down 76% from $1M starting capital with only $239K remaining. Every position-sizing error compounds irreversibly at this equity level. MSFT is $13.50 above its stop at $371.13 \u2014 any tape deterioration this week and that name gets stopped out, adding to realized losses. C is the star of the long book at +60% with entry $89.30 vs current $142.84 \u2014 stop at $126.86 means we're protecting roughly $128 of the $53 gain; a 11% pullback from here triggers exit. SPY long position (+20.4%) has a trailing stop at $667.64 \u2014 that's 11% below current price, plenty of room but worth noting SPY's 20-day return is already negative (-0.6%), which hints at short-term distribution even if the trend is intact. NVDA TP at $216.62 is $20.66 away \u2014 needs to find $200 first. New GOOGL position adds $2,186 notional, bringing total deployed to roughly $29K across swings, still leaves 87%+ of portfolio in cash or long-term holds. Concentration check: five long-term names all profitable, but two-thirds of portfolio value is sitting in cash earning nothing \u2014 the opportunity cost of this posture is real."
+    },
+    {
+      "timestamp": "2026-07-06T13:57:07.767253-04:00",
+      "regime": "BULL",
+      "regime_score": 3,
+      "portfolio_value": 239599.66,
+      "cash": 215961.72,
+      "actions_taken": 0,
+      "commentary": "The tape is giving us a textbook bull-regime consolidation: SPY at $750 is above both the 50 and 200-day moving averages by comfortable margins, VIX at 16 tells you there's no institutional fear bid in options, but that negative 20-day return is the market's way of saying the easy leg is digesting. We're not in a trending impulse right now \u2014 we're in a pause, and in pauses you defend what's working rather than chase what isn't. The book's P&L story is entirely dominated by three long-term names: C at +60%, WELL at +32.6%, and SPY at +20.4% \u2014 those three positions are doing the heavy lifting, and the right move is to let them run against their trailing stops without touching them. The swing book is dead weight at the moment: MSFT is underwater at -1.7% and hasn't found a catalyst to push toward the $437.54 target, while NVDA and GOOGL are treading water within a percent of entry \u2014 none of these setups have cleared the bar to add to, and none are close enough to stops to force a cut, so holding is the deliberate call. I looked hard at META at $593 and AVGO at $375 as potential swing entries given the bull regime, but with cash already at 90% of a deeply impaired book, I need setups that are unambiguous rather than merely decent \u2014 the asymmetry of being wrong here is too large, and neither name is offering a technical entry that justifies the risk today. The single level I'm watching most closely heading into the next cycle is MSFT $371 \u2014 if that stop triggers, it's a signal that large-cap tech is losing relative strength in this consolidation, which would make me reassess the NVDA and GOOGL swing thesis simultaneously.",
+      "risk_notes": "Primary concern is the catastrophic drawdown context: -76% cumulative from $1M starting capital means this book is running on fumes at $239K and every decision carries outsized consequence. C is the star at +60% and approaching a level where a 12% trailing stop from its high needs to be respected precisely \u2014 currently stopped at $126.86, any deterioration in financials sector tone would trigger review. WELL at +32.6% and SPY at +20.4% are the other anchors of the long book; both are working and stops are well below current prices. MSFT is the only swing position with meaningful negative drift at -1.7% against entry $390.86 \u2014 sitting $13 above the $371.13 stop, not in danger but not building, and with the tape consolidating this setup is on watch. NVDA at +1.2% and GOOGL at -0.2% are essentially flat \u2014 neither has resolved its setup yet. Cash at $215,962 (90.1%) is the dominant feature of this book, which reflects the destruction that occurred earlier; deploying into a consolidating bull without high-conviction setups would compound the error. Three swing slots remain open (2/5 used after accounting for 3 active). No earnings catalysts flagged in current data but NVDA, MSFT, and GOOGL all carry event risk in upcoming weeks."
     }
   ]
 }
