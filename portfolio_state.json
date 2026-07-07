@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-07T15:03:09.438537-04:00",
+    "last_updated": "2026-07-07T15:18:44.756708-04:00",
     "last_trading_day": "2026-07-07",
     "total_sessions": 12,
     "regime": "NEUTRAL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -1.22,
-    "portfolio_value": 239708.45,
+    "spy_ytd_return": -1.33,
+    "portfolio_value": 239686.53,
     "cash": 215961.72,
     "cumulative_return_pct": -76.03,
-    "alpha_vs_spy": -74.81,
+    "alpha_vs_spy": -74.7,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -31,7 +31,7 @@
       "entry_price": 174.95,
       "current_price": 232.4,
       "shares": 12,
-      "stop_price": 209.2,
+      "stop_price": 209.43,
       "days_held": 0
     },
     {
@@ -438,11 +438,11 @@
     },
     {
       "date": "2026-07-07",
-      "portfolio_value": 239708.45,
-      "daily_pnl": -40.34,
+      "portfolio_value": 239686.53,
+      "daily_pnl": -21.92,
       "cumulative_return": -76.03,
-      "spy_return": -1.22,
-      "alpha": -74.81,
+      "spy_return": -1.33,
+      "alpha": -74.7,
       "regime": "NEUTRAL",
       "num_positions": 8,
       "cash": 215961.72
@@ -848,6 +848,16 @@
       "actions_taken": 0,
       "commentary": "The tape is in a frustrating no-man's land: SPY is technically constructive above both its 50 and 200-day ($738/$690), but RSI at 46 and QQQ rolling below its own 50-day tells me institutions are not chasing this move \u2014 there's no internal breadth confirmation. That context keeps me in neutral posture with 30% size reduction applied, and frankly this book's -76% cumulative return means I have no business adding risk into an ambiguous regime. The long-term book is doing the heavy lifting \u2014 C at +58.3% and WELL at +35.8% are the two names actually earning their keep, while SPY and KO are grinding steadily; AAPL at +0.2% is essentially a placeholder at this point. On the swing side, MSFT is the one that concerns me most \u2014 it's flat on the entry, burning a slot, and if QQQ doesn't reclaim $711 in the next session or two, I'll be looking to exit that name and redeploy the cash rather than watch a non-performer drift toward its stop. Holding across the board this cycle is an active decision: there are no new setups that clear the bar \u2014 I'd need to see QQQ back above $711 and RSI pushing through 50 before I add swing exposure, and none of the candidates in the watchlist (META, AVGO, MU) are showing the kind of RSI reset plus volume contraction that gives me a clean entry with defined risk. The single level I'm watching most closely is QQQ $711 \u2014 a reclaim there would shift my swing posture constructively; a continued failure and I'm trimming MSFT and possibly NVDA to protect what little capital remains.",
       "risk_notes": "Portfolio is already deeply impaired at -76% cumulative return on $1M starting capital \u2014 this book has taken serious damage and capital preservation is paramount. MSFT at $390.92 is sitting essentially flat from entry ($390.86) with a stop at $371.13; it's consuming a swing slot without generating any P&L and one bad tape day breaks it. GOOGL at $368.49 is only 1.1% in the money with stop at $346.10 \u2014 holding, but thin cushion. NVDA at $196.52 needs to clear $200 with conviction or this setup stalls; stop at $183.74 gives about 6.5% downside from here. On the long-term book, C is the standout at +58.3% and has a healthy gap above its $126.86 trailing stop \u2014 no action needed but worth monitoring if financials rotate. QQQ breaking below its 50-day SMA ($711) is a direct threat to the tech-heavy swing book (NVDA, MSFT, GOOGL) \u2014 all three are correlated to QQQ and a further breakdown there puts all three stops in play simultaneously. Cash at 90.1% is actually a feature not a bug given regime uncertainty; minimum 10% reserve is comfortably met. No earnings catalysts flagged imminently but LLY at $1,233 in key prices is worth watching as a macro sentiment read on risk appetite."
+    },
+    {
+      "timestamp": "2026-07-07T15:18:22.867535-04:00",
+      "regime": "NEUTRAL",
+      "regime_score": -1,
+      "portfolio_value": 239686.53,
+      "cash": 215961.72,
+      "actions_taken": 0,
+      "commentary": "The tape is in a holding pattern \u2014 SPY is above both moving averages which keeps the structural trend intact, but RSI at 45.5 and QQQ slipping below its 50-day tell me buyers aren't in control right now, and that keeps me in reduced-size mode consistent with the neutral regime mandate. The long book is doing the heavy lifting: C and WELL together represent the core P&L engine, and I'm not touching either \u2014 both are well clear of their trailing stops and there's no technical reason to trim names that are working cleanly in a choppy tape. The swing book is three-for-three in open positions that are all within a few percent of entry, which is fine \u2014 NVDA is the one I'm watching most closely given it's a third of the way to its $216.62 target and momentum in semis has been mixed with QQQ under its 50-day. The reason I'm holding cash and not deploying into new setups this cycle is simple: no name in my watchlist is giving me a clean entry with a defined edge \u2014 I'd be buying noise, not signal \u2014 and in a neutral regime I need the setup to clear a higher bar before I commit capital we can't afford to lose. The single risk I'm most focused on is a QQQ break that accelerates \u2014 if QQQ loses $700, the swing book's correlation profile becomes a problem fast, and I'd look to trim NVDA first given it's the most extended of the three.",
+      "risk_notes": "Portfolio is sitting at -76% cumulative drawdown from $1M starting capital \u2014 the current $239K book is a recovery operation, not a growth mandate. C at +58.1% and WELL at +36.0% are the two names carrying the long book; both have meaningful cushion to their trailing stops (C stop $126.86 vs current $141.21, WELL stop $209.43 vs $237.99). NVDA at $196.07 is the swing name closest to its TP of $216.62 \u2014 worth watching, ~10% away. MSFT is barely offside at -0.3% with stop at $371.13, about 4.8% below current \u2014 not in danger but not working. AAPL entered flat at $311.81 and is essentially break-even; the stop at $276.53 gives room but the name needs to start moving or it's dead weight. QQQ trading below its SMA50 ($707 vs $711) is a mild yellow flag for the tech-heavy swing book \u2014 NVDA, MSFT, and GOOGL are all QQQ-correlated names. VIX at 16.1 is benign but the RSI at 45.5 and soft 20-day return of 1.5% on SPY suggest the market is digesting rather than advancing. Cash at 90.1% is extreme \u2014 structural consequence of the prior drawdown \u2014 and while it limits upside participation, it also means no forced selling risk."
     }
   ]
 }
