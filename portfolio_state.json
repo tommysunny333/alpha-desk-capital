@@ -1,16 +1,16 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-07T14:05:37.782612-04:00",
+    "last_updated": "2026-07-07T14:28:05.282366-04:00",
     "last_trading_day": "2026-07-07",
     "total_sessions": 12,
     "regime": "NEUTRAL",
     "vix": 15.32,
     "spy_price": 756.48,
     "spy_ytd_return": -0.97,
-    "portfolio_value": 239764.57,
+    "portfolio_value": 239748.79,
     "cash": 215961.72,
-    "cumulative_return_pct": -76.02,
+    "cumulative_return_pct": -76.03,
     "alpha_vs_spy": -75.05,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
@@ -438,9 +438,9 @@
     },
     {
       "date": "2026-07-07",
-      "portfolio_value": 239764.57,
-      "daily_pnl": -1.8,
-      "cumulative_return": -76.02,
+      "portfolio_value": 239748.79,
+      "daily_pnl": -15.78,
+      "cumulative_return": -76.03,
       "spy_return": -0.97,
       "alpha": -75.05,
       "regime": "NEUTRAL",
@@ -828,6 +828,16 @@
       "actions_taken": 0,
       "commentary": "The tape is in a holding pattern \u2014 SPY is constructively above both the 50 and 200-day moving averages, but RSI at 47.3 and a 20-day return of only 1.8% tell you the bulls aren't in control here, just ahead on points. That NEUTRAL read is the governing constraint this cycle: I'm not adding exposure into a market that hasn't made up its mind. The book itself is working better than the headline P&L suggests \u2014 C up 58.7%, WELL up 35.7%, SPY long up 20.2%, and the swing trio all in positive territory, so the active positions are doing their job. The reason I'm standing pat rather than pressing is straightforward: with NVDA 75% of the way to its $216.62 target, MSFT and GOOGL still in early confirmation, and VIX at a benign 15.6 that could reprice quickly, adding new risk at 14:05 in a neutral regime on no specific catalyst would be chasing noise. The single level I'm watching most closely is C at $126.86 \u2014 that trailing stop hasn't been updated since entry and the stock is up nearly 60%; if C trades through $135 with any momentum, I'm walking that stop up to $130+ to lock in the bulk of the gain. Into next cycle I want to see whether SPY can push RSI back above 50 and hold \u2014 that would shift the regime score and reopen the playbook for measured new entries in names like META or AMZN that are on the radar but haven't cleared the bar today.",
       "risk_notes": "Portfolio is in severe drawdown (-76%) from starting capital, though current positions are individually profitable \u2014 the damage was done in prior cycles and current book is lean. Key flags: (1) C at $141.69 with +58.7% gain is the single largest P&L contributor; trailing stop at $126.86 needs to be actively monitored and should be walked up if C continues higher \u2014 leaving that much gain unprotected would be a mistake. (2) NVDA at $197.56 is 75% of the way to TP ($216.62) and within 7% of stop ($183.74) \u2014 the asymmetry is narrowing; watch closely for signs of fade. (3) MSFT and GOOGL are both in early-stage swing setups with stops at $371.13 and $346.10 respectively \u2014 neither has proven itself yet, both remain at risk of stop-out in a choppy tape. (4) AAPL entered at $311.81, now $312.21 \u2014 effectively flat with stop at $276.53; position is not earning its slot and warrants close review next cycle. (5) Cash at 90.1% means the book is structurally defensive \u2014 max deployable in NEUTRAL given 10% reserve constraint is roughly $15-20k in new swing positions, which limits new risk meaningfully."
+    },
+    {
+      "timestamp": "2026-07-07T14:26:30.185637-04:00",
+      "regime": "NEUTRAL",
+      "regime_score": 1,
+      "portfolio_value": 239748.79,
+      "cash": 215961.72,
+      "actions_taken": 0,
+      "commentary": "The tape is treading water \u2014 SPY at $749 is above both SMAs which tells you the trend is still intact, but RSI at 47.3 and a 20-day return of only 1.8% says the juice from the last leg is mostly squeezed out, and we're in a show-me-the-next-catalyst moment. Against that backdrop, I'm not adding risk; the neutral regime rule mandates 30% size reduction on new entries and frankly the setups I'm screening don't justify the override even if I had discretion. The book is being carried by three names right now: C at +58.7%, WELL at +35.7%, and SPY at +20.2% \u2014 those long-term positions are doing exactly what they were supposed to do and I'm not touching them; the trailing stops are appropriately set and the thesis hasn't changed in any of them. On the swing side, NVDA, MSFT, and GOOGL are all modestly green but none have accelerated toward their take-profit levels, which is consistent with a neutral tape \u2014 they need either a sector catalyst or a regime upgrade to Bull before they move with conviction, and until then I'm holding and letting the stops do the work. The single risk I'm watching most closely is C at $141.74 \u2014 financials can gap on credit or rate news and a 10-point move against us in an illiquid tape hits our already-compressed capital base harder than the P&L percentage suggests. Into next cycle, I want to see RSI push back through 50 and the 20-day return build before I deploy any of the $215K in cash \u2014 dry powder is the asset right now, not the opportunity cost.",
+      "risk_notes": "Portfolio drawdown of 76% from starting capital is the elephant in the room \u2014 total value at $239,749 means every position-sizing error is magnified. Long book concentration risk: C at +58.7% and WELL at +35.7% are carrying the P&L but both are extended from entry; C's stop at $126.86 is 10.5% below current, which feels adequate, but a sector rotation in financials could hit fast. SPY long-term position stop at $667.64 is 10.9% below current $749.13 \u2014 if tape rolls over toward SMA200 at $690, that stop gets tested before SPY reaches it. Swing book: NVDA at $197.58 with TP at $216.62 \u2014 still 9.6% to go, but neutral regime slows momentum setups; stop at $183.74 is 7% below current. MSFT and GOOGL both barely off entry with stops at $371 and $346 respectively \u2014 these positions are working but haven't shown conviction yet. No new positions initiated this cycle given neutral regime and 30% size reduction mandate; the marginal setups in MRVL and AMZN don't clear the bar. AAPL at +0.1% is essentially flat \u2014 it's occupying a long-term slot with no contribution and deserves monitoring if it doesn't build a base above $311."
     }
   ]
 }
