@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-07T13:22:49.708206-04:00",
+    "last_updated": "2026-07-07T13:32:40.225689-04:00",
     "last_trading_day": "2026-07-07",
     "total_sessions": 12,
     "regime": "NEUTRAL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -1.0,
-    "portfolio_value": 239768.23,
+    "spy_ytd_return": -0.97,
+    "portfolio_value": 239766.37,
     "cash": 215961.72,
     "cumulative_return_pct": -76.02,
-    "alpha_vs_spy": -75.02,
+    "alpha_vs_spy": -75.05,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -438,11 +438,11 @@
     },
     {
       "date": "2026-07-07",
-      "portfolio_value": 239768.23,
-      "daily_pnl": 1.18,
+      "portfolio_value": 239766.37,
+      "daily_pnl": -1.86,
       "cumulative_return": -76.02,
-      "spy_return": -1.0,
-      "alpha": -75.02,
+      "spy_return": -0.97,
+      "alpha": -75.05,
       "regime": "NEUTRAL",
       "num_positions": 8,
       "cash": 215961.72
@@ -808,6 +808,16 @@
       "actions_taken": 0,
       "commentary": "The tape is in a constructive but uninspired posture \u2014 SPY is holding above both the 50 and 200-day, which tells you the structural bid is intact, but RSI at 47.2 and a 1.8% 20-day return are not the ingredients of a market that wants to run. This is a regime that rewards patience rather than aggression, and given the state of this book, patience is exactly the right posture. The long-term sleeve is doing the heavy lifting: C at +58.9% and WELL at +35.4% are the P&L anchors, and both are well above their trailing stops \u2014 I'm not trimming either because the trend remains intact and cutting winners into a structurally bullish tape would be exactly the wrong move. The swing book in NVDA, MSFT, and GOOGL is early-stage and all three are above entry with positive but modest momentum \u2014 none are at a point where I'd add or cut; they need room to develop, and the 2-slot buffer in swings preserves optionality if a clean setup emerges. The single risk I'm watching hardest is the WELL trailing stop at $209.20 \u2014 the stock is at $236.91, which means a 11.7% drawdown from current levels triggers the exit; if macro rates reprice healthcare REITs, that level gets tested fast and I'll be out before I can react, so I'm monitoring the 10-year daily. Into the next cycle, I want to see SPY RSI push through 50 with some volume confirmation before I deploy any meaningful portion of the $215K cash reserve \u2014 until that signal clears, dry powder is a position in itself.",
       "risk_notes": "Portfolio is down 76% from starting capital ($239,768 vs $1,000,000) \u2014 this is the dominant risk context and demands capital preservation above all else. Cash at 90.1% is appropriate given that reality. Swing book: NVDA at $197.74 with stop $183.74 is 7.1% from stop; TP at $216.62 is 9.5% away \u2014 asymmetry is acceptable but the neutral regime RSI sub-50 argues against adding. MSFT stop at $371.13 is 5.6% below current $393.57 \u2014 watching closely. GOOGL stop $346.10 is 6.5% below $370.08. Long-term book: C is the standout at +58.9%, trailing stop $126.86 vs current $141.93 \u2014 stop needs to be reviewed upward if high has moved. WELL +35.4% with stop $209.20 vs $236.91 \u2014 11.7% buffer, approaching the 12% trailing stop mechanics. SPY long-term position at +20.2% with stop $667.64 well below. AAPL barely positive at +0.3%, stop $276.53 is 11.6% below \u2014 not in immediate danger but dead weight. Concentration risk: 5 of 8 positions are tech-adjacent in the swing book (NVDA, MSFT, GOOGL) \u2014 high correlation in a tape that could reprice quickly on macro. No earnings flags on current holdings this session."
+    },
+    {
+      "timestamp": "2026-07-07T13:32:12.652630-04:00",
+      "regime": "NEUTRAL",
+      "regime_score": 1,
+      "portfolio_value": 239766.37,
+      "cash": 215961.72,
+      "actions_taken": 0,
+      "commentary": "The tape is giving us a mixed read \u2014 SPY is sitting above both the 50 and 200-day moving averages at $749, which structurally is constructive, but the RSI at 47.3 and a 1.8% 20-day return tell me this market is digesting, not advancing. In a neutral regime I'm not chasing setups; the risk-adjusted math just doesn't work when you're size-reducing 30% and momentum isn't confirming. The book's P&L story right now is being written by three names: C at +59.2%, WELL at +35.5%, and SPY at +20.2% \u2014 those long-term positions are doing exactly what they were designed to do, compounding quietly while the tape meanders. The three swing positions in NVDA, MSFT, and GOOGL are all in the green but early \u2014 NVDA has covered just over half the distance to its $216.62 target, and I want to see the stock clear $200 cleanly before I have any conviction the next leg is underway. Holding everything this cycle is the deliberate call: there's no setup in the watchlist that clears both the technical and regime filters simultaneously, and with 90% cash I'm not starved for dry powder \u2014 I'm preserving it for a moment when the regime score ticks to 3 or above and the entries are obvious. The single risk I'm watching most closely is C approaching a potential stall around current levels \u2014 if that name starts giving back ground toward $130, I'm revisiting the trailing stop to lock in more of that 59% gain rather than let a winner bleed. Into the next cycle I want to see SPY RSI push through 50 and ideally watch the 20-day return build \u2014 that's the confirmation I need before I start sizing into any new longs with conviction.",
+      "risk_notes": "CRITICAL: Portfolio is down 76% from $1M starting capital \u2014 current book of $239,766 is the entirety of recoverable capital and must be protected aggressively. C is the standout long-term winner at +59.2% ($142.21 vs $126.86 stop); trailing stop should be monitored as the stop at $126.86 represents ~10.8% downside from current price \u2014 acceptable but worth tightening if C stalls here. WELL at +35.5% is similarly extended; stop at $209.20 gives ~11.7% cushion. SPY long-term at +20.2% \u2014 stop $667.64 is well below current $749.15, no immediate concern. NVDA swing at $197.55 with TP $216.62 \u2014 we're 54% of the way to target, stop $183.74 is 6.97% below current price, within tolerance. MSFT at $393.11 and GOOGL at $369.63 are both early-stage swings with stops $371.13 and $346.10 respectively \u2014 neither is threatened. Concentration note: AAPL at +0.3% is essentially flat and the position is underperforming peers; worth monitoring if it breaks below SMA structure. Cash at 90.1% is well above the 10% minimum \u2014 the real risk is opportunity cost if regime shifts bullish and we're too slow to deploy. No new swing setups cleared the bar this cycle given neutral regime size reduction requirements and the lack of a clean momentum trigger in the available names."
     }
   ]
 }
