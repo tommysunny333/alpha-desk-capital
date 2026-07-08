@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-08T15:06:05.374398-04:00",
+    "last_updated": "2026-07-08T16:05:10.304478-04:00",
     "last_trading_day": "2026-07-08",
     "total_sessions": 13,
     "regime": "NEUTRAL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -1.51,
-    "portfolio_value": 239623.34,
+    "spy_ytd_return": -1.48,
+    "portfolio_value": 239605.05,
     "cash": 215961.72,
     "cumulative_return_pct": -76.04,
-    "alpha_vs_spy": -74.53,
+    "alpha_vs_spy": -74.56,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -449,11 +449,11 @@
     },
     {
       "date": "2026-07-08",
-      "portfolio_value": 239623.34,
-      "daily_pnl": 5.75,
+      "portfolio_value": 239605.05,
+      "daily_pnl": -18.29,
       "cumulative_return": -76.04,
-      "spy_return": -1.51,
-      "alpha": -74.53,
+      "spy_return": -1.48,
+      "alpha": -74.56,
       "regime": "NEUTRAL",
       "num_positions": 8,
       "cash": 215961.72
@@ -979,6 +979,16 @@
       "actions_taken": 0,
       "commentary": "The tape is in a frustrating no-man's-land \u2014 SPY is comfortably above both moving averages at $745 versus SMA50 $738 and SMA200 $690, which would normally be constructive, but RSI sitting at 47.6 and QQQ failing to hold its 50-day at $712 tells me the market is digesting rather than advancing. That distinction matters for this book because our swing positions were entered on bull regime signals that have since faded, and I'm not going to compound that timing error by adding new exposure into a regime that's actively degrading. The long-term book is doing the real work: C at +54.2% and WELL at +34.5% are carrying the P&L load, and both have enough trail on their stops that I'm not inclined to touch them \u2014 the rule-based trailing stops are doing their job, and active intervention there would just be second-guessing a process that's working. On the swing side, NVDA is the one name that's actually cooperating at $204.46, now within 6% of its $216.62 target; I'm watching that level closely and will consider tightening the stop toward entry if it prints above $210 on volume, locking in the trade. MSFT and GOOGL are both slightly underwater and, frankly, were entered into a regime that has since softened \u2014 I'm holding rather than cutting because the stops are intact and the drawdowns are within tolerance, but I'd need to see those names reclaim their entries on a broad tape improvement before I'd characterize them as working positions rather than passengers. The number I'm watching most closely is VIX at 16.7 \u2014 still benign, but any sustained push above 20 in a neutral regime would be a clear signal to tighten stops across the swing book and let the long-term positions breathe through their trailing levels rather than adding any new risk.",
       "risk_notes": "Primary concern: this book is down 76% from starting capital \u2014 $239K on a $1M mandate \u2014 and is operating with 90% cash, which tells you the damage was done in prior cycles, not this one. The remaining book is small and fragile, so capital preservation is the first job. MSFT at $383.42 is sitting -1.9% from entry with a stop at $371.13 \u2014 that's roughly $73 of room, or about 3.3% before we're stopped; watch the $375-378 zone, any close there accelerates the stop trigger. GOOGL at $359.14 is -1.5% from entry, stop at $346.10 \u2014 also thin cushion. Both names entered on bull regime signals that no longer hold (QQQ is now sub-SMA50), so these swings are swimming against the regime shift. NVDA at $204.46 is the one swing working (+5.7%), approaching TP at $216.62 \u2014 that's about $12 or 5.9% away; worth watching for a tighten-stop opportunity if it accelerates. On the long-term book, C (+54.2%) and WELL (+34.5%) are the P&L anchors \u2014 trailing stops at $126.86 and $209.69 respectively give meaningful cushion. AAPL at $313.95 is effectively flat (+0.7%) with a stop at $276.70 \u2014 low urgency but low contribution. Correlation risk: MSFT, GOOGL, NVDA are all large-cap tech and will move together on any macro shock or rate surprise. No position is oversized relative to the current portfolio value, but the swing book (NVDA, MSFT, GOOGL) represents roughly $5,700 of exposure \u2014 small enough that a stop-out on all three costs about $300-400, not catastrophic but also not particularly productive."
+    },
+    {
+      "timestamp": "2026-07-08T16:04:46.740486-04:00",
+      "regime": "NEUTRAL",
+      "regime_score": -1,
+      "portfolio_value": 239605.05,
+      "cash": 215961.72,
+      "actions_taken": 0,
+      "commentary": "The tape is in a holding pattern \u2014 SPY is structurally fine above both moving averages, but the internals don't support aggression. QQQ slipping below its 50-day at $712 is the tell; that index leads the growth names that dominate our swing book, and when it's lagging SPY on the upside, you don't add to the high-beta side. Our long-term book is doing the heavy lifting right now: C at $137.39 off an $89.30 entry is the standout, up nearly 54%, and WELL has compounded quietly to +33.7% \u2014 those two names alone are carrying what's left of this portfolio's credibility. The swing book is mixed and honestly uninspiring in this environment: NVDA is the only one earning its keep at +5.5%, approaching its $216.62 target, while MSFT and GOOGL are both underwater and need to resolve higher soon or they become stops. I'm not adding anything this cycle \u2014 the regime is neutral with a negative lean, we're in reduced-size mode by rule, and none of the names on my watchlist are presenting clean risk/reward with QQQ acting soft. The single risk I'm most focused on is NVDA reaching $216.62 \u2014 that's a hard take-profit level and I want to see it close there on volume rather than spike and fade, because in this regime a fade off TP likely means the whole swing book rolls over together. Into the next cycle I'm watching whether QQQ can reclaim $712 on the 50-day; if it does cleanly, MSFT and GOOGL have a genuine setup to run toward their TPs, and I'd get more constructive on adding a fourth swing name from the watchlist.",
+      "risk_notes": "Book is in severe drawdown (-76% cumulative) with 90% cash, so capital preservation is paramount \u2014 any new risk must meet a high bar. MSFT at $383 is -2% from entry with stop at $371.13; a move through $375 would put it in stop territory and warrants close monitoring. GOOGL at $361.64 is -0.8% from entry, stop at $346.10 \u2014 still comfortable but needs to hold $355 to keep the setup alive. NVDA at $204.15 is +5.5% and within $12 of the $216.62 take-profit level \u2014 watching for a push through that level to close the position. Long-term book is clean: C (+53.9%), WELL (+33.7%), and SPY (+19.6%) are all well above their trailing stops. AAPL at +0.5% is a dead-weight position \u2014 stop at $276.70 is far below current price but the name is contributing nothing. Correlation risk is real: MSFT, GOOGL, and NVDA are all large-cap tech and will move together in a risk-off tape. QQQ below its 50-day is a direct read-through to those three names."
     }
   ]
 }
