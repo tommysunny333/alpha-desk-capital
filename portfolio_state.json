@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-09T15:03:17.294904-04:00",
+    "last_updated": "2026-07-09T15:21:55.408925-04:00",
     "last_trading_day": "2026-07-09",
     "total_sessions": 14,
     "regime": "BULL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -0.74,
-    "portfolio_value": 239647.92,
-    "cash": 214125.22,
-    "cumulative_return_pct": -76.04,
-    "alpha_vs_spy": -75.29,
+    "spy_ytd_return": -0.67,
+    "portfolio_value": 239676.79,
+    "cash": 211915.7,
+    "cumulative_return_pct": -76.03,
+    "alpha_vs_spy": -75.36,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -20,7 +20,7 @@
       "ticker": "SPY",
       "entry_date": "2026-06-02",
       "entry_price": 623.09,
-      "current_price": 751.63,
+      "current_price": 751.38,
       "shares": 13,
       "stop_price": 667.64,
       "days_held": 0
@@ -29,7 +29,7 @@
       "ticker": "WELL",
       "entry_date": "2026-06-02",
       "entry_price": 174.95,
-      "current_price": 233.69,
+      "current_price": 232.45,
       "shares": 12,
       "stop_price": 209.69,
       "days_held": 0
@@ -38,16 +38,16 @@
       "ticker": "AAPL",
       "entry_date": "2026-06-02",
       "entry_price": 311.81,
-      "current_price": 314.95,
+      "current_price": 315.45,
       "shares": 6,
-      "stop_price": 277.16,
+      "stop_price": 277.6,
       "days_held": 0
     },
     {
       "ticker": "C",
       "entry_date": "2026-06-02",
       "entry_price": 89.3,
-      "current_price": 139.26,
+      "current_price": 139.54,
       "shares": 8,
       "stop_price": 126.86,
       "days_held": 0
@@ -56,7 +56,7 @@
       "ticker": "KO",
       "entry_date": "2026-06-02",
       "entry_price": 77.91,
-      "current_price": 82.67,
+      "current_price": 82.47,
       "shares": 15,
       "stop_price": 74.53,
       "days_held": 0
@@ -67,7 +67,7 @@
       "ticker": "NVDA",
       "entry_date": "2026-07-02",
       "entry_price": 193.5067,
-      "current_price": 203.27,
+      "current_price": 204.34,
       "shares": 12,
       "stop_price": 183.74,
       "days_held": 0,
@@ -78,7 +78,7 @@
       "ticker": "MSFT",
       "entry_date": "2026-07-02",
       "entry_price": 390.8553,
-      "current_price": 380.66,
+      "current_price": 381.71,
       "shares": 6,
       "stop_price": 371.13,
       "days_held": 0,
@@ -89,7 +89,7 @@
       "ticker": "GOOGL",
       "entry_date": "2026-07-06",
       "entry_price": 364.5022,
-      "current_price": 356.6,
+      "current_price": 357.32,
       "shares": 6,
       "stop_price": 346.1,
       "days_held": 0,
@@ -100,12 +100,23 @@
       "ticker": "META",
       "entry_date": "2026-07-09",
       "entry_price": 612.1659,
-      "current_price": 611.86,
+      "current_price": 621.0,
       "shares": 3,
       "stop_price": 581.27,
       "days_held": 0,
       "take_profit": 685.28,
       "signal": "Bull regime large-cap momentum breakout"
+    },
+    {
+      "ticker": "AMZN",
+      "entry_date": "2026-07-09",
+      "entry_price": 245.5027,
+      "current_price": 245.38,
+      "shares": 9,
+      "stop_price": 233.11,
+      "days_held": 0,
+      "take_profit": 274.83,
+      "signal": "Bull regime large-cap momentum reentry"
     }
   ],
   "trade_log": [
@@ -335,6 +346,18 @@
       "take_profit": 685.28,
       "reasoning": "META at $611.86 is one of the cleaner setups in the large-cap space right now. Bull regime confirmed, VIX at 16, and META has been exhibiting relative strength. 3 shares at $611.86 = $1,835.58, well within the 10% position cap on a $239,644 book (~0.77% allocation \u2014 deliberately small given overall portfolio drawdown). Stop at 5% below entry = $581.27. TP at 12% above = $685.28. R/R is approximately 2.4:1. We have 2 open swing slots; this fills one. Cash post-trade remains approximately $214,126, well above the 10% reserve floor of $23,964. The setup is straightforward: strong name, clear tape, defined risk.",
       "timestamp": "2026-07-09T14:02:06.397148-04:00"
+    },
+    {
+      "action": "BUY",
+      "ticker": "AMZN",
+      "strategy": "SWING",
+      "signal": "Bull regime large-cap momentum reentry",
+      "quantity": 9,
+      "price": 245.38,
+      "stop_price": 233.11,
+      "take_profit": 274.83,
+      "reasoning": "AMZN at $245.38 is the one large-cap that hasn't been allocated in this book despite fitting the bull regime profile cleanly. At 9 shares that's $2,208 notional \u2014 roughly 0.9% of portfolio, well inside the 10% cap. Stop at $233.11 is 5% below entry, targeting $274.83 for the 12% swing TP, giving a clean 2.4:1 R/R. With MSFT and GOOGL both slightly underwater and META/NVDA carrying the swing book, AMZN adds cloud/consumer exposure without piling into names already in drawdown. Opens the fifth and final swing slot.",
+      "timestamp": "2026-07-09T15:21:23.196561-04:00"
     }
   ],
   "daily_snapshots": [
@@ -483,14 +506,14 @@
     },
     {
       "date": "2026-07-09",
-      "portfolio_value": 239647.92,
-      "daily_pnl": 6.93,
-      "cumulative_return": -76.04,
-      "spy_return": -0.74,
-      "alpha": -75.29,
+      "portfolio_value": 239676.79,
+      "daily_pnl": 28.87,
+      "cumulative_return": -76.03,
+      "spy_return": -0.67,
+      "alpha": -75.36,
       "regime": "BULL",
-      "num_positions": 9,
-      "cash": 214125.22
+      "num_positions": 10,
+      "cash": 211915.7
     }
   ],
   "agent_decision_log": [
@@ -1113,6 +1136,16 @@
       "actions_taken": 0,
       "commentary": "The tape is constructive \u2014 SPY at $751 is well clear of both the 50 ($739) and 200-day ($691), VIX is benign at 16.1, and the regime reads Bull on five of six criteria, so the macro backdrop isn't the problem. The problem is the book itself: we're running a $239K portfolio off a $1M starting base, which means every decision carries asymmetric weight \u2014 a 10% position drawdown here is $24K, not $100K, so I'm treating this like a capital recovery exercise, not a growth mandate. The two positions doing the real work this cycle are C (+56.4%) and WELL (+33.3%), both of which are comfortably above their trailing stops and don't need touching; I'm letting those ride. The swing book is mixed \u2014 MSFT and GOOGL are both mildly offside and haven't shown me a reason to add or cut yet, they're inside their stop buffers and the regime doesn't justify pulling the rip cord on a 2% drawdown in a bull tape. I'm holding dry powder at 89% cash deliberately: I don't have a swing entry this cycle that clears the bar on both setup quality and correlation hygiene, and adding a fifth tech name just concentrates an already tech-heavy swing book further. The number I'm watching most closely is MSFT $371 \u2014 if that level breaks on volume, I'm cutting it without hesitation and re-evaluating whether the rest of the swing book deserves the same scrutiny.",
       "risk_notes": "Portfolio is deeply underwater from peak ($1M to $239K, -76%) \u2014 the current positions represent the surviving book, not a fresh slate, so capital preservation is paramount. Cash at 89.3% is deliberate given that context. Concentration risk: NVDA, MSFT, GOOGL, META are highly correlated tech/mega-cap names occupying all four swing slots \u2014 a sector rotation or rates shock hits all four simultaneously. MSFT at $381 is 2.4% below entry with stop at $371.13 \u2014 roughly $10 of cushion, worth watching if it doesn't stabilize above $380 soon. GOOGL at $356.90 is similarly soft, 2.1% offside, stop at $346.10. META is the only swing name showing any real momentum (+0.9%). On the long side, C at +56.4% and WELL at +33.3% are the book's workhorses \u2014 both carry significant embedded gains and their trailing stops at $126.86 and $209.69 respectively need to be monitored if either shows deterioration. No imminent earnings visible in this cycle, but NVDA catalyst risk is always present. Max position size rule (10% of $239K = ~$23.9K) is the binding constraint on any new deployment."
+    },
+    {
+      "timestamp": "2026-07-09T15:21:23.196561-04:00",
+      "regime": "BULL",
+      "regime_score": 3,
+      "portfolio_value": 239676.79,
+      "cash": 211915.7,
+      "actions_taken": 1,
+      "commentary": "The tape is constructive \u2014 SPY holding $751, SMA50 at $739 providing clear structural support, and VIX at 16.1 telling us the market isn't pricing any near-term fear. That backdrop gives me permission to deploy against quality setups, which is why I'm filling the last swing slot with AMZN at $245: it's the cleanest remaining large-cap that fits the regime without doubling up on names already in the book. The LT book is doing the heavy lifting right now \u2014 C at +56% and WELL at +33% are the two positions carrying real P&L, and I'm leaving both alone because the trailing stops are doing exactly what they're supposed to do, locking in gains while letting the position breathe. The swing book is mixed: NVDA and META are earning their keep, but MSFT and GOOGL are both slightly offside and I'm watching them closely \u2014 MSFT has $10.58 of cushion before the stop triggers at $371.13, and I'd rather see it reclaim $390 before adding conviction there. The single risk I'm most focused on is the concentration that's building in mega-cap tech across both books: if we get a rates surprise or a sector rotation out of growth, MSFT, GOOGL, META, NVDA, and AMZN all get hit simultaneously, and at this portfolio's depleted NAV there's no cushion to absorb that kind of correlated drawdown. Into next cycle I want to see NVDA test $216 \u2014 if it clears that level cleanly I'll consider trimming half to book the swing gain and redeploy into something with better separation from the tech cluster.",
+      "risk_notes": "Primary risk: this book is down 76% from starting capital \u2014 $760K has been destroyed, and at $239K total value, there is almost no room for error before the fund is effectively terminal. Cash sits at 89.3% ($214K), which is protective but also reflects how few setups have cleared the bar over time. On existing positions: MSFT at $381.71 is -2.3% against a $371.13 stop \u2014 $10.58 of cushion, roughly $63 of total exposure at 6 shares, and any broad tape deterioration could clip it. GOOGL at $357.32 is -2.0% with stop at $346.10 \u2014 similarly thin. Both are within 3% of their stops. NVDA is working at +5.6%, watching $216.62 TP closely \u2014 that's 6% away intraday. C is the LT standout at +56.3% with stop at $126.86 well below current $139.54; WELL at +32.9% is also well-cushioned above its $209.69 stop. Correlation risk is real: MSFT, GOOGL, META, NVDA, and now AMZN are all tech/mega-cap growth \u2014 a single sector rotation or macro surprise would hit all five simultaneously. No earnings catalysts flagged in today's data, but NVDA and MSFT both report within the next few weeks seasonally \u2014 that's a vol event to watch. The 10% cash floor is currently respected with $214K in cash vs. $23.9K minimum required."
     }
   ]
 }
