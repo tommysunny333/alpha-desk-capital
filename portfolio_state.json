@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-09T14:02:44.295388-04:00",
+    "last_updated": "2026-07-09T14:16:12.710994-04:00",
     "last_trading_day": "2026-07-09",
     "total_sessions": 14,
     "regime": "BULL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -0.64,
-    "portfolio_value": 239642.9,
+    "spy_ytd_return": -0.61,
+    "portfolio_value": 239659.18,
     "cash": 214125.22,
-    "cumulative_return_pct": -76.04,
-    "alpha_vs_spy": -75.39,
+    "cumulative_return_pct": -76.03,
+    "alpha_vs_spy": -75.42,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -483,11 +483,11 @@
     },
     {
       "date": "2026-07-09",
-      "portfolio_value": 239642.9,
-      "daily_pnl": 12.03,
-      "cumulative_return": -76.04,
-      "spy_return": -0.64,
-      "alpha": -75.39,
+      "portfolio_value": 239659.18,
+      "daily_pnl": 16.28,
+      "cumulative_return": -76.03,
+      "spy_return": -0.61,
+      "alpha": -75.42,
       "regime": "BULL",
       "num_positions": 9,
       "cash": 214125.22
@@ -1083,6 +1083,16 @@
       "actions_taken": 1,
       "commentary": "The tape is in reasonable shape \u2014 SPY at $752 above both the 50 ($739) and 200 ($691), VIX at 16, and the bull regime holding at 3/5 without looking frothy. RSI at 59.5 is the sweet spot: enough momentum to justify exposure, not so stretched that we're chasing. The failed 20-day return signal is worth noting as a minor caution flag, but it's not overriding the weight of evidence. Within the book, C is the standout \u2014 up 55.9% from $89.30 with the trailing stop at $126.86 now locking in a meaningful portion of that gain, and WELL is quietly building at +33.6%. The two swing names under water \u2014 MSFT at $380.66 and GOOGL at $356.60 \u2014 are early and within noise; I'm not cutting them here because the stops are defined and the bull regime keeps the thesis intact, but I'm not adding either. The one action I'm taking is initiating a small META swing: 3 shares at $611.86, stop $581.27, target $685.28. It's a 2.4:1 setup on one of the strongest large-caps in the tape, deliberately undersized given where this book sits in its recovery arc. The single risk I'm most focused on is a synchronized stop-out on MSFT and GOOGL \u2014 if both print closes near $371 and $346 respectively in the same session, that's two losing swing trades cleared simultaneously, and I want to see how the tape behaves around those levels before considering replacement names. Into the next cycle, NVDA approaching its $216.62 target is the most immediate catalyst to manage.",
       "risk_notes": "Primary risk: this book is down 76% cumulative from $1M \u2014 at $239,644 we are in deep drawdown recovery mode and position sizing discipline is non-negotiable. Every new position is sized for survival, not aggression. MSFT ($380.66) and GOOGL ($356.60) are both in the red and within 2.5-3% of their stops \u2014 if the tape softens, we could see both stopped out in the same session, realizing roughly $400-$500 in combined losses on small lots. C is the standout long-term winner at +55.9% ($139.26 vs entry $89.30); trailing stop at $126.86 protects the bulk of that gain \u2014 watching closely. WELL at +33.6% and trailing stop $209.69 vs current $233.69 gives $24 of cushion. NVDA approaching TP at $216.62 \u2014 if it tags that level, we take the gain and reassess. Concentration note: MSFT and GOOGL are correlated large-cap tech names both under water simultaneously, which is a compounded soft-patch risk if tech rotates. Cash at 90%+ is protective but also reflects how much ground we need to recover \u2014 new positions are being sized to rebuild gradually without compounding the drawdown."
+    },
+    {
+      "timestamp": "2026-07-09T14:15:41.524801-04:00",
+      "regime": "BULL",
+      "regime_score": 3,
+      "portfolio_value": 239659.18,
+      "cash": 214125.22,
+      "actions_taken": 0,
+      "commentary": "The tape is cooperative \u2014 SPY at $751.84, both MAs in the rearview, VIX coasting at 16 \u2014 but I'm not chasing this cycle because the setups I'm watching haven't earned an entry yet and I'd rather hold $214K in dry powder than force trades into a grinding tape. The long-term book is doing exactly what it should: C at +56.3%, WELL at +33.4%, and SPY at +20.7% are compounding quietly while we wait for the right swing opportunities to come to us. On the swing book, NVDA is the one name behaving \u2014 up 5% and trending, so I'm letting it run toward the $216.62 target with the stop at $183.74 providing a clean floor. MSFT and GOOGL are both slightly offside from entry and I'm giving them room to resolve, but if either closes below $374 or $350 respectively I'll cut without ceremony \u2014 a setup that doesn't work in a bull tape isn't a setup worth defending. The single risk I'm most focused on is GOOGL's price action: it entered on a value-momentum signal at $364.50 and has done nothing but drift lower, and in a bull regime that's a yellow flag \u2014 I want to see it reclaim $360 with conviction or I'm out before the stop gets hit. Into the next cycle I'm watching AVGO at $405 and CRWD at $197 for potential swing entries if momentum reasserts, but neither clears my bar today on risk-adjusted terms given where the book sits.",
+      "risk_notes": "Primary concern: this book is down 76% from starting capital \u2014 we are not running a healthy book, we are running a recovery operation, and every sizing decision needs to reflect that reality. Cash at 89.3% is deliberate capital preservation, not laziness. MSFT at $380.95 is sitting 2.6% above its $371.13 stop \u2014 one bad session clips it; watching closely. GOOGL at $356.96 is 3.1% above its $346.10 stop and has been leaking since entry at $364.50 \u2014 the setup is not developing on schedule. NVDA at $203.22 is the best-performing swing at +5.0% and approaching the midpoint toward $216.62 TP \u2014 trailing the stop mentally to $191 range to protect gains. Long-term book is solid: C up 56.3%, WELL up 33.4%, SPY up 20.7% \u2014 these are the anchors. Max position constraint at 10% of $239K means no new position exceeds ~$23,900, which limits single-name exposure to small share counts at current price levels. No earnings flags immediately visible but AAPL and MSFT are always one guidance revision away from a gap."
     }
   ]
 }
