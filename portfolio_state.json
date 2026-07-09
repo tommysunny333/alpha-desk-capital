@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-09T14:50:55.028614-04:00",
+    "last_updated": "2026-07-09T15:03:17.294904-04:00",
     "last_trading_day": "2026-07-09",
     "total_sessions": 14,
     "regime": "BULL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -0.68,
-    "portfolio_value": 239640.99,
+    "spy_ytd_return": -0.74,
+    "portfolio_value": 239647.92,
     "cash": 214125.22,
     "cumulative_return_pct": -76.04,
-    "alpha_vs_spy": -75.35,
+    "alpha_vs_spy": -75.29,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -483,11 +483,11 @@
     },
     {
       "date": "2026-07-09",
-      "portfolio_value": 239640.99,
-      "daily_pnl": -18.19,
+      "portfolio_value": 239647.92,
+      "daily_pnl": 6.93,
       "cumulative_return": -76.04,
-      "spy_return": -0.68,
-      "alpha": -75.35,
+      "spy_return": -0.74,
+      "alpha": -75.29,
       "regime": "BULL",
       "num_positions": 9,
       "cash": 214125.22
@@ -1103,6 +1103,16 @@
       "actions_taken": 0,
       "commentary": "The tape is cooperating \u2014 SPY at $751 is comfortably above both the 50 ($739) and 200 ($691) day averages, VIX is a sleepy 16.1, and the regime model is reading Bull at 3/5. What I'm less enthusiastic about is the 20-day return check failing at 2.2%, which tells me the recent move has been gradual rather than impulsive \u2014 momentum is there but it's not screaming. For this book, that distinction matters: we don't have the capital base to absorb whipsaws on speculative entries, so I want to see setups that are already working before I commit cash. The long book is doing the heavy lifting \u2014 C at +56.4% and WELL at +33.1% are the two names carrying us, and I'm not touching those; they're in a groove and the trailing stops are well-positioned. On the swing side, MSFT and GOOGL are the names I'm watching most carefully \u2014 both are red, both are within a couple of points of structure that would trigger exits, and I'm giving them one more cycle to resolve before I get impatient and trim to protect remaining equity. I specifically chose not to add any new swing positions this cycle even though we have one slot open: the setups I'm seeing in AVGO, CRWD, and MU are not clean enough \u2014 AVGO at $406 hasn't pulled back to an entry I'd want, and I'd rather sit on $214K in cash than force a trade at 14:50 with two shaky existing swings that might need that capital to redeploy if they get stopped. The level that changes my posture most immediately is $346 on GOOGL \u2014 a close there triggers the stop and I'm out, freeing a slot for something cleaner next cycle.",
       "risk_notes": "Book-level: cumulative drawdown of -76% from $1M starting capital is the dominant risk \u2014 we are managing a severely impaired book and every new position must clear a higher bar than normal. Concentration: MSFT at -2.6% is approaching its $371.13 stop (currently $380.85, ~2.5% of cushion remaining); GOOGL at -2.2% has $10.25 of cushion to its $346.10 stop \u2014 both are within one bad session of being stopped out. META is barely in the green at +0.5% with a $581.27 stop well below, relatively comfortable. NVDA is the cleanest swing at +5.3% with $203.71 vs $183.74 stop \u2014 working as designed. On the long book, C at +56.4% is the star but now 24% above its $126.86 trailing stop \u2014 worth watching for stop adjustment if it runs further. SPY at +20.6% and WELL at +33.1% are both solid and stops are not in immediate jeopardy. Cash at 89.4% is technically above minimum but reflects how little conviction we have in new setups given the impaired capital base. No earnings flags in immediate window for core holdings, but NVDA approaching $216.62 TP (~6.3% away) is the most actionable near-term event."
+    },
+    {
+      "timestamp": "2026-07-09T15:02:55.322765-04:00",
+      "regime": "BULL",
+      "regime_score": 3,
+      "portfolio_value": 239647.92,
+      "cash": 214125.22,
+      "actions_taken": 0,
+      "commentary": "The tape is constructive \u2014 SPY at $751 is well clear of both the 50 ($739) and 200-day ($691), VIX is benign at 16.1, and the regime reads Bull on five of six criteria, so the macro backdrop isn't the problem. The problem is the book itself: we're running a $239K portfolio off a $1M starting base, which means every decision carries asymmetric weight \u2014 a 10% position drawdown here is $24K, not $100K, so I'm treating this like a capital recovery exercise, not a growth mandate. The two positions doing the real work this cycle are C (+56.4%) and WELL (+33.3%), both of which are comfortably above their trailing stops and don't need touching; I'm letting those ride. The swing book is mixed \u2014 MSFT and GOOGL are both mildly offside and haven't shown me a reason to add or cut yet, they're inside their stop buffers and the regime doesn't justify pulling the rip cord on a 2% drawdown in a bull tape. I'm holding dry powder at 89% cash deliberately: I don't have a swing entry this cycle that clears the bar on both setup quality and correlation hygiene, and adding a fifth tech name just concentrates an already tech-heavy swing book further. The number I'm watching most closely is MSFT $371 \u2014 if that level breaks on volume, I'm cutting it without hesitation and re-evaluating whether the rest of the swing book deserves the same scrutiny.",
+      "risk_notes": "Portfolio is deeply underwater from peak ($1M to $239K, -76%) \u2014 the current positions represent the surviving book, not a fresh slate, so capital preservation is paramount. Cash at 89.3% is deliberate given that context. Concentration risk: NVDA, MSFT, GOOGL, META are highly correlated tech/mega-cap names occupying all four swing slots \u2014 a sector rotation or rates shock hits all four simultaneously. MSFT at $381 is 2.4% below entry with stop at $371.13 \u2014 roughly $10 of cushion, worth watching if it doesn't stabilize above $380 soon. GOOGL at $356.90 is similarly soft, 2.1% offside, stop at $346.10. META is the only swing name showing any real momentum (+0.9%). On the long side, C at +56.4% and WELL at +33.3% are the book's workhorses \u2014 both carry significant embedded gains and their trailing stops at $126.86 and $209.69 respectively need to be monitored if either shows deterioration. No imminent earnings visible in this cycle, but NVDA catalyst risk is always present. Max position size rule (10% of $239K = ~$23.9K) is the binding constraint on any new deployment."
     }
   ]
 }
