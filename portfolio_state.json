@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-09T13:24:32.676123-04:00",
+    "last_updated": "2026-07-09T13:29:23.033459-04:00",
     "last_trading_day": "2026-07-09",
     "total_sessions": 14,
     "regime": "BULL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -0.66,
-    "portfolio_value": 239619.73,
+    "spy_ytd_return": -0.63,
+    "portfolio_value": 239630.87,
     "cash": 215961.72,
     "cumulative_return_pct": -76.04,
-    "alpha_vs_spy": -75.38,
+    "alpha_vs_spy": -75.41,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -460,11 +460,11 @@
     },
     {
       "date": "2026-07-09",
-      "portfolio_value": 239619.73,
-      "daily_pnl": 37.84,
+      "portfolio_value": 239630.87,
+      "daily_pnl": 11.14,
       "cumulative_return": -76.04,
-      "spy_return": -0.66,
-      "alpha": -75.38,
+      "spy_return": -0.63,
+      "alpha": -75.41,
       "regime": "BULL",
       "num_positions": 8,
       "cash": 215961.72
@@ -1040,6 +1040,16 @@
       "actions_taken": 0,
       "commentary": "The tape is in a clean bull structure \u2014 SPY $751 clearing both the 50 and 200 with VIX below 16 tells me the risk environment is constructive, and the RSI at 59.5 leaves room to run before we get into overbought territory that would make me nervous about chasing. That said, I'm not putting capital to work this cycle, and here's why: the two most immediate problems in this book are MSFT and GOOGL, both sitting within 2.5% of their stops, and until I see whether those positions stabilize or get taken out, I don't want to add gross exposure \u2014 I'd rather see those resolve cleanly before deploying more of the $215K sitting in cash. The long book is actually in excellent shape; C at +55.6% and WELL at +33.2% are the real workhorses, and NVDA is ticking higher at +4.9% toward its $216.62 target, so the existing book doesn't need my interference. The single risk that would change my posture most immediately is MSFT breaking $371 on volume \u2014 that's a failed large-cap quality setup in a bull regime, which would make me question whether the growth names are rotating out even as the broader index holds, a divergence I'd take seriously. Into the next cycle I'm watching whether NVDA can clear $210 with any conviction, and I'm also keeping an eye on whether the SPY 20-day return signal flips positive \u2014 that would push us to a clean 4/5 bull read and I'd start looking at a measured deployment into one of the open long-term slots, likely a sector with lag relative to the SPY move.",
       "risk_notes": "Primary concern is cumulative drawdown of -76% from $1M starting capital \u2014 this book has been through serious damage and capital preservation is now structurally mandatory. C at +55.6% is the biggest winner and has run far; its stop at $126.86 is 8.7% below current price of $138.98, trailing stop should be reviewed if it hasn't been ratcheted recently. WELL at +33.2% and SPY at +20.6% are also well into profit \u2014 stops on both need to be honored but are not imminently threatened. MSFT at $380.62 is sitting -2.6% from entry with stop at $371.13, only $9.49 of cushion \u2014 about 2.5% away from being stopped out; watching that $371 level carefully into the next session. GOOGL similarly at -2.5% with stop at $346.10, $9.19 away. NVDA at +4.9% is working but approaching no-man's land between entry and TP at $216.62 \u2014 needs follow-through. Swing book is 3/5 slots used with two underwater names; if both MSFT and GOOGL stop out that's roughly $800 in realized losses but frees slots. Cash at 90.1% is extraordinarily high relative to bull regime posture \u2014 opportunity cost is real but given the -76% drawdown context, this is deliberate capital rationing."
+    },
+    {
+      "timestamp": "2026-07-09T13:29:00.952185-04:00",
+      "regime": "BULL",
+      "regime_score": 3,
+      "portfolio_value": 239630.87,
+      "cash": 215961.72,
+      "actions_taken": 0,
+      "commentary": "The tape is behaving well \u2014 SPY at $752 is comfortably above both the 50 and 200-day, VIX is sleeping at 16, and the bull regime read is clean. That said, I'm not chasing this cycle. Here's my active reasoning for standing pat: the swing book has two underwater positions in MSFT and GOOGL that need to prove themselves before I commit fresh capital to the same theme, and adding into weakness when those names are already dragging isn't a swing trade anymore \u2014 it's hope. The long-term book is doing the heavy lifting where it matters: C at +56% and WELL at +33.4% are working, stops are well behind price, and I don't want to dilute that edge by forcing entries. NVDA is the most interesting name on the desk right now at $202.98 \u2014 it's up 4.9% and I'm watching the $210-212 zone as the next technical decision point; if it clears that cleanly I'll look at whether we're approaching the $216.62 TP or whether there's a reason to let it run. The single risk I'm most focused on is the MSFT-GOOGL pair: if both breach stops in the same session \u2014 $371.13 and $346.10 respectively \u2014 that's a signal the large-cap tech bid is softening and I'd want to reassess whether the bull regime score holds through the week. Into the next cycle I'm watching for a NVDA TP trigger and any constructive reset in MSFT or GOOGL that would let me hold with more conviction rather than just managing against the stop.",
+      "risk_notes": "Primary concern is the catastrophic cumulative drawdown (-76%) \u2014 this book has taken severe damage and capital preservation must be weighted heavily against any new risk-taking. MSFT at $380.73 is -2.6% from entry with stop at $371.13 (~$9.60 of room, roughly 2.5%); any continuation lower tests that stop. GOOGL at $355.53 is -2.5% from entry with stop at $346.10 (~$9.43 of room, ~2.7%); both names entered as bull regime plays are underperforming the regime signal \u2014 worth watching closely into the next session. NVDA at $202.98 is the bright spot in the swing book at +4.9%, approaching TP of $216.62 \u2014 that's roughly 6.7% upside to target. Long-term book is the anchor: C at +56%, WELL at +33.4%, SPY at +20.6% are all well above their trailing stops. KO and AAPL are the laggards but both stops are intact. Concentration note: with 90% cash and only ~$23K deployed in equities, the real risk is opportunity cost and the structural question of why this book is running 90% cash in a bull market. No earnings catalysts identified as immediate triggers today."
     }
   ]
 }
