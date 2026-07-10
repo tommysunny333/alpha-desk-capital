@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-10T13:52:07.482404-04:00",
+    "last_updated": "2026-07-10T14:07:44.026304-04:00",
     "last_trading_day": "2026-07-10",
     "total_sessions": 15,
     "regime": "STRONG_BULL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -0.29,
-    "portfolio_value": 239906.89,
+    "spy_ytd_return": -0.3,
+    "portfolio_value": 239906.45,
     "cash": 212757.96,
     "cumulative_return_pct": -76.01,
-    "alpha_vs_spy": -75.72,
+    "alpha_vs_spy": -75.71,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -20,7 +20,7 @@
       "ticker": "SPY",
       "entry_date": "2026-06-02",
       "entry_price": 623.09,
-      "current_price": 753.9,
+      "current_price": 754.23,
       "shares": 13,
       "stop_price": 667.64,
       "days_held": 0
@@ -29,7 +29,7 @@
       "ticker": "WELL",
       "entry_date": "2026-06-02",
       "entry_price": 174.95,
-      "current_price": 229.67,
+      "current_price": 229.57,
       "shares": 12,
       "stop_price": 209.69,
       "days_held": 0
@@ -38,7 +38,7 @@
       "ticker": "AAPL",
       "entry_date": "2026-06-02",
       "entry_price": 311.81,
-      "current_price": 314.33,
+      "current_price": 314.35,
       "shares": 6,
       "stop_price": 277.6,
       "days_held": 0
@@ -47,7 +47,7 @@
       "ticker": "C",
       "entry_date": "2026-06-02",
       "entry_price": 89.3,
-      "current_price": 141.28,
+      "current_price": 140.98,
       "shares": 8,
       "stop_price": 126.86,
       "days_held": 0
@@ -56,7 +56,7 @@
       "ticker": "KO",
       "entry_date": "2026-06-02",
       "entry_price": 77.91,
-      "current_price": 83.5,
+      "current_price": 83.35,
       "shares": 15,
       "stop_price": 74.53,
       "days_held": 0
@@ -67,7 +67,7 @@
       "ticker": "NVDA",
       "entry_date": "2026-07-02",
       "entry_price": 193.5067,
-      "current_price": 209.76,
+      "current_price": 210.28,
       "shares": 8,
       "stop_price": 183.74,
       "days_held": 0,
@@ -78,7 +78,7 @@
       "ticker": "MSFT",
       "entry_date": "2026-07-02",
       "entry_price": 390.8553,
-      "current_price": 385.3,
+      "current_price": 383.96,
       "shares": 6,
       "stop_price": 371.13,
       "days_held": 0,
@@ -89,7 +89,7 @@
       "ticker": "GOOGL",
       "entry_date": "2026-07-06",
       "entry_price": 364.5022,
-      "current_price": 354.88,
+      "current_price": 355.34,
       "shares": 6,
       "stop_price": 346.1,
       "days_held": 0,
@@ -100,7 +100,7 @@
       "ticker": "AMZN",
       "entry_date": "2026-07-09",
       "entry_price": 245.5027,
-      "current_price": 245.61,
+      "current_price": 245.22,
       "shares": 9,
       "stop_price": 233.11,
       "days_held": 0,
@@ -111,7 +111,7 @@
       "ticker": "AVGO",
       "entry_date": "2026-07-10",
       "entry_price": 402.0309,
-      "current_price": 400.71,
+      "current_price": 399.89,
       "shares": 5,
       "stop_price": 381.74,
       "days_held": 0,
@@ -568,11 +568,11 @@
     },
     {
       "date": "2026-07-10",
-      "portfolio_value": 239906.89,
-      "daily_pnl": -9.73,
+      "portfolio_value": 239906.45,
+      "daily_pnl": -0.44,
       "cumulative_return": -76.01,
-      "spy_return": -0.29,
-      "alpha": -75.72,
+      "spy_return": -0.3,
+      "alpha": -75.71,
       "regime": "STRONG_BULL",
       "num_positions": 10,
       "cash": 212757.96
@@ -1268,6 +1268,16 @@
       "actions_taken": 0,
       "commentary": "Parse error \u2014 no trades executed",
       "risk_notes": ""
+    },
+    {
+      "timestamp": "2026-07-10T14:07:05.805241-04:00",
+      "regime": "STRONG_BULL",
+      "regime_score": 5,
+      "portfolio_value": 239906.45,
+      "cash": 212757.96,
+      "actions_taken": 0,
+      "commentary": "The tape is about as clean as it gets \u2014 SPY printing above both moving averages, RSI at a healthy 56 (momentum without froth), VIX pinned at 15, and a 4.2% twenty-day return that confirms institutional participation rather than a thin-float rip. In this environment the regime indicator is doing its job, and the posture is to stay long and let positions breathe. The book's P&L story right now is being written by the long-term sleeve: C at +57.9% and WELL at +31.2% are the anchors of any recovery thesis here, with SPY and WELL trailing stops sitting well below current prices. The swing book is a mixed picture \u2014 NVDA is the star at +8.7% and knocking on the door of its $216.62 take profit, while GOOGL at -2.5% is the position I'm watching most carefully given only $9 of stop buffer; I want to see it reclaim $360 on the next session or I'll be prepared to exit ahead of the mechanical stop. On new deployment: I looked at MRVL at $237, META at $668, and CRWD at $187 as potential swing additions given the regime, but with the book already running five swing slots and four of them in correlated mega-cap tech, adding more of the same sector would increase drawdown correlation, not diversification \u2014 dry powder stays dry until a genuinely uncorrelated setup clears the bar. The single risk I'm most focused on is a sudden VIX expansion through 20 \u2014 at 15.3 it feels distant, but that's precisely when complacency bites, and if VIX tags 20 I'd be trimming the swing book aggressively before stops get tested.",
+      "risk_notes": "1. DRAWDOWN: Portfolio is down 76% from $1M starting capital \u2014 at $239,906 this is a deeply impaired book and the primary mandate is capital preservation alongside measured recovery, not aggressive deployment. 2. CONCENTRATION/CORRELATION: Four of five swing positions are mega-cap tech (MSFT, GOOGL, AMZN, AVGO) plus NVDA in semis \u2014 if the tape rotates or rates spike, this cluster sells off simultaneously. 3. GOOGL at $355.34 is $9.24 above its $346.10 stop \u2014 the thinnest cushion in the book; a 2.6% move triggers exit. 4. NVDA approaching TP at $216.62 \u2014 need to be ready to execute the sell decisively if it prints, not let it reverse through. 5. Cash is 88.7% ($212,758) \u2014 well above the 10% floor but this is by design given the portfolio's state; deploying aggressively into a crowded tape after a -76% drawdown would be imprudent without high-conviction, uncorrelated setups. 6. Long-term book: C is up 57.9% with a stop at $126.86 vs. current $140.98 \u2014 trailing stop should be reviewed to lock in more gain if position high has moved. WELL up 31.2% similarly exposed to stop lag."
     }
   ]
 }
