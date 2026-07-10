@@ -1,14 +1,14 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-10T13:02:03.259530-04:00",
+    "last_updated": "2026-07-10T13:17:41.214759-04:00",
     "last_trading_day": "2026-07-10",
     "total_sessions": 15,
     "regime": "STRONG_BULL",
     "vix": 15.32,
     "spy_price": 756.48,
     "spy_ytd_return": -0.34,
-    "portfolio_value": 239916.38,
+    "portfolio_value": 239916.62,
     "cash": 212757.96,
     "cumulative_return_pct": -76.01,
     "alpha_vs_spy": -75.67,
@@ -29,7 +29,7 @@
       "ticker": "WELL",
       "entry_date": "2026-06-02",
       "entry_price": 174.95,
-      "current_price": 229.3,
+      "current_price": 229.67,
       "shares": 12,
       "stop_price": 209.69,
       "days_held": 0
@@ -38,7 +38,7 @@
       "ticker": "AAPL",
       "entry_date": "2026-06-02",
       "entry_price": 311.81,
-      "current_price": 314.61,
+      "current_price": 314.33,
       "shares": 6,
       "stop_price": 277.6,
       "days_held": 0
@@ -47,7 +47,7 @@
       "ticker": "C",
       "entry_date": "2026-06-02",
       "entry_price": 89.3,
-      "current_price": 141.21,
+      "current_price": 141.28,
       "shares": 8,
       "stop_price": 126.86,
       "days_held": 0
@@ -56,7 +56,7 @@
       "ticker": "KO",
       "entry_date": "2026-06-02",
       "entry_price": 77.91,
-      "current_price": 83.46,
+      "current_price": 83.5,
       "shares": 15,
       "stop_price": 74.53,
       "days_held": 0
@@ -67,7 +67,7 @@
       "ticker": "NVDA",
       "entry_date": "2026-07-02",
       "entry_price": 193.5067,
-      "current_price": 209.66,
+      "current_price": 209.76,
       "shares": 8,
       "stop_price": 183.74,
       "days_held": 0,
@@ -78,7 +78,7 @@
       "ticker": "MSFT",
       "entry_date": "2026-07-02",
       "entry_price": 390.8553,
-      "current_price": 385.48,
+      "current_price": 385.3,
       "shares": 6,
       "stop_price": 371.13,
       "days_held": 0,
@@ -89,7 +89,7 @@
       "ticker": "GOOGL",
       "entry_date": "2026-07-06",
       "entry_price": 364.5022,
-      "current_price": 355.08,
+      "current_price": 354.88,
       "shares": 6,
       "stop_price": 346.1,
       "days_held": 0,
@@ -100,7 +100,7 @@
       "ticker": "AMZN",
       "entry_date": "2026-07-09",
       "entry_price": 245.5027,
-      "current_price": 245.66,
+      "current_price": 245.61,
       "shares": 9,
       "stop_price": 233.11,
       "days_held": 0,
@@ -111,7 +111,7 @@
       "ticker": "AVGO",
       "entry_date": "2026-07-10",
       "entry_price": 402.0309,
-      "current_price": 401.06,
+      "current_price": 400.71,
       "shares": 5,
       "stop_price": 381.74,
       "days_held": 0,
@@ -568,8 +568,8 @@
     },
     {
       "date": "2026-07-10",
-      "portfolio_value": 239916.38,
-      "daily_pnl": 4.63,
+      "portfolio_value": 239916.62,
+      "daily_pnl": 0.24,
       "cumulative_return": -76.01,
       "spy_return": -0.34,
       "alpha": -75.67,
@@ -1248,6 +1248,16 @@
       "actions_taken": 0,
       "commentary": "The tape is about as clean as it gets \u2014 SPY 14 handles above the 50-day, VIX pinned at 15, and the 20-day return of +4.2% tells you institutions are still adding exposure, not distributing. In that context, sitting at 88.7% cash is the real risk to this book, not the open positions. The long-term side is doing the heavy lifting: C at +58.1% and WELL at +31.1% are the two names that matter most to P&L, both holding well above their trailing stops, and I have no intention of touching either. On the swing book, NVDA is the standout \u2014 $7 from its $216.62 take profit after an 8.3% move from entry, and I'm letting it ride; trimming a winner in a 5/5 regime before it hits the target is exactly the wrong reflex. MSFT and GOOGL are the names I'm watching with tighter eyes: MSFT needs to reclaim $390 and GOOGL needs to defend $350 or I'll start treating them as failed setups rather than pullbacks. The single biggest risk I'm monitoring is the correlation problem in the swing book \u2014 five positions, four of which are effectively the same bet on growth-tech in a low-vol environment, and if the Fed flips hawkish or yields spike 20bps on a hot CPI print, all five get hit at once. The number that changes my mind is VIX through 20 on a closing basis \u2014 that's not a noise print, that's the market repricing something, and at that level I'm cutting the weakest swings (GOOGL, MSFT) immediately and raising cash ahead of a potential regime downgrade.",
       "risk_notes": "1. BOOK DRAWDOWN: -76% cumulative from $1M starting capital is the elephant in the room \u2014 the current $239K portfolio means we need a 317% return to recover, which makes position sizing discipline critical. Cannot afford a blow-up cycle. 2. CONCENTRATION IN TECH/SEMIS: NVDA, MSFT, GOOGL, AMZN, AVGO are all tech/adjacent \u2014 roughly 70% of swing book is correlated to a single factor (growth/rates). A risk-off rotation or Fed surprise hits all five simultaneously. 3. NVDA TP PROXIMITY: $216.62 TP is $7 away at current $209.66 \u2014 expect an automated exit signal soon. That frees a swing slot and cash (~$1,677). META is queued as the replacement. 4. GOOGL STOP PROXIMITY: $355.08 vs $346.10 stop \u2014 only 2.5% of cushion remaining. One bad macro print or GOOGL-specific headline triggers the exit. Watching closely. 5. MSFT -1.4% and softening: $385 needs to hold; a break of $380 intraday would prompt a reassessment of whether the entry thesis is intact. 6. CASH: $212K cash (88.7%) is excessive for a 5/5 bull regime \u2014 the long-term book at 5/12 slots has significant room to add. Deployment into LT names (C already +58%, WELL +31%) validates the strategy; need to add new LT positions next cycle if swing slots free up."
+    },
+    {
+      "timestamp": "2026-07-10T13:17:00.565668-04:00",
+      "regime": "STRONG_BULL",
+      "regime_score": 5,
+      "portfolio_value": 239916.62,
+      "cash": 212757.96,
+      "actions_taken": 0,
+      "commentary": "The tape is about as constructive as it gets \u2014 SPY is pressing $754 with RSI at 55.9, the SMA200 is 9% below current price, and VIX is sitting at 15.3 with no sign of spike. Five-of-five on the regime score means I'm running full risk appetite on new setups, but the honest conversation here is that the swing book is already at capacity and frankly two of those five names are working against us right now. GOOGL at $354.88 is the one I'm watching most carefully \u2014 it's within $8.78 of the mechanical stop at $346.10 and hasn't found any bid since entry at $364.50; if that level trades, we exit without debate, no override. On the positive side, NVDA is doing exactly what it was supposed to \u2014 it's 8.4% up and within striking distance of the $216.62 TP, and when that prints I'll be looking to recycle the proceeds into either a new swing setup or add to the C long-term position which remains one of the cleanest 58% gainers in the book. The long-term sleeve is the actual engine of whatever recovery story this portfolio has \u2014 C, WELL, and SPY are all compounding well above entry and their trailing stops have been walked up meaningfully, so I'm not touching those. Into the next cycle, I want to see whether MSFT and AVGO find any traction off their current levels; if both remain flat or drift lower by another percent, I'll reassess whether the setups have stalled and consider freeing the slots for names showing actual momentum \u2014 META at $664.65 and MRVL at $237.08 are on the watchlist if swing capacity opens up.",
+      "risk_notes": "1) GOOGL is the most exposed swing name \u2014 $346.10 stop is $8.78 away (~2.5%), and a single negative catalyst could clip it mechanically. Watch carefully. 2) The book is running five-for-five on swing slots with three names in drawdown (MSFT -1.4%, GOOGL -2.6%, AVGO -0.3%) \u2014 if the tape softens, we could see multiple stops hit simultaneously, adding correlated loss risk. 3) NVDA TP at $216.62 is imminent \u2014 need a plan for redeployment of that ~$1,678 on execution. 4) Long-term book is performing well: C is up 58.2%, WELL +31.3%, SPY +21.0% \u2014 these positions have meaningful unrealized gains protected by trailing stops (C stop $126.86, WELL stop $209.69). 5) Portfolio is 88.7% cash-equivalent when including low-deployment \u2014 but total invested exposure is actually ~$11.3% across all positions relative to starting capital; the real issue is the cumulative -76% drawdown from starting capital of $1M means the book is in recovery mode and position sizing must remain disciplined. 6) Correlation risk is elevated: NVDA, AVGO, MSFT, GOOGL, AMZN are all tech/semis \u2014 a sector rotation event would hit four of five swing slots simultaneously."
     }
   ]
 }
