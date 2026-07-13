@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-10T16:00:47.949015-04:00",
-    "last_trading_day": "2026-07-10",
-    "total_sessions": 15,
-    "regime": "STRONG_BULL",
+    "last_updated": "2026-07-13T12:06:40.508539-04:00",
+    "last_trading_day": "2026-07-13",
+    "total_sessions": 16,
+    "regime": "NEUTRAL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -0.21,
-    "portfolio_value": 239956.58,
-    "cash": 214228.16,
-    "cumulative_return_pct": -76.0,
-    "alpha_vs_spy": -75.79,
+    "spy_ytd_return": -0.7,
+    "portfolio_value": 239933.43,
+    "cash": 216381.1,
+    "cumulative_return_pct": -76.01,
+    "alpha_vs_spy": -75.31,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -20,7 +20,7 @@
       "ticker": "SPY",
       "entry_date": "2026-06-02",
       "entry_price": 623.09,
-      "current_price": 754.86,
+      "current_price": 751.22,
       "shares": 13,
       "stop_price": 667.64,
       "days_held": 0
@@ -29,7 +29,7 @@
       "ticker": "WELL",
       "entry_date": "2026-06-02",
       "entry_price": 174.95,
-      "current_price": 231.24,
+      "current_price": 234.09,
       "shares": 12,
       "stop_price": 209.69,
       "days_held": 0
@@ -38,16 +38,16 @@
       "ticker": "AAPL",
       "entry_date": "2026-06-02",
       "entry_price": 311.81,
-      "current_price": 315.33,
+      "current_price": 317.46,
       "shares": 6,
-      "stop_price": 278.04,
+      "stop_price": 279.36,
       "days_held": 0
     },
     {
       "ticker": "C",
       "entry_date": "2026-06-02",
       "entry_price": 89.3,
-      "current_price": 140.67,
+      "current_price": 138.18,
       "shares": 8,
       "stop_price": 126.86,
       "days_held": 0
@@ -56,7 +56,7 @@
       "ticker": "KO",
       "entry_date": "2026-06-02",
       "entry_price": 77.91,
-      "current_price": 83.49,
+      "current_price": 83.9,
       "shares": 15,
       "stop_price": 74.53,
       "days_held": 0
@@ -67,7 +67,7 @@
       "ticker": "MSFT",
       "entry_date": "2026-07-02",
       "entry_price": 390.8553,
-      "current_price": 385.09,
+      "current_price": 390.52,
       "shares": 6,
       "stop_price": 371.13,
       "days_held": 0,
@@ -78,7 +78,7 @@
       "ticker": "GOOGL",
       "entry_date": "2026-07-06",
       "entry_price": 364.5022,
-      "current_price": 356.88,
+      "current_price": 355.7,
       "shares": 6,
       "stop_price": 346.1,
       "days_held": 0,
@@ -89,34 +89,12 @@
       "ticker": "AMZN",
       "entry_date": "2026-07-09",
       "entry_price": 245.5027,
-      "current_price": 245.33,
+      "current_price": 247.93,
       "shares": 9,
       "stop_price": 233.11,
       "days_held": 0,
       "take_profit": 274.83,
       "signal": "Bull regime large-cap momentum reentry"
-    },
-    {
-      "ticker": "AVGO",
-      "entry_date": "2026-07-10",
-      "entry_price": 402.0309,
-      "current_price": 399.99,
-      "shares": 5,
-      "stop_price": 381.74,
-      "days_held": 0,
-      "take_profit": 449.89,
-      "signal": "Bull regime semis momentum entry"
-    },
-    {
-      "ticker": "NVDA",
-      "entry_date": "2026-07-10",
-      "entry_price": 211.0355,
-      "current_price": 210.93,
-      "shares": 1,
-      "stop_price": 200.38,
-      "days_held": 0,
-      "take_profit": 236.24,
-      "signal": "Bull regime semis momentum entry"
     }
   ],
   "trade_log": [
@@ -434,6 +412,32 @@
       "take_profit": 236.24,
       "reasoning": "NVDA at $210.93 in a STRONG_BULL regime with semis showing broad momentum \u2014 AVGO already in the book at $400, MU printing $978. NVDA is the highest-conviction AI infrastructure name and we have the last swing slot open. Position sized at 1 share ($211) which is well within 10% max at current portfolio value of ~$240K. Stop at $200.38 (5% below entry), TP at $236.24 (12% above entry). Risk $10.55/share, reward $25.31 \u2014 2.4:1 R/R. Entering final swing slot here.",
       "timestamp": "2026-07-10T16:00:21.908669-04:00"
+    },
+    {
+      "action": "SELL",
+      "ticker": "AVGO",
+      "strategy": "SWING",
+      "signal": "Stop approach \u2014 momentum failure in semis",
+      "quantity": 5,
+      "price": 389.6,
+      "stop_price": 381.74,
+      "take_profit": 449.89,
+      "reasoning": "AVGO entered at $402.03 and is now $389.60, down 3.1% \u2014 sitting $7.86 above the hard stop at $381.74 with no sign of stabilization. The original signal was a bull-regime semis momentum entry, but the regime has since degraded to Neutral, QQQ is under its 50-day, and NVDA (our other semis swing) is also offside at -2.4%. Two semis swings both bleeding in a narrowing tape is a correlation risk I'm not comfortable carrying. Closing AVGO here limits the loss to ~$62/share rather than waiting for the stop to be taken mechanically. Frees one swing slot and ~$1,950 cash.",
+      "realized_pnl": -63.13,
+      "timestamp": "2026-07-13T12:06:08.272138-04:00"
+    },
+    {
+      "action": "SELL",
+      "ticker": "NVDA",
+      "strategy": "SWING",
+      "signal": "Stop proximity \u2014 semis correlation concentration",
+      "quantity": 1,
+      "price": 206.02,
+      "stop_price": 200.38,
+      "take_profit": 236.24,
+      "reasoning": "NVDA entered at $211.04, currently $206.02, -2.4%, with stop at $200.38 \u2014 only $5.64 of cushion remaining. Combined with closing AVGO, this eliminates a correlated semis pair that is moving in lockstep against us in a regime that no longer supports the original bull-momentum thesis. The 1-share position size reflects the conviction was already low; better to exit cleanly and redeploy when QQQ reclaims its 50-day ($716) and the setup re-qualifies under cleaner conditions.",
+      "realized_pnl": -5.12,
+      "timestamp": "2026-07-13T12:06:08.272138-04:00"
     }
   ],
   "daily_snapshots": [
@@ -601,6 +605,17 @@
       "regime": "STRONG_BULL",
       "num_positions": 10,
       "cash": 214228.16
+    },
+    {
+      "date": "2026-07-13",
+      "portfolio_value": 239933.43,
+      "daily_pnl": -23.15,
+      "cumulative_return": -76.01,
+      "spy_return": -0.7,
+      "alpha": -75.31,
+      "regime": "NEUTRAL",
+      "num_positions": 8,
+      "cash": 216381.1
     }
   ],
   "agent_decision_log": [
@@ -1343,6 +1358,16 @@
       "actions_taken": 1,
       "commentary": "The tape is about as clean as it gets \u2014 SPY $755 sitting 2% clear of the 50-day, VIX pinned at 15, and a 20-day return that clears our regime threshold with room to spare. In that context, sitting 89% cash is an active drag on recovery, and adding NVDA into the last open swing slot is a straightforward read: semis are leading, AVGO is already in the book, and we have the capacity. What's less clean is the existing swing book \u2014 MSFT, GOOGL, AMZN, and AVGO are all marginally underwater in a market that's pushing 52-week highs, which tells me either the entries were slightly early or these names are rotating into a secondary tier while mega-cap leadership concentrates elsewhere. I'm not cutting them today because none are near stops and the regime fully supports the thesis, but I'm watching for two consecutive sessions of underperformance relative to SPY before I revisit. The single most important risk I'm tracking is that C stop at $126.86 \u2014 it's our best-performing long at +57.5% and a reversal through that level would represent meaningful P&L erosion on what's essentially the book's crown jewel; I want to see that stop trail up closer to $130 on the next daily close above $142. Into next cycle, the key question is whether MSFT and GOOGL start showing relative strength \u2014 if SPY prints another 1%+ day and those names lag, that's my trigger to exit and redeploy into names that are actually participating.",
       "risk_notes": "Primary concern is portfolio-level drawdown: we're down 76% from $1M starting capital to $240K \u2014 this is catastrophic and the book needs disciplined rebuilding, not aggressive swinging. Current swing book carries four positions all slightly underwater: MSFT -1.5% ($385 vs $371 stop), GOOGL -2.1% ($357 vs $346 stop), AMZN -0.1% ($245 vs $233 stop), AVGO -0.5% ($400 vs $382 stop) \u2014 none are near stops but all are underperforming the tape in a STRONG_BULL, which is a yellow flag. Long-term book is healthier: C up 57.5% (stop $126.86, currently $140.67 \u2014 watch for trail tightening), WELL up 32.2% (stop $209.69, price $231.24). SPY long is working at +21.1%. The four swing names being in the red in a 5/5 bull regime suggests selection risk \u2014 if they don't show traction in the next 2-3 sessions, we should reassess exits rather than holding deadweight. Cash at 89% is actually a structural buffer given the drawdown context, but we're leaving return on the table in a confirmed bull tape. NVDA add fills the last swing slot."
+    },
+    {
+      "timestamp": "2026-07-13T12:06:08.272138-04:00",
+      "regime": "NEUTRAL",
+      "regime_score": 1,
+      "portfolio_value": 239933.43,
+      "cash": 216381.1,
+      "actions_taken": 2,
+      "commentary": "The tape is giving us a split message this morning \u2014 SPY is constructive above both moving averages with RSI at 55, but QQQ printing below its 50-day is a tell that the megacap tech leadership that drove this rally is starting to fray at the edges. In that context, carrying two semi-conductor swings that were entered on bull-regime momentum signals \u2014 signals that are no longer valid \u2014 is a position management error waiting to compound itself. I'm closing AVGO and NVDA here: AVGO at $389.60 is 3.1% offside with the stop only $7.86 away and no catalyst visible, and the correlation between it and NVDA moving together against us in the same sector is exactly the kind of concentrated drawdown I want to avoid in a Neutral regime. The long-term book is doing the real work \u2014 C is up 54.7% from $89.30, WELL is up 33.8%, and SPY is up 20.6%, so the structural positions are intact and don't need touching. What I'm watching most closely is QQQ's relationship with $716: if it reclaims that level on volume in the next few sessions, the swing book gets more interesting again and I'll look at re-entering semis or adding to AMZN which is the one swing name actually working. The single level that would change my whole posture is SPY breaking below its SMA50 at $741 \u2014 that would flip the regime read materially and I'd be cutting MSFT and GOOGL the same day rather than giving them room to breathe.",
+      "risk_notes": "1) GOOGL swing at $355.70 is -2.4% from entry with stop at $346.10 \u2014 only $9.60 of buffer; one bad session takes it out. 2) MSFT essentially flat at -0.1% from entry, holding above stop at $371.13 but offering no momentum confirmation. 3) Post-exits, book will be at 3/5 swing slots \u2014 holding MSFT, GOOGL, AMZN \u2014 all three are tech/large-cap, high correlation cluster. 4) Long-term book is actually healthy: C +54.7%, WELL +33.8%, SPY +20.6% \u2014 these are the real P&L contributors. 5) Overall portfolio is down 76% from starting capital ($239,935 vs $1M) \u2014 the damage is historical, not current-cycle; current positions are individually profitable on the LT side. 6) Cash will sit at ~$216K post-exits (~90%), preserving optionality. 7) VIX at 16.3 is benign but the QQQ/50-day failure warrants caution on adding tech exposure."
     }
   ]
 }
