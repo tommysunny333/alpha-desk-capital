@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-13T14:16:24.225733-04:00",
+    "last_updated": "2026-07-13T14:44:13.543112-04:00",
     "last_trading_day": "2026-07-13",
     "total_sessions": 16,
     "regime": "NEUTRAL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -0.91,
-    "portfolio_value": 239926.87,
+    "spy_ytd_return": -0.88,
+    "portfolio_value": 239957.07,
     "cash": 216381.1,
-    "cumulative_return_pct": -76.01,
-    "alpha_vs_spy": -75.1,
+    "cumulative_return_pct": -76.0,
+    "alpha_vs_spy": -75.13,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -608,11 +608,11 @@
     },
     {
       "date": "2026-07-13",
-      "portfolio_value": 239926.87,
-      "daily_pnl": 11.06,
-      "cumulative_return": -76.01,
-      "spy_return": -0.91,
-      "alpha": -75.1,
+      "portfolio_value": 239957.07,
+      "daily_pnl": 30.2,
+      "cumulative_return": -76.0,
+      "spy_return": -0.88,
+      "alpha": -75.13,
       "regime": "NEUTRAL",
       "num_positions": 8,
       "cash": 216381.1
@@ -1428,6 +1428,16 @@
       "actions_taken": 0,
       "commentary": "The tape is giving us a split signal \u2014 SPY is technically healthy above both its 50 and 200-day, VIX at 16.9 is not screaming fear, but QQQ can't reclaim its 50-day and the 20-day SPY return of just 1.9% tells me this is a market that's consolidating, not trending. In that environment, I'm not reaching for new setups; the regime rule to size down 30% in NEUTRAL is actually a forcing function that makes marginal setups unattractive on a risk-adjusted basis. The long book is doing the heavy lifting \u2014 C at +55.5%, WELL at +33.7%, and SPY at +20.3% are all well above their trailing stops and represent the core of whatever recovery this book has left to achieve. The swing book is a different story: GOOGL at $355.95 is the one I'm watching most closely, because it's 2.7% above the $346.10 stop and tech is the weakest sector read in today's regime score \u2014 if QQQ can't get back above $716, I wouldn't be surprised to see GOOGL test that stop level, and I'd rather it trigger clean than try to manage around it. The reason I'm not adding anything new this cycle is simple: I don't have a setup that clears the bar in this regime with this book, and the single most important number I'm watching is QQQ relative to its 50-day SMA at $716 \u2014 a confirmed reclaim there shifts the regime, unlocks better setups in MSFT and AMZN, and would give me confidence to deploy some of the $216K in cash with a real tailwind rather than into the chop.",
       "risk_notes": "CRITICAL: Portfolio is down 76% from starting capital of $1M \u2014 current value $239,927 \u2014 this is the dominant risk frame for every decision. GOOGL swing at $355.95 is within 2.7% of its $346.10 stop; any further tech weakness could trigger an exit. MSFT at $392.12 is barely off entry with $371.13 stop \u2014 5% cushion intact but the QQQ sub-50-SMA read is a headwind for this position. AMZN at $248.16 is holding +1.1% with $233.11 stop \u2014 6.1% buffer, lowest risk of the three swings. Long book is the bright spot: C +55.5% with stop at $126.86, WELL +33.7% with stop at $209.69, SPY +20.3% \u2014 these are the positions keeping the book alive. Trailing stops on all longs need to be actively managed as prices move; WELL stop at $209.69 vs current $233.93 means a 10% giveback is already baked in. No new positions should be sized above ~$24K (10% of $239,927). With NEUTRAL regime, any new swing would be reduced 30% from standard sizing. Cash at 90.2% is actually appropriate insurance given the drawdown context \u2014 dry powder is not a problem, it is the plan."
+    },
+    {
+      "timestamp": "2026-07-13T14:43:49.638954-04:00",
+      "regime": "NEUTRAL",
+      "regime_score": 1,
+      "portfolio_value": 239957.07,
+      "cash": 216381.1,
+      "actions_taken": 0,
+      "commentary": "The tape is giving us a mixed read this cycle \u2014 SPY is fine, sitting at $749.85 above both the 50 ($741) and 200 ($692) with RSI at 54.2, but QQQ can't hold its 50-day and that tells me the growth/momentum bid is hesitant right now, not absent. That asymmetry matters for this book because our entire swing book is tech: MSFT, GOOGL, AMZN \u2014 and the index that benchmarks that cohort is flashing a caution flag. So I'm not adding; I'm watching. The long-term sleeve is the engine here \u2014 C at +55.8% and WELL at +33.9% are doing real work, and SPY itself is up 20.3% from our $623 entry, which is clean given where we entered. The active decision this cycle is to hold the swing book despite GOOGL being within 2.6% of its stop at $346.10 \u2014 closing it now on a non-event would be poor process, but I'm watching that level closely because a QQQ breakdown would likely take GOOGL through it, and I'd rather let the stop do its job than anticipate a loss that hasn't materialized. The single risk I'm most focused on is a QQQ rollover below $710 \u2014 that level would likely pressure MSFT, GOOGL, and AMZN simultaneously, and with three correlated swings and limited capital to absorb it, I'd be cutting at least GOOGL on any decisive close below that threshold. Into the next cycle I want to see whether QQQ can reclaim its 50-day; if it does, the swing book looks fine and AMZN near $249 with TP at $274 is the most interesting risk/reward we have on the sheet right now.",
+      "risk_notes": "Portfolio is down 76% from starting capital \u2014 this is the dominant risk context for every decision we make. With only $239,957 in total value against a $1M start, capital preservation is the first mandate. Cash at 90.2% ($216,381) is doing its job as a buffer. Long-term book: C is the standout at +55.8% with stop at $126.86 \u2014 needs a stop raise if it continues to run. WELL at +33.9% is also extended; stop at $209.69 is 10.5% below current $234.24, within trailing framework but worth watching. GOOGL swing is the live stop watch \u2014 current $355.51 vs stop $346.10, only $9.41 of cushion (~2.6%), and the position is already -2.5% from entry $364.50; a move through $346 closes this. QQQ below its 50-day SMA ($716 vs $713) is a yellow flag for tech-heavy names like MSFT, GOOGL, AMZN \u2014 all three swing positions are in that complex. Max new position size at 10% of $239,957 = ~$24,000, which limits us to very small lot sizes even if a setup clears the bar. No earnings catalysts flagged in the data but NVDA, META, and LLY are on the watchlist and all can move the tape materially."
     }
   ]
 }
