@@ -1,14 +1,14 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-13T14:44:13.543112-04:00",
+    "last_updated": "2026-07-13T14:53:17.683403-04:00",
     "last_trading_day": "2026-07-13",
     "total_sessions": 16,
     "regime": "NEUTRAL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -0.88,
-    "portfolio_value": 239957.07,
+    "spy_ytd_return": -0.87,
+    "portfolio_value": 239954.3,
     "cash": 216381.1,
     "cumulative_return_pct": -76.0,
     "alpha_vs_spy": -75.13,
@@ -608,10 +608,10 @@
     },
     {
       "date": "2026-07-13",
-      "portfolio_value": 239957.07,
-      "daily_pnl": 30.2,
+      "portfolio_value": 239954.3,
+      "daily_pnl": -2.77,
       "cumulative_return": -76.0,
-      "spy_return": -0.88,
+      "spy_return": -0.87,
       "alpha": -75.13,
       "regime": "NEUTRAL",
       "num_positions": 8,
@@ -1438,6 +1438,16 @@
       "actions_taken": 0,
       "commentary": "The tape is giving us a mixed read this cycle \u2014 SPY is fine, sitting at $749.85 above both the 50 ($741) and 200 ($692) with RSI at 54.2, but QQQ can't hold its 50-day and that tells me the growth/momentum bid is hesitant right now, not absent. That asymmetry matters for this book because our entire swing book is tech: MSFT, GOOGL, AMZN \u2014 and the index that benchmarks that cohort is flashing a caution flag. So I'm not adding; I'm watching. The long-term sleeve is the engine here \u2014 C at +55.8% and WELL at +33.9% are doing real work, and SPY itself is up 20.3% from our $623 entry, which is clean given where we entered. The active decision this cycle is to hold the swing book despite GOOGL being within 2.6% of its stop at $346.10 \u2014 closing it now on a non-event would be poor process, but I'm watching that level closely because a QQQ breakdown would likely take GOOGL through it, and I'd rather let the stop do its job than anticipate a loss that hasn't materialized. The single risk I'm most focused on is a QQQ rollover below $710 \u2014 that level would likely pressure MSFT, GOOGL, and AMZN simultaneously, and with three correlated swings and limited capital to absorb it, I'd be cutting at least GOOGL on any decisive close below that threshold. Into the next cycle I want to see whether QQQ can reclaim its 50-day; if it does, the swing book looks fine and AMZN near $249 with TP at $274 is the most interesting risk/reward we have on the sheet right now.",
       "risk_notes": "Portfolio is down 76% from starting capital \u2014 this is the dominant risk context for every decision we make. With only $239,957 in total value against a $1M start, capital preservation is the first mandate. Cash at 90.2% ($216,381) is doing its job as a buffer. Long-term book: C is the standout at +55.8% with stop at $126.86 \u2014 needs a stop raise if it continues to run. WELL at +33.9% is also extended; stop at $209.69 is 10.5% below current $234.24, within trailing framework but worth watching. GOOGL swing is the live stop watch \u2014 current $355.51 vs stop $346.10, only $9.41 of cushion (~2.6%), and the position is already -2.5% from entry $364.50; a move through $346 closes this. QQQ below its 50-day SMA ($716 vs $713) is a yellow flag for tech-heavy names like MSFT, GOOGL, AMZN \u2014 all three swing positions are in that complex. Max new position size at 10% of $239,957 = ~$24,000, which limits us to very small lot sizes even if a setup clears the bar. No earnings catalysts flagged in the data but NVDA, META, and LLY are on the watchlist and all can move the tape materially."
+    },
+    {
+      "timestamp": "2026-07-13T14:52:52.665591-04:00",
+      "regime": "NEUTRAL",
+      "regime_score": 1,
+      "portfolio_value": 239954.3,
+      "cash": 216381.1,
+      "actions_taken": 0,
+      "commentary": "The tape is giving us a mixed signal this cycle \u2014 SPY is clean above both moving averages and RSI is 54, but QQQ's failure to hold its 50-day tells you the market's growth engine is sputtering, and the 20-day return at 1.9% is more drift than directional conviction. Given that context, I'm not pressing on new exposure this cycle; the regime score of 1/5 means we'd be sizing any swing entry at 30% reduction from normal, and frankly the setups available don't clear that bar when I stack them against the names already in the book. The P&L story right now is being written almost entirely by C and WELL \u2014 those two positions are carrying the long-term book with 56% and 33.9% gains respectively, both well above their stops, and I'm leaving them alone; there's no reason to trim winners in a neutral tape when they're consolidating rather than breaking down. GOOGL is the one name I'm watching most closely \u2014 it's at $355.34 against a $346.10 stop, and with QQQ under its 50-day, tech sentiment isn't giving this trade a tailwind right now; if it closes below $350 on volume I'm out, but I'm not preemptively cutting it today with the broader market holding its structure. Into the next cycle I'm watching whether QQQ can reclaim $716 \u2014 that's the single level that would shift me from cautious to constructive on swing setups in large-cap tech, and without it, the dry powder stays dry.",
+      "risk_notes": "Portfolio drawdown of -76% from $1M starting capital is the dominant risk \u2014 we are operating at roughly 24 cents on the dollar, which means capital preservation and disciplined position sizing are non-negotiable. Cash at 90.2% ($216K) provides a substantial buffer but also reflects the historical damage taken. GOOGL swing is the most immediate concern, trading at $355.34 against a stop at $346.10 \u2014 roughly 2.6% of buffer remaining, and at -2.5% P&L this name is close to triggering; watching $350 as the line in the sand. AAPL at +1.7% from entry $311.81 with stop $279.36 is carrying significant downside buffer but the gain is thin enough that any broad tech selling could pressure it. C at +56% and WELL at +33.9% are the book's real winners \u2014 both well above their trailing stops ($126.86 and $209.69 respectively) but a sudden rotation out of financials or healthcare REITs could compress those gains quickly. MSFT swing at $393.03 is essentially flat (+0.6%), below QQQ's 50-day context, which reinforces caution on large-cap tech exposure. No earnings catalysts identified in current data but QQQ underperforming its SMA50 is a yellow flag for tech-heavy names. Max position size constraint ($23,995 at 10% of portfolio) severely limits new position sizing."
     }
   ]
 }
