@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-13T12:06:40.508539-04:00",
+    "last_updated": "2026-07-13T12:30:14.098604-04:00",
     "last_trading_day": "2026-07-13",
     "total_sessions": 16,
     "regime": "NEUTRAL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -0.7,
-    "portfolio_value": 239933.43,
+    "spy_ytd_return": -0.82,
+    "portfolio_value": 239929.49,
     "cash": 216381.1,
     "cumulative_return_pct": -76.01,
-    "alpha_vs_spy": -75.31,
+    "alpha_vs_spy": -75.18,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -608,11 +608,11 @@
     },
     {
       "date": "2026-07-13",
-      "portfolio_value": 239933.43,
-      "daily_pnl": -23.15,
+      "portfolio_value": 239929.49,
+      "daily_pnl": -3.94,
       "cumulative_return": -76.01,
-      "spy_return": -0.7,
-      "alpha": -75.31,
+      "spy_return": -0.82,
+      "alpha": -75.18,
       "regime": "NEUTRAL",
       "num_positions": 8,
       "cash": 216381.1
@@ -1368,6 +1368,16 @@
       "actions_taken": 2,
       "commentary": "The tape is giving us a split message this morning \u2014 SPY is constructive above both moving averages with RSI at 55, but QQQ printing below its 50-day is a tell that the megacap tech leadership that drove this rally is starting to fray at the edges. In that context, carrying two semi-conductor swings that were entered on bull-regime momentum signals \u2014 signals that are no longer valid \u2014 is a position management error waiting to compound itself. I'm closing AVGO and NVDA here: AVGO at $389.60 is 3.1% offside with the stop only $7.86 away and no catalyst visible, and the correlation between it and NVDA moving together against us in the same sector is exactly the kind of concentrated drawdown I want to avoid in a Neutral regime. The long-term book is doing the real work \u2014 C is up 54.7% from $89.30, WELL is up 33.8%, and SPY is up 20.6%, so the structural positions are intact and don't need touching. What I'm watching most closely is QQQ's relationship with $716: if it reclaims that level on volume in the next few sessions, the swing book gets more interesting again and I'll look at re-entering semis or adding to AMZN which is the one swing name actually working. The single level that would change my whole posture is SPY breaking below its SMA50 at $741 \u2014 that would flip the regime read materially and I'd be cutting MSFT and GOOGL the same day rather than giving them room to breathe.",
       "risk_notes": "1) GOOGL swing at $355.70 is -2.4% from entry with stop at $346.10 \u2014 only $9.60 of buffer; one bad session takes it out. 2) MSFT essentially flat at -0.1% from entry, holding above stop at $371.13 but offering no momentum confirmation. 3) Post-exits, book will be at 3/5 swing slots \u2014 holding MSFT, GOOGL, AMZN \u2014 all three are tech/large-cap, high correlation cluster. 4) Long-term book is actually healthy: C +54.7%, WELL +33.8%, SPY +20.6% \u2014 these are the real P&L contributors. 5) Overall portfolio is down 76% from starting capital ($239,935 vs $1M) \u2014 the damage is historical, not current-cycle; current positions are individually profitable on the LT side. 6) Cash will sit at ~$216K post-exits (~90%), preserving optionality. 7) VIX at 16.3 is benign but the QQQ/50-day failure warrants caution on adding tech exposure."
+    },
+    {
+      "timestamp": "2026-07-13T12:29:49.733457-04:00",
+      "regime": "NEUTRAL",
+      "regime_score": 1,
+      "portfolio_value": 239929.49,
+      "cash": 216381.1,
+      "actions_taken": 0,
+      "commentary": "The tape is in a holding pattern \u2014 SPY is behaving itself above both the 50 and 200-day, RSI is a non-committal 54.6, but QQQ can't hold its 50-day and the 20-day return is essentially flat, which tells me large-cap tech is carrying the index less than it was. In that context, I'm not adding risk this cycle; the regime score of 1/5 mandates a 30% size reduction on any new entry, and frankly, the setups I'm watching haven't cleared a bar worth taking. The book's P&L is almost entirely driven by the legacy long-term positions \u2014 C at +54.6% and WELL at +33.6% are doing the heavy lifting, while the three swing names are treading water less than a week in. The active decision here is to let those swings develop: MSFT and AMZN have entry prices I like and stops that aren't threatened, and forcing a trim on +1% moves would just crystallize commissions and surrender optionality. The single risk I'm most focused on is GOOGL \u2014 at $356.26 with a stop at $346.10, I'm $10 from being stopped out on a name that's already -2.3%, and if QQQ continues to underperform its 50-day, GOOGL will feel that directly; a close below $350 and I'm reviewing the thesis in real time. Into the next cycle I want to see whether QQQ can reclaim $716 \u2014 if it does, the swing book gets a tailwind and I'd look at adding a fourth swing name from the watchlist; if it fails, I'll tighten my posture further and consider whether GOOGL deserves to be carried or cut.",
+      "risk_notes": "Primary concern is the catastrophic cumulative drawdown of -76% \u2014 this book has lost the bulk of its capital and preservation of the remaining $239K is paramount. C is the standout performer at +54.6% from $89.30, now at $138.10 with a stop at $126.86 \u2014 that's $11.24 of cushion, roughly 8% from stop, worth monitoring as financials are sensitive to rate narratives. WELL at +33.6% is similarly extended; stop at $209.69 vs current $233.81 gives adequate room but the REIT trade is long in the tooth. GOOGL swing is the only red name at -2.3%, with entry $364.50 and stop $346.10 \u2014 current price $356.26 is only $10.16 above the stop, meaning one bad session clips it. MSFT and AMZN swings are barely off the blocks (+0.3% and +1.1%), still well within normal noise. Cash is healthy at $216K (90.2%) \u2014 well above the 10% floor \u2014 which provides optionality but also reflects how thin the active book is. No positions are within striking distance of take-profit levels. QQQ breaking below its 50-day SMA ($716) is a yellow flag for the tech-heavy swing names (MSFT, GOOGL, AMZN)."
     }
   ]
 }
