@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-14T11:09:30.863299-04:00",
+    "last_updated": "2026-07-14T11:22:19.784483-04:00",
     "last_trading_day": "2026-07-14",
     "total_sessions": 17,
     "regime": "BULL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -0.47,
-    "portfolio_value": 239970.06,
+    "spy_ytd_return": -0.56,
+    "portfolio_value": 239933.41,
     "cash": 216381.1,
-    "cumulative_return_pct": -76.0,
-    "alpha_vs_spy": -75.54,
+    "cumulative_return_pct": -76.01,
+    "alpha_vs_spy": -75.45,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -619,11 +619,11 @@
     },
     {
       "date": "2026-07-14",
-      "portfolio_value": 239970.06,
-      "daily_pnl": 48.98,
-      "cumulative_return": -76.0,
-      "spy_return": -0.47,
-      "alpha": -75.54,
+      "portfolio_value": 239933.41,
+      "daily_pnl": -36.65,
+      "cumulative_return": -76.01,
+      "spy_return": -0.56,
+      "alpha": -75.45,
       "regime": "BULL",
       "num_positions": 8,
       "cash": 216381.1
@@ -1489,6 +1489,16 @@
       "actions_taken": 0,
       "commentary": "The tape is broadly constructive \u2014 SPY sitting $11 above the 50-day, VIX sub-17, and QQQ holding above its own 50-day tells me the bull regime is intact and not stressed. That said, the 20-day return coming in flat at 1.8% means we're in a consolidation phase within the uptrend, not a momentum surge, and I'm not chasing setups that need perfect execution to work. The long-term book is carrying us right now \u2014 C at 60.5%, WELL at 34.2%, SPY at 20.8% are all compounding nicely behind their trailing stops, and I have no reason to touch them; the stops are doing the active risk management. The swing book is a different story: MSFT, GOOGL, and AMZN all entered last cycle and none have found traction, sitting -1.0%, -1.7%, and essentially flat respectively \u2014 I'm holding because none have violated their stops yet and the regime supports the thesis, but I'm watching GOOGL most closely; a close below $352 would signal the setup is failing and I'd exit before the $346 hard stop to recover a few hundred basis points. The single most important risk I'm monitoring is the overall book size relative to starting capital \u2014 at $239K on a $1M mandate, I cannot afford to treat this like a normal bull-market deployment cycle; every new position has to clear a higher bar than the rules alone require, which is why I'm sitting on $216K cash and not forcing trades. Into the next cycle I want to see the swing names either break toward their TPs or give me a clean exit signal, and I'm watching whether SPY can reclaim positive 20-day momentum \u2014 that would flip the regime to a cleaner 5/6 and give me more confidence to put the dry powder to work selectively.",
       "risk_notes": "Primary concern is the book's cumulative drawdown \u2014 down 76% from $1M starting capital, sitting at $239,970. That context demands extreme discipline on new deployment; a single blown swing trade at max size is another 10% of what's left. Swing book: MSFT at $387 is -1% from entry with stop at $371.13 \u2014 needs to hold that level or we cut; GOOGL at $358.27 is -1.7% from entry, stop $346.10, about 3.4% of further downside before we're out. AMZN is essentially flat at entry, barely +0.1%. All three swing names are underperforming since entry and none have shown the follow-through that justifies adding. Long-term book is the only bright spot \u2014 C up 60.5%, WELL up 34.2%, SPY up 20.8% from entry; those trailing stops at $126.86, $209.69, and $667.64 respectively are doing the work of protecting gains. AAPL at $315.98 is only +1.3% from $311.81 entry \u2014 low conviction, worth watching. Correlation risk is real: MSFT, GOOGL, AMZN are highly correlated large-cap tech; if macro rotates or rates spike, all three get hit simultaneously. No earnings flags in immediate view on held names but AAPL and GOOGL are in reporting season proximity \u2014 check calendars before next add."
+    },
+    {
+      "timestamp": "2026-07-14T11:21:54.573074-04:00",
+      "regime": "BULL",
+      "regime_score": 3,
+      "portfolio_value": 239933.41,
+      "cash": 216381.1,
+      "actions_taken": 0,
+      "commentary": "The tape is behaving constructively \u2014 SPY at $752 sitting above both the 50 and 200-day, VIX parked at 16.2, and the regime model reading bull on 5 of 6 factors. That said, the 20-day return of 1.7% tells me this move has already done a lot of work and we're not buying the beginning of a breakout; we're managing exposure in a mature leg, which changes the calculus on new entries. On the book itself, the long-term positions are carrying well \u2014 C at +57.7% and WELL at +34.3% are the real earners, and I'm not touching those with trailing stops in place and momentum still intact. The swing book is the honest conversation: MSFT and GOOGL both slipped below entry and have not recovered, which means I'm holding two names that are net negative without a clean technical catalyst to add conviction \u2014 the active decision here is to give them room to the stop rather than average down or force a cut, but both are on a short leash. AMZN at essentially flat is in the 'prove it' zone \u2014 I want to see it clear $250 with volume before I'm comfortable calling it a working position. The single most important risk I'm watching is GOOGL's stop at $346.10; a break there on volume would signal the bull momentum thesis is failing for this name and I'd exit same session without hesitation. Into the next cycle, I'm monitoring whether SPY can sustain above $750 and whether the RSI at 66 starts to roll \u2014 if it does, I'd expect the swing names to face more pressure and the priority becomes protecting the long book gains rather than deploying the cash reserve.",
+      "risk_notes": "Book is down 76% from starting capital \u2014 the $216K cash position is not a sign of discipline, it's a scar from prior drawdowns, and the priority is measured rebuilding without chasing. MSFT (-1.2%) and GOOGL (-1.8%) are both trading below entry; MSFT at $386 vs entry $390.86 with stop at $371.13 needs to reclaim $390 soon or the thesis is stale \u2014 watching closely. GOOGL at $358 vs stop $346.10 has roughly 3.3% of cushion remaining, and momentum has been negative since entry. AMZN is flat at entry ($245.62 vs $245.50), essentially a coin flip right now \u2014 needs to show follow-through above $250 to justify the hold. On the long book, C is the standout at +57.7% with stop at $126.86 \u2014 trailing stop is doing its job but that's a significant unrealized gain that needs protecting. SPY long-term position at +20.7% with stop $667.64 is well-cushioned. Swing book has 3/5 slots used, long-term book has 5/12 \u2014 there's capacity to add but no setups currently cleared the bar at this cycle's prices. No earnings catalysts identified intraday, but tech names (MSFT, GOOGL, AMZN) are all in proximity to their next reporting windows \u2014 size discipline on those holds."
     }
   ]
 }
