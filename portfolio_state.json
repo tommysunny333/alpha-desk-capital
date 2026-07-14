@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-14T13:20:51.521258-04:00",
+    "last_updated": "2026-07-14T13:39:18.360251-04:00",
     "last_trading_day": "2026-07-14",
     "total_sessions": 17,
     "regime": "BULL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -0.58,
-    "portfolio_value": 239880.24,
+    "spy_ytd_return": -0.59,
+    "portfolio_value": 239874.08,
     "cash": 215508.18,
     "cumulative_return_pct": -76.01,
-    "alpha_vs_spy": -75.44,
+    "alpha_vs_spy": -75.42,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -665,11 +665,11 @@
     },
     {
       "date": "2026-07-14",
-      "portfolio_value": 239880.24,
-      "daily_pnl": 27.9,
+      "portfolio_value": 239874.08,
+      "daily_pnl": -6.16,
       "cumulative_return": -76.01,
-      "spy_return": -0.58,
-      "alpha": -75.44,
+      "spy_return": -0.59,
+      "alpha": -75.42,
       "regime": "BULL",
       "num_positions": 10,
       "cash": 215508.18
@@ -1585,6 +1585,16 @@
       "actions_taken": 2,
       "commentary": "The tape is constructive \u2014 SPY holding $752 with both moving averages well below and VIX at 16.5 tells me the market is not pricing fear, and that gives us license to carry risk in the swing book even if the overall posture remains cautious given where this portfolio sits on the drawdown curve. The long-term book is doing the heavy lifting: C at +51% and WELL at +34% are the real earners here, and with trailing stops locked in at $126.86 and $209.69 respectively, I'm letting those run \u2014 touching winners in a bull tape is how you give away edge. The swing book is messier: MSFT and GOOGL are both slightly underwater and haven't found their footing yet, which is tolerable inside the stop levels, but I want to see both names reclaim their entry prices before the next cycle or I'll start questioning whether the setups have staled. I added one share each of NVDA and META this cycle \u2014 not because I'm swinging for the fences, but because leaving four swing slots empty in a confirmed bull regime with healthy cash reserves above the floor is an active mistake, and both names offer clean 2.4:1 setups with defined risk. The single risk I'm watching most closely is GOOGL at $357.68 with its stop at $346.10 \u2014 that's a 3.2% gap and if tech breadth narrows or we get a macro surprise, that's the first name that gets stopped out and the one I'm watching tick by tick. Into the next few sessions, I want to see SPY RSI either cool from 66.2 or push through cleanly \u2014 a stall here with breadth narrowing would signal it's time to tighten the swing book rather than add to it.",
       "risk_notes": "1) CUMULATIVE DRAWDOWN: At -76.01% on $1M starting capital, we are operating in recovery mode \u2014 the $239,881 total value means every sizing decision must be disciplined; a second major drawdown from here is existential for the book. 2) CONCENTRATION: MSFT, GOOGL, and AMZN are three large-cap tech swing positions with high correlation \u2014 if mega-cap tech rotates out, all three get hit simultaneously; GOOGL is closest to its stop at $346.10 (current $357.68, only 3.2% cushion). 3) SWING BOOK STRESS: MSFT at -1.1% ($386.61 vs $390.86 entry) and GOOGL at -1.9% ($357.68 vs $364.50 entry) are both underwater \u2014 neither has triggered stops, but they're not working yet. If GOOGL breaks $350, stop is at $346.10. 4) LONG-TERM BOOK STRENGTH: C at +51.1% and WELL at +34.4% are carrying the long book; SPY at +20.7% provides ballast. Trailing stops on C ($126.86) and WELL ($209.69) need to be respected \u2014 these are the P&L anchors. 5) CASH: After these two small additions (~$872 deployed), cash remains approximately $215,509 \u2014 well above the $21,600 minimum reserve floor. 6) UPCOMING: SPY RSI at 66.2 is approaching overbought territory; a pullback to test SMA50 ($741) would be the key technical level to watch for regime confirmation or crack."
+    },
+    {
+      "timestamp": "2026-07-14T13:38:54.677221-04:00",
+      "regime": "BULL",
+      "regime_score": 3,
+      "portfolio_value": 239874.08,
+      "cash": 215508.18,
+      "actions_taken": 0,
+      "commentary": "The tape is holding up well \u2014 SPY at $752 is comfortably above both the 50 and 200-day, VIX is docile at 16.4, and the bull regime score of 3/5 gives us a green light on risk. That said, with RSI at 66 and the 20-day return barely positive at 1.6%, this feels like a market that's digesting its recent gains rather than accelerating, which is exactly why I'm not chasing new setups this cycle. The long-term book is the story here: C is up 49%, WELL up 34%, and SPY itself up 20.7% \u2014 those are working positions with room to run, and the trailing stops are doing their job. The swing book is the one I'm watching more carefully right now; GOOGL at $358.63 is the weakest name with a -1.6% drawdown from entry and only about $12 of cushion above the $346.10 stop \u2014 if that level gives way on volume, we cut it without hesitation, no averaging down. MSFT is similarly soft but the setup thesis remains intact as long as it holds above $375. The single biggest risk I'm monitoring is a rotation out of large-cap tech that hits MSFT, GOOGL, and NVDA simultaneously \u2014 that's a scenario where all three swing names approach stops in the same session, and with the swing book full, we'd have no ability to redeploy into better setups without also closing something. Into the next cycle, I'm watching GOOGL's tape behavior at the $350-355 level and keeping an eye on whether NVDA can reclaim $215 \u2014 if AI momentum reasserts, that's the first name I'd look to add size on.",
+      "risk_notes": "Portfolio is deeply underwater at -76% cumulative return, though current positions are largely profitable on a mark-to-market basis \u2014 the damage is historical. Key flags: (1) MSFT at $386.91 is now -1.0% from entry with stop at $371.13 \u2014 roughly 4% of downside protection left, any further softness in large-cap tech and we're looking at a stop-out; (2) GOOGL at $358.63 is -1.6% from entry with stop at $346.10 \u2014 sitting closest to its stop of all swing names, watch this one into close; (3) NVDA at $210.65 is -0.3% from entry, stop at $200.62, which is only 4.8% away \u2014 AI sentiment is the driver and it's been choppy; (4) Swing book is fully allocated (5/5 slots), leaving zero flexibility to add new swing setups without first taking a stop or profit; (5) C at $133.37 showing +49.4% P&L with trailing stop at $126.86 \u2014 that stop should be reviewed for a raise if price continues higher; (6) No single position breaches the 10% max size rule at current prices; (7) Cash at $215,508 (89.8%) is well above the 10% floor, so liquidity is not a concern."
     }
   ]
 }
