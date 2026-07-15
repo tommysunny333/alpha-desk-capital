@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-15T13:23:23.555152-04:00",
+    "last_updated": "2026-07-15T13:44:12.551216-04:00",
     "last_trading_day": "2026-07-15",
     "total_sessions": 18,
     "regime": "NEUTRAL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -0.55,
-    "portfolio_value": 240148.32,
+    "spy_ytd_return": -0.42,
+    "portfolio_value": 240179.45,
     "cash": 215508.18,
-    "cumulative_return_pct": -75.99,
-    "alpha_vs_spy": -75.44,
+    "cumulative_return_pct": -75.98,
+    "alpha_vs_spy": -75.57,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -676,11 +676,11 @@
     },
     {
       "date": "2026-07-15",
-      "portfolio_value": 240148.32,
-      "daily_pnl": -28.8,
-      "cumulative_return": -75.99,
-      "spy_return": -0.55,
-      "alpha": -75.44,
+      "portfolio_value": 240179.45,
+      "daily_pnl": 31.13,
+      "cumulative_return": -75.98,
+      "spy_return": -0.42,
+      "alpha": -75.57,
       "regime": "NEUTRAL",
       "num_positions": 10,
       "cash": 215508.18
@@ -1706,6 +1706,16 @@
       "actions_taken": 0,
       "commentary": "The tape is in a holding pattern \u2014 SPY at $752 is comfortably above the 50 and 200-day, VIX at 16.1 is telling you there's no fear in the room, but QQQ breaking below its $717 50-day is a yellow flag that the high-beta leadership names aren't confirming the headline index strength. In this environment I'm not adding risk; the Neutral regime read with a 1/5 score is consistent with a market that's earned a pause, and given that this book is operating on roughly 24 cents of every original dollar, capital preservation isn't a clich\u00e9 \u2014 it's the actual mandate. The existing swing book is doing its job quietly: AMZN is the strongest at +3.8%, GOOGL and META are grinding higher at +1.7% and +1.9% respectively, MSFT is holding, and NVDA is the one I'm watching \u2014 it's -1.2% off entry with a stop at $200.62, and if it can't reclaim $212 in the next session or two I'll be looking at whether the setup thesis is still intact or whether we're just sitting in dead weight. On the long-term side, C at +49.1% with a trailing stop only 4.7% below spot is the position that keeps me honest \u2014 it's done exceptional work but the stop is tight enough that any broad market hiccup could take us out of a name that's been a core contributor. The key level I'm watching into next cycle is QQQ $717: if it recaptures the 50-day on volume, that reopens the conversation about adding to the swing book in names like AVGO or MRVL which have been on the watchlist; if QQQ continues to lag SPY, the divergence widens the risk of chasing and I stay pat with dry powder until the picture clears.",
       "risk_notes": "1) NVDA is the only underwater swing position at -1.2% with entry $211.29 and stop $200.62 \u2014 watching closely; a move toward $202 puts us near the exit and I want to see it reclaim $212 to regain confidence. 2) C has a 49.1% unrealized gain with a trailing stop at $126.86 vs current $133.17 \u2014 only $6.31 of cushion, a 4.7% pullback triggers the exit; this is the tightest stop relative to gain in the book. 3) Swing slots are fully utilized at 5/5 \u2014 no new swing entries possible regardless of setup quality. 4) Long-term slots at 5/12 leave capacity, but Neutral regime and the current 89.7% cash-heavy posture (post drawdown capital of $240K vs $1M starting) means capital preservation is the priority. 5) Overall book is -75.99% cumulative \u2014 this is not a normal operating posture; every new position must clear a higher bar for conviction. 6) WELL at +34.1% has stop at $209.69 vs $234.62 current \u2014 $24.93 buffer, healthy, but REIT sensitivity to rate commentary warrants watching Fed speak. 7) MSFT approaching swing TP at $437.54 from $395.51 current \u2014 still 10.6% away, not imminent, but worth flagging as the nearest TP candidate in the swing book."
+    },
+    {
+      "timestamp": "2026-07-15T13:43:50.157076-04:00",
+      "regime": "NEUTRAL",
+      "regime_score": 1,
+      "portfolio_value": 240179.45,
+      "cash": 215508.18,
+      "actions_taken": 0,
+      "commentary": "The tape is telling a nuanced story this afternoon: SPY is holding above both its 50 and 200-day with RSI at 67, which in isolation reads constructive, but QQQ is sitting just below its 50-day at $716 vs $718 SMA, and the 20-day return is essentially flat \u2014 this is a market that's extended but not accelerating, which is exactly where you get choppy, rotational price action rather than clean trending moves. Given that regime read and the neutral score, I'm not adding exposure this cycle; the 30% size reduction rule is already baked into the swing lot sizes, and forcing new entries into a tape that isn't confirming would be sloppy risk management on an already-impaired book. The long-term portfolio is the real story here \u2014 C at +50%, WELL at +34%, and SPY at +21% are compounding nicely with trailing stops that give them room to run, and I have no reason to disturb those positions when the thesis is intact and price is above all three stop levels by a healthy margin. On the swing side, the one name I'm watching most carefully is NVDA: we're already $2.16 through the entry price to the downside at $209.13, the stop sits at $200.62, and if AI sentiment softens even slightly that stop gets tested fast \u2014 I'm not adding but I'm also not preemptively cutting ahead of the level; the stop does its job if it gets hit. Into the next cycle I'm focused on whether QQQ can reclaim its 50-day, because a clean close above $718 flips the regime signal and opens the door to deploying some of this cash reserve into quality setups with proper size.",
+      "risk_notes": "Portfolio is carrying a -75.98% cumulative drawdown from $1M starting capital, meaning the book is running on roughly a quarter of its original equity \u2014 every sizing decision carries outsized psychological and mechanical weight. Current long-term book is working: C +50%, WELL +34.1%, SPY +20.9% are the P&L drivers, but these gains exist on a deeply impaired capital base. Swing book is tight: NVDA at -1.0% with entry $211.29 and stop $200.62 \u2014 only $8.51 of cushion, and at $209.13 we're already through entry; one weak session clips this. MSFT and GOOGL are grinding in the right direction but barely above water in dollar terms given 6-share lots. META and AMZN are the cleanest swing setups right now with meaningful cushion to stops. Max position constraint (10% of $240K = $24K) limits new entries significantly \u2014 LLY at $1,146 is essentially untradeable at current scale. Cash at $215K (89.7%) is high relative to deployed capital, which is both a buffer and a drag; deploying in neutral regime requires strict size discipline. Earnings risk: MSFT, GOOGL, META, AMZN, NVDA all carry quarterly catalyst risk \u2014 confirm no imminent prints before adding."
     }
   ]
 }
