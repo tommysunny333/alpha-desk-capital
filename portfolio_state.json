@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-15T14:08:03.182448-04:00",
+    "last_updated": "2026-07-15T14:35:51.390291-04:00",
     "last_trading_day": "2026-07-15",
     "total_sessions": 18,
     "regime": "BULL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -0.26,
-    "portfolio_value": 240191.01,
+    "spy_ytd_return": -0.22,
+    "portfolio_value": 240195.54,
     "cash": 215508.18,
     "cumulative_return_pct": -75.98,
-    "alpha_vs_spy": -75.72,
+    "alpha_vs_spy": -75.76,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -20,7 +20,7 @@
       "ticker": "SPY",
       "entry_date": "2026-06-02",
       "entry_price": 623.09,
-      "current_price": 752.13,
+      "current_price": 754.78,
       "shares": 13,
       "stop_price": 667.64,
       "days_held": 0
@@ -29,7 +29,7 @@
       "ticker": "WELL",
       "entry_date": "2026-06-02",
       "entry_price": 174.95,
-      "current_price": 235.17,
+      "current_price": 233.82,
       "shares": 12,
       "stop_price": 209.69,
       "days_held": 0
@@ -38,7 +38,7 @@
       "ticker": "AAPL",
       "entry_date": "2026-06-02",
       "entry_price": 311.81,
-      "current_price": 314.89,
+      "current_price": 327.68,
       "shares": 6,
       "stop_price": 288.71,
       "days_held": 0
@@ -47,7 +47,7 @@
       "ticker": "C",
       "entry_date": "2026-06-02",
       "entry_price": 89.3,
-      "current_price": 134.9,
+      "current_price": 134.1,
       "shares": 8,
       "stop_price": 126.86,
       "days_held": 0
@@ -56,7 +56,7 @@
       "ticker": "KO",
       "entry_date": "2026-06-02",
       "entry_price": 77.91,
-      "current_price": 83.39,
+      "current_price": 82.69,
       "shares": 15,
       "stop_price": 74.53,
       "days_held": 0
@@ -67,7 +67,7 @@
       "ticker": "MSFT",
       "entry_date": "2026-07-02",
       "entry_price": 390.8553,
-      "current_price": 386.61,
+      "current_price": 396.87,
       "shares": 6,
       "stop_price": 371.13,
       "days_held": 0,
@@ -78,7 +78,7 @@
       "ticker": "GOOGL",
       "entry_date": "2026-07-06",
       "entry_price": 364.5022,
-      "current_price": 357.68,
+      "current_price": 372.21,
       "shares": 6,
       "stop_price": 346.1,
       "days_held": 0,
@@ -89,7 +89,7 @@
       "ticker": "AMZN",
       "entry_date": "2026-07-09",
       "entry_price": 245.5027,
-      "current_price": 246.08,
+      "current_price": 254.34,
       "shares": 9,
       "stop_price": 233.11,
       "days_held": 0,
@@ -100,7 +100,7 @@
       "ticker": "NVDA",
       "entry_date": "2026-07-14",
       "entry_price": 211.2856,
-      "current_price": 211.18,
+      "current_price": 210.51,
       "shares": 1,
       "stop_price": 200.62,
       "days_held": 0,
@@ -111,7 +111,7 @@
       "ticker": "META",
       "entry_date": "2026-07-14",
       "entry_price": 661.6306,
-      "current_price": 661.3,
+      "current_price": 676.1,
       "shares": 1,
       "stop_price": 628.24,
       "days_held": 0,
@@ -676,11 +676,11 @@
     },
     {
       "date": "2026-07-15",
-      "portfolio_value": 240191.01,
-      "daily_pnl": 11.56,
+      "portfolio_value": 240195.54,
+      "daily_pnl": 4.53,
       "cumulative_return": -75.98,
-      "spy_return": -0.26,
-      "alpha": -75.72,
+      "spy_return": -0.22,
+      "alpha": -75.76,
       "regime": "BULL",
       "num_positions": 10,
       "cash": 215508.18
@@ -1726,6 +1726,16 @@
       "actions_taken": 0,
       "commentary": "The tape is in a measured bull grind \u2014 SPY at $755 is holding comfortably above both moving averages, VIX at 15.8 is quiescent, and there's no technical deterioration in the regime read, but the near-zero 20-day return and RSI pressing 68 tell me this market is coiling rather than breaking out, which keeps me from leaning aggressively into new exposure. The book itself is working: C is the standout at +50.6%, WELL at +33.9%, and the swing positions in AMZN, GOOGL, and META are all tracking well against their entry levels with no technical deterioration. I'm holding everything this cycle because the active decision here is to let the existing positions breathe \u2014 forcing new entries when swing slots are fully saturated and the long book is already showing meaningful unrealized gains would be chasing, not managing. The single risk I'm watching most closely is NVDA: at $210.26 with a stop at $200.62, that name has less than $10 of room and has already slipped into negative P&L territory, so any continuation of underperformance relative to the broader AI tape \u2014 particularly if AVGO or MRVL show relative strength diverging \u2014 will prompt me to exit rather than defend the position. Into the next cycle I want to see whether META can push through the $700 level toward its $740 target and whether the AMZN momentum holds; those two names closing their gap to take-profit would free up swing slots for fresher setups, which is the cleanest path to redeployment given where this book sits.",
       "risk_notes": "Primary concern is the book's catastrophic cumulative drawdown of -75.98% from $1M starting capital \u2014 this portfolio is in recovery mode and capital preservation is paramount. C is the most extended long-term name at +50.6% with stop at $126.86 vs current $134.48, only 6% of cushion remaining before the trailing stop tightens further; any sharp financials rotation warrants close attention. WELL at +33.9% is similarly extended. On the swing book, NVDA is the only underwater position at -0.5% with stop at $200.62 \u2014 only $9.64 of room at current price $210.26, roughly 4.6%, which is inside one bad tape day. META at $675.16 is halfway to its $740.66 target. SPY RSI at 68 is approaching overbought territory; a mean reversion toward SMA50 at $742 would hit multiple stop levels simultaneously given correlation across the book. Swing slots are fully saturated at 5/5. With $215K in cash, the 10% reserve is not at risk, but deploying further capital into a -76% recovery account requires exceptional setups only."
+    },
+    {
+      "timestamp": "2026-07-15T14:35:10.511219-04:00",
+      "regime": "BULL",
+      "regime_score": 3,
+      "portfolio_value": 240195.54,
+      "cash": 215508.18,
+      "actions_taken": 0,
+      "commentary": "The tape is in a genuine bull regime but the texture at 14:35 ET tells me we're in the digestion phase of a move that's already been made \u2014 SPY at $755 is well above both moving averages, VIX is benign at 15.7, but that 0.3% 20-day return and RSI creeping toward 68 says the market is consolidating recent gains rather than accelerating. That actually suits this book right now. Our long-term sleeve is the P&L driver: C at +50.2% off an $89.30 entry is doing the heavy lifting, and WELL at +33.6% has been quietly excellent \u2014 neither position is under any structural threat, and I'm not going to ring the register on names that are working in a bull regime just to realize gains. The swing book is fully deployed and every position is green except NVDA, which is functionally flat at -0.4% on a single share \u2014 I'm not cutting that on noise when the AI infrastructure thesis hasn't broken and the stop at $200.62 is the real decision point, not today's tape. The decision to hold everything this cycle is deliberate: no swing slots are open, no long-term setups cleared the bar with meaningful risk-reward versus the 10% position size constraint, and adding exposure here with RSI at 68 and the 20-day return stalling feels like buying the digestion rather than the trend. The single biggest risk I'm watching is a correlated drawdown \u2014 if SPY breaks back toward $742 (SMA50 level), we'll see simultaneous pressure across SPY, MSFT, GOOGL, AMZN, and META, and C's stop at $126.86 becomes the critical level to watch because losing our best long-term position on a technical shake would be a meaningful P&L event for this book. Into next cycle, I want to see whether NVDA can reclaim $211.29 cleanly or whether it continues to lag \u2014 that's the tell on whether AI momentum is rotating out, and if it stops out, I'll use that slot to look at AVGO at $394 which is showing relative strength in the same theme.",
+      "risk_notes": "Primary structural concern is the catastrophic drawdown context \u2014 we're sitting at -75.98% on the overall book with only $240K of a $1M starting capital base, which means every decision carries existential weight for the portfolio. On current positions: C is the standout long-term winner at +50.2% ($134.10 vs entry $89.30), stop at $126.86 is only 5.4% below current price \u2014 a sharp intraday move could stop us out of our best position. WELL at +33.6% has a stop at $209.69 vs current $233.82, watching for any healthcare policy headlines. SPY RSI at 68.1 is approaching overbought \u2014 if we get a flush back toward $742 (SMA50), the entire long book sees drawdown simultaneously given our correlated mega-cap exposure across SPY, MSFT, GOOGL, AMZN, NVDA, META. NVDA at -0.4% is the only underwater position and the stop at $200.62 is $9.89 away \u2014 single share so loss is capped at ~$10, not a capital concern but a signal quality concern if it continues to underperform. Swing book is fully deployed (5/5 slots) so no new swing entries possible without a stop-out or TP hit first. Cash at $215,508 (89.7%) provides significant dry powder but the minimum 10% reserve means roughly $216K is the floor \u2014 we're essentially at the boundary of what we can deploy."
     }
   ]
 }
