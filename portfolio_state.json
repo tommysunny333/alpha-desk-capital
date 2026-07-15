@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-15T11:24:53.289370-04:00",
+    "last_updated": "2026-07-15T11:57:55.554976-04:00",
     "last_trading_day": "2026-07-15",
     "total_sessions": 18,
     "regime": "NEUTRAL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -0.5,
-    "portfolio_value": 240150.99,
+    "spy_ytd_return": -0.52,
+    "portfolio_value": 240178.43,
     "cash": 215508.18,
     "cumulative_return_pct": -75.98,
-    "alpha_vs_spy": -75.48,
+    "alpha_vs_spy": -75.46,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -40,7 +40,7 @@
       "entry_price": 311.81,
       "current_price": 314.89,
       "shares": 6,
-      "stop_price": 285.91,
+      "stop_price": 286.87,
       "days_held": 0
     },
     {
@@ -676,11 +676,11 @@
     },
     {
       "date": "2026-07-15",
-      "portfolio_value": 240150.99,
-      "daily_pnl": 15.94,
+      "portfolio_value": 240178.43,
+      "daily_pnl": 27.44,
       "cumulative_return": -75.98,
-      "spy_return": -0.5,
-      "alpha": -75.48,
+      "spy_return": -0.52,
+      "alpha": -75.46,
       "regime": "NEUTRAL",
       "num_positions": 10,
       "cash": 215508.18
@@ -1666,6 +1666,16 @@
       "actions_taken": 0,
       "commentary": "The tape today is telling a split story \u2014 SPY is constructive above both moving averages and VIX at 16 isn't screaming panic, but QQQ's failure to hold its 50-day at $717 is a quiet tell that the growth side of the market is losing momentum, and that matters directly for a swing book that's almost entirely large-cap tech. Given that regime read, holding serves us better than adding: neutral scoring at 1/5 with the 30% size reduction rule in play means any new swing position would be undersized relative to the friction of putting it on, so the bar for entry is high and nothing on the screen cleared it today. The book itself is working in the places that matter \u2014 C has compounded to a 50% gain from the $89.30 entry and is quietly the best trade in the long-term sleeve, while WELL at 33.6% continues to benefit from the healthcare infrastructure bid. On the swing side, AMZN at +4% is the cleanest setup technically and META is closing in on its $740 TP, which I'll be watching for either a trim or a full close depending on how it trades into that level. The single risk I'm most focused on is NVDA: it's the weakest name in the book at -1.2%, sitting just $8 above the $200.62 stop, and if QQQ continues to underperform its 50-day, that stop gets tested \u2014 I'd rather take the small loss cleanly than let it erode further. Into the next cycle I want to see QQQ reclaim $717 before adding any tech exposure, and META's behavior near $740 will tell me a lot about whether this swing rally has legs or is rolling over.",
       "risk_notes": "Primary concern: portfolio is deeply underwater at -75.98% cumulative, which means every decision carries outsized recovery weight. NVDA at $208.74 is within $8 of its $200.62 stop \u2014 watching closely for a flush below $205 that would accelerate toward the exit. C has a 50% gain from entry $89.30 but stop at $126.86 is now well below current $133.93 \u2014 trailing that stop is something to revisit next cycle. WELL at $233.82 with a 33.6% gain has its stop at $209.69, nearly 10% below current \u2014 adequate cushion but a broad healthcare selloff would threaten it. Swing book is 5/5 slots full with correlated large-cap tech exposure (MSFT, GOOGL, AMZN, NVDA, META) \u2014 a risk-off rotation would hit all five simultaneously. META at $678.64 is approaching its $740.66 TP (9% away), making it the most actionable swing name into next cycle. QQQ sitting below its SMA50 at $717 is a yellow flag for the tech-heavy swing book."
+    },
+    {
+      "timestamp": "2026-07-15T11:57:29.671285-04:00",
+      "regime": "NEUTRAL",
+      "regime_score": 1,
+      "portfolio_value": 240178.43,
+      "cash": 215508.18,
+      "actions_taken": 0,
+      "commentary": "The tape is in that awkward middle ground where the bulls can still point to SPY comfortably above both its 50 and 200-day, but QQQ slipping below $717 on the 50-day is a tell \u2014 growth is losing the thread, and with the 20-day return effectively flat, this feels more like distribution than consolidation. Given that backdrop, I'm not adding to the swing book even though slots are technically full; the neutral regime with a 1/5 score means I'm running 30% reduced size per the mandate, and more importantly, I don't see a setup that clears the bar when the leading index is technically broken on a near-term basis. The long book is doing the real work here \u2014 C at +51% from $89.30, WELL at +34%, and SPY at +20.8% are the three names carrying the P&L, and I'm not touching those unless they breach their trailing stops. On the swing side, AMZN is the most interesting position right now at $255.11 with a $274.83 target \u2014 it's traveled 3.9% of a 12% target and the setup is intact, so the active decision is to let it run rather than harvest early. NVDA at -1.2% is the one I'm watching most carefully: stop is $200.62, and if QQQ continues to underperform, that name will feel pressure first given its AI premium valuation; I want to see it hold above $205 intraday or I'll be reassessing the position size mentally heading into tomorrow. Into the next cycle, the single variable that changes my posture most is QQQ reclaiming $717 \u2014 that would flip the technical picture back to constructive and give me confidence to look at new entries in the one remaining long-term slot and potentially rotate the weakest swing name into something with a cleaner setup.",
+      "risk_notes": "Portfolio is down 76% from starting capital \u2014 the book is running on fumes at $240K vs. $1M start, which means every decision carries outsized consequence on a percentage-of-NAV basis. Cash is 89.7%, well above the 10% floor, so liquidity is not the concern \u2014 selectivity is. NVDA is the only name in the red on the swing book at -1.2% with a stop at $200.62 vs. current $208.68, giving roughly $8 of cushion; not in immediate danger but worth watching given QQQ softness. AMZN is closest to its TP at $274.83 vs. current $255.11 \u2014 about 7.7% away, could tag it if the tape firms. C on the long book is +51% from entry with a trailing stop at $126.86 vs. $134.81 current \u2014 only $8 of cushion above the stop, a sharp down day could shake it out. WELL at +34.1% is also sitting on a wide gap between current price $234.59 and stop $209.69, but that stop hasn't been raised recently and should be monitored. No earnings catalysts flagged in real-time data, but mega-cap tech names \u2014 MSFT, GOOGL, META, AMZN, NVDA \u2014 are all within a typical earnings window; if any report this week, gap risk is live. Correlation across the swing book is high: MSFT, GOOGL, AMZN, NVDA, META are all effectively the same QQQ/Nasdaq trade, so a single macro shock hits all five simultaneously."
     }
   ]
 }
