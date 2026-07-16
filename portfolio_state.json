@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-16T13:25:15.231292-04:00",
+    "last_updated": "2026-07-16T13:45:09.731466-04:00",
     "last_trading_day": "2026-07-16",
     "total_sessions": 19,
     "regime": "NEUTRAL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -0.57,
-    "portfolio_value": 240311.96,
+    "spy_ytd_return": -0.69,
+    "portfolio_value": 240286.63,
     "cash": 215714.92,
     "cumulative_return_pct": -75.97,
-    "alpha_vs_spy": -75.4,
+    "alpha_vs_spy": -75.28,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -58,7 +58,7 @@
       "entry_price": 77.91,
       "current_price": 84.43,
       "shares": 15,
-      "stop_price": 74.53,
+      "stop_price": 74.56,
       "days_held": 0
     }
   ],
@@ -689,11 +689,11 @@
     },
     {
       "date": "2026-07-16",
-      "portfolio_value": 240311.96,
-      "daily_pnl": 14.24,
+      "portfolio_value": 240286.63,
+      "daily_pnl": -25.33,
       "cumulative_return": -75.97,
-      "spy_return": -0.57,
-      "alpha": -75.4,
+      "spy_return": -0.69,
+      "alpha": -75.28,
       "regime": "NEUTRAL",
       "num_positions": 9,
       "cash": 215714.92
@@ -1839,6 +1839,16 @@
       "actions_taken": 0,
       "commentary": "The tape is giving me a mixed read \u2014 SPY is holding above both moving averages and RSI is a constructive 64.6, but QQQ can't reclaim its 50-day at $718 and the 20-day return on SPY is essentially zero, which tells me we're in a digestion phase rather than a clean trending environment. That's consistent with the 1/5 regime score, and I'm treating it as a reason to hold what's working rather than add new exposure into uncertain momentum. The book's P&L story right now is being written by the long-term sleeve \u2014 C at +48.2% and WELL at +37.1% are doing the heavy lifting, while the swing book in MSFT, GOOGL, AMZN, and META is trending the right direction but hasn't delivered yet. I'm holding all positions this cycle because none of the swings have hit their take-profits or stops, the longs are above their trailing stops with room, and the neutral regime rule calls for reduced sizing \u2014 meaning any new position I add today would be at 70% of normal size into a market that isn't giving me a clean signal, which is a bad tradeoff. The risk I'm watching most closely is C at $132.35 with a stop at $126.86 \u2014 that's a 4% gap, and if financials sell off on any credit or rate catalyst, we could lose nearly five months of gains on that name in a session; $127 is the line in the sand. Into the next cycle I'm monitoring whether QQQ can reclaim $718 \u2014 that would flip my regime read meaningfully bullish and I'd start sizing into the remaining seven long-term slots and the one open swing slot with conviction, particularly in names like NVDA which has been off my radar at $207 despite the AI infrastructure buildout thesis still being intact.",
       "risk_notes": "Book is down 75.97% from peak \u2014 the single largest structural risk is that we're operating on $240K of a $1M mandate, meaning every decision carries outsized psychological and capital weight. Cash is 89.8%, which is defensive but also creates opportunity cost drag. C is the book's best performer at +48.2% with a stop at $126.86 vs current $132.35 \u2014 that's only 4% of cushion above the stop, and any financials rotation or credit spread widening could tag it; need to watch this level closely. WELL at +37.1% similarly has the stop at $211.57 vs $239.80 \u2014 healthier cushion but healthcare reimbursement headlines remain a tail risk. AMZN swing is at $256.11 with TP at $274.83, roughly 7.3% away \u2014 watching closely as it could resolve before next cycle. MSFT swing stop at $371.13 vs $402.55 is comfortable but QQQ sub-50-day is a headwind for large-cap tech broadly. META with only 1 share is effectively a token position \u2014 minimal P&L impact either direction. No earnings imminent that I'm flagging today, but macro data (Fed speakers, jobs prints) could reprice rates and pressure both the financials and healthcare longs simultaneously."
+    },
+    {
+      "timestamp": "2026-07-16T13:44:42.810692-04:00",
+      "regime": "NEUTRAL",
+      "regime_score": 1,
+      "portfolio_value": 240286.63,
+      "cash": 215714.92,
+      "actions_taken": 0,
+      "commentary": "The tape is giving us a mixed signal \u2014 SPY is constructive above both SMAs with RSI at 63.7, but QQQ can't hold its 50-day and the 20-day return on SPY is essentially flat at 0.4%, which tells me the index is coasting rather than trending with conviction. That split between large-cap growth and the broader market is exactly why I'm not adding to the swing book this cycle despite having one open slot; in a neutral regime I want setups that clear a higher bar, not ones that merely look okay. The existing book is actually working: C is up nearly 48% from entry at $89.30, WELL is up 37%, and the swing names \u2014 MSFT, AMZN, GOOGL \u2014 are all green and tracking toward their targets without needing management. The active decision here is to hold everything and let the winners breathe rather than trim prematurely or chase the one remaining swing slot with a forced entry. The single risk I'm most focused on is C at $132 \u2014 the stop at $126.86 is only about four dollars of buffer from current price, and if we get a rates surprise or credit-related headline, that's the position most likely to trigger first; I want to see it put distance between itself and that level before I feel comfortable. Into next cycle I'm watching QQQ's relationship with the 50-day closely \u2014 a reclaim of $718 would confirm the tech swing positions have wind at their backs and might open the door to deploying that last swing slot in a name with real momentum; a failure to reclaim it, especially on volume, would have me tightening stops across the MSFT/GOOGL/AMZN cluster before the tape gets worse.",
+      "risk_notes": "C at $132 is now 4.1% above its $126.86 stop \u2014 tightest cushion in the long book; any financials rotation or macro print could clip it. WELL at $239 and C at $132 represent the two biggest winners on paper but both carry elevated valuation risk if rate expectations shift. Swing book: META at $668 with a $628 stop gives us $40 of room, and at only 1 share the position is more of a tracker than a real bet \u2014 asymmetry is capped hard on the upside to $740 TP. GOOGL at $371.55 is 1.9% off entry with stop at $346 \u2014 still well-protected, but QQQ trading below its 50-day SMA ($718 vs $706 current) is a yellow flag for the large-cap tech cluster (MSFT, GOOGL, AMZN, META all live here). Correlation risk in the swing book is high \u2014 four mega-cap tech names moving in the same factor pocket. Portfolio is down 75.97% cumulatively, which means capital preservation and rebuilding via disciplined compounding is the only mandate; no hero trades. Cash at 89.8% of total value is actually a feature right now given the regime read, but it also flags how much damage has already been absorbed."
     }
   ]
 }
