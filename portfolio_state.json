@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-16T14:36:53.380078-04:00",
+    "last_updated": "2026-07-16T14:54:55.452916-04:00",
     "last_trading_day": "2026-07-16",
     "total_sessions": 19,
     "regime": "NEUTRAL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -0.78,
-    "portfolio_value": 240207.27,
+    "spy_ytd_return": -0.82,
+    "portfolio_value": 240274.79,
     "cash": 215714.92,
-    "cumulative_return_pct": -75.98,
-    "alpha_vs_spy": -75.2,
+    "cumulative_return_pct": -75.97,
+    "alpha_vs_spy": -75.15,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -40,7 +40,7 @@
       "entry_price": 311.81,
       "current_price": 331.2,
       "shares": 6,
-      "stop_price": 292.58,
+      "stop_price": 292.87,
       "days_held": 0
     },
     {
@@ -58,7 +58,7 @@
       "entry_price": 77.91,
       "current_price": 84.43,
       "shares": 15,
-      "stop_price": 74.59,
+      "stop_price": 74.6,
       "days_held": 0
     }
   ],
@@ -689,11 +689,11 @@
     },
     {
       "date": "2026-07-16",
-      "portfolio_value": 240207.27,
-      "daily_pnl": -49.44,
-      "cumulative_return": -75.98,
-      "spy_return": -0.78,
-      "alpha": -75.2,
+      "portfolio_value": 240274.79,
+      "daily_pnl": 67.52,
+      "cumulative_return": -75.97,
+      "spy_return": -0.82,
+      "alpha": -75.15,
       "regime": "NEUTRAL",
       "num_positions": 9,
       "cash": 215714.92
@@ -1869,6 +1869,16 @@
       "actions_taken": 0,
       "commentary": "The tape is giving us a mixed read this cycle \u2014 SPY is constructive above both MAs with RSI at 63, but QQQ printing below its 50-day at $706 vs $718 is a meaningful divergence that tells me the large-cap growth engine isn't fully firing. In a neutral regime with narrowing leadership I'm not going to chase new swing setups regardless of how many slots are open; the 30% size reduction rule exists precisely for moments like this, and respecting it is the trade. The long-term book is doing exactly what it's supposed to \u2014 C, WELL, and SPY are all carrying meaningful unrealized gains and the trailing stops have been walked up to protect them, so those positions are essentially running on the house. The active decision this cycle is HOLD across the board: GOOGL is the name I'm most focused on because it's -1.2% and sitting 3.9% above its stop at $346.10 while refusing to catch a bid even as SPY grinds higher \u2014 if it doesn't reclaim $364 on volume in the next couple of sessions I'll be evaluating whether to cut it ahead of the stop rather than let it get mechanically stopped out. Into the next cycle I want to see QQQ close back above $718 and SPY sustain above $750 with RSI not overextending beyond 70 \u2014 that combination would flip my posture toward adding a swing position in the open slot, likely in the semiconductor space given NVDA and MRVL are names I'm watching on any meaningful tape reset.",
       "risk_notes": "C is the most exposed name to a regime deterioration \u2014 up 47.7% from entry, stop at $126.86 is now 3.8% below current price of $131.90, a modest gap that could get tagged on any macro headline around rates or credit. WELL at +37.4% carries similar complacency risk; stop at $211.60 vs current $240.45 gives 12% cushion but the healthcare REIT complex can gap on policy news. GOOGL is the only book position in the red at -1.2%, currently $360.18 vs stop $346.10 \u2014 watching closely; it's 3.9% from the stop and has not participated in any recent tape strength, which is a yellow flag in a neutral regime. MSFT at $404.83 is 8.4% from its TP of $437.54 and tracking cleanly; no action needed but approaching a zone where we'll think about partial trim. META at 1 share/$668 is essentially a placeholder \u2014 minimal P&L impact either way. Portfolio is 89.8% cash post the drawdown history, which itself is the largest structural risk: $215K of dry powder sitting idle while the long book compounds slowly. Total long-term book exposure is roughly $24K notional across 5 names \u2014 we are dramatically underinvested relative to mandate, and that is a return-on-capital problem as much as a risk management one."
+    },
+    {
+      "timestamp": "2026-07-16T14:54:29.449455-04:00",
+      "regime": "NEUTRAL",
+      "regime_score": 1,
+      "portfolio_value": 240274.79,
+      "cash": 215714.92,
+      "actions_taken": 0,
+      "commentary": "The tape is telling a mixed story right now \u2014 SPY is sitting comfortably above both the 50 and 200-day with RSI at 62.7, but QQQ can't hold its 50-day at $718 and the 20-day return is essentially flat, which together produce the neutral regime read we're operating under. That divergence between SPY strength and QQQ softness is the key tell: large-cap tech, which dominates our swing book, is not leading this market, and that argues against adding exposure aggressively even with cash sitting heavy at $215K. On the book itself, the long-term positions are doing the real work \u2014 C at +47.8% and WELL at +37.3% are the P&L anchors, and SPY at +20.4% gives us the core market exposure we need; I'm not touching those. The swing positions are all in positive territory but grinding rather than ripping \u2014 MSFT and AMZN are the furthest along toward their TPs and I want to see them continue to earn into that space before I consider trimming early. The reason I'm holding everything and not deploying into new names this cycle is straightforward: in a neutral regime you size down 30%, the setups I'm seeing in names like NVDA ($207) and MRVL ($187) don't have the regime tailwind to justify fresh risk, and with 89.8% in cash the opportunity cost of waiting one more cycle for a cleaner entry is essentially zero. The single risk I'm watching most closely is C's proximity to its stop at $126.86 \u2014 a 3.9% drop from here triggers it, and given the financials sector's sensitivity to rate narrative shifts, any hawkish Fed repricing could take it there fast; that's the level that changes my positioning decision before anything else. Into the next cycle I want to see QQQ reclaim $718 and the 20-day return turn positive \u2014 if both happen, the regime flips toward bull and we have the capital to deploy meaningfully.",
+      "risk_notes": "Portfolio is down 75.97% from starting capital of $1M \u2014 the current book of ~$240K represents a severely diminished base, so capital preservation is paramount and every new position must clear a high bar. C is the standout with +47.8% P&L; stop at $126.86 vs current $131.96 means we're only $5 of cushion from a stop-out \u2014 worth monitoring intraday. WELL at +37.3% is similarly extended with stop at $211.60 vs $240.15. SPY long-term position stop at $667.64 is comfortably below current $750.27 \u2014 no near-term concern. Swing book: MSFT at $404.58 has TP at $437.54 (8.2% away), AMZN at $252.96 has TP at $274.83 (8.6% away) \u2014 both progressing but not close enough to act. META is only +0.9% with a TP at $740.66, a long way to go and limited room in the 1-share position. GOOGL +1.9% \u2014 making slow progress. Correlation risk is elevated: MSFT, GOOGL, AMZN, META are all large-cap tech and will move together in a risk-off event. Cash at 89.8% is well above the 10% minimum, giving optionality but also reflecting how capital has been eroded \u2014 deploying aggressively here is not the mandate. No earnings catalysts flagged imminently but MSFT, GOOGL, META, AMZN all report quarterly \u2014 check the calendar before next swing entry."
     }
   ]
 }
