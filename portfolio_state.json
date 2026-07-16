@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-15T16:15:23.468018-04:00",
-    "last_trading_day": "2026-07-15",
-    "total_sessions": 18,
-    "regime": "BULL",
+    "last_updated": "2026-07-16T11:18:23.836196-04:00",
+    "last_trading_day": "2026-07-16",
+    "total_sessions": 19,
+    "regime": "NEUTRAL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -0.23,
-    "portfolio_value": 240189.34,
+    "spy_ytd_return": -0.43,
+    "portfolio_value": 240291.12,
     "cash": 215508.18,
-    "cumulative_return_pct": -75.98,
-    "alpha_vs_spy": -75.75,
+    "cumulative_return_pct": -75.97,
+    "alpha_vs_spy": -75.55,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -31,7 +31,7 @@
       "entry_price": 174.95,
       "current_price": 233.82,
       "shares": 12,
-      "stop_price": 209.69,
+      "stop_price": 211.14,
       "days_held": 0
     },
     {
@@ -40,7 +40,7 @@
       "entry_price": 311.81,
       "current_price": 327.68,
       "shares": 6,
-      "stop_price": 288.71,
+      "stop_price": 290.8,
       "days_held": 0
     },
     {
@@ -682,6 +682,17 @@
       "spy_return": -0.23,
       "alpha": -75.75,
       "regime": "BULL",
+      "num_positions": 10,
+      "cash": 215508.18
+    },
+    {
+      "date": "2026-07-16",
+      "portfolio_value": 240291.12,
+      "daily_pnl": 101.78,
+      "cumulative_return": -75.97,
+      "spy_return": -0.43,
+      "alpha": -75.55,
+      "regime": "NEUTRAL",
       "num_positions": 10,
       "cash": 215508.18
     }
@@ -1766,6 +1777,16 @@
       "actions_taken": 0,
       "commentary": "The tape is in a legitimate bull configuration \u2014 SPY $755 is 9% above the 200-day, VIX is a benign 15.7, and breadth through QQQ holding its 50-day tells me this isn't a headfake. That said, RSI at 68.1 with a 20-day return of essentially zero means we've had a lot of the move already without recent follow-through, so I'm not reaching for new setups \u2014 I want to see either a constructive pullback to SMA20 in individual names or a fresh catalyst before adding risk. The book's P&L story right now is being written by three names: C is up 51% on our long-term position and is frankly the reason the portfolio isn't in worse shape in dollar terms; WELL at +33% has been a quiet compounder that rarely gets mentioned; and AMZN is the best-behaving swing at +3.8% with clean momentum. The decision to hold everything flat this cycle is an active one \u2014 I've got five swing slots full of names that are all working, none are at their stops, and adding a sixth isn't possible given slot constraints. Trimming winners here before they hit targets would be giving up edge without a reason. The single risk I'm watching hardest is C at $134.94 with a stop at $126.86 \u2014 any macro print that reprices rate-cut expectations could take the financials down fast and that name has the most dollar P&L to protect given our 51% gain. Into the next few sessions I'm watching whether SPY can push through the 68 RSI without rolling over, and whether MSFT and GOOGL can get any legs toward their respective TPs \u2014 if they stall and the broad tape starts fading, I'll be looking at those two swing positions first for exits rather than waiting for stops to get hit.",
       "risk_notes": "Book is deeply underwater at -75.98% cumulative, which means capital preservation and compounding the current winners is the only mandate that matters. Key risks: (1) C at $134.94 with a $126.86 stop \u2014 6% of cushion left, and financials are sensitive to any rates repricing; watch this one closely. (2) WELL at $233.43 is up 33.4% \u2014 trailing stop at $209.69 gives meaningful room but healthcare REITs can gap on rate news. (3) MSFT and GOOGL swing positions are only 1-2% into the move with TP at $437 and $408 respectively \u2014 not much cushion if the tape softens. (4) AMZN at +3.8% is the strongest swing name; stop at $233.11 is 8.5% below current price \u2014 appropriately set. (5) NVDA and META are single-share positions, effectively negligible in dollar terms \u2014 they're tracking the thesis but adding zero alpha at this size. (6) 89.7% cash looks defensive but given the -76% hole, capital at risk ($24.7K) relative to peak losses means the priority is not losing more, then rebuilding. No earnings flags visible in this cycle but NVDA, MSFT, AMZN and META all have quarterly catalysts in the near term \u2014 swing stops need to be respected mechanically."
+    },
+    {
+      "timestamp": "2026-07-16T11:17:58.427881-04:00",
+      "regime": "NEUTRAL",
+      "regime_score": 1,
+      "portfolio_value": 240291.12,
+      "cash": 215508.18,
+      "actions_taken": 0,
+      "commentary": "The tape is telling a nuanced story today \u2014 SPY is holding above both the 50 and 200-day with RSI at 65.8, which in isolation looks constructive, but QQQ slipping below its SMA50 at $718 while the 20-day return is essentially flat tells me the big-cap tech leadership that's been carrying this market is showing fatigue. That divergence between SPY strength and QQQ weakness is a yellow flag I'm not going to ignore, and in a neutral regime the rules already tell me to cut size 30% \u2014 so I'm not adding here. The long book is doing the heavy lifting: C at +49.4%, WELL at +37.1%, and SPY at +20.9% are compounding nicely off significantly lower entries, and those are the positions I want to protect, not dilute with marginal new ideas. On the swing side, everything is behaving \u2014 AMZN and GOOGL are in the green and tracking toward their targets, but NVDA at -2.5% with the stop at $200.62 is the one I'm babysitting this session; a clean break below $200 and we're out, no debate. The reason I'm not putting new capital to work today isn't hesitation \u2014 it's that none of the names on my watchlist (AVGO at $380, CRWD at $204, OKTA at $151) have given me a setup that clears the bar in a neutral regime with five swing slots already filled and a book carrying meaningful unrealized gains I'd rather not hedge with correlated longs. Into the next cycle I'm watching whether QQQ can reclaim $718 \u2014 that's the level that would shift my view from cautious to selectively opportunistic, and if it does, AVGO is the first call I'd consider given where semis are trading.",
+      "risk_notes": "NVDA is the only swing position in the red at -2.5% with a stop at $200.62 \u2014 we're roughly $5.40 from that trigger and I'm watching it closely given the broader semiconductor tape (MU at $853, MRVL at $190 showing mixed momentum). META at $676 and AMZN at $255 are both within striking distance of their take-profit levels ($740 and $274 respectively) \u2014 worth monitoring for a trim opportunity if momentum accelerates. On the long-term book, C is up 49.4% with a stop at $126.86 versus current $133.40 \u2014 stop needs reviewing to protect gains. WELL at +37.1% similarly has a wide gap between current price ($239.93) and stop ($211.14). Portfolio is sitting at -75.97% cumulative from starting capital, which is the elephant in the room \u2014 89.7% cash reflects prior damage absorbed, and we cannot afford to chase setups in a neutral tape. Concentration risk is manageable: all positions are single-digit share counts. No immediate earnings catalysts flagged but NVDA and META are always binary risk events when they report."
     }
   ]
 }
