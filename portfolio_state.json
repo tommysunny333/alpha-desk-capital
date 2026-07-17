@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-17T10:59:16.068322-04:00",
+    "last_updated": "2026-07-17T11:11:32.219132-04:00",
     "last_trading_day": "2026-07-17",
     "total_sessions": 20,
     "regime": "NEUTRAL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -1.53,
-    "portfolio_value": 239928.79,
+    "spy_ytd_return": -1.58,
+    "portfolio_value": 239916.98,
     "cash": 218415.77,
     "cumulative_return_pct": -76.01,
-    "alpha_vs_spy": -74.48,
+    "alpha_vs_spy": -74.43,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -40,7 +40,7 @@
       "entry_price": 311.81,
       "current_price": 332.97,
       "shares": 6,
-      "stop_price": 293.28,
+      "stop_price": 293.41,
       "days_held": 0
     },
     {
@@ -700,11 +700,11 @@
     },
     {
       "date": "2026-07-17",
-      "portfolio_value": 239928.79,
-      "daily_pnl": -217.43,
+      "portfolio_value": 239916.98,
+      "daily_pnl": -11.81,
       "cumulative_return": -76.01,
-      "spy_return": -1.53,
-      "alpha": -74.48,
+      "spy_return": -1.58,
+      "alpha": -74.43,
       "regime": "NEUTRAL",
       "num_positions": 7,
       "cash": 218415.77
@@ -1920,6 +1920,16 @@
       "actions_taken": 0,
       "commentary": "The tape is sending mixed signals this morning \u2014 SPY is constructive above both its 50 and 200-day at $744.94, RSI at 62.6 has room before it gets extended, but QQQ is still trading below its 50-day at $718 and the 20-day return on SPY is essentially flat at 0.8%, which tells me this is a rotation market rather than a broad risk-on move. Given that read, I'm not adding exposure this cycle; the neutral regime score of 1/5 with the 30% size-reduction mandate is actually doing the right thing for a book that's already carrying significant cumulative damage. The P&L leaders doing the heavy lifting are C and WELL \u2014 C up 46.4% from $89.30 is the standout, and WELL at 40.5% from $174.95 is a testament to healthcare REIT resilience \u2014 both positions I'm letting run with trailing stops firmly in place rather than banking gains prematurely. The two swing positions in MSFT and AMZN are essentially at entry, and with QQQ lagging I'm not going to press either name here; holding them is the right call because the setups haven't failed, but I need to see QQQ reclaim $718 before I'd add or initiate new tech-side swings. The single risk I'm watching most carefully is C's proximity to its $126.86 stop \u2014 a 3% move lower in financials on any credit or macro headline puts us out of that position, and given how much of the book's unrealized P&L lives there, I'd rather flag it now than be surprised. Into the next cycle I'm monitoring whether QQQ can close back above its 50-day as the key regime confirmation, and I'm keeping dry powder elevated \u2014 with 7 open position slots remaining and nearly $218K in cash, the next deployment will be deliberate and only when the tape earns it.",
       "risk_notes": "C at $130.70 is sitting just $3.84 above its $126.86 trailing stop \u2014 any intraday weakness in financials and we're stopped out; watching that level closely. WELL has run 40.5% from entry and the stop at $216.23 is 12% below current \u2014 a legitimate trailing stop but a large dollar move now given the gain. MSFT swing entered at $390.86 with TP at $437.54 is 11.6% away while we're only 0.3% in the money \u2014 needs a catalyst to get moving or we're just carrying dead weight near entry. AMZN at $248.86 is 1.4% into the swing with TP at $274.83 and stop at $233.11 \u2014 acceptable R/R but QQQ's failure to reclaim its 50-day ($718) is a headwind for large-cap tech momentum names. Overall portfolio drawdown is -76% from peak starting capital \u2014 this book has taken serious damage and capital preservation must dominate any growth impulse. Cash at 91% is appropriate given regime; minimum 10% reserve is not a constraint here, discipline is."
+    },
+    {
+      "timestamp": "2026-07-17T11:11:06.525445-04:00",
+      "regime": "NEUTRAL",
+      "regime_score": 1,
+      "portfolio_value": 239916.98,
+      "cash": 218415.77,
+      "actions_taken": 0,
+      "commentary": "The tape is telling a nuanced story this morning \u2014 SPY is firm above both the 50 and 200-day at $745, RSI at 62 says momentum is intact, but QQQ sitting below its SMA50 at $694 vs $718 is a yellow flag I can't ignore. When large-cap tech underperforms on a relative basis in what should be its home turf environment, I trim my enthusiasm for adding risk, and that's exactly what the neutral regime read is reflecting. The book itself is doing its job on the long-term core: C at +46%, WELL at +40%, and SPY at +19.5% are carrying the weight, and I'm not touching those \u2014 the trailing stops are in place and the thesis on each is intact. The two swings, MSFT and AMZN, are in early innings; AMZN is showing the better trajectory at +1.3% and trending toward its $274.83 target, while MSFT needs to get off the mat \u2014 if it doesn't show a bid in the next few sessions I'll be reassessing whether it's worth the slot. The decision to hold all positions and keep the powder dry this cycle is deliberate: with QQQ lagging and a neutral regime calling for 30% reduced sizing, the bar for new entry is materially higher, and right now nothing in the watchlist is clearing that bar with the conviction I'd need at this account equity level. Into the next cycle, I'm watching QQQ's relationship with its SMA50 at $718 as the single most important level \u2014 recapturing that would shift my posture toward cautious accumulation, while a further breakdown below $685 would have me tightening stops across the book.",
+      "risk_notes": "C is the tightest stop situation \u2014 trading at $130.57 with stop at $126.86, only 2.8% of cushion remaining; any financials sector rotation could clip that quickly. MSFT swing is essentially flat at +0.1% with stop at $371.13, roughly 5.2% away \u2014 it needs to show momentum soon or it becomes dead capital. AMZN is tracking well at +1.3% toward TP of $274.83, watch for resistance around $255-260. WELL has compounded nicely to +40.3% but a 12% trailing stop means the line in the sand is near $216 \u2014 it's held that, but REIT sensitivity to rate narrative is real. Cumulative drawdown of -76% from $1M starting capital means capital preservation is paramount; with 91% in cash and only $239K total value, every deployment decision carries outsized weight on recovery math. No positions are currently within 5% of take-profit triggers except AMZN."
     }
   ]
 }
