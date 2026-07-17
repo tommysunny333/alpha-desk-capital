@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-17T12:40:04.045492-04:00",
+    "last_updated": "2026-07-17T13:17:51.567392-04:00",
     "last_trading_day": "2026-07-17",
     "total_sessions": 20,
     "regime": "NEUTRAL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -1.39,
-    "portfolio_value": 239902.35,
+    "spy_ytd_return": -1.27,
+    "portfolio_value": 239892.12,
     "cash": 218415.77,
     "cumulative_return_pct": -76.01,
-    "alpha_vs_spy": -74.62,
+    "alpha_vs_spy": -74.74,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -700,11 +700,11 @@
     },
     {
       "date": "2026-07-17",
-      "portfolio_value": 239902.35,
-      "daily_pnl": 2.76,
+      "portfolio_value": 239892.12,
+      "daily_pnl": -10.23,
       "cumulative_return": -76.01,
-      "spy_return": -1.39,
-      "alpha": -74.62,
+      "spy_return": -1.27,
+      "alpha": -74.74,
       "regime": "NEUTRAL",
       "num_positions": 7,
       "cash": 218415.77
@@ -1960,6 +1960,16 @@
       "actions_taken": 0,
       "commentary": "The tape is giving me a split signal: SPY is technically constructive above both its 50 and 200-day at $746 with RSI at 63.7, but QQQ sitting 2.8% below its SMA50 at $719 tells me the market's engine \u2014 mega-cap tech \u2014 is stalling, and I'm not going to pretend that doesn't matter for this book. My two swing positions, MSFT and AMZN, are both early-stage and marginally positive, but I'm not adding to either with QQQ in this position; the thesis requires tech to lead, not lag. The long-term book is where the real action is \u2014 C has run 45.8% and is dangerously close to its stop at $126.86, so I'm watching that name closely; if it closes two days in a row below $128, I'll reassess whether the stop needs hiking or the position needs trimming to lock in some of that gain before a reversal catches us. Sitting at 91% cash with a -76% cumulative hole in the book, I'm acutely aware that rebuilding requires deploying capital into high-conviction setups, but a neutral regime with tech lagging is not that moment \u2014 I'd rather wait for QQQ to reclaim $719 or see the regime score improve before committing meaningful size. Into the next cycle I'm watching the QQQ-SMA50 gap as the single most important level; if it closes that distance and SPY RSI stays elevated without becoming overbought, I have 7 open position slots and dry powder to deploy into quality setups across the sectors already working in this book.",
       "risk_notes": "C at $130.17 is now only $3.31 above its stop at $126.86 \u2014 that's a 2.5% cushion on a name that's up 45.8%; any broad financial sector weakness or credit news could tag that stop intraday. WELL at $243.86 has an equally wide gain (39.4%) with stop at $216.23 \u2014 11.3% of downside buffer, which is fine structurally, but healthcare sentiment can gap. AAPL at $332.08 is barely 13.2% above stop $293.41 and P&L is only +6.5% \u2014 lowest conviction LT position in the book. MSFT swing is barely off the ground at +0.6%, stop $371.13 represents a 5.6% loss from current; watching SMA50 overhead at approximately $400-410 as the next resistance test. AMZN swing TP is $274.83, currently $248.52 \u2014 10.6% away, reasonable progress at +1.2% but momentum needs to hold. Portfolio is deeply underwater on a total return basis (-76%) but current open positions are all profitable; the damage was done earlier and cash preservation is now the priority. QQQ sub-SMA50 is the most important macro flag \u2014 MSFT and AMZN are tech-correlated swings that will face headwinds if QQQ fails to reclaim $719."
+    },
+    {
+      "timestamp": "2026-07-17T13:17:28.199755-04:00",
+      "regime": "NEUTRAL",
+      "regime_score": 1,
+      "portfolio_value": 239892.12,
+      "cash": 218415.77,
+      "actions_taken": 0,
+      "commentary": "The tape is giving us a split signal \u2014 SPY is constructive above both its 50 and 200-day, RSI at 64.6 is healthy without being overbought, but QQQ sitting 2.4% below its SMA50 tells me the growth engine isn't firing, and that's the part of the market you need to see leading if you're going to lean in. Against that backdrop, sitting at 91% cash and a neutral regime read, I'm not adding risk this cycle \u2014 and that's an active call, not paralysis. The book's P&L story is being written by three names: C is the standout at +45.7% and has earned its keep, WELL at +38.9% has been a quiet compounder in a tape that keeps rewarding defensive growth, and SPY at +19.9% is doing exactly what a core anchor should do. The two swing positions \u2014 MSFT and AMZN \u2014 are both in the money but barely, and I want to see price distance itself from entry before I get comfortable; right now they're earning their stops, not their targets. The single risk I'm most focused on is C at $130.15 with only $3.29 of stop buffer \u2014 that name has had an enormous run and a hawkish Fed surprise or credit market wobble could trigger the stop before I can react; I'm watching $127 as the line in the sand, and if macro tone shifts I'll consider a trim ahead of the stop rather than waiting to get taken out. Into the next cycle, the key question is whether QQQ can reclaim $719 \u2014 that's the catalyst that flips this from a cautious hold posture into one where I'd consider adding NVDA or MSFT size; until then, the dry powder stays dry.",
+      "risk_notes": "C is the tightest situation right now \u2014 trading at $130.15 with a stop at $126.86, less than 2.5% of cushion after a 45.7% gain; one bad macro print clips it. MSFT at $394 is 6% from its TP of $437 but only 0.9% in the money \u2014 if QQQ can't reclaim $719 SMA50, this name stalls here. AMZN stop at $233.11 is 6.3% below current price, well-structured, but the 1.3% gain is thin and the setup needs price to accelerate soon or it becomes dead weight in a slot. WELL at $243 has run 38.9% \u2014 trailing stop at $216 is 11% below, so it's protected but a healthcare rotation reversal would eat that buffer fast. Overall book is 91% cash against a -76% cumulative drawdown from peak capital \u2014 the core problem is this portfolio has already suffered catastrophic losses and is operating on survival capital; every new position carries outsized psychological and capital risk. No positions are approaching take-profit levels imminently except MSFT, which needs monitoring. No earnings catalysts flagged in immediate data but AAPL and AMZN are always binary events \u2014 check the calendar."
     }
   ]
 }
