@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-17T14:31:08.537873-04:00",
+    "last_updated": "2026-07-17T14:52:09.604297-04:00",
     "last_trading_day": "2026-07-17",
     "total_sessions": 20,
     "regime": "NEUTRAL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -1.61,
-    "portfolio_value": 239850.1,
+    "spy_ytd_return": -1.65,
+    "portfolio_value": 239867.06,
     "cash": 218415.77,
     "cumulative_return_pct": -76.01,
-    "alpha_vs_spy": -74.4,
+    "alpha_vs_spy": -74.36,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -40,7 +40,7 @@
       "entry_price": 311.81,
       "current_price": 332.97,
       "shares": 6,
-      "stop_price": 293.41,
+      "stop_price": 294.05,
       "days_held": 0
     },
     {
@@ -700,11 +700,11 @@
     },
     {
       "date": "2026-07-17",
-      "portfolio_value": 239850.1,
-      "daily_pnl": 2.43,
+      "portfolio_value": 239867.06,
+      "daily_pnl": 16.96,
       "cumulative_return": -76.01,
-      "spy_return": -1.61,
-      "alpha": -74.4,
+      "spy_return": -1.65,
+      "alpha": -74.36,
       "regime": "NEUTRAL",
       "num_positions": 7,
       "cash": 218415.77
@@ -2000,6 +2000,16 @@
       "actions_taken": 0,
       "commentary": "The tape is sending mixed signals \u2014 SPY is above both moving averages and RSI is healthy at 62, but QQQ is below its 50-day and the 20-day return on SPY is essentially flat, which tells me the rally is narrowing into large-cap safety rather than broadening into risk. That's not a backdrop where I want to be adding tickets aggressively, and the neutral regime flag enforces a 30% size reduction on anything new anyway. Within the book, C and WELL are doing the heavy lifting on the long side \u2014 C up 45% and WELL up 38.8% are the two names that matter most to P&L right now, and notably C's stop at $126.86 is close enough that I'm watching it daily; a financials selloff on rate news could clip that quickly. I'm holding everything this cycle because none of the setups in the watchlist cleared the bar \u2014 QQQ sub-50-day means the quality growth names I'd want to add (NVDA at $203, GOOGL at $344) are trading in a technically broken index, and buying into that without confirmation is how you compound losses in a book already down 76%. MSFT and AMZN are holding above entry but neither has shown the kind of volume expansion or price acceleration that justifies adding; they stay on as is and I let the tape decide whether they earn their slots or get stopped out cleanly. The single level that changes my posture is QQQ reclaiming $719 \u2014 that's the 50-day, and a close above it with SPY holding would shift the regime score enough that I'd be willing to size into NVDA or GOOGL for a momentum re-entry with defined risk.",
       "risk_notes": "C at $129.49 is trading just $2.63 above its stop at $126.86 \u2014 that's a 2% cushion on a +45% winner, and with financials sensitive to any macro surprise, that stop gets tested fast on a down tape. MSFT and AMZN are both sitting within 1% of entry, neither has generated meaningful follow-through since initiation; they're using swing slots without earning them yet. Overall book is down 76% from starting capital of $1M \u2014 the portfolio is in recovery mode, which means capital preservation and asymmetric setups matter far more than activity. Cash at 91% is intentional given the regime read but also reflects the cumulative damage; we cannot afford another leg down on existing names. No new positions opened this cycle \u2014 max position size at 10% of $239,850 is ~$23,985, which is a small enough ticket that the bar for a new entry must be high. AAPL at $332 is only 6.6% above entry with stop at $293 \u2014 the R/R from here is compressed. Watch KO at $81 with stop $74.74; defensives holding but not running."
+    },
+    {
+      "timestamp": "2026-07-17T14:51:48.141748-04:00",
+      "regime": "NEUTRAL",
+      "regime_score": 1,
+      "portfolio_value": 239867.06,
+      "cash": 218415.77,
+      "actions_taken": 0,
+      "commentary": "The tape is giving us a mixed signal and I'm not going to pretend otherwise \u2014 SPY is above both moving averages and VIX at 18.6 is benign, but QQQ sitting 3% under its 50-day tells me the growth side of the market is under distribution, and that's the side where most new setups would live. In this regime I'm not adding; I'm watching what we already own. The book's P&L story right now is being written by three names: C is up 45% from entry and is the single biggest contributor in dollar terms, WELL has run 39% and both are hitting levels where any sector rotation could trigger the trailing stops overnight. I'm actively choosing not to trail those stops tighter \u2014 the 12% rule exists precisely to let winners breathe without getting shaken out on noise, and neither name has shown deterioration in its trend. The two swings, MSFT and AMZN, are early and unremarkable at sub-1% gains each; I'm giving them room to develop but I'll reassess if neither resolves toward the take-profit levels by the time QQQ either reclaims its 50-day or breaks lower \u2014 that resolution is the binary I'm waiting on. The single risk level I'm watching most closely is C's $126.86 stop; we're $2.73 away and if financials catch a bid of bad macro news into the close, that position gets stopped automatically \u2014 I'm not intervening ahead of it but I have the execution ready.",
+      "risk_notes": "C at $129.59 is within $2.73 of its $126.86 trailing stop \u2014 that position is essentially on a razor's edge and any bank-sector risk-off day clips it. WELL at $243.10 is extended 39% from entry but the trailing stop at $216.23 gives back meaningful P&L if healthcare rolls. Portfolio is down 76% cumulative from $1M starting capital \u2014 the book is in deep drawdown recovery mode and capital preservation is paramount. AAPL at $334.15 has a stop at $294.05, roughly 12% below current \u2014 a wide cushion but the stock has only gained 7.2% from entry so the absolute dollar risk is modest. MSFT swing is trading near entry at $394.87 with TP at $437.54 still 10.8% away; not in trouble but not generating alpha yet. AMZN swing at $247.62 is similarly slow \u2014 0.9% off entry with TP at $274.83. Both swings are burning time in a neutral regime where momentum setups tend to stall. Concentration note: 91.1% cash is actually the biggest 'risk' here \u2014 opportunity cost is real, but deploying into a neutral regime without high-conviction setups is how this book digs the hole deeper."
     }
   ]
 }
