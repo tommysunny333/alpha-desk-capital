@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-16T16:05:42.011902-04:00",
-    "last_trading_day": "2026-07-16",
-    "total_sessions": 19,
+    "last_updated": "2026-07-17T10:59:16.068322-04:00",
+    "last_trading_day": "2026-07-17",
+    "total_sessions": 20,
     "regime": "NEUTRAL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -0.75,
-    "portfolio_value": 240146.22,
-    "cash": 215714.92,
-    "cumulative_return_pct": -75.99,
-    "alpha_vs_spy": -75.24,
+    "spy_ytd_return": -1.53,
+    "portfolio_value": 239928.79,
+    "cash": 218415.77,
+    "cumulative_return_pct": -76.01,
+    "alpha_vs_spy": -74.48,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -20,7 +20,7 @@
       "ticker": "SPY",
       "entry_date": "2026-06-02",
       "entry_price": 623.09,
-      "current_price": 751.86,
+      "current_price": 744.94,
       "shares": 13,
       "stop_price": 667.64,
       "days_held": 0
@@ -29,16 +29,16 @@
       "ticker": "WELL",
       "entry_date": "2026-06-02",
       "entry_price": 174.95,
-      "current_price": 239.25,
+      "current_price": 245.72,
       "shares": 12,
-      "stop_price": 212.46,
+      "stop_price": 216.23,
       "days_held": 0
     },
     {
       "ticker": "AAPL",
       "entry_date": "2026-06-02",
       "entry_price": 311.81,
-      "current_price": 331.2,
+      "current_price": 332.97,
       "shares": 6,
       "stop_price": 293.28,
       "days_held": 0
@@ -47,7 +47,7 @@
       "ticker": "C",
       "entry_date": "2026-06-02",
       "entry_price": 89.3,
-      "current_price": 132.19,
+      "current_price": 130.7,
       "shares": 8,
       "stop_price": 126.86,
       "days_held": 0
@@ -56,7 +56,7 @@
       "ticker": "KO",
       "entry_date": "2026-06-02",
       "entry_price": 77.91,
-      "current_price": 84.43,
+      "current_price": 83.02,
       "shares": 15,
       "stop_price": 74.74,
       "days_held": 0
@@ -67,7 +67,7 @@
       "ticker": "MSFT",
       "entry_date": "2026-07-02",
       "entry_price": 390.8553,
-      "current_price": 400.03,
+      "current_price": 391.95,
       "shares": 6,
       "stop_price": 371.13,
       "days_held": 0,
@@ -75,37 +75,15 @@
       "signal": "Bull regime large-cap quality setup"
     },
     {
-      "ticker": "GOOGL",
-      "entry_date": "2026-07-06",
-      "entry_price": 364.5022,
-      "current_price": 371.43,
-      "shares": 6,
-      "stop_price": 346.1,
-      "days_held": 0,
-      "take_profit": 408.04,
-      "signal": "Bull regime large-cap value momentum"
-    },
-    {
       "ticker": "AMZN",
       "entry_date": "2026-07-09",
       "entry_price": 245.5027,
-      "current_price": 255.78,
+      "current_price": 248.86,
       "shares": 9,
       "stop_price": 233.11,
       "days_held": 0,
       "take_profit": 274.83,
       "signal": "Bull regime large-cap momentum reentry"
-    },
-    {
-      "ticker": "META",
-      "entry_date": "2026-07-14",
-      "entry_price": 661.6306,
-      "current_price": 669.0,
-      "shares": 1,
-      "stop_price": 628.24,
-      "days_held": 0,
-      "take_profit": 740.66,
-      "signal": "Bull regime mega-cap quality momentum \u2014 advertising cycle recovery"
     }
   ],
   "trade_log": [
@@ -486,6 +464,28 @@
       "reasoning": "NVDA is the only swing position in the red at -2.1%, sitting at $206.84 with a stop at $200.62 \u2014 that's only $6.22 of cushion, roughly 3% from hard stop. More importantly, QQQ is trading below its 50-day at $718, which is the natural habitat for semis momentum. The AI infrastructure thesis is intact long-term, but in a neutral regime with the tech complex showing relative weakness, holding a losing position with thin cushion and no near-term catalyst makes no sense. I'd rather eat the small loss now, free up the slot, and re-enter on a better setup when QQQ reclaims $718. Exits are decisions too.",
       "realized_pnl": -4.55,
       "timestamp": "2026-07-16T12:21:21.236075-04:00"
+    },
+    {
+      "action": "SELL",
+      "ticker": "GOOGL",
+      "strategy": "SWING",
+      "price": 345.76,
+      "quantity": 6,
+      "reasoning": "Stop loss hit: $345.76 <= $346.10",
+      "signal": "STOP_LOSS",
+      "realized_pnl": -113.49,
+      "timestamp": "2026-07-17T10:58:51.623580-04:00"
+    },
+    {
+      "action": "SELL",
+      "ticker": "META",
+      "strategy": "SWING",
+      "price": 627.64,
+      "quantity": 1,
+      "reasoning": "Stop loss hit: $627.64 <= $628.24",
+      "signal": "STOP_LOSS",
+      "realized_pnl": -34.3,
+      "timestamp": "2026-07-17T10:58:51.623580-04:00"
     }
   ],
   "daily_snapshots": [
@@ -697,6 +697,17 @@
       "regime": "NEUTRAL",
       "num_positions": 9,
       "cash": 215714.92
+    },
+    {
+      "date": "2026-07-17",
+      "portfolio_value": 239928.79,
+      "daily_pnl": -217.43,
+      "cumulative_return": -76.01,
+      "spy_return": -1.53,
+      "alpha": -74.48,
+      "regime": "NEUTRAL",
+      "num_positions": 7,
+      "cash": 218415.77
     }
   ],
   "agent_decision_log": [
@@ -1899,6 +1910,16 @@
       "actions_taken": 0,
       "commentary": "The tape is telling a split story right now: SPY is comfortably above both its 50 and 200-day moving averages and RSI is at 63, but QQQ is sitting below its SMA50 at $706 versus $718, and the 20-day return is essentially flat \u2014 that divergence is the key read this cycle, and it argues against adding large-cap tech exposure even though the screens are throwing up setups in names like NVDA and MRVL. The long book is the real story for us: C at +47.5% and WELL at +38% are doing the heavy lifting on performance, and SPY's 13-share position continues to compound quietly at +20.5% \u2014 these are exactly the positions we want to let ride with trailing stops in place rather than harvest prematurely. GOOGL is the one name keeping me up; we're -2.8% on the swing with the stop at $346.10, and with the Nasdaq underperforming its own moving average, the macro backdrop isn't giving this trade a tailwind \u2014 I'm watching the $346 level closely and will honor the stop without hesitation if it trades there. The single biggest risk to the book this cycle is a QQQ-led tech rollover: if QQQ can't reclaim $718 in the next few sessions, the MSFT and GOOGL swing positions both become uncomfortable, and I'd rather be stopped out cleanly than average into a deteriorating setup with a book that needs wins, not experiments. Into the next cycle I want to see QQQ resolve \u2014 a clean break back above the SMA50 with volume opens up fresh swing entries in the mega-cap quality names; failure there and I'll be cutting the tech swings and sitting tighter in cash until the regime re-scores.",
       "risk_notes": "Book is sitting at -76% cumulative return on starting capital \u2014 context matters here, but the hole is deep and capital preservation is paramount. C at $131.71 with stop at $126.86 is the tightest leash in the long book at roughly 3.7% from stop; any financials wobble on rate news could clip it. GOOGL swing is the only underwater position at -2.8% with stop at $346.10 \u2014 we're about $8 from being stopped out, and with QQQ below its SMA50 this is the name I'm watching most closely. MSFT at $401.12 is working but barely, 2.6% off entry; needs to hold $390 or the bull setup thesis gets questioned. META at 1 share is more of a tracking position than a real trade given $664 \u2014 not moving the needle. Cash at 89.8% is well above the 10% floor, giving us optionality but also reflecting how cautious we've been \u2014 appropriately so given the regime score of 1/5. No earnings catalyst flags on immediate horizon for current holdings, but tech names broadly face macro sensitivity to any Fed commentary or yield moves."
+    },
+    {
+      "timestamp": "2026-07-17T10:58:51.623580-04:00",
+      "regime": "NEUTRAL",
+      "regime_score": 1,
+      "portfolio_value": 239928.79,
+      "cash": 218415.77,
+      "actions_taken": 0,
+      "commentary": "The tape is sending mixed signals this morning \u2014 SPY is constructive above both its 50 and 200-day at $744.94, RSI at 62.6 has room before it gets extended, but QQQ is still trading below its 50-day at $718 and the 20-day return on SPY is essentially flat at 0.8%, which tells me this is a rotation market rather than a broad risk-on move. Given that read, I'm not adding exposure this cycle; the neutral regime score of 1/5 with the 30% size-reduction mandate is actually doing the right thing for a book that's already carrying significant cumulative damage. The P&L leaders doing the heavy lifting are C and WELL \u2014 C up 46.4% from $89.30 is the standout, and WELL at 40.5% from $174.95 is a testament to healthcare REIT resilience \u2014 both positions I'm letting run with trailing stops firmly in place rather than banking gains prematurely. The two swing positions in MSFT and AMZN are essentially at entry, and with QQQ lagging I'm not going to press either name here; holding them is the right call because the setups haven't failed, but I need to see QQQ reclaim $718 before I'd add or initiate new tech-side swings. The single risk I'm watching most carefully is C's proximity to its $126.86 stop \u2014 a 3% move lower in financials on any credit or macro headline puts us out of that position, and given how much of the book's unrealized P&L lives there, I'd rather flag it now than be surprised. Into the next cycle I'm monitoring whether QQQ can close back above its 50-day as the key regime confirmation, and I'm keeping dry powder elevated \u2014 with 7 open position slots remaining and nearly $218K in cash, the next deployment will be deliberate and only when the tape earns it.",
+      "risk_notes": "C at $130.70 is sitting just $3.84 above its $126.86 trailing stop \u2014 any intraday weakness in financials and we're stopped out; watching that level closely. WELL has run 40.5% from entry and the stop at $216.23 is 12% below current \u2014 a legitimate trailing stop but a large dollar move now given the gain. MSFT swing entered at $390.86 with TP at $437.54 is 11.6% away while we're only 0.3% in the money \u2014 needs a catalyst to get moving or we're just carrying dead weight near entry. AMZN at $248.86 is 1.4% into the swing with TP at $274.83 and stop at $233.11 \u2014 acceptable R/R but QQQ's failure to reclaim its 50-day ($718) is a headwind for large-cap tech momentum names. Overall portfolio drawdown is -76% from peak starting capital \u2014 this book has taken serious damage and capital preservation must dominate any growth impulse. Cash at 91% is appropriate given regime; minimum 10% reserve is not a constraint here, discipline is."
     }
   ]
 }
