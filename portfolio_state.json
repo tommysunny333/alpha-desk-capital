@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-20T11:30:30.887929-04:00",
+    "last_updated": "2026-07-20T11:48:23.687250-04:00",
     "last_trading_day": "2026-07-20",
     "total_sessions": 21,
     "regime": "NEUTRAL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -1.39,
-    "portfolio_value": 239905.71,
+    "spy_ytd_return": -1.46,
+    "portfolio_value": 239911.07,
     "cash": 218415.77,
     "cumulative_return_pct": -76.01,
-    "alpha_vs_spy": -74.62,
+    "alpha_vs_spy": -74.55,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -711,11 +711,11 @@
     },
     {
       "date": "2026-07-20",
-      "portfolio_value": 239905.71,
-      "daily_pnl": 60.23,
+      "portfolio_value": 239911.07,
+      "daily_pnl": 5.36,
       "cumulative_return": -76.01,
-      "spy_return": -1.39,
-      "alpha": -74.62,
+      "spy_return": -1.46,
+      "alpha": -74.55,
       "regime": "NEUTRAL",
       "num_positions": 7,
       "cash": 218415.77
@@ -2051,6 +2051,16 @@
       "actions_taken": 0,
       "commentary": "The tape is giving me a split signal \u2014 SPY is holding above both moving averages and RSI is constructive at 54, but QQQ is sitting 2.4% below its 50-day and the 20-day return on SPY is essentially flat, which tells me we're in a range-bound, chop-your-stops environment rather than a trending one. That's exactly the kind of market where deploying the $218K in dry powder gets you chopped up, not paid. The book's P&L story is being carried by three names \u2014 C up 45.8%, WELL up 39.6%, and SPY up 19.7% \u2014 all long-term positions that I'm content to let ride with their trailing stops doing the work; the swings in MSFT and AMZN are grinding in the right direction but slowly, which is fine given I sized them at reduced weight per the neutral-regime protocol. The decision to hold everything flat this cycle isn't passivity \u2014 it's recognizing that in a neutral regime with QQQ lagging, adding exposure is essentially paying up for beta in a tape that isn't rewarding it, and the opportunity cost of sitting in cash is near-zero when the marginal setup isn't clearing my quality bar. The single risk I'm most focused on is C's stop at $126.86: that position is up 45.8% but the trailing stop cushion has compressed to under 3%, so any financials-specific selloff \u2014 whether macro data, credit spreads widening, or a single bad headline \u2014 takes me out of a position that's been a core driver of book performance. Into the next cycle I want to see QQQ reclaim $719 before I consider adding any tech-tilted exposure, and I'll be watching whether SPY can hold the $744 SMA50 on any intraday dip \u2014 a break there would shift my posture toward trimming the MSFT and AMZN swings proactively rather than waiting for stops to be hit.",
       "risk_notes": "C at $130.19 vs stop $126.86 \u2014 that's a 2.6% cushion, tightest stop in the book; any financials weakness or macro print could clip it. WELL stop at $216.23 vs current $244.26 gives more room but healthcare names have been running hot and prone to sharp mean reversion. MSFT swing at $397.54, TP is $437.54 \u2014 roughly 10% to target with a neutral regime is a slow grind; watching for any deterioration below $390 which would compress the R/R materially. AMZN swing TP $274.83, currently $251.30 \u2014 about 9.3% to go, also a slog in this environment. Book is running -76% cumulative from peak capital base, so capital preservation is paramount \u2014 no heroics in a neutral-to-soft tape. QQQ trading below its 50-day ($719 vs $702) is a real concern for any tech-adjacent names including MSFT and AMZN. VIX at 18.2 is benign but not complacent-low, so hedging isn't screaming urgency either."
+    },
+    {
+      "timestamp": "2026-07-20T11:48:00.136827-04:00",
+      "regime": "NEUTRAL",
+      "regime_score": 1,
+      "portfolio_value": 239911.07,
+      "cash": 218415.77,
+      "actions_taken": 0,
+      "commentary": "The tape is sending a split signal this morning: SPY is technically above both moving averages and VIX at 17.9 is benign, but QQQ sitting nearly 2.5% below its 50-day tells me the growth engine isn't firing, and with a flat-to-negative 20-day return in SPY, this is a market that's chopping rather than trending. Given that context and our neutral regime read, I'm not deploying capital \u2014 the rules say reduce size 30% in neutral, and frankly the drawdown math argues for even more restraint; at $239K on a $1M book, every dollar lost is increasingly irreplaceable. The book's P&L narrative right now is dominated by C (+45.7%) and WELL (+39.8%), both of which have been exceptional, but C's stop at $126.86 is uncomfortably close to current tape at $130.10 \u2014 that's my single most important level to watch, and if financials soften on any macro print this week, I need to see C hold $128 or I'll be forced out on stop. MSFT and AMZN are both working, up 1.9% and 2.5% respectively, but neither is running \u2014 they need QQQ to reclaim $719 to have the sector tailwind that justifies holding through potential earnings vol. Into the next cycle, I'm watching whether QQQ can close above $719; that's the line that would flip the regime assessment and give me the green light to put some of this $218K cash to work in high-quality setups \u2014 until then, the active decision is to sit on hands and let the existing positions prove themselves.",
+      "risk_notes": "Portfolio is in severe drawdown (-76% cumulative) which demands capital preservation above all else. C at $130.10 is now only $3.24 above its $126.86 stop \u2014 a 2.5% adverse move triggers exit; watching closely. WELL stop at $216.23 is ~11.5% below current price, well-cushioned. AAPL at $325.30 sits just 4.3% above cost with stop at $294.05 \u2014 stop is 9.6% below current, acceptable but this position has stalled. MSFT swing at $398.34 is 1.9% from entry with TP at $437.54 \u2014 needs QQQ to reclaim its 50-day ($719 vs current $701) to have a credible path to target; QQQ underperformance is a direct headwind. AMZN swing at $251.52 trending modestly, TP $274.83 is 9.3% away \u2014 reasonable but requires broader tape cooperation. 91% cash is actually the right posture given -76% drawdown; deploying aggressively here would compound the structural damage. No earnings flags in the immediate term for core names, but MSFT and AMZN both have quarterly reports within weeks \u2014 will monitor for vol expansion into those dates."
     }
   ]
 }
