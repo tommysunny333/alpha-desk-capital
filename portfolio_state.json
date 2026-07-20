@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-20T15:11:48.043805-04:00",
+    "last_updated": "2026-07-20T15:24:18.876554-04:00",
     "last_trading_day": "2026-07-20",
     "total_sessions": 21,
     "regime": "NEUTRAL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -1.84,
-    "portfolio_value": 239877.37,
-    "cash": 218415.77,
+    "spy_ytd_return": -1.91,
+    "portfolio_value": 239868.04,
+    "cash": 218930.67,
     "cumulative_return_pct": -76.01,
-    "alpha_vs_spy": -74.17,
+    "alpha_vs_spy": -74.1,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -20,7 +20,7 @@
       "ticker": "SPY",
       "entry_date": "2026-06-02",
       "entry_price": 623.09,
-      "current_price": 744.94,
+      "current_price": 742.03,
       "shares": 13,
       "stop_price": 667.64,
       "days_held": 0
@@ -29,7 +29,7 @@
       "ticker": "WELL",
       "entry_date": "2026-06-02",
       "entry_price": 174.95,
-      "current_price": 245.72,
+      "current_price": 243.99,
       "shares": 12,
       "stop_price": 216.23,
       "days_held": 0
@@ -38,7 +38,7 @@
       "ticker": "AAPL",
       "entry_date": "2026-06-02",
       "entry_price": 311.81,
-      "current_price": 332.97,
+      "current_price": 328.46,
       "shares": 6,
       "stop_price": 294.05,
       "days_held": 0
@@ -47,8 +47,8 @@
       "ticker": "C",
       "entry_date": "2026-06-02",
       "entry_price": 89.3,
-      "current_price": 130.7,
-      "shares": 8,
+      "current_price": 128.79,
+      "shares": 4,
       "stop_price": 126.86,
       "days_held": 0
     },
@@ -56,7 +56,7 @@
       "ticker": "KO",
       "entry_date": "2026-06-02",
       "entry_price": 77.91,
-      "current_price": 83.02,
+      "current_price": 81.72,
       "shares": 15,
       "stop_price": 74.74,
       "days_held": 0
@@ -67,7 +67,7 @@
       "ticker": "MSFT",
       "entry_date": "2026-07-02",
       "entry_price": 390.8553,
-      "current_price": 391.95,
+      "current_price": 400.98,
       "shares": 6,
       "stop_price": 371.13,
       "days_held": 0,
@@ -78,7 +78,7 @@
       "ticker": "AMZN",
       "entry_date": "2026-07-09",
       "entry_price": 245.5027,
-      "current_price": 248.86,
+      "current_price": 249.5,
       "shares": 9,
       "stop_price": 233.11,
       "days_held": 0,
@@ -486,6 +486,19 @@
       "signal": "STOP_LOSS",
       "realized_pnl": -34.3,
       "timestamp": "2026-07-17T10:58:51.623580-04:00"
+    },
+    {
+      "action": "TRIM",
+      "ticker": "C",
+      "strategy": "LONG_TERM",
+      "signal": "Trailing stop proximity \u2014 protect 44% gain",
+      "quantity": 4,
+      "price": 128.79,
+      "stop_price": 126.86,
+      "take_profit": 0.0,
+      "reasoning": "C is up 44.2% from $89.30 entry and the trailing stop at $126.86 is only $1.93 \u2014 less than 1.5% \u2014 below current price at $128.79. That stop is dangerously tight relative to normal intraday noise. In a Neutral regime where financials can gap on macro headlines, this is a coin flip away from getting stopped out on a bad tick. Trimming half the position (4 shares) locks in realized gains on approximately $158 of P&L per share while leaving 4 shares to run if C breaks higher. We keep meaningful exposure but remove the asymmetric risk of losing the full gain on a whipsaw.",
+      "realized_pnl": 157.7,
+      "timestamp": "2026-07-20T15:23:47.591651-04:00"
     }
   ],
   "daily_snapshots": [
@@ -711,14 +724,14 @@
     },
     {
       "date": "2026-07-20",
-      "portfolio_value": 239877.37,
-      "daily_pnl": 7.17,
+      "portfolio_value": 239868.04,
+      "daily_pnl": -9.33,
       "cumulative_return": -76.01,
-      "spy_return": -1.84,
-      "alpha": -74.17,
+      "spy_return": -1.91,
+      "alpha": -74.1,
       "regime": "NEUTRAL",
       "num_positions": 7,
-      "cash": 218415.77
+      "cash": 218930.67
     }
   ],
   "agent_decision_log": [
@@ -2131,6 +2144,16 @@
       "actions_taken": 0,
       "commentary": "The tape is giving us a mixed read \u2014 SPY is basically flat on its 50-day at $743, QQQ is lagging by 3% below its own $719 SMA50, and the 20-day SPY return is slightly negative. That's not a regime where you reach for new setups; it's one where you protect what's working and let the book breathe. The best performers right now are C up 44.7% and WELL up 39.5%, and both of those trailing stops are doing the work of protecting gains without us having to make discretionary calls \u2014 I'm letting those ride. The decision to hold this cycle is deliberate: we have no setups that clear the quality bar in a Neutral regime with a 30% size reduction requirement, and at a $240K book size, the marginal value of forcing a trade that adds $12-15K of exposure is not worth degrading capital further when we're already down 76% from start. The single risk I'm watching most closely is C at $129.21 versus its $126.86 stop \u2014 that position is within a bad afternoon of getting stopped out, and while the gain is locked in via the trailing mechanism, I want to see C hold the $127 level; if it breaks on volume I'd expect it to flush toward $122 before finding support. Into the next session I'm watching whether SPY can reclaim SMA50 cleanly and whether QQQ starts to close the gap to $719 \u2014 a confirmed dual breakout above both 50-days would flip us to Bullish and open the door to adding swing exposure in high-quality large-cap setups like NVDA near $200 or GOOGL which has been compressing. Until then, dry powder is a position.",
       "risk_notes": "C at $129.21 is now only $2.35 above the $126.86 trailing stop \u2014 that's less than 2% of cushion on a name that's up 44.7%; one bad tape day clips it out. WELL at $244.14 has a stop at $216.23, comfortable for now but the 39.5% gain means the trailing stop is doing real work and we need to watch for any REIT sector rotation. AAPL at $328.28 is only 5.3% above entry with stop at $294.05 \u2014 a thin winner that hasn't broken out decisively; earnings or macro shock could push it through the stop. MSFT swing is 2.6% in-the-money against a $437.54 target \u2014 still 8.6% to go with stop at $371.13, manageable. AMZN is 1.7% green against $274.83 target \u2014 early days, no concern. Portfolio is -76% cumulative from peak which itself reflects prior capital destruction; the current book value of $239K means position sizing is severely constrained \u2014 max 10% is ~$24K, limiting us to very small share counts on anything meaningful. Cash at 91% is operationally safe but the opportunity cost is real. VIX at 18.3 is benign but QQQ below SMA50 warns against complacency in growth names."
+    },
+    {
+      "timestamp": "2026-07-20T15:23:47.591651-04:00",
+      "regime": "NEUTRAL",
+      "regime_score": -1,
+      "portfolio_value": 239868.04,
+      "cash": 218930.67,
+      "actions_taken": 1,
+      "commentary": "The tape is in a holding pattern \u2014 SPY at $742 is one dollar below its 50-day at $743, and QQQ is sitting 3.1% under its own 50-day at $719, which tells me tech hasn't participated in any recent recovery attempt. The Neutral regime read at -1/5 is honest: we're not in freefall but we're not getting the breadth confirmation I'd need to add risk, particularly given the mandate to size down 30% in this regime. The book itself is in decent shape on the positions that are working \u2014 WELL and C are the standout performers at +39.5% and +44.2% respectively, and the long-term SPY position at +19.1% is a clean anchor \u2014 but C's trailing stop at $126.86 has crept so close to the $128.79 spot price that it represents event risk more than position management, so I'm trimming half there to crystallize some of that gain before a headline does it for me on worse terms. The swing book is early-innings positive \u2014 MSFT and AMZN are both in the green and tracking toward their targets, but QQQ's underperformance is worth monitoring as a headwind to tech-adjacent names; I'm not cutting them, I'm watching the $371 stop on MSFT as the line in the sand. The single most important risk I'm tracking is a VIX spike through 22-25 coinciding with SPY breaking below $720 \u2014 that would flip the regime bear and trigger a full defensive posture across the book. Into next cycle I want to see QQQ reclaim $710 before I consider any new swing setups; until then, the 91% cash position isn't a bug, it's the strategy.",
+      "risk_notes": "1) C stop at $126.86 is 1.5% below spot \u2014 effectively binary risk heading into any macro print; trimming addresses this but remaining 4 shares still carry stop risk. 2) MSFT swing at $400.98 is 2.6% into the trade with stop at $371.13 (-7.2% from entry $390.86 \u2014 note this exceeds the 5% rule, worth flagging for recalibration to ~$371 vs. the 5% level of $371.32, effectively in compliance). TP at $437.54 is 9.1% away \u2014 holding. 3) AMZN swing TP $274.83 is 10.1% away, stop $233.11 \u2014 position working but QQQ weakness is a headwind; watching closely. 4) Total long-term equity exposure is concentrated in SPY, WELL, AAPL, C, KO \u2014 WELL at +39.5% has stop at $216.23 vs. spot $243.99, comfortable cushion. 5) Portfolio is down 76% cumulative from $1M \u2014 the preservation mandate is paramount; no new deployments until regime confirms bullish. 6) SPY RSI 51 and 20d return -0.6% suggest the market is digesting, not breaking out. VIX 18.4 is benign but not complacent."
     }
   ]
 }
