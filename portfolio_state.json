@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-20T15:24:18.876554-04:00",
+    "last_updated": "2026-07-20T16:08:25.680201-04:00",
     "last_trading_day": "2026-07-20",
     "total_sessions": 21,
     "regime": "NEUTRAL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -1.91,
-    "portfolio_value": 239868.04,
+    "spy_ytd_return": -1.89,
+    "portfolio_value": 239889.63,
     "cash": 218930.67,
     "cumulative_return_pct": -76.01,
-    "alpha_vs_spy": -74.1,
+    "alpha_vs_spy": -74.12,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -724,11 +724,11 @@
     },
     {
       "date": "2026-07-20",
-      "portfolio_value": 239868.04,
-      "daily_pnl": -9.33,
+      "portfolio_value": 239889.63,
+      "daily_pnl": 21.59,
       "cumulative_return": -76.01,
-      "spy_return": -1.91,
-      "alpha": -74.1,
+      "spy_return": -1.89,
+      "alpha": -74.12,
       "regime": "NEUTRAL",
       "num_positions": 7,
       "cash": 218930.67
@@ -2154,6 +2154,16 @@
       "actions_taken": 1,
       "commentary": "The tape is in a holding pattern \u2014 SPY at $742 is one dollar below its 50-day at $743, and QQQ is sitting 3.1% under its own 50-day at $719, which tells me tech hasn't participated in any recent recovery attempt. The Neutral regime read at -1/5 is honest: we're not in freefall but we're not getting the breadth confirmation I'd need to add risk, particularly given the mandate to size down 30% in this regime. The book itself is in decent shape on the positions that are working \u2014 WELL and C are the standout performers at +39.5% and +44.2% respectively, and the long-term SPY position at +19.1% is a clean anchor \u2014 but C's trailing stop at $126.86 has crept so close to the $128.79 spot price that it represents event risk more than position management, so I'm trimming half there to crystallize some of that gain before a headline does it for me on worse terms. The swing book is early-innings positive \u2014 MSFT and AMZN are both in the green and tracking toward their targets, but QQQ's underperformance is worth monitoring as a headwind to tech-adjacent names; I'm not cutting them, I'm watching the $371 stop on MSFT as the line in the sand. The single most important risk I'm tracking is a VIX spike through 22-25 coinciding with SPY breaking below $720 \u2014 that would flip the regime bear and trigger a full defensive posture across the book. Into next cycle I want to see QQQ reclaim $710 before I consider any new swing setups; until then, the 91% cash position isn't a bug, it's the strategy.",
       "risk_notes": "1) C stop at $126.86 is 1.5% below spot \u2014 effectively binary risk heading into any macro print; trimming addresses this but remaining 4 shares still carry stop risk. 2) MSFT swing at $400.98 is 2.6% into the trade with stop at $371.13 (-7.2% from entry $390.86 \u2014 note this exceeds the 5% rule, worth flagging for recalibration to ~$371 vs. the 5% level of $371.32, effectively in compliance). TP at $437.54 is 9.1% away \u2014 holding. 3) AMZN swing TP $274.83 is 10.1% away, stop $233.11 \u2014 position working but QQQ weakness is a headwind; watching closely. 4) Total long-term equity exposure is concentrated in SPY, WELL, AAPL, C, KO \u2014 WELL at +39.5% has stop at $216.23 vs. spot $243.99, comfortable cushion. 5) Portfolio is down 76% cumulative from $1M \u2014 the preservation mandate is paramount; no new deployments until regime confirms bullish. 6) SPY RSI 51 and 20d return -0.6% suggest the market is digesting, not breaking out. VIX 18.4 is benign but not complacent."
+    },
+    {
+      "timestamp": "2026-07-20T16:08:03.760916-04:00",
+      "regime": "NEUTRAL",
+      "regime_score": -1,
+      "portfolio_value": 239889.63,
+      "cash": 218930.67,
+      "actions_taken": 0,
+      "commentary": "The tape is telling a mixed story: SPY is holding above its 200-day at $694 and RSI is just above the 50 midline, but the 20-day return is flat-to-negative and both SPY and QQQ are sitting below their 50-day MAs \u2014 that combination puts us firmly in wait-and-see mode and the regime model is calling it correctly at neutral. The book is light and intentionally so: five long-term names all in the green with C and WELL doing the heavy lifting at +44% and +40% respectively, and two swings in MSFT and AMZN that are grinding toward their targets without needing any intervention from me today. The active decision this cycle is to hold everything and deploy nothing \u2014 not because I'm out of ideas, but because the 30% size reduction rule in neutral regimes means any new position would be undersized relative to the risk I'd be taking on, and with $219K in cash the opportunity cost of waiting for a cleaner regime is low. The one level I'm watching most closely is C's stop at $126.86: we're basically sitting on that line and a close below it forces a mechanical exit on a position that's been one of the book's best performers \u2014 I want to see C hold $127.50 into tomorrow's open or I'm taking that stop seriously. Into the next cycle I'm watching whether QQQ can reclaim its 50-day at $719 as a tell on whether tech momentum resumes, and I'll be monitoring MSFT closely as it approaches the $437 swing target \u2014 that's a planned exit, not a surprise.",
+      "risk_notes": "C is the most urgent watch: trading at $128.72 with a stop at $126.86 \u2014 that's only $1.86 of cushion, under 1.5% away. One bad tape day clips us out. WELL at $244.86 with a stop at $216.23 has ample room but is up 40% \u2014 we should be thinking about where to trail that stop higher. MSFT at $402.51 is 3% off the $437.54 TP; if it gets there in this tape we should be ready to close the swing. AMZN at $250.10 is tracking toward $274.83 TP but QQQ is 3.5% below its 50-day, which is a headwind for momentum names. SPY long-term position sits 19% in the green but the index is technically weak sub-SMA50 at $743 \u2014 trailing stop at $667.64 is not at risk but the setup isn't accelerating. Cumulative drawdown of -76% from the $1M starting book is the elephant in the room; the remaining $240K cannot sustain another large drawdown, which argues strongly for capital preservation over aggressive deployment here."
     }
   ]
 }
