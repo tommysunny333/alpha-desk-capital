@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-20T14:10:23.499863-04:00",
+    "last_updated": "2026-07-20T14:27:44.114144-04:00",
     "last_trading_day": "2026-07-20",
     "total_sessions": 21,
     "regime": "NEUTRAL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -1.55,
-    "portfolio_value": 239900.56,
+    "spy_ytd_return": -1.59,
+    "portfolio_value": 239901.18,
     "cash": 218415.77,
     "cumulative_return_pct": -76.01,
-    "alpha_vs_spy": -74.46,
+    "alpha_vs_spy": -74.42,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -711,11 +711,11 @@
     },
     {
       "date": "2026-07-20",
-      "portfolio_value": 239900.56,
-      "daily_pnl": -16.05,
+      "portfolio_value": 239901.18,
+      "daily_pnl": 0.62,
       "cumulative_return": -76.01,
-      "spy_return": -1.55,
-      "alpha": -74.46,
+      "spy_return": -1.59,
+      "alpha": -74.42,
       "regime": "NEUTRAL",
       "num_positions": 7,
       "cash": 218415.77
@@ -2101,6 +2101,16 @@
       "actions_taken": 0,
       "commentary": "The tape is telling a familiar story right now \u2014 SPY is technically above both moving averages and RSI is mid-range at 53.5, but QQQ sitting 2.5% below its SMA50 is the tell that this isn't a clean bull environment. When large-cap tech leadership is lagging, you don't press new longs; you let the positions that are working run their stops and keep powder dry for a cleaner entry window. The book is generating positive P&L on all five long-term names \u2014 C continues to be the standout at +45% from an $89.30 entry, WELL is close behind at +39.5% \u2014 but I'm watching C closely given the stop at $126.86 is now a thin cushion on a very extended position; the trailing stop is there precisely to lock in the bulk of that gain without me second-guessing tape action. On the swing side, MSFT and AMZN are both modestly in the green but neither has the momentum profile I'd want to see with QQQ underperforming \u2014 I'm not adding to either, and I'm letting the stops and targets do the work. The most important risk I'm watching is a QQQ break that drags the broader large-cap complex \u2014 if QQQ slides another 3-4% from here, AAPL and MSFT stops start looking live, and that changes the conversation about whether the swing book needs to be trimmed preemptively. Into the next session, I want to see whether QQQ can reclaim its SMA50 at $719 \u2014 that's the single data point that would shift my posture from 'hold and protect' to 'cautiously build'; until that happens, 91% cash is not laziness, it's the correct expression of regime-adjusted risk appetite.",
       "risk_notes": "C at $129.47 is now within $2.61 of its trailing stop at $126.86 \u2014 that's a 2% cushion on a +45% winner; stop discipline must hold here, no manual overrides. WELL at $244.11 similarly has a tighter cushion relative to the $216.23 stop after its run, but still has room. AAPL at $325.38 entered at $311.81 with stop $294.05 \u2014 holding above entry but the name is correlated to QQQ weakness, which is underperforming. MSFT swing is $401.69 vs stop $371.13 and TP $437.54, sitting 9% from target in a regime where QQQ is below its SMA50 \u2014 momentum may stall. AMZN swing at $250.54 vs TP $274.83 \u2014 same concern, still 10% from target with macro headwinds. Portfolio is down 76% cumulatively from starting capital of $1M, current book value $239,901 \u2014 capital preservation is paramount. 91% cash is appropriate given regime score of 1/5 and the absence of high-conviction setups that clear the size-adjusted bar."
+    },
+    {
+      "timestamp": "2026-07-20T14:27:16.801978-04:00",
+      "regime": "NEUTRAL",
+      "regime_score": 1,
+      "portfolio_value": 239901.18,
+      "cash": 218415.77,
+      "actions_taken": 0,
+      "commentary": "The tape is giving us a mixed signal today \u2014 SPY is constructive above both its 50 and 200-day, RSI at 53 is benign, VIX at 17.8 shows no fear premium, but QQQ can't reclaim $719 and that divergence between large-cap growth and the broader index tells me institutional money is still rotating defensively within tech. In that context, my posture is deliberately passive this cycle: I'm not adding to the book when the regime scores 1-out-of-5 and my rules mandate a 30% size reduction on any new position. The positions that are working \u2014 WELL at +39.5%, C at +45%, SPY at +19.5% \u2014 are doing so largely because they were entered at better prices, not because the current tape is especially generous. The one I'm watching most carefully is C at $129.52 against a $126.86 stop: the stock is essentially sitting on the wire, and with financials sensitive to any yield curve shift or credit headline, I want to see it defend $128 on any intraday weakness or I'll consider a discretionary trim before the stop triggers mechanically. I'm not adding any new swings today \u2014 MSFT and AMZN are both inside their ranges and working, but deploying more capital into a QQQ-lagging tape with 91% cash sitting idle is a discipline question, not a opportunity question; the cash is insurance given where cumulative returns stand. Into next cycle, I'm watching whether QQQ can reclaim $719 \u2014 that's the single level that would shift my posture from 'hold and protect' to 'begin measured redeployment,' particularly in NVDA and GOOGL which are both sitting at prices with potential technical setups if the growth-tech bid returns.",
+      "risk_notes": "Primary risk is portfolio-level: we're down 76% from starting capital at $239,901, which means the book is already deeply impaired and capital preservation is now existential \u2014 a second major drawdown from here has asymmetric consequences. C is within 2.1% of its stop at $126.86 (current $129.52) \u2014 any tape deterioration clips this one first; watch closely. WELL has run to +39.5% and the trailing stop at $216.23 is 11.4% below current \u2014 comfortable buffer but a sharp sector rotation in healthcare REITs would accelerate the stop. MSFT at $401.52 is 8.3% below its $437.54 target and holding fine, but QQQ's weakness below $719 SMA50 is a headwind for the whole large-cap tech complex \u2014 if QQQ doesn't reclaim $719 this week, the swing setup loses its tailwind. AMZN TP at $274.83 requires an additional 9.8% move from here; at 1.9% gain currently, this one is working slowly. Cash at 91% is technically protective but also reflects how badly the book has been positioned historically \u2014 we are not deploying aggressively into a neutral regime with this level of cumulative impairment."
     }
   ]
 }
