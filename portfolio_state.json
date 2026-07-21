@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-21T13:51:29.907055-04:00",
+    "last_updated": "2026-07-21T14:16:34.178237-04:00",
     "last_trading_day": "2026-07-21",
     "total_sessions": 22,
     "regime": "NEUTRAL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -1.01,
-    "portfolio_value": 239975.01,
+    "spy_ytd_return": -1.1,
+    "portfolio_value": 239958.97,
     "cash": 218930.67,
     "cumulative_return_pct": -76.0,
-    "alpha_vs_spy": -74.99,
+    "alpha_vs_spy": -74.91,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -735,11 +735,11 @@
     },
     {
       "date": "2026-07-21",
-      "portfolio_value": 239975.01,
-      "daily_pnl": 3.51,
+      "portfolio_value": 239958.97,
+      "daily_pnl": -16.04,
       "cumulative_return": -76.0,
-      "spy_return": -1.01,
-      "alpha": -74.99,
+      "spy_return": -1.1,
+      "alpha": -74.91,
       "regime": "NEUTRAL",
       "num_positions": 7,
       "cash": 218930.67
@@ -2245,6 +2245,16 @@
       "actions_taken": 0,
       "commentary": "The tape is sending a split signal this afternoon \u2014 SPY is healthy above both moving averages with RSI at 51.9 suggesting neutral momentum, but QQQ sitting below its 50-day at $719 tells me the growth complex is still digesting and I'm not chasing tech setups into that headwind. Given our regime score of 1/5 and the 30% size reduction rule in Neutral, the bar for new entries is high and nothing on the screen clears it today \u2014 NVDA at $206, GOOGL at $349, META at $647 are all names I'd consider in a stronger tape, but without regime confirmation I'm not adding exposure for the sake of activity. The book's P&L story is being written by C and WELL, which are up 49% and 40% respectively and doing exactly what long-term structural positions should do; SPY and KO are coasting along fine, and AAPL is a quiet grinder. The two swings \u2014 MSFT and AMZN \u2014 are moving in the right direction but slowly, and with QQQ lagging I'm not adding to either; I'd rather let the trade breathe and see if tech finds a bid before pressing. The single risk I'm watching most closely is C's stop proximity: at $133.14 with a stop at $126.86, a 5% drawdown closes that out \u2014 any meaningful financial sector reversal or credit noise would test that level, and I'll be monitoring sector flows carefully. Into the next cycle I want to see QQQ reclaim its 50-day at $719 before I get constructive on adding growth names, and I'm keeping the cash buffer intact as genuine optionality, not as paralysis.",
       "risk_notes": "Book is down 76% from starting capital \u2014 the single biggest structural risk is that we're running $240K on a $1M mandate, meaning every decision carries outsized percentage consequences. Concentration: C at +49.1% and WELL at +40.3% are the two biggest winners; both are well above stops (C stop $126.86 vs current $133.14 \u2014 only 6 points of cushion, worth watching on any financials tape deterioration). AAPL stop at $294.05 with stock at $327.35 gives comfortable room. MSFT swing at $399.32 with TP $437.54 \u2014 9.6% away, progress slow; stop $371.13 is 7% below, RSK/RWD still intact. AMZN swing at $248.78, TP $274.83 \u2014 10.5% away, stop $233.11. QQQ underperforming SPY is a yellow flag for tech-heavy names like MSFT and AMZN. No earnings imminent in the immediate window but LLY at $1,159 is a notable macro datapoint \u2014 healthcare complex worth monitoring given WELL exposure. Cash at 91.2% means we have dry powder but the regime score of 1/5 does not justify deploying aggressively."
+    },
+    {
+      "timestamp": "2026-07-21T14:16:10.843657-04:00",
+      "regime": "NEUTRAL",
+      "regime_score": 1,
+      "portfolio_value": 239958.97,
+      "cash": 218930.67,
+      "actions_taken": 0,
+      "commentary": "The tape is giving us a mixed read \u2014 SPY is above both moving averages and VIX is contained at 17, but QQQ can't hold its 50-day and the 20-day return is essentially flat, which tells me risk appetite is tentative rather than constructive. In that environment, I'm not chasing setups; the regime score of 1/5 enforces discipline and the 30% size reduction rule means any new position would be undersized relative to its risk, which skews the opportunity cost calculus toward patience. The book itself is doing fine \u2014 C and WELL are the real workhorses, up 48.8% and 40.3% respectively, and those long-term trailing stops are well-positioned to let gains run without giving back the house. The swing book is early innings: MSFT is 2% in with the AMZN position slightly behind it, and honestly the QQQ underperformance is the most relevant near-term read for whether those tech-adjacent names find legs or stall out before hitting the $437 and $274 targets. The single risk I'm watching most closely is whether QQQ reclaims $719 \u2014 if it can't, MSFT in particular is swimming against the current and I'll need to decide whether to cut it before the stop at $371 rather than wait for a mechanical exit. Into the next cycle I want to see the 20-day SPY return turn positive and QQQ close back above its 50-day before I'm willing to deploy any of the $218K in cash; right now that dry powder is the book's most important asset given where cumulative returns sit.",
+      "risk_notes": "C is 5% above its stop at $126.86 with a 48.8% gain \u2014 that stop needs monitoring closely as the name has had a strong run and any broad financial sector rotation could trigger it fast. WELL at $245.54 is comfortably above its $217.69 stop but has a 40% gain baked in \u2014 worth watching for any healthcare policy headlines. MSFT swing at $398.64 is only 2% off entry with TP at $437.54 and stop at $371.13; the QQQ weakness (below SMA50 at $719) is a headwind for tech names and could pressure this position before it reaches target. AMZN swing at $248.51 is 1.2% in the money with stop at $233.11 \u2014 tight cushion in a neutral tape. Portfolio is running 91.2% cash after a -76% cumulative drawdown from starting capital, which means the surviving book is doing its job but the absolute dollar base is severely impaired. No new positions this cycle given NEUTRAL regime and the 30% size reduction mandate."
     }
   ]
 }
