@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-21T11:41:42.298245-04:00",
+    "last_updated": "2026-07-21T11:58:47.701021-04:00",
     "last_trading_day": "2026-07-21",
     "total_sessions": 22,
     "regime": "NEUTRAL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -1.14,
-    "portfolio_value": 239979.52,
+    "spy_ytd_return": -1.16,
+    "portfolio_value": 239977.72,
     "cash": 218930.67,
     "cumulative_return_pct": -76.0,
-    "alpha_vs_spy": -74.86,
+    "alpha_vs_spy": -74.85,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -31,7 +31,7 @@
       "entry_price": 174.95,
       "current_price": 243.99,
       "shares": 12,
-      "stop_price": 217.4,
+      "stop_price": 217.69,
       "days_held": 0
     },
     {
@@ -735,11 +735,11 @@
     },
     {
       "date": "2026-07-21",
-      "portfolio_value": 239979.52,
-      "daily_pnl": 16.65,
+      "portfolio_value": 239977.72,
+      "daily_pnl": -1.8,
       "cumulative_return": -76.0,
-      "spy_return": -1.14,
-      "alpha": -74.86,
+      "spy_return": -1.16,
+      "alpha": -74.85,
       "regime": "NEUTRAL",
       "num_positions": 7,
       "cash": 218930.67
@@ -2195,6 +2195,16 @@
       "actions_taken": 0,
       "commentary": "The tape is technically constructive on the SPY side \u2014 price above both the 50 and 200-day, RSI just north of 50 \u2014 but the QQQ sitting 1.5% below its 50-day is telling me the growth engine isn't firing cleanly, and in a book where MSFT and AMZN are the active swing names, that divergence matters. I'm not adding anything this cycle; the regime doesn't clear the bar for full-size deployment and given where this book is \u2014 $240k on a $1M start \u2014 I'd rather let the existing positions work than reach for marginal setups that require everything to go right. C is the name I'm watching most carefully: the 48% gain is the best return in the book but the stop at $126.86 is sitting only $5.65 below current price, and if financials get hit on any macro read, that stop gets tested before I'd have time to manage it \u2014 I'm comfortable letting it ride but it's top of the risk monitor. The two swing positions are behaving \u2014 MSFT up 2.3%, AMZN up 1% \u2014 neither is threatening stops nor close enough to TPs to prompt action, so holding is the explicit call, not a default. Into the next cycle I want to see QQQ reclaim its 50-day around $719 before I'd consider adding tech exposure; until that confirmation, dry powder stays dry.",
       "risk_notes": "Portfolio is down 76% from starting capital \u2014 the primary risk is structural, not tactical. Current book value $239,980 means every decision carries outsized psychological weight per dollar. C is approaching a meaningful level: entry $89.30, current $132.51, stop $126.86 \u2014 stop is only 4.3% below current price, which is tight relative to the 48% gain; a normal intraday flush could clip it. WELL similarly at $247 with stop $217.40 \u2014 12% cushion is intact but the stock has had a 41% run and any sector rotation out of healthcare REITs is worth monitoring. MSFT stop at $371.13 is 7% below current $399.85 \u2014 holding fine. AMZN at $248.04 with TP $274.83 means we need another 10.8% to print the target; given neutral regime, progress may be slow. QQQ underperforming its 50-day is a yellow flag for the tech-heavy swing book (MSFT, AMZN). No earnings catalysts flagged imminently but LLY at $1,162 is not in the book \u2014 worth watching as a potential long-term add if conditions improve. Cash at 91.2% is a double-edged sword: capital preservation but also reflects the damage already done."
+    },
+    {
+      "timestamp": "2026-07-21T11:58:21.553365-04:00",
+      "regime": "NEUTRAL",
+      "regime_score": 1,
+      "portfolio_value": 239977.72,
+      "cash": 218930.67,
+      "actions_taken": 0,
+      "commentary": "The tape is sending mixed signals \u2014 SPY is constructive above both the 50 and 200-day, RSI is barely above 50, but QQQ's failure to hold its 50-day tells me this isn't a clean bull move and the large-cap tech complex is still digesting. That dynamic keeps me in a defensive posture with sizing constraints from the neutral regime, so I'm not reaching for new exposure this cycle. The book itself is holding up \u2014 C and WELL are the real workhorses here at +48% and +41% respectively, and both are well above their trailing stops, meaning I'm letting those ride without interference. The two swing positions in MSFT and AMZN are early-stage and behaving \u2014 MSFT is 2% off entry with room to the $437 target, and I'm not adjusting stops yet given the choppy QQQ backdrop. The decision to stand pat this cycle is deliberate: with 91% in cash, I have maximum flexibility, but the regime doesn't give me the green light to deploy aggressively \u2014 neutral with a score of 1/5 means I need setups that are cleaner than what's on offer right now, and I won't chase. The single risk I'm watching hardest is C's stop at $126.86 \u2014 we're within $6 of it at current price, and a flush in financials could trigger that before I get a chance to reassess; if C closes below $128 I'll want to review whether the stop needs defending or if I let the rule execute. Into the next cycle, I'm watching whether QQQ can reclaim its 50-day \u2014 that's the signal that would shift my stance toward adding a swing name in the semiconductor space, potentially NVDA around $205 if it stabilizes.",
+      "risk_notes": "Portfolio is down 76% from starting capital of $1M \u2014 the book is running at roughly $240K, meaning every decision carries outsized weight on recovery math. C is at $132.56 against a stop of $126.86 \u2014 only 4.3% of cushion remaining, watch this name closely. WELL at $247.37 is 41% in the green but the stop at $217.69 is 12% back \u2014 still well-structured. MSFT swing at $398.90 is 2.1% off entry with TP at $437.54 \u2014 needs confirmation before adding. AMZN swing at $247.90 is only 1% off entry, stop at $233.11 gives $14.79 of room \u2014 early in the trade. QQQ below its 50-day SMA ($719 vs $708) is a yellow flag for any new tech names. Cash at 91.2% is extreme \u2014 optionality is high but opportunity cost is real. No earnings catalysts confirmed in the immediate window, but LLY and MU in the watchlist are volatile around data prints."
     }
   ]
 }
