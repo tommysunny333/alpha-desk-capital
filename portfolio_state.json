@@ -1,14 +1,14 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-21T15:03:05.916172-04:00",
+    "last_updated": "2026-07-21T16:02:30.464827-04:00",
     "last_trading_day": "2026-07-21",
     "total_sessions": 22,
     "regime": "NEUTRAL",
     "vix": 15.32,
     "spy_price": 756.48,
     "spy_ytd_return": -1.08,
-    "portfolio_value": 239954.61,
+    "portfolio_value": 239957.48,
     "cash": 218930.67,
     "cumulative_return_pct": -76.0,
     "alpha_vs_spy": -74.92,
@@ -735,8 +735,8 @@
     },
     {
       "date": "2026-07-21",
-      "portfolio_value": 239954.61,
-      "daily_pnl": -2.3,
+      "portfolio_value": 239957.48,
+      "daily_pnl": 2.87,
       "cumulative_return": -76.0,
       "spy_return": -1.08,
       "alpha": -74.92,
@@ -2275,6 +2275,16 @@
       "actions_taken": 0,
       "commentary": "The tape is grinding \u2014 SPY at $748 is above both moving averages and VIX is contained at 17, but QQQ can't reclaim $719 SMA50 and the 20-day return is essentially flat, so the regime read of NEUTRAL is accurate rather than conservative. In that context, I'm not adding risk this cycle: the rules mandate 30% position size reduction in NEUTRAL, and frankly there's no setup that's cleared the bar cleanly enough to justify deploying capital from an already-wounded book. The long book is doing its job quietly \u2014 C at $132.85 is the best performing name at +48.8% and WELL at +40.3% have been the engines of whatever recovery narrative we have, while AAPL and KO are grinding along near entry. The two swing positions are in their early innings: MSFT at $398 is only 2% off entry and needs to make a move toward the $437 target, while AMZN at $247 is barely alive \u2014 if it doesn't show momentum in the next few sessions I'll reassess whether it deserves the slot. The single most important risk I'm watching is a break below $371 in MSFT, which would signal the large-cap quality thesis is stalling and would also likely pressure QQQ further from its SMA50 \u2014 if that breaks I'm cutting the swing book and preserving what little capital we have for a cleaner entry. Into the next cycle I want to see whether QQQ can reclaim $719; if tech re-accelerates there are swing setups in NVDA around $207 and GOOGL at $348 worth sizing into, but I'm not getting ahead of the tape when the regime hasn't confirmed.",
       "risk_notes": "Portfolio is down 76% cumulative from $1M starting capital \u2014 the $239,955 book is a recovery operation, not a growth mandate, which means capital preservation and deliberate rebuilding take precedence over swinging for fences. Key flags: (1) C is the standout at +48.8% with a stop at $126.86 vs. current $132.85 \u2014 only $6 of cushion, worth watching for any financials rotation that could clip it; (2) WELL at +40.3% with stop $217.69 vs. $245.43 \u2014 health care REITs have been sticky but rate sensitivity is real if yields spike; (3) MSFT swing approaching meaningful test \u2014 entry $390.86, stop $371.13, TP $437.54, currently $398.49 meaning we're only 2% into the trade with 10% to go; (4) AMZN swing barely off entry at +0.8%, stop $233.11 gives $14.40 of room \u2014 needs to prove itself soon or it's dead money; (5) 91.2% cash is a structural risk to the upside \u2014 we're underinvested in a grinding bull regime and leaving recovery on the table, but NEUTRAL score means we don't force it."
+    },
+    {
+      "timestamp": "2026-07-21T16:02:06.917556-04:00",
+      "regime": "NEUTRAL",
+      "regime_score": 1,
+      "portfolio_value": 239957.48,
+      "cash": 218930.67,
+      "actions_taken": 0,
+      "commentary": "The tape is giving us a neutral read with some internal friction \u2014 SPY is constructive above both moving averages and VIX at 16.9 is benign, but QQQ lagging its 50-day tells me the growth engine isn't firing cleanly, and the 20-day momentum on SPY being essentially flat suggests this is a digestion phase rather than a launch pad. Against that backdrop, holding 91% cash isn't timidity \u2014 it's the appropriate posture when the regime score is 1-out-of-5 and the book has already given back 76 cents on the dollar; the last thing this fund needs is to chase a setup in a choppy market and compress capital further. The book's bright spots are doing the work: C is up nearly 49% from entry and WELL is up 41%, both sitting comfortably above their trailing stops, and I'm letting those run rather than booking gains prematurely when the trend is intact. Where I'm most focused right now is MSFT at $397 \u2014 it needs to clear $400 with volume or the bull-regime quality setup thesis loses its near-term catalyst, and if it rolls back toward $390 I'll be watching the stop at $371 closely given QQQ's underperformance. The single risk I'm watching hardest is C at $132.81 against a $126.86 stop \u2014 financials have been sensitive to rate narrative, and a 4.5% move against us exits that position, so any macro print that rattles the rate outlook goes straight to that name first. Into the next cycle I want to see QQQ reclaim its 50-day around $719 before I get aggressive on any new swing setups \u2014 until that resolves, dry powder is the position.",
+      "risk_notes": "Primary concern is the catastrophic drawdown from starting capital \u2014 down 76% to $239,957 from $1M, which means capital preservation is paramount and every new position must clear a higher bar than usual. C at $132.81 is approaching its stop at $126.86 \u2014 roughly 4.5% of cushion remaining; watch the financials tape closely. MSFT at $397.64 is 1.7% off entry with TP at $437.54 \u2014 needs to break $400 with conviction or this setup stalls. AMZN at $247.51 is barely off entry with stop at $233.11; the 5% stop means a 5.6% move against us exits the trade. QQQ trading below its 50-day is a yellow flag for tech-heavy swing names \u2014 MSFT and AMZN are both in that cohort. No earnings catalysts flagged this cycle but LLY at $1,175 and MU at $969 in the watchlist are high-beta names that could gap on macro data. Cash at 91.2% means we're effectively sidelined \u2014 opportunity cost is real but so is the cost of adding risk into a mixed regime with this much drawdown context."
     }
   ]
 }
