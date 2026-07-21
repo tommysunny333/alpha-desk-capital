@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-21T12:54:11.383720-04:00",
+    "last_updated": "2026-07-21T13:27:53.901210-04:00",
     "last_trading_day": "2026-07-21",
     "total_sessions": 22,
     "regime": "NEUTRAL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -1.01,
-    "portfolio_value": 239979.49,
+    "spy_ytd_return": -1.07,
+    "portfolio_value": 239971.5,
     "cash": 218930.67,
     "cumulative_return_pct": -76.0,
-    "alpha_vs_spy": -75.0,
+    "alpha_vs_spy": -74.93,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -735,11 +735,11 @@
     },
     {
       "date": "2026-07-21",
-      "portfolio_value": 239979.49,
-      "daily_pnl": 3.85,
+      "portfolio_value": 239971.5,
+      "daily_pnl": -7.99,
       "cumulative_return": -76.0,
-      "spy_return": -1.01,
-      "alpha": -75.0,
+      "spy_return": -1.07,
+      "alpha": -74.93,
       "regime": "NEUTRAL",
       "num_positions": 7,
       "cash": 218930.67
@@ -2225,6 +2225,16 @@
       "actions_taken": 0,
       "commentary": "The tape is splitting at the index level \u2014 SPY is constructive above $744 SMA50 and $694 SMA200, RSI mid-range at 51.9, but QQQ is sitting below its own 50-day at $719 and tech leadership is clearly stalling. That divergence tells me the risk-on bid is selective and thin, not broad, so I'm not going to force new exposure into a regime that scores 1-out-of-5. The book's real P&L story right now is being written by C (+49.4%) and WELL (+41.0%) \u2014 both long-term core longs that have compounded quietly while cash has sat heavy; those positions are working and I'm not trimming winners in a tape that hasn't broken down. On the swing side, MSFT and AMZN are both green but neither has cleared enough distance from entry to feel like they're running \u2014 they're in the prove-it zone, and holding them is an active decision to give the setups time to breathe rather than paper-cutting at 1-2% gains. The single risk I'm watching most closely is C at $133.41 relative to its $126.86 stop \u2014 a 5.2% cushion sounds comfortable until financials catch a policy headline or credit spread widening, and a stop-out there would hurt psychologically more than it hurts in dollar terms given the position size. Into the next cycle, I want to see whether QQQ can reclaim $719; if tech firms up and the regime score improves to 3+, I have 7 open long-term slots and meaningful dry powder to deploy with discipline.",
       "risk_notes": "Primary concern: cumulative drawdown of -76% from $1M starting capital means this book is operating at roughly 24 cents on the dollar \u2014 capital preservation is existential, not optional. C at $133.41 is 5.2% above its $126.86 stop; any financials weakness could trigger. WELL at $246.65 has the widest cushion but healthcare names can gap on CMS/policy headlines. MSFT swing at $398.70 is 7.3% from its $437.54 target and 6.9% above its $371.13 stop \u2014 in neutral tape the path of least resistance is sideways, which is fine until it isn't. AMZN at $248.01 is only 1% off entry; if it can't build on this base, the $233.11 stop becomes the conversation. LLY at $1,159 and MU at $980 are on the radar but both are single-name event risks \u2014 LLY on GLP-1 data flow, MU on DRAM cycle sentiment \u2014 not touching either in neutral without a cleaner technical setup. Cash at 91.2% is a buffer but also indicts the book's inability to compound; the next deployment needs conviction, not chasing."
+    },
+    {
+      "timestamp": "2026-07-21T13:27:27.948687-04:00",
+      "regime": "NEUTRAL",
+      "regime_score": 1,
+      "portfolio_value": 239971.5,
+      "cash": 218930.67,
+      "actions_taken": 0,
+      "commentary": "The tape is giving us a mixed read \u2014 SPY is holding above both the 50 and 200-day SMAs and VIX at 17.1 is not screaming fear, but QQQ sitting below its 50-day at $719 with essentially flat 20-day momentum is a quiet warning that the growth engine isn't fully engaged. In a book that's already down 76% from peak, that ambiguity matters enormously \u2014 I'm not here to manufacture activity, I'm here to protect what's left and let the profitable positions do their work. The five long-term names are all green: C and WELL are the standouts at +49% and +40% respectively, and both are well clear of their trailing stops, so there's no reason to disturb them. The two swing positions in MSFT and AMZN are grinding higher but haven't broken out \u2014 MSFT needs QQQ to reclaim $719 before I have conviction it reaches $437, and AMZN's 1.3% gain is too thin to read anything into yet. Holding everything this cycle is the deliberate call: there are no new setups that clear the neutral-regime bar with 30% size reduction applied, and deploying more capital into a market where QQQ is lagging its 50-day would be forcing a hand that the tape hasn't dealt me. The single risk I'm most focused on is C at $133.28 with only $6.42 of air above the $126.86 stop \u2014 if financials roll on any credit or rate volatility, that's the first name I'm watching for a stop touch, and I'll reassess the entire book's correlation exposure at that point.",
+      "risk_notes": "Biggest structural flag: portfolio is down 76% from starting capital of $1M to $240K \u2014 this is an extraordinary drawdown that demands capital preservation above all else. Current book has 91.2% cash, which is appropriate given the hole we're in. C is up 49.2% from entry at $89.30, now $133.28 with stop at $126.86 \u2014 that's only $6.42 of cushion, roughly 4.8% from stop; any broad financial sector selloff clips this. WELL is up 40.4% from $174.95 with stop at $217.69 \u2014 $27.93 cushion, better positioned. MSFT swing is approaching a decision point: $399.53 current vs $437.54 target (9.5% to go) and $371.13 stop \u2014 watching for QQQ to reclaim its 50-day at $719 as confirmation the tech bid is real. AMZN swing at $248.59 vs TP $274.83 (10.6% remaining) \u2014 momentum is thin at 1.3% gain, needs to accelerate or I revisit. Concentration note: all long-term positions are profitable and correlated to a broad risk-on move \u2014 a single macro shock (Fed surprise, geopolitical escalation) hits all five simultaneously. No earnings in the immediate window for core holdings that would force a pre-announcement trim decision today."
     }
   ]
 }
