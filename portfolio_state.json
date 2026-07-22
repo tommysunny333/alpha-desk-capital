@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-22T14:07:40.660515-04:00",
+    "last_updated": "2026-07-22T14:38:19.597714-04:00",
     "last_trading_day": "2026-07-22",
     "total_sessions": 23,
     "regime": "NEUTRAL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -1.06,
-    "portfolio_value": 239835.82,
+    "spy_ytd_return": -1.07,
+    "portfolio_value": 239847.36,
     "cash": 218930.67,
     "cumulative_return_pct": -76.02,
-    "alpha_vs_spy": -74.95,
+    "alpha_vs_spy": -74.94,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -746,11 +746,11 @@
     },
     {
       "date": "2026-07-22",
-      "portfolio_value": 239835.82,
-      "daily_pnl": -7.08,
+      "portfolio_value": 239847.36,
+      "daily_pnl": 11.54,
       "cumulative_return": -76.02,
-      "spy_return": -1.06,
-      "alpha": -74.95,
+      "spy_return": -1.07,
+      "alpha": -74.94,
       "regime": "NEUTRAL",
       "num_positions": 7,
       "cash": 218930.67
@@ -2376,6 +2376,16 @@
       "actions_taken": 0,
       "commentary": "The tape is in a holding pattern \u2014 SPY is fine at $748, above both the 50 and 200 with RSI at 52.5, but QQQ lagging below its SMA50 at $708 tells me the market's growth engine isn't fully engaged. That divergence matters because two of my swing positions, MSFT and AMZN, are tech-adjacent names that need QQQ leadership to work, and right now they're both sitting underwater with shrinking stop buffers. I'm not touching the long-term book \u2014 C, WELL, and SPY are all printing meaningful gains and their trailing stops are well-positioned; those are positions you protect, not prune in a neutral environment. The active decision this cycle is to hold the swings rather than cut them preemptively, because neither has violated its stop and there's no new technical deterioration intraday, but I want to be clear: I'm watching MSFT $371 and AMZN $233 as hard lines, and if either tests those levels on volume I'm out immediately \u2014 I won't ride a stop to zero in a book that's already down 76%. The single most important risk I'm monitoring is a QQQ break further below $719 that drags tech broadly, which would almost certainly trigger both swing stops in quick succession and force a reassessment of whether the regime has actually flipped negative. Into the next session I want to see QQQ stabilize and reclaim its SMA50 \u2014 that's the green light to consider adding a new swing position from the watchlist; without it, I'm content holding 91% cash and letting the market come to me.",
       "risk_notes": "Portfolio is deeply impaired at -76% cumulative, so capital preservation is the overriding mandate. Long-term book is working \u2014 C up 48.8%, WELL up 40.7%, SPY up 20.1% \u2014 but the wins are in small size and can't offset prior losses at scale. MSFT is at $387.24 vs. stop $371.13 (4.2% buffer), and AMZN at $242.81 vs. stop $233.11 (4.0% buffer) \u2014 both swing positions are underwater on entry and approaching stop territory with less than 5% cushion remaining. QQQ below SMA50 at $708 vs. $719 is a red flag for tech-heavy swings like MSFT and AMZN; if QQQ doesn't reclaim $719 soon, I'm leaning toward exiting both on any further weakness rather than waiting for stops to trigger. No positions are near take-profit levels. Cash at 91.3% is ample but that also reflects the capital destruction \u2014 deploying aggressively into a neutral tape with this P&L profile would be reckless. No known earnings catalysts imminent on held names but monitoring AAPL and AMZN for next reporting cycle."
+    },
+    {
+      "timestamp": "2026-07-22T14:37:52.778693-04:00",
+      "regime": "NEUTRAL",
+      "regime_score": 1,
+      "portfolio_value": 239847.36,
+      "cash": 218930.67,
+      "actions_taken": 0,
+      "commentary": "The tape is giving us mixed signals \u2014 SPY is above both moving averages and RSI is balanced at 52.4, but QQQ can't reclaim its 50-day at $719 and the 20-day return at 2% barely registers as momentum. That divergence between large-cap indices tells me this is a market where the generals are holding but the troops aren't following, and in that environment I want to be patient rather than force entries. Our book is asymmetrically concentrated in winners \u2014 C up 48.7%, WELL up 40.7%, and SPY up 20.1% \u2014 and those long-term positions are doing exactly what they're supposed to do while we sit on $218K in cash waiting for a setup that actually clears the bar. The two swing positions in MSFT and AMZN are mildly offside but within noise; MSFT at $388.55 vs entry $390.86 hasn't violated anything structural, and I'd rather let it breathe toward $437 than cut it for 60 basis points \u2014 but if QQQ doesn't reclaim $719 in the next few sessions, I'll revisit whether the original thesis still holds. The single risk I'm watching hardest is C's stop at $126.86 \u2014 a 4.5% gap on a 48.7% winner that's done its job, and if the financials tape softens I'd rather let the trailing stop execute cleanly than second-guess it and give back gains. Into next cycle I want to see whether QQQ can close back above $719 and whether SPY's 20-day return builds \u2014 if both flip positive, I'll look at initiating a fresh swing in a quality name from the watchlist, but right now the regime score of 1/5 is telling me to keep the powder dry and not manufacture conviction where the data doesn't support it.",
+      "risk_notes": "C at $132.79 is now within $6 of its stop at $126.86 \u2014 that's a 4.5% cushion on a name up 48.7%; trailing stop discipline holds, but any tape deterioration and this gets clipped. WELL stop at $217.69 gives more room at ~11.5% below current, but a 40.7% winner deserves watching closely if healthcare rotates. MSFT and AMZN swing positions are both mildly offside (-0.6% and -1.0%) with stops at $371.13 and $233.11 respectively \u2014 neither has hit a thesis-breaking level, but the neutral regime with QQQ below SMA50 is not the environment where large-cap tech momentum re-entries typically ignite. Portfolio is 91.3% cash which is itself a risk flag \u2014 we are deeply underinvested relative to mandate and the cumulative -76% drawdown means capital preservation is paramount before any aggressive deployment. No earnings catalysts flagged in immediate data, but LLY at $1,161 and MU at $966 are on the watchlist and should be checked before any new swing entries. No positions are triggering circuit breakers."
     }
   ]
 }
