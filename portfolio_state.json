@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-22T14:38:19.597714-04:00",
+    "last_updated": "2026-07-22T14:56:25.385136-04:00",
     "last_trading_day": "2026-07-22",
     "total_sessions": 23,
     "regime": "NEUTRAL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -1.07,
-    "portfolio_value": 239847.36,
+    "spy_ytd_return": -1.05,
+    "portfolio_value": 239847.38,
     "cash": 218930.67,
     "cumulative_return_pct": -76.02,
-    "alpha_vs_spy": -74.94,
+    "alpha_vs_spy": -74.97,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -746,11 +746,11 @@
     },
     {
       "date": "2026-07-22",
-      "portfolio_value": 239847.36,
-      "daily_pnl": 11.54,
+      "portfolio_value": 239847.38,
+      "daily_pnl": 0.02,
       "cumulative_return": -76.02,
-      "spy_return": -1.07,
-      "alpha": -74.94,
+      "spy_return": -1.05,
+      "alpha": -74.97,
       "regime": "NEUTRAL",
       "num_positions": 7,
       "cash": 218930.67
@@ -2386,6 +2386,16 @@
       "actions_taken": 0,
       "commentary": "The tape is giving us mixed signals \u2014 SPY is above both moving averages and RSI is balanced at 52.4, but QQQ can't reclaim its 50-day at $719 and the 20-day return at 2% barely registers as momentum. That divergence between large-cap indices tells me this is a market where the generals are holding but the troops aren't following, and in that environment I want to be patient rather than force entries. Our book is asymmetrically concentrated in winners \u2014 C up 48.7%, WELL up 40.7%, and SPY up 20.1% \u2014 and those long-term positions are doing exactly what they're supposed to do while we sit on $218K in cash waiting for a setup that actually clears the bar. The two swing positions in MSFT and AMZN are mildly offside but within noise; MSFT at $388.55 vs entry $390.86 hasn't violated anything structural, and I'd rather let it breathe toward $437 than cut it for 60 basis points \u2014 but if QQQ doesn't reclaim $719 in the next few sessions, I'll revisit whether the original thesis still holds. The single risk I'm watching hardest is C's stop at $126.86 \u2014 a 4.5% gap on a 48.7% winner that's done its job, and if the financials tape softens I'd rather let the trailing stop execute cleanly than second-guess it and give back gains. Into next cycle I want to see whether QQQ can close back above $719 and whether SPY's 20-day return builds \u2014 if both flip positive, I'll look at initiating a fresh swing in a quality name from the watchlist, but right now the regime score of 1/5 is telling me to keep the powder dry and not manufacture conviction where the data doesn't support it.",
       "risk_notes": "C at $132.79 is now within $6 of its stop at $126.86 \u2014 that's a 4.5% cushion on a name up 48.7%; trailing stop discipline holds, but any tape deterioration and this gets clipped. WELL stop at $217.69 gives more room at ~11.5% below current, but a 40.7% winner deserves watching closely if healthcare rotates. MSFT and AMZN swing positions are both mildly offside (-0.6% and -1.0%) with stops at $371.13 and $233.11 respectively \u2014 neither has hit a thesis-breaking level, but the neutral regime with QQQ below SMA50 is not the environment where large-cap tech momentum re-entries typically ignite. Portfolio is 91.3% cash which is itself a risk flag \u2014 we are deeply underinvested relative to mandate and the cumulative -76% drawdown means capital preservation is paramount before any aggressive deployment. No earnings catalysts flagged in immediate data, but LLY at $1,161 and MU at $966 are on the watchlist and should be checked before any new swing entries. No positions are triggering circuit breakers."
+    },
+    {
+      "timestamp": "2026-07-22T14:56:03.473222-04:00",
+      "regime": "NEUTRAL",
+      "regime_score": 1,
+      "portfolio_value": 239847.38,
+      "cash": 218930.67,
+      "actions_taken": 0,
+      "commentary": "The tape is giving me a classic mixed signal day \u2014 SPY holding above both the 50 and 200-day, RSI at 52.6 suggesting we're not overbought, but QQQ sitting $11 below its 50-day is a real tell that the market's leadership is fractured and I'm not chasing anything into this close at 14:56. The book's P&L story is honestly two separate narratives: the long-term core is performing exactly as designed, with C up nearly 49%, WELL up 40%, and SPY itself up 20%, but those gains are sitting on top of a catastrophic drawdown from earlier in the fund's history that we're slowly climbing back from. I'm not adding to swings today because MSFT and AMZN entered on a bull regime signal that no longer reflects current conditions \u2014 QQQ sub-SMA50 in a neutral regime means those setups lose their edge, and I'd rather let them either find footing or get stopped out cleanly than average into deteriorating momentum. The single risk I'm watching most closely is C at $132.84 against that $126.86 stop \u2014 financials can reprice fast on any macro surprise, and losing that trailing stop on our biggest winner would hurt more psychologically than the P&L math suggests given position size. Into tomorrow I'm watching QQQ for a reclaim of $719; if it can close above that level on volume, it reopens the swing book for a couple of fresh setups I've had on the watchlist, particularly in semis where NVDA at $213 has been compressing tightly.",
+      "risk_notes": "Primary concern: the book is down 76% from starting capital, meaning the long positions are working but we dug a deep hole early that math can't easily fix. C is +48.8% with a stop at $126.86 vs current $132.84 \u2014 only $6 of cushion, watch that closely on any financials rotation. WELL at +40.6% with stop $217.69 vs $245.90 is better protected. MSFT swing is -0.5% against a $371.13 stop with QQQ printing below its 50-day \u2014 that's the most vulnerable setup in the book right now given growth tech pressure. AMZN swing at -1.0% with stop $233.11 has $9.96 of room but the momentum signal that triggered it is weakening in this regime. Max position size rule at 10% of $239,847 = ~$23,985 \u2014 most current positions are well within that. Cash at 91.3% is extreme and while it protects remaining capital, it's not earning alpha."
     }
   ]
 }
