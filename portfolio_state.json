@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-23T12:06:30.224944-04:00",
+    "last_updated": "2026-07-23T12:40:11.699774-04:00",
     "last_trading_day": "2026-07-23",
     "total_sessions": 24,
     "regime": "BEAR",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -2.49,
-    "portfolio_value": 239524.23,
+    "spy_ytd_return": -2.22,
+    "portfolio_value": 239544.97,
     "cash": 223290.96,
     "cumulative_return_pct": -76.05,
-    "alpha_vs_spy": -73.55,
+    "alpha_vs_spy": -73.82,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -758,11 +758,11 @@
     },
     {
       "date": "2026-07-23",
-      "portfolio_value": 239524.23,
-      "daily_pnl": -2.09,
+      "portfolio_value": 239544.97,
+      "daily_pnl": 20.74,
       "cumulative_return": -76.05,
-      "spy_return": -2.49,
-      "alpha": -73.55,
+      "spy_return": -2.22,
+      "alpha": -73.82,
       "regime": "BEAR",
       "num_positions": 5,
       "cash": 223290.96
@@ -2458,6 +2458,16 @@
       "actions_taken": 0,
       "commentary": "The tape is giving us a clear message this cycle: SPY is trading $6 below its 50-day at $738, QQQ is nearly 4% under its own 50-day at $691 vs. $718, and the regime score of -3 is not a borderline read \u2014 it's a hard stop on new deployment. The one constructive data point is that SPY remains above its 200-day at $695, which tells me this is a corrective bear phase rather than a structural breakdown, but that doesn't move the needle on adding risk today. The book itself is in decent shape relative to where we've been \u2014 C and WELL are the real contributors, up 47% and 42% respectively, and those two names alone are doing the heavy lifting on a portfolio that's been badly damaged from prior cycles. I'm not touching any of the five long-term positions this cycle because the active decision is to let the trailing stops do their job: if C slips through $126.86 or WELL through $219.57, the stops exit us with discipline; if they continue to hold, we participate in any recovery without adding fresh beta into a bear tape. The single risk I'm watching most closely is C's stop proximity \u2014 at $131.61 spot with a $126.86 stop, we have less than four dollars of breathing room, and a macro print or financial sector rotation could trigger that exit faster than any discretionary decision I could make. Into the next cycle I'm watching whether SPY can reclaim $744 on volume; that's the SMA50 level that would begin shifting the regime score and reopen the conversation about selective swing entries in names like NVDA or MSFT that have pulled back to potentially interesting levels.",
       "risk_notes": "C at $131.61 is within striking distance of its $126.86 trailing stop \u2014 that's only a 3.6% cushion from current price; one bad tape day closes that gap. WELL at $248.07 and C at +47.4% are the two names carrying the book's P&L, and both are extended \u2014 correlation risk if financials or rate-sensitive names reprice on macro data. AAPL at $320.46 is only 2.8% in the money with a stop at $294.05, thin margin if tech rolls. KO sitting +4.2% \u2014 defensive name holding but not doing much work. Portfolio is running 93.2% cash after a -76% cumulative drawdown from peak, so the surviving book is a small fraction of original capital; the priority is preserving these five positions' gains, not hunting new setups. VIX at 19.8 is not alarming in isolation, but with SPY and QQQ both below their 50-days simultaneously, any vol expansion toward 25+ would pressure stops across the board. No earnings triggers identified in the immediate window, but LLY, MU, and NVDA on the watchlist are all in motion \u2014 NVDA at $208 and MU at $994 are names to revisit when regime flips."
+    },
+    {
+      "timestamp": "2026-07-23T12:39:45.997221-04:00",
+      "regime": "BEAR",
+      "regime_score": -3,
+      "portfolio_value": 239544.97,
+      "cash": 223290.96,
+      "actions_taken": 0,
+      "commentary": "The tape is giving us a textbook bear-regime setup \u2014 SPY at $739.67 is below the 50-day at $744, RSI printing 45.8, and the 20-day return of +0.9% is barely noise. The regime score of -3 tells me this is not a market where I want to be adding risk, and frankly the rulebook enforces what common sense already says: we're in cash-preservation mode. The book's five long-term positions are all in the green, with C and WELL doing the heavy lifting at +48% and +41.5% respectively \u2014 those were right-tail outcomes from earlier entries that I'm letting run behind trailing stops rather than taking off prematurely. Holding here is an active call, not laziness: with 93% in cash and no swing setups that clear the bear-regime restriction, the single best use of capital right now is to do nothing and not compound the -76% drawdown with ill-timed adds. The risk I'm watching most closely is C at $132.29 \u2014 the stop at $126.86 is only $5.43 away, and if credit spreads widen on any Fed commentary or bank-sector news this week, that stop gets tested; I want to see it hold $128 intraday before I feel comfortable the trailing stop has enough buffer. Into the next cycle I'm watching whether SPY can reclaim $744 on the 50-day with volume conviction \u2014 that's the single data point that would shift my posture from 'defend the book' to 'start building swing exposure again.'",
+      "risk_notes": "C is the most exposed to a regime-driven reversal \u2014 it's up 48% from entry and sitting at $132.29 with a stop at $126.86, just 4.1% of cushion; one bad macro print on financials or a credit scare closes that gap fast. WELL at +41.5% is similarly stretched, stop at $219.57 versus current $247.63 \u2014 about 11.3% of downside before we're stopped, which is fine structurally but the name has run hard on defensive rotation and that trade gets unwound quickly if risk-on returns. SPY long-term position is fine \u2014 stop at $667.64 is well below current tape and we're not adding in a bear regime. AAPL at $320.33 is only +2.7% from entry with a stop at $294.05; that's 8.2% of downside and the name is underperforming relative to the book \u2014 lowest-conviction position right now. KO is doing what it should in a bear regime, grinding higher quietly. No earnings catalysts flagged imminently but LLY ($1,181) and MU ($1,008) are on the watchlist for any regime shift \u2014 not touching them today. Concentration risk is low given 93.2% cash; the actual risk is that we've already taken -76% cumulative drawdown and capital preservation is now existential, not tactical."
     }
   ]
 }
