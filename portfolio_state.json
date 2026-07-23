@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-23T13:36:41.554424-04:00",
+    "last_updated": "2026-07-23T13:54:16.137396-04:00",
     "last_trading_day": "2026-07-23",
     "total_sessions": 24,
     "regime": "BEAR",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -2.5,
-    "portfolio_value": 239510.68,
+    "spy_ytd_return": -2.43,
+    "portfolio_value": 239521.96,
     "cash": 223290.96,
     "cumulative_return_pct": -76.05,
-    "alpha_vs_spy": -73.55,
+    "alpha_vs_spy": -73.61,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -758,11 +758,11 @@
     },
     {
       "date": "2026-07-23",
-      "portfolio_value": 239510.68,
-      "daily_pnl": -11.27,
+      "portfolio_value": 239521.96,
+      "daily_pnl": 11.28,
       "cumulative_return": -76.05,
-      "spy_return": -2.5,
-      "alpha": -73.55,
+      "spy_return": -2.43,
+      "alpha": -73.61,
       "regime": "BEAR",
       "num_positions": 5,
       "cash": 223290.96
@@ -2488,6 +2488,16 @@
       "actions_taken": 0,
       "commentary": "The tape continues to trade heavy \u2014 SPY at $738 can't reclaim the SMA50 at $744, RSI is stuck in the low 40s, and the regime score sitting at -3/5 tells me everything I need to know about positioning new risk right now. The ruleset is unambiguous in BEAR: no new longs, full stop, and I'm not going to manufacture a thesis to fight that signal. What I'm actually focused on this cycle is the health of the five names we're carrying. C at $131.41 is the one I'm watching most carefully \u2014 only 3.5% above its trailing stop at $126.86, and if the financials sector catches any incremental selling pressure, we could be forced out of the best percentage winner in the book at +47%; I'd rather trail that stop tighter manually than watch it get clipped on a bad tape day. WELL and SPY are the two anchors \u2014 WELL's 41% gain with a stop at $219.57 gives meaningful cushion, and SPY at $737.55 versus its stop at $667.64 is structurally sound, but both are leveraged to a market that's showing no appetite for upside follow-through right now. Holding everything is the active decision this cycle \u2014 with 93% in cash we're not sitting still, we're preserving maximum optionality for when the regime flips, and deploying into a -3/5 bear environment would be capital destruction dressed up as activity. The single level I'm watching that changes my mind is SPY reclaiming and holding $744 on the SMA50 with RSI pushing back through 50 \u2014 that's the confirmation I need to start building swing exposure into the names queued on the watchlist. Until then, the dry powder stays dry.",
       "risk_notes": "C is the most exposed name near its stop \u2014 trading at $131.41 with the trailing stop at $126.86, roughly 3.5% of cushion left; any further tape deterioration could trigger. WELL at $247.26 with stop $219.57 has more room but has had a 41% run \u2014 crowded healthcare long in a bear tape is a concentration flag. AAPL at $320.61 vs stop $294.05 has adequate buffer but consumer discretionary/tech names typically lead on the downside in sustained bear regimes. Portfolio is 93.2% cash by value but the five long-term positions are all individually profitable \u2014 cumulative book return of -76% reflects historical losses already crystallized, not current position health. VIX at 19.2 is below the 25 danger threshold which is the one constructive signal, but SPY RSI at 44.3 and price below SMA50 at $744 keeps the regime firmly negative. No earnings catalysts flagged imminently but LLY, MU, NVDA in the watchlist all carry event risk if added \u2014 not relevant today but noted for pipeline."
+    },
+    {
+      "timestamp": "2026-07-23T13:53:49.931237-04:00",
+      "regime": "BEAR",
+      "regime_score": -3,
+      "portfolio_value": 239521.96,
+      "cash": 223290.96,
+      "actions_taken": 0,
+      "commentary": "The tape is telling a straightforward story right now: SPY is struggling below $744 SMA50, QQQ is 3.7% under its 50-day, and RSI at 44.6 is grinding in no-man's land \u2014 this isn't a market that's bottoming cleanly, it's one that's distributing. Our regime model is reading -3/5 bear, and the rules are explicit: no new positions. That's not a close call today, it's a clear one. The book itself is actually performing reasonably well on a relative basis \u2014 C is up 47%, WELL up 41%, and SPY up 18.5% from entry; the long-term names were sized into better levels and are holding structure above their trailing stops. The single name I'm watching most carefully is C at $131.50, which is sitting uncomfortably close to the $126.86 trailing stop \u2014 a bad tape day or a weak financials tape could clip us there, and I'd rather see that stop hold than chase it down. On the other side, AAPL at $321.13 is the weakest of the five on momentum \u2014 it's barely above cost basis and has done nothing while the rest of the book worked; it earns continued scrutiny but the stop at $294 gives it room to breathe. Into the next cycle, the level I'm watching is SPY reclaiming $744 with volume \u2014 that would shift the regime calculus meaningfully and open the door to deploying some of the $223K in dry powder into setups that have been building. Until then, preservation is the trade.",
+      "risk_notes": "C is within $4.64 of its trailing stop at $126.86 against current price $131.50 \u2014 any 3.5% pullback triggers an exit; watching closely. WELL at $247.32 vs stop $219.57 has comfortable cushion but the +41% unrealized gain is meaningful P&L at risk if healthcare rotates. AAPL at $321.13 is only 3% above entry $311.81 and just $27 clear of its stop \u2014 thin margin of safety in a bear tape. SPY position stop at $667.64 is well below current $738.06 but a broad market leg down in this regime would threaten multiple names simultaneously \u2014 correlation risk is real across SPY/AAPL/C. Overall book is 93.2% cash, which is appropriate given the regime but also reflects the severity of the cumulative drawdown (-76.05% from $1M). No earnings catalysts flagged imminently, but macro data and Fed speak remain live vol events in this environment. VIX at 19.5 is the one constructive data point \u2014 not in panic territory \u2014 but that can change fast."
     }
   ]
 }
