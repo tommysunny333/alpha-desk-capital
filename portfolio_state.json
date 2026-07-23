@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-23T13:54:16.137396-04:00",
+    "last_updated": "2026-07-23T14:12:25.613064-04:00",
     "last_trading_day": "2026-07-23",
     "total_sessions": 24,
     "regime": "BEAR",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -2.43,
-    "portfolio_value": 239521.96,
+    "spy_ytd_return": -2.56,
+    "portfolio_value": 239507.74,
     "cash": 223290.96,
     "cumulative_return_pct": -76.05,
-    "alpha_vs_spy": -73.61,
+    "alpha_vs_spy": -73.49,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -758,11 +758,11 @@
     },
     {
       "date": "2026-07-23",
-      "portfolio_value": 239521.96,
-      "daily_pnl": 11.28,
+      "portfolio_value": 239507.74,
+      "daily_pnl": -14.22,
       "cumulative_return": -76.05,
-      "spy_return": -2.43,
-      "alpha": -73.61,
+      "spy_return": -2.56,
+      "alpha": -73.49,
       "regime": "BEAR",
       "num_positions": 5,
       "cash": 223290.96
@@ -2498,6 +2498,16 @@
       "actions_taken": 0,
       "commentary": "The tape is telling a straightforward story right now: SPY is struggling below $744 SMA50, QQQ is 3.7% under its 50-day, and RSI at 44.6 is grinding in no-man's land \u2014 this isn't a market that's bottoming cleanly, it's one that's distributing. Our regime model is reading -3/5 bear, and the rules are explicit: no new positions. That's not a close call today, it's a clear one. The book itself is actually performing reasonably well on a relative basis \u2014 C is up 47%, WELL up 41%, and SPY up 18.5% from entry; the long-term names were sized into better levels and are holding structure above their trailing stops. The single name I'm watching most carefully is C at $131.50, which is sitting uncomfortably close to the $126.86 trailing stop \u2014 a bad tape day or a weak financials tape could clip us there, and I'd rather see that stop hold than chase it down. On the other side, AAPL at $321.13 is the weakest of the five on momentum \u2014 it's barely above cost basis and has done nothing while the rest of the book worked; it earns continued scrutiny but the stop at $294 gives it room to breathe. Into the next cycle, the level I'm watching is SPY reclaiming $744 with volume \u2014 that would shift the regime calculus meaningfully and open the door to deploying some of the $223K in dry powder into setups that have been building. Until then, preservation is the trade.",
       "risk_notes": "C is within $4.64 of its trailing stop at $126.86 against current price $131.50 \u2014 any 3.5% pullback triggers an exit; watching closely. WELL at $247.32 vs stop $219.57 has comfortable cushion but the +41% unrealized gain is meaningful P&L at risk if healthcare rotates. AAPL at $321.13 is only 3% above entry $311.81 and just $27 clear of its stop \u2014 thin margin of safety in a bear tape. SPY position stop at $667.64 is well below current $738.06 but a broad market leg down in this regime would threaten multiple names simultaneously \u2014 correlation risk is real across SPY/AAPL/C. Overall book is 93.2% cash, which is appropriate given the regime but also reflects the severity of the cumulative drawdown (-76.05% from $1M). No earnings catalysts flagged imminently, but macro data and Fed speak remain live vol events in this environment. VIX at 19.5 is the one constructive data point \u2014 not in panic territory \u2014 but that can change fast."
+    },
+    {
+      "timestamp": "2026-07-23T14:12:03.610773-04:00",
+      "regime": "BEAR",
+      "regime_score": -3,
+      "portfolio_value": 239507.74,
+      "cash": 223290.96,
+      "actions_taken": 0,
+      "commentary": "The tape is not offering anything actionable right now and the regime read is telling us to sit on our hands \u2014 SPY below the 50-day, QQQ more than 4% below its 50-day at $718, and RSI at 44 all confirm the bear label is earning its keep. The one constructive data point is that SPY is still holding above the 200-day at $695, which means we haven't broken down into outright structural bear territory, but that's a support level to monitor, not a green light. Inside the book, C and WELL are doing the heavy lifting \u2014 C is up 47% from entry and WELL 41.5%, and frankly those two names are the only reason this portfolio isn't in deeper trouble given the overall drawdown. The 93% cash position is not laziness; it's the correct posture when the rules explicitly prohibit new positions in a bear regime, and given the -76% cumulative drawdown, protecting the remaining capital base takes precedence over swing trading around the edges. What I'm watching most closely is C's proximity to its $126.86 stop \u2014 at $131.46 we have just 3.5% of air underneath it, so any macro shock to financials or a broad tape flush could trigger that stop before I can act, and I'd want to see it rebuild separation before I sleep well on that one. Into the next cycle I'm tracking whether SPY can reclaim and hold $744 (the SMA50) \u2014 that's the single level that would shift my posture from capital preservation to selectively building exposure again.",
+      "risk_notes": "C is the most vulnerable long-term position right now: trading at $131.46 with a stop at $126.86, that's only 3.5% of cushion \u2014 a single bad session wipes it. WELL at $247.53 has built a 41.5% gain but the stop at $219.57 is 11.3% below current \u2014 still within trailing stop parameters but worth watching if financials/REITs rotate on rate news. SPY itself at $737 is holding above SMA200 ($695) which is the only constructive data point in the regime read, but it's 3.8% above that level \u2014 not a lot of margin if selling accelerates. Portfolio is 93.2% cash which is fine given the regime rules, but the cumulative drawdown of -76.05% means the book has already absorbed enormous damage; capital preservation is now the primary mandate. No earnings catalysts flagged imminently but LLY, NVDA, and MSFT in the watchlist could all move the tape materially if they report. No swing positions open, which is correct \u2014 zero new entries are permitted in a bear regime."
     }
   ]
 }
