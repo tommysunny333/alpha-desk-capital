@@ -1,14 +1,14 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-23T14:42:27.801482-04:00",
+    "last_updated": "2026-07-23T14:58:20.825431-04:00",
     "last_trading_day": "2026-07-23",
     "total_sessions": 24,
     "regime": "BEAR",
     "vix": 15.32,
     "spy_price": 756.48,
     "spy_ytd_return": -2.61,
-    "portfolio_value": 239498.75,
+    "portfolio_value": 239498.1,
     "cash": 223290.96,
     "cumulative_return_pct": -76.05,
     "alpha_vs_spy": -73.44,
@@ -758,8 +758,8 @@
     },
     {
       "date": "2026-07-23",
-      "portfolio_value": 239498.75,
-      "daily_pnl": -8.99,
+      "portfolio_value": 239498.1,
+      "daily_pnl": -0.65,
       "cumulative_return": -76.05,
       "spy_return": -2.61,
       "alpha": -73.44,
@@ -2518,6 +2518,16 @@
       "actions_taken": 0,
       "commentary": "The tape is telling a consistent story right now \u2014 SPY at $737 is below the 50-day at $744, RSI sitting at 43.6, and the regime scores a clean -3/5 bear read. That's not a marginal call; the rules are unambiguous and I'm not going to manufacture a reason to deploy capital into a market that's actively distributing. The book is running lean by design: five long-term positions account for roughly 6.8% of total portfolio value against 93.2% cash, which in a drawdown context is the right posture. The names that are working \u2014 C at +47.5% and WELL at +41.4% \u2014 are doing so largely on the back of entries made well below current prices, and both trailing stops have ratcheted up sufficiently to protect a meaningful portion of those gains. The one name I'm watching most closely is C at $131.70, where the stop at $126.86 is only 3.7% away \u2014 if financials get hit on any macro print or credit news, that stop gets tested fast and I'd rather see it held cleanly than gapped through. Into the next cycle I'm focused on two things: whether SPY can reclaim the $744 50-day, which would begin shifting the regime score, and whether VIX \u2014 currently benign at 19.6 \u2014 starts moving back toward 25 as a signal that hedging demand is rising again. Until one of those levels moves in a meaningful way, the highest-value decision this desk can make is doing nothing.",
       "risk_notes": "C is the most exposed name to a stop-out: trading at $131.70 with a stop at $126.86, roughly 3.7% of cushion remaining \u2014 any broad financial sector pressure or macro deterioration could trigger that. WELL at $247.46 carries a stop at $219.57, about 11.3% of room, but at +41.4% P&L the trailing stop is doing real work protecting gains. SPY itself is sitting only $69 above its 200-day SMA at $695 \u2014 if the tape deteriorates and we lose that level, the regime likely flips to STRONG_BEAR and I'll be revisiting every long. AAPL at $319.92 versus a $294.05 stop is 8.1% buffer, fine for now, but the stock has only delivered +2.6% since entry with limited momentum. Concentration note: 93.2% cash is actually the dominant position \u2014 while that sounds safe, it represents an extreme drawdown scenario ($1M to $239K, -76%) that warrants a hard review of what drove the prior losses, not just the survivors. Correlation risk: SPY, AAPL, and indirectly C/WELL all have beta exposure to the same broad risk-off move."
+    },
+    {
+      "timestamp": "2026-07-23T14:57:55.783597-04:00",
+      "regime": "BEAR",
+      "regime_score": -3,
+      "portfolio_value": 239498.1,
+      "cash": 223290.96,
+      "actions_taken": 0,
+      "commentary": "The tape is telling a consistent story: SPY at $737 can't clear its 50-day at $744, RSI is stuck at 43.7, and the regime score is sitting at -3 \u2014 we're not in a freefall but we're also not getting the breadth or momentum conditions that would justify adding risk. The rulebook is unambiguous here, and frankly so is the read: sitting on 93% cash in a bear regime isn't timidity, it's the correct expression of positioning. Within the book, C and WELL are doing the heavy lifting \u2014 C up 47.5% and WELL up 41.2% \u2014 while AAPL is treading water at +2.7% and consuming a long-term slot that a better setup would eventually want. I'm not trimming AAPL yet because it hasn't broken anything and the market hasn't given me a cleaner re-entry thesis, but it's on a short leash if SPY breaks below $730 or the name itself starts compressing toward the $307-310 area. The single risk I'm most focused on is C's proximity to its stop at $126.86 \u2014 that's a 3.7% gap on a financial in a market where credit headlines can move names 5% in a session; I want to see it hold the $129 area intraday before feeling comfortable about the trailing stop holding. Into the next cycle, the level I'm watching is SPY $744 on the upside \u2014 a clean close above the 50-day with expanding volume would shift the regime calculus and open the door to deploying some of that cash into the highest-conviction setups sitting in the watchlist.",
+      "risk_notes": "C is the most exposed name near its stop \u2014 current $131.72, stop $126.86, roughly 3.7% of cushion left; any broad financials selloff or credit-market hiccup could clip it. WELL at $247.04 is the biggest winner (+41.2%) and the stop at $219.57 is 11.1% away, well within the trailing 12% band \u2014 watching for a high-water mark breach that would require stop re-rating upward. AAPL at $320.33 is essentially flat (+2.7%) and only 8.2% above its stop at $294.05; it's the least productive use of a slot right now but hasn't violated anything. SPY position is profitable (+18.2%) but ironic given portfolio is down 76% overall \u2014 a reminder that these names were entered at scale losses earlier in the book's history, not this cycle. VIX at 19.6 is below 25 so we're not in panic territory, but the spread between SPY ($737) and its SMA50 ($744) is tightening \u2014 a failure to reclaim 744 this week would confirm the bear's persistence. Cash reserve at 93.2% is well above the 10% floor; no liquidity risk."
     }
   ]
 }
