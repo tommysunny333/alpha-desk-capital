@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-24T11:51:20.002628-04:00",
+    "last_updated": "2026-07-24T12:47:01.468220-04:00",
     "last_trading_day": "2026-07-24",
     "total_sessions": 25,
     "regime": "BEAR",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -1.83,
-    "portfolio_value": 239707.42,
+    "spy_ytd_return": -1.95,
+    "portfolio_value": 239684.09,
     "cash": 223290.96,
     "cumulative_return_pct": -76.03,
-    "alpha_vs_spy": -74.2,
+    "alpha_vs_spy": -74.08,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -769,11 +769,11 @@
     },
     {
       "date": "2026-07-24",
-      "portfolio_value": 239707.42,
-      "daily_pnl": 74.97,
+      "portfolio_value": 239684.09,
+      "daily_pnl": -23.33,
       "cumulative_return": -76.03,
-      "spy_return": -1.83,
-      "alpha": -74.2,
+      "spy_return": -1.95,
+      "alpha": -74.08,
       "regime": "BEAR",
       "num_positions": 5,
       "cash": 223290.96
@@ -2579,6 +2579,16 @@
       "actions_taken": 0,
       "commentary": "The tape is telling a clear story: SPY is below its 50-day at $744, QQQ is 4% under its own 50-day at $718, and RSI is sitting at 42.9 \u2014 this is not a market that's setting up for a long entry, it's a market that's digesting damage and hasn't found a bid with conviction. Bear regime at -3/5 means the rules are doing the work for me: no new positions, and I'm not going to fight that signal by getting creative. The book itself is actually in decent shape given what we're running \u2014 five long-term names, all profitable, with the real standouts being C at +48.8% and WELL at +42.8%, both of which have been compounding quietly while the index churns. The active decision this cycle is to sit on the 93% cash position and not reach for setups that don't exist; with a cumulative drawdown of 76% on the fund, the asymmetry of risk right now heavily favors protecting these gains over deploying into a bear tape just to feel busy. The number I'm watching most closely is C at $132.87 against its $126.86 stop \u2014 that's a 4.5% gap and a single down day in financials could clip it; if macro headlines deteriorate I'll consider a discretionary trim above the stop rather than riding it out passively. Into the next cycle, the level that changes my posture is SPY reclaiming $744 on volume with RSI pushing back above 50 \u2014 until then, the cash is the position.",
       "risk_notes": "C is the most exposed long-term name: at $132.87 vs a $126.86 stop, we're 4.5% from getting stopped out \u2014 that's one bad session. AAPL at $333.29 with a $294.05 stop has more cushion but the stock is barely working at +6.9% and tech is under pressure with QQQ 4% below its 50-day. KO at $82.14 is the defensive anchor but only 10 cents above where the position starts looking tired \u2014 stop at $74.74 is wide relative to current price. WELL remains the cleanest position at +42.8%, trailing stop at $220.62 gives room but healthcare REITs are rate-sensitive and any pivot-fear repricing could bite. SPY position is the book's macro hedge-in-reverse \u2014 sitting on a +19.2% gain but the index itself is in bear regime, which is a contradiction worth watching. Portfolio is 93.2% cash which is actually appropriate given the regime; the -76% cumulative drawdown on starting capital means this book has been through serious damage and capital preservation is the mandate until conditions improve materially. No upcoming earnings flags on current holdings but VIX at 17.6 is deceptively low for a -3 bear score \u2014 that divergence can resolve violently."
+    },
+    {
+      "timestamp": "2026-07-24T12:46:37.049717-04:00",
+      "regime": "BEAR",
+      "regime_score": -3,
+      "portfolio_value": 239684.09,
+      "cash": 223290.96,
+      "actions_taken": 0,
+      "commentary": "The tape is telling a consistent story this afternoon: SPY at $742 can't hold above SMA50 at $744, QQQ is nearly 4% below its 50-day at $718, and RSI at 41.9 puts us in distribution territory \u2014 this is a market that's digesting, not accumulating. Given that read, the regime score of -3 is earning its label and the rule set is doing exactly what it's supposed to do by keeping us sidelined on new entries. The book is thin by design \u2014 five long-term positions using about 6.8% of total portfolio value, with C and WELL doing the heavy lifting on a return basis, each up over 40% from entry. Holding here is the active call: I'm not trimming into names that are technically still above their trailing stops, and I'm not adding into a bear tape just because we have dry powder \u2014 93% cash is not a problem, it's optionality. The single number I'm watching most closely is C at $132.27 against a $126.86 stop \u2014 that's a $5.41 cushion and financials are the sector most exposed to any macro repricing on rates or credit spreads; if that level breaks on volume, we exit mechanically and don't second-guess it. Into the next cycle I want to see whether SPY can reclaim SMA50 at $744 on a closing basis \u2014 that's the first signal that would shift the regime score and potentially reopen the aperture for swing setups in names like NVDA or AMZN that have been compressing.",
+      "risk_notes": "C is the most vulnerable long-term position \u2014 trading at $132.27 against a stop of $126.86, only 4% of cushion remaining; any broad financials selloff or credit headline could trigger the exit. WELL at $249.32 has run 42.5% from entry and the stop at $220.62 is roughly 11.5% below current \u2014 still within trailing stop logic but worth watching if healthcare rotation reverses. AAPL at $333.58 sits just 7% above entry with stop at $294.05; tech names are underperforming (QQQ -3.8% from SMA50) and AAPL hasn't broken out with conviction. Portfolio is down 76% from starting capital of $1M \u2014 current book value $239K means the hole is deep; capital preservation here is existential, not just tactical. 93% cash is actually the correct posture in this regime but it also means the five longs represent essentially the entire risk book \u2014 any two of them stopping out simultaneously would be a meaningful drawdown from here. No earnings catalysts flagged this cycle but financials and healthcare have macro sensitivity to rates data."
     }
   ]
 }
