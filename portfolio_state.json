@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-24T12:47:01.468220-04:00",
+    "last_updated": "2026-07-24T13:03:47.045021-04:00",
     "last_trading_day": "2026-07-24",
     "total_sessions": 25,
     "regime": "BEAR",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -1.95,
-    "portfolio_value": 239684.09,
+    "spy_ytd_return": -2.03,
+    "portfolio_value": 239675.34,
     "cash": 223290.96,
     "cumulative_return_pct": -76.03,
-    "alpha_vs_spy": -74.08,
+    "alpha_vs_spy": -74.01,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -769,11 +769,11 @@
     },
     {
       "date": "2026-07-24",
-      "portfolio_value": 239684.09,
-      "daily_pnl": -23.33,
+      "portfolio_value": 239675.34,
+      "daily_pnl": -8.75,
       "cumulative_return": -76.03,
-      "spy_return": -1.95,
-      "alpha": -74.08,
+      "spy_return": -2.03,
+      "alpha": -74.01,
       "regime": "BEAR",
       "num_positions": 5,
       "cash": 223290.96
@@ -2589,6 +2589,16 @@
       "actions_taken": 0,
       "commentary": "The tape is telling a consistent story this afternoon: SPY at $742 can't hold above SMA50 at $744, QQQ is nearly 4% below its 50-day at $718, and RSI at 41.9 puts us in distribution territory \u2014 this is a market that's digesting, not accumulating. Given that read, the regime score of -3 is earning its label and the rule set is doing exactly what it's supposed to do by keeping us sidelined on new entries. The book is thin by design \u2014 five long-term positions using about 6.8% of total portfolio value, with C and WELL doing the heavy lifting on a return basis, each up over 40% from entry. Holding here is the active call: I'm not trimming into names that are technically still above their trailing stops, and I'm not adding into a bear tape just because we have dry powder \u2014 93% cash is not a problem, it's optionality. The single number I'm watching most closely is C at $132.27 against a $126.86 stop \u2014 that's a $5.41 cushion and financials are the sector most exposed to any macro repricing on rates or credit spreads; if that level breaks on volume, we exit mechanically and don't second-guess it. Into the next cycle I want to see whether SPY can reclaim SMA50 at $744 on a closing basis \u2014 that's the first signal that would shift the regime score and potentially reopen the aperture for swing setups in names like NVDA or AMZN that have been compressing.",
       "risk_notes": "C is the most vulnerable long-term position \u2014 trading at $132.27 against a stop of $126.86, only 4% of cushion remaining; any broad financials selloff or credit headline could trigger the exit. WELL at $249.32 has run 42.5% from entry and the stop at $220.62 is roughly 11.5% below current \u2014 still within trailing stop logic but worth watching if healthcare rotation reverses. AAPL at $333.58 sits just 7% above entry with stop at $294.05; tech names are underperforming (QQQ -3.8% from SMA50) and AAPL hasn't broken out with conviction. Portfolio is down 76% from starting capital of $1M \u2014 current book value $239K means the hole is deep; capital preservation here is existential, not just tactical. 93% cash is actually the correct posture in this regime but it also means the five longs represent essentially the entire risk book \u2014 any two of them stopping out simultaneously would be a meaningful drawdown from here. No earnings catalysts flagged this cycle but financials and healthcare have macro sensitivity to rates data."
+    },
+    {
+      "timestamp": "2026-07-24T13:03:22.359102-04:00",
+      "regime": "BEAR",
+      "regime_score": -3,
+      "portfolio_value": 239675.34,
+      "cash": 223290.96,
+      "actions_taken": 0,
+      "commentary": "The tape is giving us nothing to work with on the long side right now \u2014 SPY at $741 is below the 50-day, QQQ is a full $29 south of its own 50-day at $718, and while VIX at 17.9 isn't flashing systemic stress, that actually makes the bear regime reading more insidious: this is a slow grind lower, not a panic you can fade. Against that backdrop, sitting 93% cash isn't timidity \u2014 it's the only rational posture when the rules explicitly prohibit new positions in bear conditions and the book has already absorbed a 76% drawdown from peak. The five long-term names that remain are all in the green, with C (+47.7%) and WELL (+42.6%) doing the heavy lifting on relative P&L, and I have no intention of disturbing them while they're above their trailing stops and the thesis hasn't broken. The decision I'm actively making this cycle is to do nothing \u2014 not because I lack conviction but because deploying into a bear regime with a damaged book would be compounding errors; dry powder at 93% is optionality, and I need the regime to flip toward neutral before I start putting it to work. The single level I'm watching most closely is C at $126.86 \u2014 if that stop gets tagged, I'll take the exit without hesitation and bank the 47.7% gain rather than let a winner become a loser. Into the next cycle, I want to see SPY reclaim $744 on the 50-day and RSI push back through 50 before I even think about sizing into anything new; until then, the job is to keep what we have.",
+      "risk_notes": "C at $131.90 is trading only $5.04 above its trailing stop of $126.86 \u2014 that's a 3.8% cushion on a name that's already up 47.7%; any financials tape deterioration could trigger an exit fast. WELL at $249.45 similarly has a stop at $220.62 (~11.5% below current), well within the 12% trailing structure but worth monitoring given healthcare sector sensitivity to rate narrative. AAPL at $333.05 sits just 6.8% above entry with a stop at $294.05 \u2014 least impressive performer in the book and most vulnerable to a tech-led leg down if QQQ (currently $29 below its 50-day at $718) rolls harder. KO at $82.00 is only 5.2% above entry, stop at $74.74 \u2014 defensive but thin cushion. Aggregate long exposure is $16,384 notional against $239,675 total AUM \u2014 6.8% gross long, well within limits, but the 76% cumulative drawdown means this book has very little room for further erosion; protecting remaining capital is the primary mandate."
     }
   ]
 }
