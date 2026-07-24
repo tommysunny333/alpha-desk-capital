@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-24T13:57:58.569245-04:00",
+    "last_updated": "2026-07-24T14:17:49.080012-04:00",
     "last_trading_day": "2026-07-24",
     "total_sessions": 25,
     "regime": "BEAR",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -2.01,
-    "portfolio_value": 239683.89,
+    "spy_ytd_return": -2.1,
+    "portfolio_value": 239679.41,
     "cash": 223290.96,
     "cumulative_return_pct": -76.03,
-    "alpha_vs_spy": -74.02,
+    "alpha_vs_spy": -73.93,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -769,11 +769,11 @@
     },
     {
       "date": "2026-07-24",
-      "portfolio_value": 239683.89,
-      "daily_pnl": -2.75,
+      "portfolio_value": 239679.41,
+      "daily_pnl": -4.48,
       "cumulative_return": -76.03,
-      "spy_return": -2.01,
-      "alpha": -74.02,
+      "spy_return": -2.1,
+      "alpha": -73.93,
       "regime": "BEAR",
       "num_positions": 5,
       "cash": 223290.96
@@ -2619,6 +2619,16 @@
       "actions_taken": 0,
       "commentary": "The tape is in no mood to reward aggression \u2014 SPY at $741 is 40 cents below its 50-day, QQQ is nearly 4% underwater that same level, and RSI at 41.5 gives you a market that's neither oversold enough to buy nor strong enough to trust. The regime rules the book cleanly here: no new longs, full stop. Within the existing five names, C and WELL are doing the heavy lifting \u2014 C is up 48% from entry and WELL 42.9%, and those two positions alone are carrying what's left of the portfolio's equity exposure. The decision to hold rather than trim is deliberate: both names are above their trailing stops by meaningful margins, and there's no technical deterioration in either that justifies taking the trade off \u2014 selling winners in a bear market because they're winners is a discipline error, not risk management. The one level I'm watching most closely is C at $126.86 \u2014 that stop gets tested on any broad tape crack, and given the thin position count, losing that would meaningfully reduce the book's earning capacity. Into the next session, I want to see whether SPY can reclaim and hold $744 on the SMA50; if it does on volume, the regime score could improve to -2 and reopen the conversation around selective swing entries in names that have already corrected hard \u2014 NVDA at $210 and CRWD at $184 would be the first screens I'd run.",
       "risk_notes": "C at $132.15 is within striking distance of its $126.86 trailing stop \u2014 a 3.9% move lower triggers it; worth watching intraday. WELL at $250.04 carries the largest unrealized gain (+42.9%) and is the book's biggest P&L contributor \u2014 any sector rotation out of healthcare REITs could compress that fast. SPY position is also extended at +19% from entry with a stop at $667.64, which feels loose in a bear tape but was set off the 12% trailing rule \u2014 the stop is structural, not discretionary. Overall equity exposure is light (~6.8% of total portfolio in five names), which is appropriate for a -3 regime, but the cumulative drawdown of -76% on the total book is the elephant in the room \u2014 this is a recovery situation, not a growth posture. No earnings catalysts flagged intraday but VIX at 18.1 is deceptively calm given the regime read; a spike above 25 would flip the VIX signal negative and worsen the regime score to -4."
+    },
+    {
+      "timestamp": "2026-07-24T14:17:25.178044-04:00",
+      "regime": "BEAR",
+      "regime_score": -3,
+      "portfolio_value": 239679.41,
+      "cash": 223290.96,
+      "actions_taken": 0,
+      "commentary": "The tape is telling a clear story: SPY at $741 can't hold above its 50-day at $744, QQQ is 4.4% below its own SMA50, and RSI at 40.8 puts us firmly in distribution territory \u2014 this isn't a consolidation, it's a regime that rewards patience over activity. The book is sitting 93% cash, which in any other context would feel like indecision, but here it's the position \u2014 we took the hits earlier in the cycle and the residual five longs are all profitable on an individual basis, with C (+47.9%), WELL (+43.1%), and SPY (+18.9%) doing the heavy lifting on unrealized P&L. I'm holding everything this cycle because none of the existing positions have breached their trailing stops and the market hasn't given me a reason to crystallize gains prematurely \u2014 touching winners in a bear tape that could still whip higher would be as costly as chasing new longs. The single risk I'm watching most closely is C at $132.06 with a stop at $126.86: financials are sensitive to credit spread widening and any hawkish Fed repricing, and a close below $128 would have me re-evaluating before the stop formally triggers. Into next cycle, I'm watching whether SPY can reclaim $744 on volume \u2014 that's the line that would shift my posture from defense to selective engagement, and until then, dry powder is the strategy.",
+      "risk_notes": "C is the nearest to its trailing stop at $132.06 with stop set at $126.86 \u2014 only 3.9% of cushion remaining; any broad financials rotation lower puts this at risk of being stopped out. WELL at $250.44 with stop $220.62 has a wider cushion (~11.9%) but healthcare names can gap on policy headlines. AAPL at $332.68 with stop $294.05 is 11.6% from stop but momentum is absent at RSI sub-50 broad market. Portfolio drawdown sits at -76.03% cumulative \u2014 the book has been severely impaired and the priority is protecting the remaining $239K, not rebuilding through new risk. Cash at 93.2% is well above the 10% reserve floor, which is appropriate given the regime. Concentration in 5 longs is manageable but all five are correlated to a broad SPY downdraft if the tape deteriorates further. No earnings catalysts are immediately flagged but LLY ($1195), NVDA ($209), and MU ($924) in the watchlist universe could all be volatile \u2014 we have no exposure to them, which is correct positioning here."
     }
   ]
 }
