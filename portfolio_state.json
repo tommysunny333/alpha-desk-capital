@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-24T14:17:49.080012-04:00",
+    "last_updated": "2026-07-24T14:53:18.421082-04:00",
     "last_trading_day": "2026-07-24",
     "total_sessions": 25,
     "regime": "BEAR",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -2.1,
-    "portfolio_value": 239679.41,
+    "spy_ytd_return": -2.39,
+    "portfolio_value": 239654.01,
     "cash": 223290.96,
     "cumulative_return_pct": -76.03,
-    "alpha_vs_spy": -73.93,
+    "alpha_vs_spy": -73.64,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -769,11 +769,11 @@
     },
     {
       "date": "2026-07-24",
-      "portfolio_value": 239679.41,
-      "daily_pnl": -4.48,
+      "portfolio_value": 239654.01,
+      "daily_pnl": -25.4,
       "cumulative_return": -76.03,
-      "spy_return": -2.1,
-      "alpha": -73.93,
+      "spy_return": -2.39,
+      "alpha": -73.64,
       "regime": "BEAR",
       "num_positions": 5,
       "cash": 223290.96
@@ -2629,6 +2629,16 @@
       "actions_taken": 0,
       "commentary": "The tape is telling a clear story: SPY at $741 can't hold above its 50-day at $744, QQQ is 4.4% below its own SMA50, and RSI at 40.8 puts us firmly in distribution territory \u2014 this isn't a consolidation, it's a regime that rewards patience over activity. The book is sitting 93% cash, which in any other context would feel like indecision, but here it's the position \u2014 we took the hits earlier in the cycle and the residual five longs are all profitable on an individual basis, with C (+47.9%), WELL (+43.1%), and SPY (+18.9%) doing the heavy lifting on unrealized P&L. I'm holding everything this cycle because none of the existing positions have breached their trailing stops and the market hasn't given me a reason to crystallize gains prematurely \u2014 touching winners in a bear tape that could still whip higher would be as costly as chasing new longs. The single risk I'm watching most closely is C at $132.06 with a stop at $126.86: financials are sensitive to credit spread widening and any hawkish Fed repricing, and a close below $128 would have me re-evaluating before the stop formally triggers. Into next cycle, I'm watching whether SPY can reclaim $744 on volume \u2014 that's the line that would shift my posture from defense to selective engagement, and until then, dry powder is the strategy.",
       "risk_notes": "C is the nearest to its trailing stop at $132.06 with stop set at $126.86 \u2014 only 3.9% of cushion remaining; any broad financials rotation lower puts this at risk of being stopped out. WELL at $250.44 with stop $220.62 has a wider cushion (~11.9%) but healthcare names can gap on policy headlines. AAPL at $332.68 with stop $294.05 is 11.6% from stop but momentum is absent at RSI sub-50 broad market. Portfolio drawdown sits at -76.03% cumulative \u2014 the book has been severely impaired and the priority is protecting the remaining $239K, not rebuilding through new risk. Cash at 93.2% is well above the 10% reserve floor, which is appropriate given the regime. Concentration in 5 longs is manageable but all five are correlated to a broad SPY downdraft if the tape deteriorates further. No earnings catalysts are immediately flagged but LLY ($1195), NVDA ($209), and MU ($924) in the watchlist universe could all be volatile \u2014 we have no exposure to them, which is correct positioning here."
+    },
+    {
+      "timestamp": "2026-07-24T14:52:53.837476-04:00",
+      "regime": "BEAR",
+      "regime_score": -3,
+      "portfolio_value": 239654.01,
+      "cash": 223290.96,
+      "actions_taken": 0,
+      "commentary": "The tape is telling a consistent story: SPY at $738 can't hold above its 50-day at $744, QQQ is 4.5% below its own 50-day at $718, and RSI at 38.5 is firmly in bear momentum territory. That regime read isn't borderline \u2014 it's -3/5, and the rulebook is unambiguous: no new longs get added here, full stop. The book is deeply defensive by design at this point, with 93% cash and five legacy long-term positions that are mostly working but need monitoring. C is the one keeping me honest \u2014 it's up 47.6% on paper but the stop at $126.86 is just $4.92 away from current price, and if financials crack on the next leg down, we'll get stopped out before we can react; I'm not trimming it yet because the gain is real and the stop is where it should be, but I have a tight eye on that $127 level. WELL and the C position account for the bulk of P&L in this book and both are sectors that could rotate hard if credit conditions tighten. The active decision to hold everything this cycle is straightforward: there are no setups that clear the bar in a bear regime, adding to any position would violate the rules and basic risk management sense given where we are in drawdown recovery, and the five slots we're sitting in are all above entry with defined stops \u2014 letting winners run with trailing stops in place is the job right now, not forcing trades into a deteriorating tape. Into next cycle I'm watching whether SPY can reclaim $744 on the 50-day with any conviction, and specifically whether C holds $128-129 \u2014 a break there with volume would be the signal that the financial sector is rolling over and I'd want to reassess the entire book's risk profile.",
+      "risk_notes": "C at $131.78 is the name I'm watching most closely \u2014 stop sits at $126.86, only 3.7% of cushion left at current price, and financials have been leading to the downside in this tape. WELL at $250.62 has a wider stop at $220.62 (~12% buffer) so it's fine for now, but a 43% unrealized gain demands respect \u2014 any sector rotation out of healthcare REITs would pressure it fast. AAPL at $333.03 is thin: stop at $294.05 is 11.7% down, gain is only 6.8%, so the R/R on continuing to hold is not compelling \u2014 worth watching if the name deteriorates further. KO at $82.10 with a $74.74 stop is the most defensively sound position in the book given its consumer staples profile in a bear tape. SPY long is 18.5% in the green with stop at $667.64 \u2014 that's 9.6% of downside from here before we're stopped, acceptable. Portfolio is 93.2% cash which is the primary buffer, but cumulative drawdown of -76% from $1M starting capital means the surviving book needs to be managed with extreme discipline \u2014 one bad cycle compounds the hole significantly."
     }
   ]
 }
