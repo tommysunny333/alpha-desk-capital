@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-24T13:03:47.045021-04:00",
+    "last_updated": "2026-07-24T13:43:12.545286-04:00",
     "last_trading_day": "2026-07-24",
     "total_sessions": 25,
     "regime": "BEAR",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -2.03,
-    "portfolio_value": 239675.34,
+    "spy_ytd_return": -2.01,
+    "portfolio_value": 239686.64,
     "cash": 223290.96,
     "cumulative_return_pct": -76.03,
-    "alpha_vs_spy": -74.01,
+    "alpha_vs_spy": -74.02,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -769,11 +769,11 @@
     },
     {
       "date": "2026-07-24",
-      "portfolio_value": 239675.34,
-      "daily_pnl": -8.75,
+      "portfolio_value": 239686.64,
+      "daily_pnl": 11.3,
       "cumulative_return": -76.03,
-      "spy_return": -2.03,
-      "alpha": -74.01,
+      "spy_return": -2.01,
+      "alpha": -74.02,
       "regime": "BEAR",
       "num_positions": 5,
       "cash": 223290.96
@@ -2599,6 +2599,16 @@
       "actions_taken": 0,
       "commentary": "The tape is giving us nothing to work with on the long side right now \u2014 SPY at $741 is below the 50-day, QQQ is a full $29 south of its own 50-day at $718, and while VIX at 17.9 isn't flashing systemic stress, that actually makes the bear regime reading more insidious: this is a slow grind lower, not a panic you can fade. Against that backdrop, sitting 93% cash isn't timidity \u2014 it's the only rational posture when the rules explicitly prohibit new positions in bear conditions and the book has already absorbed a 76% drawdown from peak. The five long-term names that remain are all in the green, with C (+47.7%) and WELL (+42.6%) doing the heavy lifting on relative P&L, and I have no intention of disturbing them while they're above their trailing stops and the thesis hasn't broken. The decision I'm actively making this cycle is to do nothing \u2014 not because I lack conviction but because deploying into a bear regime with a damaged book would be compounding errors; dry powder at 93% is optionality, and I need the regime to flip toward neutral before I start putting it to work. The single level I'm watching most closely is C at $126.86 \u2014 if that stop gets tagged, I'll take the exit without hesitation and bank the 47.7% gain rather than let a winner become a loser. Into the next cycle, I want to see SPY reclaim $744 on the 50-day and RSI push back through 50 before I even think about sizing into anything new; until then, the job is to keep what we have.",
       "risk_notes": "C at $131.90 is trading only $5.04 above its trailing stop of $126.86 \u2014 that's a 3.8% cushion on a name that's already up 47.7%; any financials tape deterioration could trigger an exit fast. WELL at $249.45 similarly has a stop at $220.62 (~11.5% below current), well within the 12% trailing structure but worth monitoring given healthcare sector sensitivity to rate narrative. AAPL at $333.05 sits just 6.8% above entry with a stop at $294.05 \u2014 least impressive performer in the book and most vulnerable to a tech-led leg down if QQQ (currently $29 below its 50-day at $718) rolls harder. KO at $82.00 is only 5.2% above entry, stop at $74.74 \u2014 defensive but thin cushion. Aggregate long exposure is $16,384 notional against $239,675 total AUM \u2014 6.8% gross long, well within limits, but the 76% cumulative drawdown means this book has very little room for further erosion; protecting remaining capital is the primary mandate."
+    },
+    {
+      "timestamp": "2026-07-24T13:42:48.754062-04:00",
+      "regime": "BEAR",
+      "regime_score": -3,
+      "portfolio_value": 239686.64,
+      "cash": 223290.96,
+      "actions_taken": 0,
+      "commentary": "The tape isn't giving us anything to work with today \u2014 SPY at $741 is sitting below its 50-day at $744, RSI pinned at 41.5, and the regime score of -3 keeps the new-position gate firmly shut by rule and by judgment. That said, I'm not uncomfortable with where the book sits: the existing long-term positions are all above their respective stops, C is the tightest at 4% of cushion to $126.86, and WELL is quietly doing the heavy lifting with a +43% unrealized gain that I have no reason to disturb in a market that still respects defensives. The active decision this cycle is to hold dry powder \u2014 $223k in cash, 93% of the book \u2014 rather than force exposure into a deteriorating regime just because the capital is sitting idle; that impulse is exactly how a book in drawdown turns a bad year into a wrecked one. The single risk I'm watching most closely is whether SPY breaks $730, which would put it back inside the 50-200 SMA window and likely trigger a re-test of the 200-day at $695 \u2014 if that level cracks, I'll be stress-testing the stops on everything in the book simultaneously. Into next cycle I want to see RSI recover above 50 and SPY reclaim the 50-day before I even think about swing setups; until then, the cash is not inaction, it's ammunition held in reserve for the entry the regime hasn't earned yet.",
+      "risk_notes": "C is the most pressing stop watch: current $132.13, stop at $126.86 \u2014 that's 4.0% of downside buffer with a Bear regime weighing on financials broadly. WELL at $250.24 with stop $220.62 has more cushion (11.8%) but healthcare names can gap on policy headlines. AAPL at $332.93 sits only 6.8% above entry and 11.7% above stop $294.05 \u2014 not tight, but the weakest fundamental momentum in the book right now. SPY position is the most resilient: stop at $667.64 is 9.9% below current $741.25 and the +19% unrealized gain gives meaningful buffer. KO is the quietest name \u2014 consumer staples, tight stop at $74.74, low correlation to the growth tape. Concentration note: five long-term slots used, zero swing exposure, 93.2% cash \u2014 the book is defensively positioned by design but the cumulative drawdown of -76.03% is the dominant risk context; capital preservation is now the primary mandate. No earnings catalysts flagged in immediate term but monitoring AAPL and C for any guidance updates."
     }
   ]
 }
