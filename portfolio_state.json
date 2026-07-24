@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-23T15:56:33.480826-04:00",
-    "last_trading_day": "2026-07-23",
-    "total_sessions": 24,
+    "last_updated": "2026-07-24T11:14:21.256963-04:00",
+    "last_trading_day": "2026-07-24",
+    "total_sessions": 25,
     "regime": "BEAR",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -2.51,
-    "portfolio_value": 239514.15,
+    "spy_ytd_return": -2.41,
+    "portfolio_value": 239626.06,
     "cash": 223290.96,
-    "cumulative_return_pct": -76.05,
-    "alpha_vs_spy": -73.54,
+    "cumulative_return_pct": -76.04,
+    "alpha_vs_spy": -73.63,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -31,7 +31,7 @@
       "entry_price": 174.95,
       "current_price": 249.51,
       "shares": 12,
-      "stop_price": 219.57,
+      "stop_price": 220.62,
       "days_held": 0
     },
     {
@@ -763,6 +763,17 @@
       "cumulative_return": -76.05,
       "spy_return": -2.51,
       "alpha": -73.54,
+      "regime": "BEAR",
+      "num_positions": 5,
+      "cash": 223290.96
+    },
+    {
+      "date": "2026-07-24",
+      "portfolio_value": 239626.06,
+      "daily_pnl": 111.91,
+      "cumulative_return": -76.04,
+      "spy_return": -2.41,
+      "alpha": -73.63,
       "regime": "BEAR",
       "num_positions": 5,
       "cash": 223290.96
@@ -2538,6 +2549,16 @@
       "actions_taken": 0,
       "commentary": "The tape is telling a familiar bear story: SPY at $737 is sitting below SMA50 at $744 with RSI at 44.2, and while VIX at 19.3 keeps us below the panic threshold, there's no technical foundation to chase anything right now. The regime score of -3 is unambiguous \u2014 the rules close the new-business window, and I'm not inclined to argue with the signal given where we are in the drawdown. The book is generating its own internal P&L tailwind despite the broader bear: C continues to be the standout at +48% with the stop now trailing at $126.86, and WELL at +41.1% is the other anchor \u2014 both names have held well even as the index slips. I'm holding everything this cycle not out of passivity but because none of the existing positions have triggered stop logic, the setups I'd want to swing in NVDA or MSFT don't clear the bear-regime bar, and I'd rather sit on 93 cents of cash than manufacture activity. The single risk I'm watching hardest is C's proximity to its trailing stop at $126.86 \u2014 that's under four percent away, and a down tape day could shake it out; I want to see that name hold $130 on any intraday weakness before I'm comfortable. Into the next cycle I'm watching whether SPY can reclaim $744 SMA50 on volume, which would be the first concrete signal that the regime might rotate toward Neutral and reopen the swing book.",
       "risk_notes": "C at $132.12 is the most pressing stop concern \u2014 trailing stop sits at $126.86, only 3.9% of downside from current price; a modest tape deterioration clips it. WELL stop at $219.57 is 11.1% below current $246.87, comfortably cushioned but the name has run 41% and is extended. SPY itself at $737 is already below its SMA50 of $744 \u2014 our 13-share long-term position is up 18.4% but the index is technically broken; stop at $667.64 gives plenty of room but it's a regime-level concern if SMA200 at $695 gets tested. AAPL at $321.65 is only 3.2% above entry with stop at $294.05 \u2014 low conviction buffer, name needs to break higher or it's dead weight. KO at $81.00 is modest and defensive, stop at $74.74 is fine. Cash at 93.2% means the real risk here is opportunity cost in a snap recovery, not drawdown \u2014 but that's an acceptable trade given bear conditions. No earnings imminent in the book that I'm flagging as binary risk this week. Correlation across book is acceptable \u2014 WELL and KO are defensive, C is a macro/rates play, AAPL and SPY move together but sizing is small."
+    },
+    {
+      "timestamp": "2026-07-24T11:13:57.924636-04:00",
+      "regime": "BEAR",
+      "regime_score": -3,
+      "portfolio_value": 239626.06,
+      "cash": 223290.96,
+      "actions_taken": 0,
+      "commentary": "The tape is telling a consistent story: SPY at $738 can't reclaim the SMA50 at $744, RSI is grinding in the low 40s with no momentum reversal signal, and the bear regime score has not budged \u2014 this is not a dip to buy, it's a market in distribution. Against that backdrop, the right posture for this book is complete inaction on new positions, full stop. The P&L leaders are doing the work \u2014 C is up 47.8% and WELL up 43.3%, both sitting comfortably above their trailing stops, and those are the two names I'd most want to protect into any further tape deterioration. I'm not trimming them because they haven't violated their stop disciplines and the gains are real; trimming into a bear market on working positions just locks in less upside if the regime shifts, and right now neither name is approaching a technical level that argues for reducing. The single risk that keeps me up is C's stop at $126.86 \u2014 at 3.9% away from current price, that's the thinnest margin in the book, and a bad tape day could trigger it involuntarily; I'm watching $128 as the first warning level. Into the next cycle, the key question is whether SPY can reclaim $744 on volume \u2014 that's the line between a bear bounce and an actual regime shift, and until I see that print with conviction, the 93% cash position stays intact as the real asset.",
+      "risk_notes": "C at $132.00 is the most exposed name right now \u2014 stop at $126.86 is only 3.9% below current price, and with a -76% cumulative drawdown on the book, we cannot afford another stop-out. WELL at $250.71 has the widest cushion (stop $220.62, ~12% below) but it's a REIT in a rate-sensitive environment \u2014 any hawkish Fed repricing could flush that gain quickly. AAPL at $328.88 sits just 5.5% above entry with a stop at $294.05; it's the weakest setup in the book on a risk-adjusted basis. SPY itself is 11.0% above its stop at $667.64, but with RSI at 38.4 and price below SMA50 ($744), momentum is working against the position. KO is defensive and least concerning. Concentration risk: 93.2% cash actually helps here \u2014 dry powder is the buffer. The book is down 76% cumulative from $1M, so the math demands we protect every surviving dollar; a 10% drawdown from here takes us to $215K and makes recovery mathematically brutal."
     }
   ]
 }
