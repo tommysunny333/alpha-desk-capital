@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-27T14:53:02.669564-04:00",
+    "last_updated": "2026-07-27T15:10:58.715888-04:00",
     "last_trading_day": "2026-07-27",
     "total_sessions": 26,
     "regime": "BEAR",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -2.45,
-    "portfolio_value": 239681.36,
+    "spy_ytd_return": -2.25,
+    "portfolio_value": 239708.11,
     "cash": 223290.96,
     "cumulative_return_pct": -76.03,
-    "alpha_vs_spy": -73.59,
+    "alpha_vs_spy": -73.78,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -780,11 +780,11 @@
     },
     {
       "date": "2026-07-27",
-      "portfolio_value": 239681.36,
-      "daily_pnl": 4.11,
+      "portfolio_value": 239708.11,
+      "daily_pnl": 26.75,
       "cumulative_return": -76.03,
-      "spy_return": -2.45,
-      "alpha": -73.59,
+      "spy_return": -2.25,
+      "alpha": -73.78,
       "regime": "BEAR",
       "num_positions": 5,
       "cash": 223290.96
@@ -2760,6 +2760,16 @@
       "actions_taken": 0,
       "commentary": "The tape is telling a consistent story this cycle: SPY at $738 can't reclaim its SMA50 at $744, RSI is grinding at 38.2 with no real bid behind it, and the 20-day return of 0.5% confirms we're in a slow bleed rather than a sharp flush \u2014 the kind of market where longs quietly die rather than get stopped out clean. The regime read is Bear at -3/5 and the rules are unambiguous: no new capital deployment until that score shifts, full stop. The book is running extremely light at 6.8% gross long, so the P&L story right now is almost entirely about the five legacy longs \u2014 C and WELL are the two names carrying meaningful gains at +47.5% and +42.8% respectively, and those positions are doing the work while everything else treads water. I'm holding all five and not trimming today because each position is still trading above its trailing stop, none have violated a technical level that changes the thesis, and given we're already at $239k on a $1M book, eroding these winners without a clear technical reason would compound the drawdown damage we've already absorbed. The single risk that changes my posture fastest is SPY breaking its SMA200 at $695 \u2014 that's not a technical nuance, that's a regime-level event that would signal we retest levels the current stops weren't sized for. Into the next cycle I'm watching whether SPY can reclaim $744 on the SMA50 and whether RSI can push back through 50; until both of those flip, the cash stays in the drawer and the longs stay on a short leash.",
       "risk_notes": "C is the closest to its stop at $131.71 vs stop $126.86 \u2014 roughly 3.7% of cushion remaining; any acceleration lower in financials puts that at risk. WELL at $249.78 with stop $222.36 has more room but is a healthcare REIT that could get hit if rates spike on any macro surprise. AAPL at $335.41 sits only 7.6% above entry with stop at $297.52 \u2014 not alarming but thin in a tape that's rolling. SPY itself is just $70 above its SMA200 at $695; a break there would be the regime-level signal that forces broader de-risking across the book. Total equity exposure is only ~6.8% of portfolio given 93.2% cash, so drawdown risk from here is contained \u2014 the real risk is that the five longs give back their embedded gains before conditions improve. No earnings catalysts flagged imminently but LLY, NVDA, and MU are in the watchlist universe and could move the tape on any prints."
+    },
+    {
+      "timestamp": "2026-07-27T15:10:37.159010-04:00",
+      "regime": "BEAR",
+      "regime_score": -3,
+      "portfolio_value": 239708.11,
+      "cash": 223290.96,
+      "actions_taken": 0,
+      "commentary": "The tape is grinding in a low-conviction bear with SPY at $739, pinned below its 50-day at $744 and RSI sitting at 39.7 \u2014 not washed out enough to buy, not breaking down hard enough to panic-sell what's already working. The regime read at -3/5 is doing exactly what it's supposed to: keeping us out of new risk. The book right now is essentially five legacy long-term positions sitting on meaningful embedded gains \u2014 C at +48%, WELL at +43%, SPY at +18.7% \u2014 against a backdrop of $223K in cash that's been accumulating as the portfolio contracted from its prior drawdown. I'm not touching any of these names this cycle because the active decision here is to let the trailing stops do the work: the winners are still above their stops, the stops are tightened to protect gains, and forcing a trim in a bear market just to feel busy would crystallize tax and potentially cost us the next leg if the regime flips. The single risk I'm watching most closely is C at $132.16 versus its stop at $126.86 \u2014 that's a 4% gap and financials are the first place institutional money cuts in a deteriorating environment; if C prints $128-129 on volume, I'll reassess whether to close ahead of the stop rather than let it get hit mechanically. Into the next cycle I want to see whether SPY can reclaim $744 on the 50-day \u2014 that would shift the regime score and potentially open the door to selective swing setups in names like NVDA or GOOGL that have sold off hard \u2014 but until that level is back in play, the $223K in dry powder stays exactly where it is.",
+      "risk_notes": "C is the most exposed name to a stop trigger \u2014 current price $132.16 with stop at $126.86, only 4% of cushion remaining; any broad financials selloff could clip this. WELL at $250.36 with stop $222.36 has more room (~11%) but is a 43% winner that needs monitoring for reversal. AAPL at $335.63 is sitting just 7.6% above entry with stop at $297.52 \u2014 not uncomfortable, but in a bear tape with QQQ down hard from its 50-day, tech names are vulnerable. SPY position itself is fine structurally (+18.7%, stop $667.64), but with the index printing RSI 39.7 and a 20-day return barely positive at 0.7%, the bounce thesis is weak. Portfolio is 93.2% cash \u2014 drawdown is already severe at -76.03% cumulative, meaning the long positions are a small residual book; the cash pile is the anchor. VIX at 18.9 is the one constructive read \u2014 not in panic territory \u2014 but that's a floor condition, not a green light. No earnings known to be imminent, but all five names should be checked for Q-dates before next cycle."
     }
   ]
 }
