@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-27T12:37:21.168321-04:00",
+    "last_updated": "2026-07-27T13:02:50.081329-04:00",
     "last_trading_day": "2026-07-27",
     "total_sessions": 26,
     "regime": "BEAR",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -2.31,
-    "portfolio_value": 239710.52,
+    "spy_ytd_return": -2.63,
+    "portfolio_value": 239663.25,
     "cash": 223290.96,
     "cumulative_return_pct": -76.03,
-    "alpha_vs_spy": -73.72,
+    "alpha_vs_spy": -73.4,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -780,11 +780,11 @@
     },
     {
       "date": "2026-07-27",
-      "portfolio_value": 239710.52,
-      "daily_pnl": 29.72,
+      "portfolio_value": 239663.25,
+      "daily_pnl": -47.27,
       "cumulative_return": -76.03,
-      "spy_return": -2.31,
-      "alpha": -73.72,
+      "spy_return": -2.63,
+      "alpha": -73.4,
       "regime": "BEAR",
       "num_positions": 5,
       "cash": 223290.96
@@ -2700,6 +2700,16 @@
       "actions_taken": 0,
       "commentary": "The tape is telling a consistent story this cycle: SPY is pinned below its 50-day at $744, QQQ is even softer \u2014 trading $37 below its 50-day \u2014 and the RSI at 39.2 is in that uncomfortable zone where you're not yet washed out enough to buy a capitulation but clearly not in a regime that rewards fresh long exposure. Bear rules are not suggestions here, they're circuit breakers, and I'm not going to fight that with a book that's already down 76% from cost. The five long-term positions we're carrying are actually the bright spots \u2014 C up 48%, WELL up 43%, SPY up 18.6% \u2014 these are legacy entries from better tape conditions with trailing stops in place, and the discipline now is to let those stops do their job rather than second-guess them. Holding is the active call this cycle: with 93% in cash and no setups clearing the bar under bear rules, deploying capital here would be catching a falling knife in a market where QQQ is 5% below its 50-day and the 20-day SPY return is essentially flat at 0.6% \u2014 that's not a trend worth chasing. The single risk I'm watching most closely is C at $132.30 against a $126.86 stop \u2014 financials are the canary here, and if that stop triggers it's a signal that credit stress or rate repricing is bleeding into the broader book thesis. Into the next cycle I'm watching whether SPY can reclaim $744 on volume and whether VIX breaks above 25, because that crossover would shift us to Strong Bear and potentially force stop reviews across all five names simultaneously.",
       "risk_notes": "C is the closest name to its stop at $126.86 with current price $132.30 \u2014 only 4.1% of cushion remaining; any further deterioration in financials or a broad tape flush could trigger that stop intraday. WELL at $250.10 vs stop $222.36 has 11% of room but is a rate-sensitive REIT in a bear tape \u2014 watch the 10Y closely. AAPL at $338.09 sits 12% above its stop of $297.52, but the name is grinding without momentum and bears watching if tech continues to lag. SPY position is the cleanest \u2014 18.6% unrealized gain with stop at $667.64, well-buffered. Portfolio is 93.2% cash which is extreme capital preservation mode; that cash position is both the primary risk cushion and a reflection of how far this book has fallen from $1M to $239K. No earnings catalysts flagged this cycle but monitor macro tape \u2014 VIX at 19.4 is benign but SPY RSI at 39.2 is approaching oversold territory where short-covering bounces can trigger false breakouts."
+    },
+    {
+      "timestamp": "2026-07-27T13:02:28.651818-04:00",
+      "regime": "BEAR",
+      "regime_score": -3,
+      "portfolio_value": 239663.25,
+      "cash": 223290.96,
+      "actions_taken": 0,
+      "commentary": "The tape is telling a consistent story this cycle: SPY at $737 continues to underperform its 50-day at $744, RSI is pinned at 40, and the broader regime sits at -3/5 \u2014 that's not a knife I'm catching with fresh capital. The rules are clear on this, and frankly so is the price action, so the decision to hold cash at 93.2% isn't passivity, it's the active trade. Within the book, C and WELL are the two names doing real work \u2014 C is up 47.4% from the $89.30 entry and WELL is up 42.7% from $174.95, and both are still well-structured trends with trailing stops in place; I'm not trimming winners in a functioning position just because the broad market is soft. The reason I'm not acting on C despite the tight stop at $126.86 is that the position is only 4 shares and the dollar risk is manageable \u2014 I'd rather let the trailing stop do its job than second-guess a name that's been one of the book's best performers. The single risk I'm watching most carefully is whether SPY breaks below the 200-day at $696; that would flip the last green signal in the regime matrix, push the score to -5/5, and force a more aggressive de-risking conversation across all five long-term slots. Into the next cycle, I'm watching for an RSI reset toward 35-38 on SPY as a potential washout signal, and any VIX spike above 25 would actually sharpen my focus on hedging the existing longs rather than adding exposure.",
+      "risk_notes": "C is the most vulnerable long-term name with the stop at $126.86 versus current $131.59 \u2014 only 3.6% of cushion remaining; any broad financials sell-off or credit headline flips that into a stop-out. WELL trades at $249.73 against a stop of $222.36, which is a comfortable 10.6% buffer, but REIT names can gap on rate-surprise days so that distance can close fast. AAPL at $336.43 sits just 7.9% above entry with a stop at $297.52 \u2014 the position is working but the margin for error is thin if the tech tape deteriorates further. The book is 93.2% cash, which is the correct defensive posture here, but the cumulative drawdown of -76.03% from the $1M starting base is a persistent overhang that demands we be selective about re-deployment and not chase. SPY RSI at 40 is approaching oversold territory \u2014 not a buy signal yet, but worth watching for a potential washout low that could set up a re-entry window. No earnings catalysts flagged this cycle, but macro data (CPI, Fed speakers) remains the swing variable that could push VIX back above 25 and deepen the bear read."
     }
   ]
 }
