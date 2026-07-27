@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-27T13:47:49.217865-04:00",
+    "last_updated": "2026-07-27T14:01:18.993160-04:00",
     "last_trading_day": "2026-07-27",
     "total_sessions": 26,
     "regime": "BEAR",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -2.57,
-    "portfolio_value": 239665.39,
+    "spy_ytd_return": -2.49,
+    "portfolio_value": 239669.39,
     "cash": 223290.96,
     "cumulative_return_pct": -76.03,
-    "alpha_vs_spy": -73.46,
+    "alpha_vs_spy": -73.55,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -780,11 +780,11 @@
     },
     {
       "date": "2026-07-27",
-      "portfolio_value": 239665.39,
-      "daily_pnl": 9.22,
+      "portfolio_value": 239669.39,
+      "daily_pnl": 4.0,
       "cumulative_return": -76.03,
-      "spy_return": -2.57,
-      "alpha": -73.46,
+      "spy_return": -2.49,
+      "alpha": -73.55,
       "regime": "BEAR",
       "num_positions": 5,
       "cash": 223290.96
@@ -2730,6 +2730,16 @@
       "actions_taken": 0,
       "commentary": "The tape is telling a clear story right now \u2014 SPY at $737 is below the 50-day at $744, RSI is sitting at 37.5, and the regime score of -3 is not ambiguous. We are in a bear market, full stop, and the rules are simple: no new positions, protect what we have, let the winners breathe. The book is heavily cash-weighted at 93.2%, which in this environment is a feature, not a bug \u2014 that dry powder is the optionality we need when the regime flips. Within the long book, C and WELL are the primary P&L contributors at +47.3% and +42.6% respectively, and both are still above their trailing stops, so I'm not touching them; cutting winners in a volatile tape just to feel busy is how you underperform on the recovery leg. The active decision this cycle is to hold every position as-is \u2014 C's stop at $126.86 and WELL's at $222.36 are the real-time risk managers here, and I'll let the stops do the work rather than make a discretionary trim call mid-session in a bear regime. The single risk I'm watching most closely is C at $131.55 with only $4.69 of room before the stop triggers at $126.86 \u2014 if financials start cracking on credit spread widening or any macro headline, that's the first position that gets stopped out mechanically and I want to be ready for that. Into the next cycle, I'm watching whether SPY can reclaim the 50-day at $744 and whether VIX sustains below 25 \u2014 those two conditions together are the minimum threshold before I even look at the swing slot universe again.",
       "risk_notes": "C is the most exposed name at $131.55 with a stop at $126.86 \u2014 that's only $4.69 of cushion, roughly 3.6% from the stop, and financials are vulnerable in a sustained bear tape. WELL at $249.46 has built a 42.6% gain but the trailing stop at $222.36 is 10.4% below current \u2014 worth watching if the healthcare bid softens. AAPL at $336.26 is only 7.8% above entry with a stop at $297.52; it hasn't done enough work to feel comfortable, and if tech rotation accelerates to the downside, that stop at $297.52 gets tested fast. SPY itself is sitting at $737.05, just $69 above the 200-day SMA at $695 \u2014 if that level breaks, the entire book faces mark-to-market pressure simultaneously since SPY, AAPL, and the broader beta names all correlate heavily in a flush. Portfolio is down 76% from starting capital at $239,665 \u2014 the priority is capital preservation, not recovery chasing. KO is the cleanest long: defensive, 7.4% above entry, stop at $74.74 is well below market structure."
+    },
+    {
+      "timestamp": "2026-07-27T14:00:55.670392-04:00",
+      "regime": "BEAR",
+      "regime_score": -3,
+      "portfolio_value": 239669.39,
+      "cash": 223290.96,
+      "actions_taken": 0,
+      "commentary": "The tape is telling a consistent story: SPY is grinding along at $738, holding above its 200-day at $696 which is the one constructive data point, but the 50-day at $744 is overhead resistance and QQQ is still 5.4% below its own 50-day at $717 \u2014 the Nasdaq is lagging, which historically is not where you want to see the growth engine when you're trying to call a turn. Given the -3/5 bear score, the rules are unambiguous and frankly so is my own judgment: no new positions get added until we see SMA50 reclaim and RSI push back through 50. The book is running lean at 6.8% gross exposure, and the five long-term names are the only work being done right now \u2014 C and WELL are the standouts, up 47% and 43% respectively from entry, and those two positions are essentially carrying what little P&L remains in this fund. I'm holding everything this cycle because there is nothing to do that isn't a rule violation or a bad trade: adding in a bear regime is prohibited, trimming winners that are well inside their trailing stops would be selling strength for no reason, and the setups in names like NVDA or MSFT don't meet the threshold when the regime is this defensive. The single risk I'm most focused on is C at $131.62 \u2014 if it breaks $126.86 the trailing stop triggers and I exit; below $125 I'd want to reassess whether the broader financials tape is rolling over in a way that also threatens other parts of the book. Into the next cycle I'm watching SPY's ability to close above $744 and QQQ's reclaim of $717 \u2014 those two levels together would shift the regime read and open the door to deploying some of the $223K in dry powder we've been sitting on.",
+      "risk_notes": "C at $131.62 is within striking distance of its $126.86 trailing stop \u2014 a 3.6% pullback closes that gap, and in a bear tape that's one bad morning. WELL at $249.44 has 10.9% of cushion to its stop at $222.36, so that one has room, but the healthcare bid can evaporate fast on macro. AAPL at $335.28 sits only 11.3% above its stop at $297.52 \u2014 not alarming yet, but worth noting it's the weakest cushion percentage-wise among the growth names. SPY itself is 9.4% above stop. Total book exposure is small (6.8% of NAV in equities), so stop-out risk is manageable, but C is the name I'm watching most closely. Cumulative drawdown of -76.03% from starting capital is the elephant in the room \u2014 we are in capital preservation mode, not recovery mode."
     }
   ]
 }
