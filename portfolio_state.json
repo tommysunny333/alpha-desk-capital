@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-27T14:24:42.104339-04:00",
+    "last_updated": "2026-07-27T14:53:02.669564-04:00",
     "last_trading_day": "2026-07-27",
     "total_sessions": 26,
     "regime": "BEAR",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -2.54,
-    "portfolio_value": 239677.25,
+    "spy_ytd_return": -2.45,
+    "portfolio_value": 239681.36,
     "cash": 223290.96,
     "cumulative_return_pct": -76.03,
-    "alpha_vs_spy": -73.49,
+    "alpha_vs_spy": -73.59,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -780,11 +780,11 @@
     },
     {
       "date": "2026-07-27",
-      "portfolio_value": 239677.25,
-      "daily_pnl": 7.86,
+      "portfolio_value": 239681.36,
+      "daily_pnl": 4.11,
       "cumulative_return": -76.03,
-      "spy_return": -2.54,
-      "alpha": -73.49,
+      "spy_return": -2.45,
+      "alpha": -73.59,
       "regime": "BEAR",
       "num_positions": 5,
       "cash": 223290.96
@@ -2750,6 +2750,16 @@
       "actions_taken": 0,
       "commentary": "The tape is telling us one thing clearly: this is a bear regime, and SPY at $737 sitting below the 50-day at $744 with an RSI of 40.5 is not a setup where you go fishing for new longs \u2014 the rules are explicit and the market is confirming them. Our book is 93% cash, which given the cumulative drawdown to $239K is not a luxury position but a survival posture; the five names we're holding are the survivors of a much larger book, and they're all carrying gains, so the job right now is protecting what's working. C at +47.3% and WELL at +42.9% are the two alpha generators this cycle, and both have trailing stops set at 12% below their respective highs \u2014 I'm not touching those stops because I want the winners to run, but C specifically at $131.58 with only $4.72 of cushion to the stop is the one name I'm watching most carefully into the close. Holding everything this cycle is an active call, not inertia: with no cleared setups, no regime permission to add, and meaningful gains sitting in the existing book, deploying any of the $223K cash would be chasing in the wrong tape. The single risk that changes my posture fastest is VIX breaking above 25 \u2014 we're sitting at 19.2 right now, which is the one green light in the regime scorecard, and a spike through that level would signal the kind of volatility expansion that historically precedes stop cascades across correlated longs. Into next cycle, I'm watching SPY's relationship with the 50-day SMA at $744 \u2014 a clean reclaim with volume would be the first signal I'd want to see before even considering any incremental deployment of that dry powder.",
       "risk_notes": "C is the name closest to its stop: current $131.58 vs stop $126.86, a 3.6% cushion \u2014 one bad tape day wipes it. WELL at $250.04 vs stop $222.36 has more room but is a REIT in a rate-sensitive environment; watch the 10-year. AAPL at $335.73 vs stop $297.52 is comfortable on distance but the stock is underperforming with only 7.7% gain on a long-held position \u2014 worth monitoring for conviction. SPY itself at $737.27 vs stop $667.64 is fine structurally but adds to our overall beta exposure in a bear tape. KO is the least concerning \u2014 defensive name, stop well below at $74.74. Portfolio-level concern: we're down 76% on a cumulative basis from $1M starting capital \u2014 that context colors every risk decision. Concentration in five correlated beta names (SPY + AAPL + C + WELL + KO) means a broad risk-off move hits us across the book simultaneously, not in isolation."
+    },
+    {
+      "timestamp": "2026-07-27T14:52:34.564156-04:00",
+      "regime": "BEAR",
+      "regime_score": -3,
+      "portfolio_value": 239681.36,
+      "cash": 223290.96,
+      "actions_taken": 0,
+      "commentary": "The tape is telling a consistent story this cycle: SPY at $738 can't reclaim its SMA50 at $744, RSI is grinding at 38.2 with no real bid behind it, and the 20-day return of 0.5% confirms we're in a slow bleed rather than a sharp flush \u2014 the kind of market where longs quietly die rather than get stopped out clean. The regime read is Bear at -3/5 and the rules are unambiguous: no new capital deployment until that score shifts, full stop. The book is running extremely light at 6.8% gross long, so the P&L story right now is almost entirely about the five legacy longs \u2014 C and WELL are the two names carrying meaningful gains at +47.5% and +42.8% respectively, and those positions are doing the work while everything else treads water. I'm holding all five and not trimming today because each position is still trading above its trailing stop, none have violated a technical level that changes the thesis, and given we're already at $239k on a $1M book, eroding these winners without a clear technical reason would compound the drawdown damage we've already absorbed. The single risk that changes my posture fastest is SPY breaking its SMA200 at $695 \u2014 that's not a technical nuance, that's a regime-level event that would signal we retest levels the current stops weren't sized for. Into the next cycle I'm watching whether SPY can reclaim $744 on the SMA50 and whether RSI can push back through 50; until both of those flip, the cash stays in the drawer and the longs stay on a short leash.",
+      "risk_notes": "C is the closest to its stop at $131.71 vs stop $126.86 \u2014 roughly 3.7% of cushion remaining; any acceleration lower in financials puts that at risk. WELL at $249.78 with stop $222.36 has more room but is a healthcare REIT that could get hit if rates spike on any macro surprise. AAPL at $335.41 sits only 7.6% above entry with stop at $297.52 \u2014 not alarming but thin in a tape that's rolling. SPY itself is just $70 above its SMA200 at $695; a break there would be the regime-level signal that forces broader de-risking across the book. Total equity exposure is only ~6.8% of portfolio given 93.2% cash, so drawdown risk from here is contained \u2014 the real risk is that the five longs give back their embedded gains before conditions improve. No earnings catalysts flagged imminently but LLY, NVDA, and MU are in the watchlist universe and could move the tape on any prints."
     }
   ]
 }
