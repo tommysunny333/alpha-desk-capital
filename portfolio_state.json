@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-27T13:17:18.706393-04:00",
+    "last_updated": "2026-07-27T13:47:49.217865-04:00",
     "last_trading_day": "2026-07-27",
     "total_sessions": 26,
     "regime": "BEAR",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -2.66,
-    "portfolio_value": 239656.17,
+    "spy_ytd_return": -2.57,
+    "portfolio_value": 239665.39,
     "cash": 223290.96,
     "cumulative_return_pct": -76.03,
-    "alpha_vs_spy": -73.38,
+    "alpha_vs_spy": -73.46,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -780,11 +780,11 @@
     },
     {
       "date": "2026-07-27",
-      "portfolio_value": 239656.17,
-      "daily_pnl": -7.08,
+      "portfolio_value": 239665.39,
+      "daily_pnl": 9.22,
       "cumulative_return": -76.03,
-      "spy_return": -2.66,
-      "alpha": -73.38,
+      "spy_return": -2.57,
+      "alpha": -73.46,
       "regime": "BEAR",
       "num_positions": 5,
       "cash": 223290.96
@@ -2720,6 +2720,16 @@
       "actions_taken": 0,
       "commentary": "The tape is telling a consistent story right now: SPY at $736 is below the 50-day at $744, RSI is 39.8, and the regime score is -3 \u2014 this is not a market where I'm adding risk, and the rulebook is explicit on that. What I do have is five long-term positions that are all in the green, ranging from KO's modest 7.4% gain to C's 46.8% run from $89.30, and those positions are earning their keep without me needing to touch them. The active decision this cycle is to hold everything and sit on the 93.2% cash \u2014 that's not passivity, that's discipline; in a bear regime with a book already down 76% from peak, every incremental bet has to clear a much higher bar than it would in a neutral or bull tape, and nothing on the screen clears it today. The single level I'm watching most closely is C's trailing stop at $126.86 \u2014 the stock is only $4 away from triggering, and if that goes, I want the exit to be clean and deliberate rather than reactive, so I'm pre-loading the mental model on that one. Into the next cycle I'm watching whether SPY can reclaim the $744 SMA50 on volume; that's the first signal that would shift me from fully defensive to cautiously opportunistic, and names like NVDA at $195 and GOOGL at $326 would be early-cycle adds if and when the regime score improves.",
       "risk_notes": "C at $131.10 is the most acute stop-proximity concern \u2014 trailing stop sits at $126.86, roughly 3.2% below current price; any tape deterioration could trigger an exit on a name that's up 46.8% from entry, so I'm watching that level daily. WELL at $249.71 has a stop at $222.36 (10.9% away) which is comfortable, but healthcare names can gap on policy headlines. SPY position at $736.38 with stop $667.64 is fine structurally but the index itself is the regime barometer \u2014 a break below SMA200 near $696 would flip the whole posture. Portfolio is 93.2% cash, which at first glance looks conservative but is actually the correct posture given we've drawn down 76% from starting capital; the priority is capital preservation, not rebuilding through forced trades in a bear tape. No earnings catalysts imminent in the immediate watch window, but LLY at $1,198 and NVDA at $195 are in the opportunity watchlist for when regime turns."
+    },
+    {
+      "timestamp": "2026-07-27T13:47:27.022018-04:00",
+      "regime": "BEAR",
+      "regime_score": -3,
+      "portfolio_value": 239665.39,
+      "cash": 223290.96,
+      "actions_taken": 0,
+      "commentary": "The tape is telling a clear story right now \u2014 SPY at $737 is below the 50-day at $744, RSI is sitting at 37.5, and the regime score of -3 is not ambiguous. We are in a bear market, full stop, and the rules are simple: no new positions, protect what we have, let the winners breathe. The book is heavily cash-weighted at 93.2%, which in this environment is a feature, not a bug \u2014 that dry powder is the optionality we need when the regime flips. Within the long book, C and WELL are the primary P&L contributors at +47.3% and +42.6% respectively, and both are still above their trailing stops, so I'm not touching them; cutting winners in a volatile tape just to feel busy is how you underperform on the recovery leg. The active decision this cycle is to hold every position as-is \u2014 C's stop at $126.86 and WELL's at $222.36 are the real-time risk managers here, and I'll let the stops do the work rather than make a discretionary trim call mid-session in a bear regime. The single risk I'm watching most closely is C at $131.55 with only $4.69 of room before the stop triggers at $126.86 \u2014 if financials start cracking on credit spread widening or any macro headline, that's the first position that gets stopped out mechanically and I want to be ready for that. Into the next cycle, I'm watching whether SPY can reclaim the 50-day at $744 and whether VIX sustains below 25 \u2014 those two conditions together are the minimum threshold before I even look at the swing slot universe again.",
+      "risk_notes": "C is the most exposed name at $131.55 with a stop at $126.86 \u2014 that's only $4.69 of cushion, roughly 3.6% from the stop, and financials are vulnerable in a sustained bear tape. WELL at $249.46 has built a 42.6% gain but the trailing stop at $222.36 is 10.4% below current \u2014 worth watching if the healthcare bid softens. AAPL at $336.26 is only 7.8% above entry with a stop at $297.52; it hasn't done enough work to feel comfortable, and if tech rotation accelerates to the downside, that stop at $297.52 gets tested fast. SPY itself is sitting at $737.05, just $69 above the 200-day SMA at $695 \u2014 if that level breaks, the entire book faces mark-to-market pressure simultaneously since SPY, AAPL, and the broader beta names all correlate heavily in a flush. Portfolio is down 76% from starting capital at $239,665 \u2014 the priority is capital preservation, not recovery chasing. KO is the cleanest long: defensive, 7.4% above entry, stop at $74.74 is well below market structure."
     }
   ]
 }
