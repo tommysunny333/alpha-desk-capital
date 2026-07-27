@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-27T12:00:15.194670-04:00",
+    "last_updated": "2026-07-27T12:15:41.841424-04:00",
     "last_trading_day": "2026-07-27",
     "total_sessions": 26,
     "regime": "BEAR",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -2.51,
-    "portfolio_value": 239686.97,
+    "spy_ytd_return": -2.52,
+    "portfolio_value": 239680.8,
     "cash": 223290.96,
     "cumulative_return_pct": -76.03,
-    "alpha_vs_spy": -73.52,
+    "alpha_vs_spy": -73.51,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -40,7 +40,7 @@
       "entry_price": 311.81,
       "current_price": 320.91,
       "shares": 6,
-      "stop_price": 296.66,
+      "stop_price": 296.99,
       "days_held": 0
     },
     {
@@ -780,11 +780,11 @@
     },
     {
       "date": "2026-07-27",
-      "portfolio_value": 239686.97,
-      "daily_pnl": 6.36,
+      "portfolio_value": 239680.8,
+      "daily_pnl": -6.17,
       "cumulative_return": -76.03,
-      "spy_return": -2.51,
-      "alpha": -73.52,
+      "spy_return": -2.52,
+      "alpha": -73.51,
       "regime": "BEAR",
       "num_positions": 5,
       "cash": 223290.96
@@ -2680,6 +2680,16 @@
       "actions_taken": 0,
       "commentary": "The tape continues to tell a bearish story: SPY at $737 is stuck below its 50-day at $744, the RSI is grinding at 40.6, and that 1.2% 20-day return barely qualifies as a bounce \u2014 this is a market consolidating downward, not building a base. Against that backdrop, the rules are unambiguous and I'm not fighting them \u2014 no new longs get put on in a confirmed bear regime, full stop. The book is essentially five survivors from a much larger drawdown, and they're actually performing: C is up 48%, WELL 42.9%, both with healthy cushions above their trailing stops \u2014 those are the P&L contributors, and I'm letting them run rather than harvesting gains prematurely in case this regime flips. The active decision this cycle is to hold all five and sit on the 93% cash pile, which at first glance looks passive but is actually disciplined capital preservation \u2014 the last thing I want to do is deploy into a bear tape and add to a book that's already down 76% from peak. The single risk I'm watching most closely is C at $132.20 with its stop at $126.86: a 4% move against us closes that trade, and with financials sensitive to any credit or rate shock, that's the position I'd be most ready to defend or exit quickly. Into the next cycle I'm watching whether SPY can reclaim the $744 SMA50 with volume \u2014 that's the level that would begin shifting the regime score and potentially open the door to swing setups in the strongest names on the board.",
       "risk_notes": "C is the most exposed name at $132.20 with stop at $126.86 \u2014 only 4.0% of cushion remaining; any financials selloff on macro data or credit noise flips this to a stop-out. WELL at $249.99 has a stop at $222.36 (11.1% buffer) but healthcare has been a relative strength story \u2014 watch for rotation out if risk-on returns. SPY long at $737.49 with stop $667.64 is a 9.4% drawdown tolerance, comfortable but not complacent given the bear tape. KO stop at $74.74 is 10.8% below current \u2014 defensives holding but if SPY re-tests SMA200 near $696, even staples will see selling pressure. Portfolio is 93.2% cash which sounds safe but reflects a -76% cumulative drawdown from $1M \u2014 the real risk here is that the five remaining longs were entered at much lower levels and trailing stops need to be kept tight as the bear regime persists. No earnings catalysts flagged in current holdings this immediate cycle, but LLY at $1197 in the watchlist is a vol event risk if a position were initiated \u2014 irrelevant for now given the no-new-positions rule."
+    },
+    {
+      "timestamp": "2026-07-27T12:15:13.636216-04:00",
+      "regime": "BEAR",
+      "regime_score": -3,
+      "portfolio_value": 239680.8,
+      "cash": 223290.96,
+      "actions_taken": 0,
+      "commentary": "The tape is telling a consistent story this cycle: SPY at $737 is below its 50-day at $744, RSI is sitting at 37.8, and the 20-day return is effectively flat \u2014 that's not a market that rewards aggression, and the bear regime read at -3/5 is the right score for what we're seeing. The good news is this book is almost entirely sidelined, and at this stage of the year with cumulative P&L where it is, capital preservation isn't timidity \u2014 it's the mandate. The five long-term positions are all above water and all above their stops, so the existing book is working; WELL and C are the standout contributors at +42.6% and +48.1% respectively, and I'm not touching those unless price action forces my hand. C is the name I'm watching most carefully \u2014 $126.86 is the stop, we're $5 away, and if financials get hit on a credit scare or a rate move this week that level comes into play fast. I'm holding everything and deploying nothing this cycle because the rules are unambiguous \u2014 no new positions in a bear regime \u2014 but more importantly, I don't see a single setup in the universe that clears the bar on its own merits right now; NVDA at $197 has no base, META at $598 is extended, nothing is setting up cleanly. What changes my mind is SPY reclaiming $744 with RSI pushing back through 50 and the regime score moving to -1 or better; until I see that confirmation I'm content to let the cash earn optionality and watch C's stop level into the next few sessions.",
+      "risk_notes": "C at $132.22 is the name closest to its stop at $126.86 \u2014 only 4% of cushion left, watching that level closely given financials are sensitive to rate vol and credit spread widening in this environment. WELL at $249.55 has built a 42.6% gain with a stop at $222.36, a 10.9% drawdown from here would trigger it \u2014 that's the most profitable position and also the one I'd hate to give back carelessly. AAPL at $337.49 sits 11.9% above its stop at $296.99, technically fine but consumer discretionary/tech names underperform in bear regimes. KO at $83.69 is only 7.4% in the green with a stop at $74.74 \u2014 defensive name, least concerned here but the gain is modest. SPY position is 18.3% positive with stop at $667.64, current price $737.39 gives 9.4% of room, manageable. Portfolio is 93.2% cash which is the right posture; the $223K reserve is the asset right now, not the positions. No swing slots open means we have no short-duration risk on. Cumulative drawdown of -76% on starting capital is a stark number \u2014 the surviving book needs to be protected, not pressed."
     }
   ]
 }
