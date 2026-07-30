@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-30T13:55:16.757664-04:00",
+    "last_updated": "2026-07-30T14:15:36.628663-04:00",
     "last_trading_day": "2026-07-30",
     "total_sessions": 29,
     "regime": "BEAR",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -2.19,
-    "portfolio_value": 239566.96,
+    "spy_ytd_return": -2.15,
+    "portfolio_value": 239575.81,
     "cash": 223800.22,
     "cumulative_return_pct": -76.04,
-    "alpha_vs_spy": -73.86,
+    "alpha_vs_spy": -73.9,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -830,27 +830,17 @@
     },
     {
       "date": "2026-07-30",
-      "portfolio_value": 239566.96,
-      "daily_pnl": 6.42,
+      "portfolio_value": 239575.81,
+      "daily_pnl": 8.85,
       "cumulative_return": -76.04,
-      "spy_return": -2.19,
-      "alpha": -73.86,
+      "spy_return": -2.15,
+      "alpha": -73.9,
       "regime": "BEAR",
       "num_positions": 4,
       "cash": 223800.22
     }
   ],
   "agent_decision_log": [
-    {
-      "timestamp": "2026-07-06T14:54:43.831126-04:00",
-      "regime": "BULL",
-      "regime_score": 3,
-      "portfolio_value": 239671.66,
-      "cash": 215961.72,
-      "actions_taken": 0,
-      "commentary": "The tape is in a constructive but unexciting place \u2014 SPY at $751.78 is holding above both the 50 and 200-day smoothly, VIX at 15.8 is not flashing any stress, but the flat 20-day return tells me this is a market consolidating gains rather than breaking out. That's fine; we don't need velocity to manage this book, we need the existing positions to do their work. C and WELL are carrying the long-term sleeve \u2014 a combined book gain that represents nearly all of the value preservation in a portfolio that's been through a rough drawdown history, and I'm not going to let a quiet afternoon push me into trimming names that are still trending above their stops with room to run. The swing book has three live positions and all three are essentially at or just around entry \u2014 NVDA with the best look at +1.6%, MSFT the laggard that hasn't found its footing yet \u2014 and the honest answer is that none of them have given me a reason to act today; they're in the trade, stops are set, and the market isn't forcing a decision. With 90% cash I could be more aggressive on deployment, but the bar for new entries has to be high when you're managing a recovery from a significant drawdown \u2014 I'd rather wait for a setup with genuine momentum than fill slots for the sake of it. The level I'm watching most closely is SPY $737, which is the 50-day SMA; a close below that would shift my posture materially and have me tightening stops across the swing book rather than adding.",
-      "risk_notes": "Portfolio is running at -76% cumulative drawdown from the $1M starting base, which is the dominant risk frame \u2014 we are playing recovery mode with $239K, so position sizing discipline and stop integrity are non-negotiable. Cash at 90.1% is protective but also the cost of prior losses; deploying carelessly here compounds the problem. MSFT is the only swing name in the red at -1.2% ($386 vs $390.86 entry), with stop at $371.13 \u2014 watching for a reclaim of $390 before adding any conviction. NVDA at $196.54 is 1.6% off entry with stop at $183.74; the TP of $216.62 is still ~10% away \u2014 position is live but needs follow-through. GOOGL at $366.30 is barely above water (+0.5%); stop at $346.10 gives reasonable room but the name needs to get toward $375-380 to validate the setup. LT book is the health of this portfolio: C at +60.2% and WELL at +32.9% are the two workhorses \u2014 both are well above their trailing stops ($126.86 and $207.65 respectively) and should not be touched. No earnings imminent in the next 48 hours that I can flag from current data, but NVDA and MSFT carry event risk in any rolling cycle. Max 10% position size on $239K = ~$23,900 per new position \u2014 that limits any single new swing entry to roughly 60-100 shares of a mid-price name."
-    },
     {
       "timestamp": "2026-07-06T15:11:53.346062-04:00",
       "regime": "BULL",
@@ -2840,6 +2830,16 @@
       "actions_taken": 0,
       "commentary": "The tape is in a defined bear regime \u2014 SPY below its 50-day at $744, RSI sitting at 38.5, QQQ 4.8% under its own 50-day at $715 \u2014 and the rules are clear: no new positions get put on until the regime flips. That's not a passive stance, that's capital preservation doing exactly what it's supposed to do after a significant drawdown. The book as it stands is actually working \u2014 all four long-term names are in the green, and WELL at +34.5% has been the real engine, now trading $235 against an entry of $175. The active decision this cycle is to let the trailing stops do their job rather than manually trimming into strength; WELL's stop at $222.36 will capture a substantial gain if the name rolls over, and forcing a sale here means potentially leaving upside on the table in a name that's shown relative strength throughout the bear. The single most important level I'm watching is SPY $744 \u2014 that's the SMA50, and a reclaim with volume would be the first credible signal that the regime might be shifting, which would unlock the 93% cash sitting idle. Until then, the dry powder is not a problem, it's an option \u2014 and right now that option has real value given we're in a tape where QQQ has shed 4-plus percent just relative to its own moving average. Into the next cycle, I want to see whether VIX at 18.1 continues to hold under 25 while price stabilizes, or whether we get a divergence where vol spikes and confirms distribution \u2014 that combination would tell me the oversold bounce everyone's waiting for is further out than the bulls think.",
       "risk_notes": "Portfolio is down 76% from starting capital of $1M \u2014 the damage is historical, not current-cycle, but it sets the psychological and operational context. Current book of four long-term positions is sitting on unrealized gains across the board: WELL +34.5% is the standout, trading at $235.39 against a stop at $222.36 \u2014 that's only 5.5% of cushion before we're stopped out of the best performer. SPY at $739.95 is within 1% of SMA50 at $744 \u2014 a close above that level would soften the regime read, but we're not there yet. AAPL at $332.96 is the weakest of the four at +6.8% and its stop at $302.84 is 9% below current \u2014 widest relative risk in the book. KO stop at $79.42 vs. current $88.33 gives us 10% of room, which is comfortable. No positions are in immediate stop danger this cycle, but WELL deserves close monitoring given how tight that trailing stop has become as price has run. VIX at 18.1 is not signaling panic, which is the one constructive data point \u2014 but it also means there's no washout capitulation to buy into. 93.4% cash is extreme but rule-compliant given the bear regime lock."
+    },
+    {
+      "timestamp": "2026-07-30T14:15:13.336358-04:00",
+      "regime": "BEAR",
+      "regime_score": -3,
+      "portfolio_value": 239575.81,
+      "cash": 223800.22,
+      "actions_taken": 0,
+      "commentary": "The tape is giving us nothing to work with on the long side \u2014 SPY at $740 is pinned below the 50-day at $744, RSI at 38.7 is barely off oversold territory, and the 20-day return is still negative; the regime score of -3 out of 5 is a hard wall against new deployment and I'm not going to manufacture a reason to put money to work just to appear active. The book is running intentionally lean: four long-term names, no swing exposure, and $223K in cash \u2014 which sounds like a lot of dead weight until you remember we're sitting on a 76% cumulative drawdown and the priority right now is protecting what's left, not reaching for return. WELL is the standout performer at +34.5% and is doing exactly what a defensive healthcare name should do in a bear tape \u2014 it's above its trailing stop by a comfortable margin and I have no desire to trim into strength when the position is working and the stop is doing its job at $222.36. The single risk I'm most focused on is AAPL: the broader tech complex \u2014 NVDA $193, MSFT $457, GOOGL $332 \u2014 is all under pressure, and if that selling extends, AAPL at $333 with a stop at $302.84 is the position most likely to be tested; a close below $315 would have me reassessing the cushion on that stop before it's formally triggered. Into the next cycle I'm watching SPY's ability to reclaim the 50-day at $744 and whether RSI can push back through 50 \u2014 those two together would be the first credible signal to start rebuilding swing exposure, but until both confirm, this desk stays in capital-preservation mode and the cash stays where it is.",
+      "risk_notes": "WELL at $235.32 is the name demanding the most attention \u2014 it's 34.5% in the green and the trailing stop sits at $222.36, meaning a 5.5% move lower triggers an exit; healthcare has been the one pocket of relative strength but any sector rotation out of defensives on a risk-on bounce would hit this name first. KO stop at $79.42 is well below current $88.54 (10.3% cushion) so that's less urgent but worth noting in a tape where consumer staples can gap on earnings. AAPL at $333.40 with stop $302.84 \u2014 9.2% of cushion remaining \u2014 is the most technically vulnerable of the four given the broader tech weakness visible in NVDA at $193, MSFT at $457, and GOOGL at $332; if Nasdaq continues to underperform, AAPL could test that stop faster than the others. SPY position is deep in the money (+18.8%) but the index itself is only 32 cents above the price we're marking, so any daily close materially below $740 would be a read-through. Portfolio is 93.4% cash against a $1M starting base \u2014 cumulative drawdown of 76% is the elephant in the room; capital preservation is paramount."
     }
   ]
 }
