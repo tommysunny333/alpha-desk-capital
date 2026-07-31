@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-07-31T15:07:05.104981-04:00",
+    "last_updated": "2026-07-31T16:04:30.705756-04:00",
     "last_trading_day": "2026-07-31",
     "total_sessions": 30,
     "regime": "NEUTRAL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": -1.39,
-    "portfolio_value": 239453.02,
+    "spy_ytd_return": -1.28,
+    "portfolio_value": 239455.29,
     "cash": 225615.33,
     "cumulative_return_pct": -76.05,
-    "alpha_vs_spy": -74.66,
+    "alpha_vs_spy": -74.78,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -843,27 +843,17 @@
     },
     {
       "date": "2026-07-31",
-      "portfolio_value": 239453.02,
-      "daily_pnl": -7.43,
+      "portfolio_value": 239455.29,
+      "daily_pnl": 2.27,
       "cumulative_return": -76.05,
-      "spy_return": -1.39,
-      "alpha": -74.66,
+      "spy_return": -1.28,
+      "alpha": -74.78,
       "regime": "NEUTRAL",
       "num_positions": 3,
       "cash": 225615.33
     }
   ],
   "agent_decision_log": [
-    {
-      "timestamp": "2026-07-08T12:01:13.428605-04:00",
-      "regime": "NEUTRAL",
-      "regime_score": -1,
-      "portfolio_value": 239502.09,
-      "cash": 215961.72,
-      "actions_taken": 0,
-      "commentary": "The tape is giving us a mixed signal that I'm taking seriously: SPY holding above both the 50 and 200-day is the constructive read, but QQQ's failure to hold its 50-day at $712 \u2014 currently trading $703, nine dollars below \u2014 tells me large-cap tech doesn't have the same footing, and that's where three of our five swing slots are concentrated. In that context, staying put and not forcing new entries is the active call, not passivity. The long-term book is doing the heavy lifting on P&L: C at $137.74 versus an $89.30 entry is a 54% winner, WELL is up 35%, and the trailing stops on both are wide enough that I'm not worried about noise shaking us out \u2014 those are positions I want to let run. The swing book is the area of focus this cycle: MSFT and GOOGL are both in the red, and with MSFT at $382 against a $371 stop, I'm watching the $375-377 zone as the line in the sand \u2014 if it breaks there with any volume, I'll exit ahead of the stop rather than wait for the print. NVDA is the one swing name behaving, up 2.2%, but with the regime at neutral and QQQ lagging its 50-day, I'm not adding to it even though the momentum signal looks intact. The single most important risk I'm monitoring is a QQQ break further below $703 \u2014 if it loses $695 with any conviction, the neutral regime tips bearish and I'll need to consider trimming the tech-heavy swing book, potentially cutting MSFT and GOOGL outright. Into the next cycle, I want to see whether QQQ can stage a reclaim of the $712 level; that's the price that reopens the conversation about deploying some of the $215K in dry powder into higher-conviction setups.",
-      "risk_notes": "Portfolio is down 76% from starting capital \u2014 the $239K current value versus $1M start is the dominant risk fact in this book and demands extreme discipline on new exposure. Cash at 90.2% is actually appropriate here given the drawdown context; deploying aggressively into a neutral tape would be the wrong instinct. MSFT at $382.82 is sitting -2.1% from entry with stop at $371.13 \u2014 about 3% of downside before we're stopped out; watch the $375 level as an early warning. GOOGL at $360.45 is -1.1% from entry, stop at $346.10 \u2014 needs to hold the $355 area or the thesis deteriorates. NVDA is the one swing name showing positive traction at +2.2%, but $216.62 TP is still 9.5% away and the neutral regime argues against adding. On the long book, C remains the star at +54.2% and trailing stop at $126.86 is well below current $137.74 \u2014 comfortable cushion. WELL at +35.3% similarly well-protected. AAPL is the only long-term name underwater, -0.5%, stop at $276.53 gives plenty of room but the position isn't earning its keep right now. Key upcoming watch: QQQ needs to reclaim its 50-day at $712 to validate any tech swing thesis \u2014 currently $9 below that level. No new swing setups cleared the 30%-reduced sizing bar this cycle given neutral regime conditions."
-    },
     {
       "timestamp": "2026-07-08T12:13:14.347805-04:00",
       "regime": "NEUTRAL",
@@ -2853,6 +2843,16 @@
       "actions_taken": 0,
       "commentary": "The tape is sending a mixed message this afternoon \u2014 SPY is holding above both the 50 and 200-day, which technically keeps the primary uptrend intact, but QQQ sitting 3.8% below its 50-day at $688 versus $715 tells me growth leadership has quietly rolled over, and that disconnect is exactly why I'm not pressing new positions into a neutral read. The book is lean but the three names we're carrying are actually doing their job: WELL continues to be the standout at +34.6%, SPY long is working as a core beta anchor, and KO is giving us a quiet defensive bid with 12% in the green. I'm holding all three without any trims this cycle because none of the stops are under pressure and the underlying trends remain intact \u2014 touching winners at this stage of a recovery would be a mistake when the positions are performing and the fundamentals haven't changed. The single most important risk I'm watching is WELL above $235: a 34-point run without a meaningful pullback creates reversion risk, and if it breaks back through $222 \u2014 which is also our trailing stop \u2014 I want to be ready to exit cleanly rather than let a 34% gain become a 10% gain. Into tomorrow, I'm watching whether QQQ can reclaim $695-700 as a signal that growth is stabilizing; if it can't hold that level on any bounce, I'll tighten my posture further and let the cash buffer do its work.",
       "risk_notes": "Primary risk: portfolio is deeply impaired at -76% cumulative, with only $239K remaining from $1M starting capital \u2014 capital preservation is now the dominant mandate. Long book is actually working: SPY +19.7% from $623 entry, WELL +34.6% from $174.95, KO +12.4% from $77.91. WELL is the most extended name and closest to a momentum exhaustion scenario at $235.55 \u2014 worth watching for a rollover given the 34% run. KO stop at $79.42 is tight relative to current price of $87.60, providing reasonable downside protection. SPY trailing stop at $667.64 is 10.4% below current price \u2014 comfortable but monitor if tape deteriorates. QQQ breaking below its 50-day ($715 vs current $688) is a macro warning sign for tech-heavy positioning; we have no direct tech exposure in long book which is fortuitous. VIX at 16.4 is benign but not complacent \u2014 not flashing any near-term panic signal. No swing positions means zero short-duration risk. Cash at 94.2% of remaining portfolio is extremely high; while this limits upside participation, it is appropriate given the drawdown context and neutral regime."
+    },
+    {
+      "timestamp": "2026-07-31T16:04:06.909109-04:00",
+      "regime": "NEUTRAL",
+      "regime_score": -1,
+      "portfolio_value": 239455.29,
+      "cash": 225615.33,
+      "actions_taken": 0,
+      "commentary": "The tape this cycle is giving us a split signal: SPY is holding above both the 50 and 200-day, which in isolation looks constructive, but QQQ sitting 3.8% below its 50-day at $688 versus $715 resistance tells a different story about where institutional money is actually going. When the growth complex is lagging this materially, I don't trust the broad market headline number \u2014 the index is being held up by defensives and value while the momentum names roll over, and that's not a tape where I want to be adding exposure. Within the book, WELL is doing the heavy lifting at +34.2% and is frankly the one position that's earned the right to run \u2014 I'm not trimming that here, the healthcare REIT thesis is intact and the trailing stop at $222.36 protects a substantial gain if this reverses. KO and SPY are contributing positively but more modestly, and together these three names are the only reason we're not deeper in the hole given the overall portfolio drawdown. The active decision this cycle is to hold cash and not force swing trades into a regime that penalizes size \u2014 at 30% reduced allocation, most swing setups don't generate enough dollar P&L to justify the risk in an account that's already severely impaired. What I'm watching hardest into next cycle is whether QQQ can reclaim $700-$715 \u2014 if it does and RSI on SPY crosses back above 50 with volume, that's the confirmation I need to start rebuilding swing exposure in names like NVDA or AVGO that have been compressing; if QQQ fails here and SPY RSI rolls lower, I'll be watching KO's stop at $79.42 as the first line of defense in the book.",
+      "risk_notes": "Primary concern is the catastrophic drawdown context: we're down 76% from $1M starting capital, sitting at $239K, which means recovery math is brutal \u2014 we need roughly a 4x from here just to get back to even. The three long-term positions (SPY, WELL, KO) are all working and represent our only real P&L lifeline. WELL at $234.80 is the strongest performer (+34.2%) and its trailing stop at $222.36 is tight enough to lock in meaningful gains \u2014 watching that level closely. KO stop at $79.42 is within ~$8 of current price ($87.58), roughly 9% downside to stop, which is within normal bounds but worth noting given the neutral tape. SPY stop at $667.64 is far from current levels ($746.82), providing comfortable cushion. QQQ's inability to hold its 50-day ($715 vs $688 current) is a macro warning sign \u2014 if that spread widens, it pressures the risk-on side of the book. No swing positions open, which is appropriate given the NEUTRAL regime signal and the 30% size reduction rule that makes swing R/R less attractive. With 94.2% cash and only $239K total AUM, deploying aggressively into a non-confirming tape would be reckless \u2014 preservation is the mandate until regime clears."
     }
   ]
 }
