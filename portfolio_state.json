@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-08-07T12:00:33.366314-04:00",
+    "last_updated": "2026-08-07T12:23:17.816504-04:00",
     "last_trading_day": "2026-08-07",
     "total_sessions": 34,
     "regime": "BULL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": 2.19,
-    "portfolio_value": 240028.08,
+    "spy_ytd_return": 2.14,
+    "portfolio_value": 240001.18,
     "cash": 209071.73,
     "cumulative_return_pct": -76.0,
-    "alpha_vs_spy": -78.18,
+    "alpha_vs_spy": -78.14,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -1102,27 +1102,17 @@
     },
     {
       "date": "2026-08-07",
-      "portfolio_value": 240028.08,
-      "daily_pnl": -19.84,
+      "portfolio_value": 240001.18,
+      "daily_pnl": -26.9,
       "cumulative_return": -76.0,
-      "spy_return": 2.19,
-      "alpha": -78.18,
+      "spy_return": 2.14,
+      "alpha": -78.14,
       "regime": "BULL",
       "num_positions": 11,
       "cash": 209071.73
     }
   ],
   "agent_decision_log": [
-    {
-      "timestamp": "2026-07-13T14:43:49.638954-04:00",
-      "regime": "NEUTRAL",
-      "regime_score": 1,
-      "portfolio_value": 239957.07,
-      "cash": 216381.1,
-      "actions_taken": 0,
-      "commentary": "The tape is giving us a mixed read this cycle \u2014 SPY is fine, sitting at $749.85 above both the 50 ($741) and 200 ($692) with RSI at 54.2, but QQQ can't hold its 50-day and that tells me the growth/momentum bid is hesitant right now, not absent. That asymmetry matters for this book because our entire swing book is tech: MSFT, GOOGL, AMZN \u2014 and the index that benchmarks that cohort is flashing a caution flag. So I'm not adding; I'm watching. The long-term sleeve is the engine here \u2014 C at +55.8% and WELL at +33.9% are doing real work, and SPY itself is up 20.3% from our $623 entry, which is clean given where we entered. The active decision this cycle is to hold the swing book despite GOOGL being within 2.6% of its stop at $346.10 \u2014 closing it now on a non-event would be poor process, but I'm watching that level closely because a QQQ breakdown would likely take GOOGL through it, and I'd rather let the stop do its job than anticipate a loss that hasn't materialized. The single risk I'm most focused on is a QQQ rollover below $710 \u2014 that level would likely pressure MSFT, GOOGL, and AMZN simultaneously, and with three correlated swings and limited capital to absorb it, I'd be cutting at least GOOGL on any decisive close below that threshold. Into the next cycle I want to see whether QQQ can reclaim its 50-day; if it does, the swing book looks fine and AMZN near $249 with TP at $274 is the most interesting risk/reward we have on the sheet right now.",
-      "risk_notes": "Portfolio is down 76% from starting capital \u2014 this is the dominant risk context for every decision we make. With only $239,957 in total value against a $1M start, capital preservation is the first mandate. Cash at 90.2% ($216,381) is doing its job as a buffer. Long-term book: C is the standout at +55.8% with stop at $126.86 \u2014 needs a stop raise if it continues to run. WELL at +33.9% is also extended; stop at $209.69 is 10.5% below current $234.24, within trailing framework but worth watching. GOOGL swing is the live stop watch \u2014 current $355.51 vs stop $346.10, only $9.41 of cushion (~2.6%), and the position is already -2.5% from entry $364.50; a move through $346 closes this. QQQ below its 50-day SMA ($716 vs $713) is a yellow flag for tech-heavy names like MSFT, GOOGL, AMZN \u2014 all three swing positions are in that complex. Max new position size at 10% of $239,957 = ~$24,000, which limits us to very small lot sizes even if a setup clears the bar. No earnings catalysts flagged in the data but NVDA, META, and LLY are on the watchlist and all can move the tape materially."
-    },
     {
       "timestamp": "2026-07-13T14:52:52.665591-04:00",
       "regime": "NEUTRAL",
@@ -3112,6 +3102,16 @@
       "actions_taken": 0,
       "commentary": "The tape is in a confirmed bull regime but I'd characterize this as late-innings momentum rather than fresh breakout territory \u2014 SPY at $773 is 10.4% above its 200-day and RSI at 69.4 is one bad session from flipping overbought, so I'm not chasing. The book is actually performing reasonably well on the positions we do have: SPY long-term is up 24.1%, WELL is the star at +35.4%, and NVDA swing is up 6.1% and within 5.5% of its $236 target \u2014 those three names are doing the heavy lifting while the rest of the swing book is essentially marking time. I'm holding everything this cycle because no new setup clears the bar I need given where we are in the cycle: I'm not adding more tech exposure when I already have five correlated mega-cap swing positions, and I'm not chasing long-term adds when SPY RSI is near 70 and the 20-day return metric has already rolled over. The active decision here is to let the existing positions season \u2014 NVDA is the one I'm watching most closely for a trim opportunity if it pushes toward $236, at which point I'd take partial profit rather than riding it through a potential reversal. The single risk that changes my posture overnight is a VIX spike through 20 coinciding with SPY breaking below its SMA50 at $747 \u2014 that combination would tell me the regime is transitioning and I'd be moving to defensive mode, tightening stops across the swing book and letting the long-term trailing stops do their work rather than adding any new risk.",
       "risk_notes": "1. DRAWDOWN SEVERITY: We're sitting at -76% cumulative on a $1M mandate with $240K total value \u2014 this book has been through serious damage and capital preservation is now structurally critical; one bad leg from here is existential. 2. CONCENTRATION & CORRELATION: All five swing slots are mega-cap tech (NVDA, META, AMZN, MSFT, GOOGL) \u2014 this is essentially a single-factor bet on large-cap tech momentum; a sector rotation or rates shock hits all five simultaneously. 3. STOPS IN FOCUS: GOOGL at $355.92 is -0.9% and the stop is $341.06 \u2014 4.2% away, manageable but worth watching if tape weakens; AMZN at $277.35 vs entry $277.75 is essentially flat and sitting -0.1%, stop at $263.73. Neither is triggering but both need a catalyst to move toward their TPs of $402 and $310 respectively. 4. NVDA approaching TP: At $223.80 vs TP $236.07, NVDA is 5.5% from target \u2014 this is the most actionable position in the swing book and I'm watching for a clean break toward that level to consider trimming into strength. 5. SPY RSI 69.4: Market-level overbought warning; any mean reversion in SPY ripples directly into every position we hold. 6. CASH at 87.1%: While this looks like massive dry powder, given the mandate destruction, deploying aggressively here into an extended tape would be a second mistake on top of prior losses \u2014 discipline on entry quality matters more than deployment speed."
+    },
+    {
+      "timestamp": "2026-08-07T12:22:50.828677-04:00",
+      "regime": "BULL",
+      "regime_score": 3,
+      "portfolio_value": 240001.18,
+      "cash": 209071.73,
+      "actions_taken": 0,
+      "commentary": "The tape is behaving well \u2014 SPY is holding $773, comfortably above both moving averages, and VIX at 14.9 is telling you the market isn't pricing fear. That said, RSI at 69.3 on SPY means we're not chasing fresh breakouts here; the easy money from the regime entry has largely been made, and anything new needs to earn its place with a clean setup. The book is working where it should: WELL is up 35% and still protected by a trailing stop at $222, SPY long is sitting on a 24% gain, and on the swing side NVDA is the standout at +5.8% and within striking distance of the $236.07 target \u2014 I'm inclined to let that run to the print and not second-guess it. I'm holding all positions this cycle because nothing has broken its stop, no swing has reached its TP yet, and frankly the setups I'd want to add \u2014 a fresh entry in quality tech \u2014 aren't presenting the right risk/reward after SPY's recent grind; I'd rather buy a pullback than add into extended prices. The single risk I'm watching most closely is GOOGL at $355.46 with a stop at $341.06: if that level breaks it's a clean cut, no debate, and given the correlated tech exposure across the swing book a GOOGL stop-out would be a tell that sentiment is rotating \u2014 at that point I'd reassess AMZN and META defensively as well. Into the next cycle I want to see whether SPY can push through with some breadth or whether this stalls sub-$780 and starts compressing; if NVDA hits $236 I'll take the swing profit and reload dry powder, and if the 20-day SPY return firms back above the threshold I'll look at initiating a new long-term slot with a high-quality name that's lagged the move.",
+      "risk_notes": "Portfolio is carrying a -76% cumulative drawdown from starting capital, meaning the book is already deeply impaired \u2014 capital preservation and measured recovery are the priority, not aggression. Cash sits at 87.1% ($209K), which is excessive for a bull regime but also a function of the prior losses. Max position size at 10% of $240K is roughly $24K \u2014 all current positions are within that band. GOOGL is the weakest swing at -1.0% and $355.46, with stop at $341.06 ($14.40 cushion, ~4.1% away \u2014 getting snug). AMZN is also slightly offside at -0.4% with stop at $263.73. NVDA is the strongest swing at +5.8% and closing on its $236.07 TP \u2014 watch that level. On the long book, KO's stop at $79.42 vs current $87.00 is tight in percentage terms for a defensive name; if the tape softens, that gets tested. LLY at $1,175 with a stop at $1,047 is a $128 gap \u2014 manageable but note the volatility in large-cap pharma. WELL is the star long at +35.4% with a well-trailed stop at $222.36. Correlation risk is elevated: META, MSFT, GOOGL, AMZN, NVDA, AAPL, AVGO are all effectively tech/semis \u2014 a sector rotation or rate shock hits all of them simultaneously."
     }
   ]
 }
