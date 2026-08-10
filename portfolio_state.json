@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-08-07T16:06:38.645897-04:00",
-    "last_trading_day": "2026-08-07",
-    "total_sessions": 34,
-    "regime": "BULL",
+    "last_updated": "2026-08-10T10:38:35.372173-04:00",
+    "last_trading_day": "2026-08-10",
+    "total_sessions": 35,
+    "regime": "STRONG_BULL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": 2.21,
-    "portfolio_value": 240028.68,
+    "spy_ytd_return": 2.38,
+    "portfolio_value": 240126.5,
     "cash": 209071.73,
-    "cumulative_return_pct": -76.0,
-    "alpha_vs_spy": -78.21,
+    "cumulative_return_pct": -75.99,
+    "alpha_vs_spy": -78.36,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -22,7 +22,7 @@
       "entry_price": 623.09,
       "current_price": 771.56,
       "shares": 13,
-      "stop_price": 680.42,
+      "stop_price": 681.52,
       "days_held": 0
     },
     {
@@ -58,7 +58,7 @@
       "entry_price": 1114.637,
       "current_price": 1161.81,
       "shares": 2,
-      "stop_price": 1046.97,
+      "stop_price": 1068.05,
       "days_held": 0
     },
     {
@@ -67,7 +67,7 @@
       "entry_price": 418.7293,
       "current_price": 420.73,
       "shares": 5,
-      "stop_price": 376.24,
+      "stop_price": 378.63,
       "days_held": 0
     }
   ],
@@ -1110,19 +1110,20 @@
       "regime": "BULL",
       "num_positions": 11,
       "cash": 209071.73
+    },
+    {
+      "date": "2026-08-10",
+      "portfolio_value": 240126.5,
+      "daily_pnl": 97.82,
+      "cumulative_return": -75.99,
+      "spy_return": 2.38,
+      "alpha": -78.36,
+      "regime": "STRONG_BULL",
+      "num_positions": 11,
+      "cash": 209071.73
     }
   ],
   "agent_decision_log": [
-    {
-      "timestamp": "2026-07-14T13:20:12.345706-04:00",
-      "regime": "BULL",
-      "regime_score": 3,
-      "portfolio_value": 239880.24,
-      "cash": 215508.18,
-      "actions_taken": 2,
-      "commentary": "The tape is constructive \u2014 SPY holding $752 with both moving averages well below and VIX at 16.5 tells me the market is not pricing fear, and that gives us license to carry risk in the swing book even if the overall posture remains cautious given where this portfolio sits on the drawdown curve. The long-term book is doing the heavy lifting: C at +51% and WELL at +34% are the real earners here, and with trailing stops locked in at $126.86 and $209.69 respectively, I'm letting those run \u2014 touching winners in a bull tape is how you give away edge. The swing book is messier: MSFT and GOOGL are both slightly underwater and haven't found their footing yet, which is tolerable inside the stop levels, but I want to see both names reclaim their entry prices before the next cycle or I'll start questioning whether the setups have staled. I added one share each of NVDA and META this cycle \u2014 not because I'm swinging for the fences, but because leaving four swing slots empty in a confirmed bull regime with healthy cash reserves above the floor is an active mistake, and both names offer clean 2.4:1 setups with defined risk. The single risk I'm watching most closely is GOOGL at $357.68 with its stop at $346.10 \u2014 that's a 3.2% gap and if tech breadth narrows or we get a macro surprise, that's the first name that gets stopped out and the one I'm watching tick by tick. Into the next few sessions, I want to see SPY RSI either cool from 66.2 or push through cleanly \u2014 a stall here with breadth narrowing would signal it's time to tighten the swing book rather than add to it.",
-      "risk_notes": "1) CUMULATIVE DRAWDOWN: At -76.01% on $1M starting capital, we are operating in recovery mode \u2014 the $239,881 total value means every sizing decision must be disciplined; a second major drawdown from here is existential for the book. 2) CONCENTRATION: MSFT, GOOGL, and AMZN are three large-cap tech swing positions with high correlation \u2014 if mega-cap tech rotates out, all three get hit simultaneously; GOOGL is closest to its stop at $346.10 (current $357.68, only 3.2% cushion). 3) SWING BOOK STRESS: MSFT at -1.1% ($386.61 vs $390.86 entry) and GOOGL at -1.9% ($357.68 vs $364.50 entry) are both underwater \u2014 neither has triggered stops, but they're not working yet. If GOOGL breaks $350, stop is at $346.10. 4) LONG-TERM BOOK STRENGTH: C at +51.1% and WELL at +34.4% are carrying the long book; SPY at +20.7% provides ballast. Trailing stops on C ($126.86) and WELL ($209.69) need to be respected \u2014 these are the P&L anchors. 5) CASH: After these two small additions (~$872 deployed), cash remains approximately $215,509 \u2014 well above the $21,600 minimum reserve floor. 6) UPCOMING: SPY RSI at 66.2 is approaching overbought territory; a pullback to test SMA50 ($741) would be the key technical level to watch for regime confirmation or crack."
-    },
     {
       "timestamp": "2026-07-14T13:38:54.677221-04:00",
       "regime": "BULL",
@@ -3111,6 +3112,16 @@
       "cash": 209071.73,
       "actions_taken": 0,
       "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdozQaCQVfrx5Lsksydy3'}",
+      "risk_notes": ""
+    },
+    {
+      "timestamp": "2026-08-10T10:38:32.824568-04:00",
+      "regime": "STRONG_BULL",
+      "regime_score": 5,
+      "portfolio_value": 240126.5,
+      "cash": 209071.73,
+      "actions_taken": 0,
+      "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CduEpNwoygRbACvSSJdA2'}",
       "risk_notes": ""
     }
   ]
