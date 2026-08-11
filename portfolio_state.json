@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-08-11T14:45:24.127383-04:00",
+    "last_updated": "2026-08-11T15:36:30.322184-04:00",
     "last_trading_day": "2026-08-11",
     "total_sessions": 36,
     "regime": "BULL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": 1.77,
-    "portfolio_value": 239708.46,
+    "spy_ytd_return": 1.9,
+    "portfolio_value": 239720.5,
     "cash": 209071.73,
     "cumulative_return_pct": -76.03,
-    "alpha_vs_spy": -77.8,
+    "alpha_vs_spy": -77.92,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -1124,27 +1124,17 @@
     },
     {
       "date": "2026-08-11",
-      "portfolio_value": 239708.46,
-      "daily_pnl": -77.71,
+      "portfolio_value": 239720.5,
+      "daily_pnl": 12.04,
       "cumulative_return": -76.03,
-      "spy_return": 1.77,
-      "alpha": -77.8,
+      "spy_return": 1.9,
+      "alpha": -77.92,
       "regime": "BULL",
       "num_positions": 11,
       "cash": 209071.73
     }
   ],
   "agent_decision_log": [
-    {
-      "timestamp": "2026-07-16T13:24:48.073649-04:00",
-      "regime": "NEUTRAL",
-      "regime_score": 1,
-      "portfolio_value": 240311.96,
-      "cash": 215714.92,
-      "actions_taken": 0,
-      "commentary": "The tape is giving me a mixed read \u2014 SPY is holding above both moving averages and RSI is a constructive 64.6, but QQQ can't reclaim its 50-day at $718 and the 20-day return on SPY is essentially zero, which tells me we're in a digestion phase rather than a clean trending environment. That's consistent with the 1/5 regime score, and I'm treating it as a reason to hold what's working rather than add new exposure into uncertain momentum. The book's P&L story right now is being written by the long-term sleeve \u2014 C at +48.2% and WELL at +37.1% are doing the heavy lifting, while the swing book in MSFT, GOOGL, AMZN, and META is trending the right direction but hasn't delivered yet. I'm holding all positions this cycle because none of the swings have hit their take-profits or stops, the longs are above their trailing stops with room, and the neutral regime rule calls for reduced sizing \u2014 meaning any new position I add today would be at 70% of normal size into a market that isn't giving me a clean signal, which is a bad tradeoff. The risk I'm watching most closely is C at $132.35 with a stop at $126.86 \u2014 that's a 4% gap, and if financials sell off on any credit or rate catalyst, we could lose nearly five months of gains on that name in a session; $127 is the line in the sand. Into the next cycle I'm monitoring whether QQQ can reclaim $718 \u2014 that would flip my regime read meaningfully bullish and I'd start sizing into the remaining seven long-term slots and the one open swing slot with conviction, particularly in names like NVDA which has been off my radar at $207 despite the AI infrastructure buildout thesis still being intact.",
-      "risk_notes": "Book is down 75.97% from peak \u2014 the single largest structural risk is that we're operating on $240K of a $1M mandate, meaning every decision carries outsized psychological and capital weight. Cash is 89.8%, which is defensive but also creates opportunity cost drag. C is the book's best performer at +48.2% with a stop at $126.86 vs current $132.35 \u2014 that's only 4% of cushion above the stop, and any financials rotation or credit spread widening could tag it; need to watch this level closely. WELL at +37.1% similarly has the stop at $211.57 vs $239.80 \u2014 healthier cushion but healthcare reimbursement headlines remain a tail risk. AMZN swing is at $256.11 with TP at $274.83, roughly 7.3% away \u2014 watching closely as it could resolve before next cycle. MSFT swing stop at $371.13 vs $402.55 is comfortable but QQQ sub-50-day is a headwind for large-cap tech broadly. META with only 1 share is effectively a token position \u2014 minimal P&L impact either direction. No earnings imminent that I'm flagging today, but macro data (Fed speakers, jobs prints) could reprice rates and pressure both the financials and healthcare longs simultaneously."
-    },
     {
       "timestamp": "2026-07-16T13:44:42.810692-04:00",
       "regime": "NEUTRAL",
@@ -3133,6 +3123,16 @@
       "cash": 209071.73,
       "actions_taken": 0,
       "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdwTSuw338V9YNgjAyzvX'}",
+      "risk_notes": ""
+    },
+    {
+      "timestamp": "2026-08-11T15:36:27.321641-04:00",
+      "regime": "BULL",
+      "regime_score": 3,
+      "portfolio_value": 239720.5,
+      "cash": 209071.73,
+      "actions_taken": 0,
+      "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdwXLw2pR7SiMAsrK6Zh8'}",
       "risk_notes": ""
     }
   ]
