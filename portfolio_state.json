@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-08-12T10:53:41.491235-04:00",
+    "last_updated": "2026-08-12T11:25:43.181282-04:00",
     "last_trading_day": "2026-08-12",
     "total_sessions": 37,
     "regime": "BULL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": 2.11,
-    "portfolio_value": 239737.97,
+    "spy_ytd_return": 2.04,
+    "portfolio_value": 239708.65,
     "cash": 209071.73,
     "cumulative_return_pct": -76.03,
-    "alpha_vs_spy": -78.14,
+    "alpha_vs_spy": -78.07,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -1135,27 +1135,17 @@
     },
     {
       "date": "2026-08-12",
-      "portfolio_value": 239737.97,
-      "daily_pnl": -6.82,
+      "portfolio_value": 239708.65,
+      "daily_pnl": -29.32,
       "cumulative_return": -76.03,
-      "spy_return": 2.11,
-      "alpha": -78.14,
+      "spy_return": 2.04,
+      "alpha": -78.07,
       "regime": "BULL",
       "num_positions": 11,
       "cash": 209071.73
     }
   ],
   "agent_decision_log": [
-    {
-      "timestamp": "2026-07-16T15:42:22.895092-04:00",
-      "regime": "NEUTRAL",
-      "regime_score": 1,
-      "portfolio_value": 240102.7,
-      "cash": 215714.92,
-      "actions_taken": 0,
-      "commentary": "The tape is giving us a mixed read \u2014 SPY is holding above both moving averages and VIX at 17 isn't flashing stress, but QQQ's failure to reclaim its 50-day at $718 tells me the growth complex is not leading this market, and that's a meaningful distinction given where our swing book is concentrated. With a 1/5 regime score, the rules demand 30% size reduction on any new entry, and frankly the setup bar is even higher than that given our impaired capital base \u2014 we simply cannot afford to be wrong on speculative adds when we're working with $240K on a $1M mandate. The long-term book is doing the heavy lifting: C at +47.5% and WELL at +36.9% are genuine winners, and I want to look hard at tightening the trailing stops on both names this week \u2014 C's stop at $126.86 is nearly $5 below current price and we should be protecting more of that gain. On the swing side, GOOGL is the position I'm watching most carefully at $354.27 \u2014 it's 2.3% from the $346.10 stop and has shown no meaningful bounce since entry at $364.50; if it doesn't stabilize by next session, I'd rather take a disciplined exit than let it bleed to the stop. I'm not adding anything new this cycle because no setup has cleared the bar \u2014 I want to see QQQ reclaim its 50-day and the overall regime score improve to at least 3/5 before I put fresh capital to work, and until then the high cash position is intentional, not passive.",
-      "risk_notes": "Book-level: cumulative drawdown of -75.99% from $1M starting capital is the elephant in the room \u2014 we are running $240K on a $1M mandate, which means recovery math is brutal and capital preservation is the absolute priority. Position-level: GOOGL is the only name in the red, trading at $354.27 with a stop at $346.10 \u2014 we are 2.3% above the stop and the name has been drifting since entry at $364.50; worth watching closely into next session. C is our best performer at +47.5% and the stop at $126.86 needs to be revisited and trailed up given current price of $131.75 \u2014 we are leaving too much gain at risk. WELL at +36.9% similarly has room to tighten the trailing stop from $211.60 toward $220+ given the run. On the swing book, MSFT at $400.34 is approaching no-man's-land \u2014 it needs to clear and hold above $405 to have conviction toward the $437.54 target. META is essentially flat at +0.2% on a single share \u2014 minimal P&L impact but it's occupying a swing slot. Cash at 89.8% is high relative to deployment capacity, but in a Neutral regime with no clean setups and a deeply impaired book, dry powder is not a liability. Correlation risk: MSFT, GOOGL, AMZN, and META are all large-cap tech proxies \u2014 if the QQQ continues to lag its 50-day ($718 vs. $704 current), this cluster could see simultaneous pressure."
-    },
     {
       "timestamp": "2026-07-16T16:05:14.501149-04:00",
       "regime": "NEUTRAL",
@@ -3144,6 +3134,16 @@
       "cash": 209071.73,
       "actions_taken": 0,
       "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cdy3b1BEwrMJXC4EqD6wm'}",
+      "risk_notes": ""
+    },
+    {
+      "timestamp": "2026-08-12T11:25:39.866953-04:00",
+      "regime": "BULL",
+      "regime_score": 3,
+      "portfolio_value": 239708.65,
+      "cash": 209071.73,
+      "actions_taken": 0,
+      "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cdy62fCANoJ7vQ8oiGhC6'}",
       "risk_notes": ""
     }
   ]
