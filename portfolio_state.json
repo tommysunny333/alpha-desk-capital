@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-08-11T16:10:05.572926-04:00",
-    "last_trading_day": "2026-08-11",
-    "total_sessions": 36,
+    "last_updated": "2026-08-12T10:37:48.563635-04:00",
+    "last_trading_day": "2026-08-12",
+    "total_sessions": 37,
     "regime": "BULL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": 1.85,
-    "portfolio_value": 239697.79,
+    "spy_ytd_return": 2.14,
+    "portfolio_value": 239744.79,
     "cash": 209071.73,
     "cumulative_return_pct": -76.03,
-    "alpha_vs_spy": -77.88,
+    "alpha_vs_spy": -78.16,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -1132,19 +1132,20 @@
       "regime": "BULL",
       "num_positions": 11,
       "cash": 209071.73
+    },
+    {
+      "date": "2026-08-12",
+      "portfolio_value": 239744.79,
+      "daily_pnl": 47.0,
+      "cumulative_return": -76.03,
+      "spy_return": 2.14,
+      "alpha": -78.16,
+      "regime": "BULL",
+      "num_positions": 11,
+      "cash": 209071.73
     }
   ],
   "agent_decision_log": [
-    {
-      "timestamp": "2026-07-16T14:36:26.030856-04:00",
-      "regime": "NEUTRAL",
-      "regime_score": 1,
-      "portfolio_value": 240207.27,
-      "cash": 215714.92,
-      "actions_taken": 0,
-      "commentary": "The tape is giving us a mixed read this cycle \u2014 SPY is constructive above both MAs with RSI at 63, but QQQ printing below its 50-day at $706 vs $718 is a meaningful divergence that tells me the large-cap growth engine isn't fully firing. In a neutral regime with narrowing leadership I'm not going to chase new swing setups regardless of how many slots are open; the 30% size reduction rule exists precisely for moments like this, and respecting it is the trade. The long-term book is doing exactly what it's supposed to \u2014 C, WELL, and SPY are all carrying meaningful unrealized gains and the trailing stops have been walked up to protect them, so those positions are essentially running on the house. The active decision this cycle is HOLD across the board: GOOGL is the name I'm most focused on because it's -1.2% and sitting 3.9% above its stop at $346.10 while refusing to catch a bid even as SPY grinds higher \u2014 if it doesn't reclaim $364 on volume in the next couple of sessions I'll be evaluating whether to cut it ahead of the stop rather than let it get mechanically stopped out. Into the next cycle I want to see QQQ close back above $718 and SPY sustain above $750 with RSI not overextending beyond 70 \u2014 that combination would flip my posture toward adding a swing position in the open slot, likely in the semiconductor space given NVDA and MRVL are names I'm watching on any meaningful tape reset.",
-      "risk_notes": "C is the most exposed name to a regime deterioration \u2014 up 47.7% from entry, stop at $126.86 is now 3.8% below current price of $131.90, a modest gap that could get tagged on any macro headline around rates or credit. WELL at +37.4% carries similar complacency risk; stop at $211.60 vs current $240.45 gives 12% cushion but the healthcare REIT complex can gap on policy news. GOOGL is the only book position in the red at -1.2%, currently $360.18 vs stop $346.10 \u2014 watching closely; it's 3.9% from the stop and has not participated in any recent tape strength, which is a yellow flag in a neutral regime. MSFT at $404.83 is 8.4% from its TP of $437.54 and tracking cleanly; no action needed but approaching a zone where we'll think about partial trim. META at 1 share/$668 is essentially a placeholder \u2014 minimal P&L impact either way. Portfolio is 89.8% cash post the drawdown history, which itself is the largest structural risk: $215K of dry powder sitting idle while the long book compounds slowly. Total long-term book exposure is roughly $24K notional across 5 names \u2014 we are dramatically underinvested relative to mandate, and that is a return-on-capital problem as much as a risk management one."
-    },
     {
       "timestamp": "2026-07-16T14:54:29.449455-04:00",
       "regime": "NEUTRAL",
@@ -3133,6 +3134,16 @@
       "cash": 209071.73,
       "actions_taken": 0,
       "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdwZuVHfEdqNmHSZJZUQD'}",
+      "risk_notes": ""
+    },
+    {
+      "timestamp": "2026-08-12T10:37:44.731923-04:00",
+      "regime": "BULL",
+      "regime_score": 3,
+      "portfolio_value": 239744.79,
+      "cash": 209071.73,
+      "actions_taken": 0,
+      "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cdy2NkXUdCqtkPvBFgDKk'}",
       "risk_notes": ""
     }
   ]
