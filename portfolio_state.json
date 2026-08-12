@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-08-12T14:12:59.108942-04:00",
+    "last_updated": "2026-08-12T14:46:11.181095-04:00",
     "last_trading_day": "2026-08-12",
     "total_sessions": 37,
     "regime": "BULL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": 2.2,
-    "portfolio_value": 239702.24,
+    "spy_ytd_return": 2.24,
+    "portfolio_value": 239724.72,
     "cash": 209071.73,
     "cumulative_return_pct": -76.03,
-    "alpha_vs_spy": -78.23,
+    "alpha_vs_spy": -78.27,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -1135,27 +1135,17 @@
     },
     {
       "date": "2026-08-12",
-      "portfolio_value": 239702.24,
-      "daily_pnl": 17.09,
+      "portfolio_value": 239724.72,
+      "daily_pnl": 22.48,
       "cumulative_return": -76.03,
-      "spy_return": 2.2,
-      "alpha": -78.23,
+      "spy_return": 2.24,
+      "alpha": -78.27,
       "regime": "BULL",
       "num_positions": 11,
       "cash": 209071.73
     }
   ],
   "agent_decision_log": [
-    {
-      "timestamp": "2026-07-17T13:17:28.199755-04:00",
-      "regime": "NEUTRAL",
-      "regime_score": 1,
-      "portfolio_value": 239892.12,
-      "cash": 218415.77,
-      "actions_taken": 0,
-      "commentary": "The tape is giving us a split signal \u2014 SPY is constructive above both its 50 and 200-day, RSI at 64.6 is healthy without being overbought, but QQQ sitting 2.4% below its SMA50 tells me the growth engine isn't firing, and that's the part of the market you need to see leading if you're going to lean in. Against that backdrop, sitting at 91% cash and a neutral regime read, I'm not adding risk this cycle \u2014 and that's an active call, not paralysis. The book's P&L story is being written by three names: C is the standout at +45.7% and has earned its keep, WELL at +38.9% has been a quiet compounder in a tape that keeps rewarding defensive growth, and SPY at +19.9% is doing exactly what a core anchor should do. The two swing positions \u2014 MSFT and AMZN \u2014 are both in the money but barely, and I want to see price distance itself from entry before I get comfortable; right now they're earning their stops, not their targets. The single risk I'm most focused on is C at $130.15 with only $3.29 of stop buffer \u2014 that name has had an enormous run and a hawkish Fed surprise or credit market wobble could trigger the stop before I can react; I'm watching $127 as the line in the sand, and if macro tone shifts I'll consider a trim ahead of the stop rather than waiting to get taken out. Into the next cycle, the key question is whether QQQ can reclaim $719 \u2014 that's the catalyst that flips this from a cautious hold posture into one where I'd consider adding NVDA or MSFT size; until then, the dry powder stays dry.",
-      "risk_notes": "C is the tightest situation right now \u2014 trading at $130.15 with a stop at $126.86, less than 2.5% of cushion after a 45.7% gain; one bad macro print clips it. MSFT at $394 is 6% from its TP of $437 but only 0.9% in the money \u2014 if QQQ can't reclaim $719 SMA50, this name stalls here. AMZN stop at $233.11 is 6.3% below current price, well-structured, but the 1.3% gain is thin and the setup needs price to accelerate soon or it becomes dead weight in a slot. WELL at $243 has run 38.9% \u2014 trailing stop at $216 is 11% below, so it's protected but a healthcare rotation reversal would eat that buffer fast. Overall book is 91% cash against a -76% cumulative drawdown from peak capital \u2014 the core problem is this portfolio has already suffered catastrophic losses and is operating on survival capital; every new position carries outsized psychological and capital risk. No positions are approaching take-profit levels imminently except MSFT, which needs monitoring. No earnings catalysts flagged in immediate data but AAPL and AMZN are always binary events \u2014 check the calendar."
-    },
     {
       "timestamp": "2026-07-17T13:35:52.396852-04:00",
       "regime": "NEUTRAL",
@@ -3144,6 +3134,16 @@
       "cash": 209071.73,
       "actions_taken": 0,
       "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdyJnTByYRv9XkYfNvLC2'}",
+      "risk_notes": ""
+    },
+    {
+      "timestamp": "2026-08-12T14:46:06.083885-04:00",
+      "regime": "BULL",
+      "regime_score": 3,
+      "portfolio_value": 239724.72,
+      "cash": 209071.73,
+      "actions_taken": 0,
+      "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdyMKJ6dAg4hhzEsyGNeV'}",
       "risk_notes": ""
     }
   ]
