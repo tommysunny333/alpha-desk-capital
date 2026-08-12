@@ -1,14 +1,14 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-08-12T16:02:20.200810-04:00",
+    "last_updated": "2026-08-12T16:08:53.502940-04:00",
     "last_trading_day": "2026-08-12",
     "total_sessions": 37,
     "regime": "BULL",
     "vix": 15.32,
     "spy_price": 756.48,
     "spy_ytd_return": 2.12,
-    "portfolio_value": 239695.31,
+    "portfolio_value": 239697.23,
     "cash": 209071.73,
     "cumulative_return_pct": -76.03,
     "alpha_vs_spy": -78.15,
@@ -1135,8 +1135,8 @@
     },
     {
       "date": "2026-08-12",
-      "portfolio_value": 239695.31,
-      "daily_pnl": -0.98,
+      "portfolio_value": 239697.23,
+      "daily_pnl": 1.92,
       "cumulative_return": -76.03,
       "spy_return": 2.12,
       "alpha": -78.15,
@@ -1146,16 +1146,6 @@
     }
   ],
   "agent_decision_log": [
-    {
-      "timestamp": "2026-07-17T14:30:47.302901-04:00",
-      "regime": "NEUTRAL",
-      "regime_score": 1,
-      "portfolio_value": 239850.1,
-      "cash": 218415.77,
-      "actions_taken": 0,
-      "commentary": "The tape is sending mixed signals \u2014 SPY is above both moving averages and RSI is healthy at 62, but QQQ is below its 50-day and the 20-day return on SPY is essentially flat, which tells me the rally is narrowing into large-cap safety rather than broadening into risk. That's not a backdrop where I want to be adding tickets aggressively, and the neutral regime flag enforces a 30% size reduction on anything new anyway. Within the book, C and WELL are doing the heavy lifting on the long side \u2014 C up 45% and WELL up 38.8% are the two names that matter most to P&L right now, and notably C's stop at $126.86 is close enough that I'm watching it daily; a financials selloff on rate news could clip that quickly. I'm holding everything this cycle because none of the setups in the watchlist cleared the bar \u2014 QQQ sub-50-day means the quality growth names I'd want to add (NVDA at $203, GOOGL at $344) are trading in a technically broken index, and buying into that without confirmation is how you compound losses in a book already down 76%. MSFT and AMZN are holding above entry but neither has shown the kind of volume expansion or price acceleration that justifies adding; they stay on as is and I let the tape decide whether they earn their slots or get stopped out cleanly. The single level that changes my posture is QQQ reclaiming $719 \u2014 that's the 50-day, and a close above it with SPY holding would shift the regime score enough that I'd be willing to size into NVDA or GOOGL for a momentum re-entry with defined risk.",
-      "risk_notes": "C at $129.49 is trading just $2.63 above its stop at $126.86 \u2014 that's a 2% cushion on a +45% winner, and with financials sensitive to any macro surprise, that stop gets tested fast on a down tape. MSFT and AMZN are both sitting within 1% of entry, neither has generated meaningful follow-through since initiation; they're using swing slots without earning them yet. Overall book is down 76% from starting capital of $1M \u2014 the portfolio is in recovery mode, which means capital preservation and asymmetric setups matter far more than activity. Cash at 91% is intentional given the regime read but also reflects the cumulative damage; we cannot afford another leg down on existing names. No new positions opened this cycle \u2014 max position size at 10% of $239,850 is ~$23,985, which is a small enough ticket that the bar for a new entry must be high. AAPL at $332 is only 6.6% above entry with stop at $293 \u2014 the R/R from here is compressed. Watch KO at $81 with stop $74.74; defensives holding but not running."
-    },
     {
       "timestamp": "2026-07-17T14:51:48.141748-04:00",
       "regime": "NEUTRAL",
@@ -3144,6 +3134,16 @@
       "cash": 209071.73,
       "actions_taken": 0,
       "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdyT86gvGoVpQtMHjT5hj'}",
+      "risk_notes": ""
+    },
+    {
+      "timestamp": "2026-08-12T16:08:48.925428-04:00",
+      "regime": "BULL",
+      "regime_score": 3,
+      "portfolio_value": 239697.23,
+      "cash": 209071.73,
+      "actions_taken": 0,
+      "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdyTd5y51FpaSZcN1v428'}",
       "risk_notes": ""
     }
   ]
