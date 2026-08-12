@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-08-12T10:37:48.563635-04:00",
+    "last_updated": "2026-08-12T10:53:41.491235-04:00",
     "last_trading_day": "2026-08-12",
     "total_sessions": 37,
     "regime": "BULL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": 2.14,
-    "portfolio_value": 239744.79,
+    "spy_ytd_return": 2.11,
+    "portfolio_value": 239737.97,
     "cash": 209071.73,
     "cumulative_return_pct": -76.03,
-    "alpha_vs_spy": -78.16,
+    "alpha_vs_spy": -78.14,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -1135,27 +1135,17 @@
     },
     {
       "date": "2026-08-12",
-      "portfolio_value": 239744.79,
-      "daily_pnl": 47.0,
+      "portfolio_value": 239737.97,
+      "daily_pnl": -6.82,
       "cumulative_return": -76.03,
-      "spy_return": 2.14,
-      "alpha": -78.16,
+      "spy_return": 2.11,
+      "alpha": -78.14,
       "regime": "BULL",
       "num_positions": 11,
       "cash": 209071.73
     }
   ],
   "agent_decision_log": [
-    {
-      "timestamp": "2026-07-16T14:54:29.449455-04:00",
-      "regime": "NEUTRAL",
-      "regime_score": 1,
-      "portfolio_value": 240274.79,
-      "cash": 215714.92,
-      "actions_taken": 0,
-      "commentary": "The tape is telling a mixed story right now \u2014 SPY is sitting comfortably above both the 50 and 200-day with RSI at 62.7, but QQQ can't hold its 50-day at $718 and the 20-day return is essentially flat, which together produce the neutral regime read we're operating under. That divergence between SPY strength and QQQ softness is the key tell: large-cap tech, which dominates our swing book, is not leading this market, and that argues against adding exposure aggressively even with cash sitting heavy at $215K. On the book itself, the long-term positions are doing the real work \u2014 C at +47.8% and WELL at +37.3% are the P&L anchors, and SPY at +20.4% gives us the core market exposure we need; I'm not touching those. The swing positions are all in positive territory but grinding rather than ripping \u2014 MSFT and AMZN are the furthest along toward their TPs and I want to see them continue to earn into that space before I consider trimming early. The reason I'm holding everything and not deploying into new names this cycle is straightforward: in a neutral regime you size down 30%, the setups I'm seeing in names like NVDA ($207) and MRVL ($187) don't have the regime tailwind to justify fresh risk, and with 89.8% in cash the opportunity cost of waiting one more cycle for a cleaner entry is essentially zero. The single risk I'm watching most closely is C's proximity to its stop at $126.86 \u2014 a 3.9% drop from here triggers it, and given the financials sector's sensitivity to rate narrative shifts, any hawkish Fed repricing could take it there fast; that's the level that changes my positioning decision before anything else. Into the next cycle I want to see QQQ reclaim $718 and the 20-day return turn positive \u2014 if both happen, the regime flips toward bull and we have the capital to deploy meaningfully.",
-      "risk_notes": "Portfolio is down 75.97% from starting capital of $1M \u2014 the current book of ~$240K represents a severely diminished base, so capital preservation is paramount and every new position must clear a high bar. C is the standout with +47.8% P&L; stop at $126.86 vs current $131.96 means we're only $5 of cushion from a stop-out \u2014 worth monitoring intraday. WELL at +37.3% is similarly extended with stop at $211.60 vs $240.15. SPY long-term position stop at $667.64 is comfortably below current $750.27 \u2014 no near-term concern. Swing book: MSFT at $404.58 has TP at $437.54 (8.2% away), AMZN at $252.96 has TP at $274.83 (8.6% away) \u2014 both progressing but not close enough to act. META is only +0.9% with a TP at $740.66, a long way to go and limited room in the 1-share position. GOOGL +1.9% \u2014 making slow progress. Correlation risk is elevated: MSFT, GOOGL, AMZN, META are all large-cap tech and will move together in a risk-off event. Cash at 89.8% is well above the 10% minimum, giving optionality but also reflecting how capital has been eroded \u2014 deploying aggressively here is not the mandate. No earnings catalysts flagged imminently but MSFT, GOOGL, META, AMZN all report quarterly \u2014 check the calendar before next swing entry."
-    },
     {
       "timestamp": "2026-07-16T15:42:22.895092-04:00",
       "regime": "NEUTRAL",
@@ -3144,6 +3134,16 @@
       "cash": 209071.73,
       "actions_taken": 0,
       "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cdy2NkXUdCqtkPvBFgDKk'}",
+      "risk_notes": ""
+    },
+    {
+      "timestamp": "2026-08-12T10:53:37.740102-04:00",
+      "regime": "BULL",
+      "regime_score": 3,
+      "portfolio_value": 239737.97,
+      "cash": 209071.73,
+      "actions_taken": 0,
+      "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cdy3b1BEwrMJXC4EqD6wm'}",
       "risk_notes": ""
     }
   ]
