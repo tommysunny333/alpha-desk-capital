@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-08-14T11:11:54.619814-04:00",
+    "last_updated": "2026-08-14T11:56:44.004221-04:00",
     "last_trading_day": "2026-08-14",
     "total_sessions": 39,
     "regime": "STRONG_BULL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": 2.68,
-    "portfolio_value": 239768.18,
-    "cash": 209071.73,
+    "spy_ytd_return": 2.59,
+    "portfolio_value": 239758.37,
+    "cash": 210126.12,
     "cumulative_return_pct": -76.02,
-    "alpha_vs_spy": -78.71,
+    "alpha_vs_spy": -78.62,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -20,7 +20,7 @@
       "ticker": "SPY",
       "entry_date": "2026-06-02",
       "entry_price": 623.09,
-      "current_price": 771.56,
+      "current_price": 776.11,
       "shares": 13,
       "stop_price": 684.53,
       "days_held": 0
@@ -29,7 +29,7 @@
       "ticker": "WELL",
       "entry_date": "2026-06-02",
       "entry_price": 174.95,
-      "current_price": 236.22,
+      "current_price": 235.26,
       "shares": 12,
       "stop_price": 222.36,
       "days_held": 0
@@ -38,7 +38,7 @@
       "ticker": "KO",
       "entry_date": "2026-06-02",
       "entry_price": 77.91,
-      "current_price": 86.76,
+      "current_price": 87.83,
       "shares": 15,
       "stop_price": 79.42,
       "days_held": 0
@@ -47,7 +47,7 @@
       "ticker": "AAPL",
       "entry_date": "2026-08-04",
       "entry_price": 310.245,
-      "current_price": 308.87,
+      "current_price": 305.71,
       "shares": 7,
       "stop_price": 276.78,
       "days_held": 0
@@ -56,7 +56,7 @@
       "ticker": "LLY",
       "entry_date": "2026-08-04",
       "entry_price": 1114.637,
-      "current_price": 1161.81,
+      "current_price": 1185.9,
       "shares": 2,
       "stop_price": 1083.64,
       "days_held": 0
@@ -65,7 +65,7 @@
       "ticker": "AVGO",
       "entry_date": "2026-08-05",
       "entry_price": 418.7293,
-      "current_price": 420.73,
+      "current_price": 394.23,
       "shares": 5,
       "stop_price": 378.63,
       "days_held": 0
@@ -76,7 +76,7 @@
       "ticker": "NVDA",
       "entry_date": "2026-08-04",
       "entry_price": 210.8854,
-      "current_price": 220.87,
+      "current_price": 225.09,
       "shares": 11,
       "stop_price": 200.24,
       "days_held": 0,
@@ -87,7 +87,7 @@
       "ticker": "META",
       "entry_date": "2026-08-04",
       "entry_price": 583.9218,
-      "current_price": 583.48,
+      "current_price": 594.4,
       "shares": 4,
       "stop_price": 554.45,
       "days_held": 0,
@@ -95,21 +95,10 @@
       "signal": "Bull regime large-cap tech momentum"
     },
     {
-      "ticker": "AMZN",
-      "entry_date": "2026-08-04",
-      "entry_price": 277.7488,
-      "current_price": 271.48,
-      "shares": 4,
-      "stop_price": 263.73,
-      "days_held": 0,
-      "take_profit": 310.92,
-      "signal": "Bull regime diversified tech exposure"
-    },
-    {
       "ticker": "MSFT",
       "entry_date": "2026-08-04",
       "entry_price": 495.6277,
-      "current_price": 488.78,
+      "current_price": 498.38,
       "shares": 4,
       "stop_price": 470.61,
       "days_held": 0,
@@ -120,7 +109,7 @@
       "ticker": "GOOGL",
       "entry_date": "2026-08-05",
       "entry_price": 359.1895,
-      "current_price": 363.15,
+      "current_price": 345.37,
       "shares": 6,
       "stop_price": 341.06,
       "days_held": 0,
@@ -734,6 +723,17 @@
       "reasoning": "AMZN is down 2.3% from entry at $277.75 and is the weakest name in the swing book. The stop at $263.73 is only $7.75 away \u2014 roughly 2.9% further downside before we're stopped out. In a STRONG_BULL regime where everything else in the sleeve is working or at least near flat, a name that's bleeding against the tape is a capital efficiency problem. Trimming half (4 of 8 shares, ~$1,086 recaptured) reduces the loss exposure while keeping a starter position on in case AMZN catches up to the tech rally. This frees a marginal amount of mental capital and actual cash without fully abandoning the thesis.",
       "realized_pnl": -25.62,
       "timestamp": "2026-08-05T14:00:52.189231-04:00"
+    },
+    {
+      "action": "SELL",
+      "ticker": "AMZN",
+      "strategy": "SWING",
+      "price": 263.73,
+      "quantity": 4,
+      "reasoning": "Stop loss hit: $263.73 <= $263.73",
+      "signal": "STOP_LOSS",
+      "realized_pnl": -56.6,
+      "timestamp": "2026-08-14T11:56:39.533710-04:00"
     }
   ],
   "daily_snapshots": [
@@ -1157,27 +1157,17 @@
     },
     {
       "date": "2026-08-14",
-      "portfolio_value": 239768.18,
-      "daily_pnl": -11.45,
+      "portfolio_value": 239758.37,
+      "daily_pnl": -9.81,
       "cumulative_return": -76.02,
-      "spy_return": 2.68,
-      "alpha": -78.71,
+      "spy_return": 2.59,
+      "alpha": -78.62,
       "regime": "STRONG_BULL",
-      "num_positions": 11,
-      "cash": 209071.73
+      "num_positions": 10,
+      "cash": 210126.12
     }
   ],
   "agent_decision_log": [
-    {
-      "timestamp": "2026-07-21T11:41:17.879200-04:00",
-      "regime": "NEUTRAL",
-      "regime_score": 1,
-      "portfolio_value": 239979.52,
-      "cash": 218930.67,
-      "actions_taken": 0,
-      "commentary": "The tape is technically constructive on the SPY side \u2014 price above both the 50 and 200-day, RSI just north of 50 \u2014 but the QQQ sitting 1.5% below its 50-day is telling me the growth engine isn't firing cleanly, and in a book where MSFT and AMZN are the active swing names, that divergence matters. I'm not adding anything this cycle; the regime doesn't clear the bar for full-size deployment and given where this book is \u2014 $240k on a $1M start \u2014 I'd rather let the existing positions work than reach for marginal setups that require everything to go right. C is the name I'm watching most carefully: the 48% gain is the best return in the book but the stop at $126.86 is sitting only $5.65 below current price, and if financials get hit on any macro read, that stop gets tested before I'd have time to manage it \u2014 I'm comfortable letting it ride but it's top of the risk monitor. The two swing positions are behaving \u2014 MSFT up 2.3%, AMZN up 1% \u2014 neither is threatening stops nor close enough to TPs to prompt action, so holding is the explicit call, not a default. Into the next cycle I want to see QQQ reclaim its 50-day around $719 before I'd consider adding tech exposure; until that confirmation, dry powder stays dry.",
-      "risk_notes": "Portfolio is down 76% from starting capital \u2014 the primary risk is structural, not tactical. Current book value $239,980 means every decision carries outsized psychological weight per dollar. C is approaching a meaningful level: entry $89.30, current $132.51, stop $126.86 \u2014 stop is only 4.3% below current price, which is tight relative to the 48% gain; a normal intraday flush could clip it. WELL similarly at $247 with stop $217.40 \u2014 12% cushion is intact but the stock has had a 41% run and any sector rotation out of healthcare REITs is worth monitoring. MSFT stop at $371.13 is 7% below current $399.85 \u2014 holding fine. AMZN at $248.04 with TP $274.83 means we need another 10.8% to print the target; given neutral regime, progress may be slow. QQQ underperforming its 50-day is a yellow flag for the tech-heavy swing book (MSFT, AMZN). No earnings catalysts flagged imminently but LLY at $1,162 is not in the book \u2014 worth watching as a potential long-term add if conditions improve. Cash at 91.2% is a double-edged sword: capital preservation but also reflects the damage already done."
-    },
     {
       "timestamp": "2026-07-21T11:58:21.553365-04:00",
       "regime": "NEUTRAL",
@@ -3166,6 +3156,16 @@
       "cash": 209071.73,
       "actions_taken": 0,
       "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ce2rbR69hjGpy4iQ1gjZj'}",
+      "risk_notes": ""
+    },
+    {
+      "timestamp": "2026-08-14T11:56:39.533710-04:00",
+      "regime": "STRONG_BULL",
+      "regime_score": 5,
+      "portfolio_value": 239758.37,
+      "cash": 210126.12,
+      "actions_taken": 0,
+      "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ce2v1fDE7otTDV2byQs7F'}",
       "risk_notes": ""
     }
   ]
