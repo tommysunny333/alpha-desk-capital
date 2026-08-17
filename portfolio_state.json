@@ -1,14 +1,14 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-08-17T15:32:33.485994-04:00",
+    "last_updated": "2026-08-17T15:52:30.417876-04:00",
     "last_trading_day": "2026-08-17",
     "total_sessions": 40,
     "regime": "STRONG_BULL",
     "vix": 15.32,
     "spy_price": 756.48,
     "spy_ytd_return": 2.17,
-    "portfolio_value": 239516.06,
+    "portfolio_value": 239518.28,
     "cash": 210126.12,
     "cumulative_return_pct": -76.05,
     "alpha_vs_spy": -78.22,
@@ -1168,8 +1168,8 @@
     },
     {
       "date": "2026-08-17",
-      "portfolio_value": 239516.06,
-      "daily_pnl": -10.76,
+      "portfolio_value": 239518.28,
+      "daily_pnl": 2.22,
       "cumulative_return": -76.05,
       "spy_return": 2.17,
       "alpha": -78.22,
@@ -1179,16 +1179,6 @@
     }
   ],
   "agent_decision_log": [
-    {
-      "timestamp": "2026-07-23T11:33:30.131723-04:00",
-      "regime": "BEAR",
-      "regime_score": -3,
-      "portfolio_value": 239526.99,
-      "cash": 223290.96,
-      "actions_taken": 1,
-      "commentary": "The tape is telling a consistent story this cycle: SPY at $736 can't reclaim the SMA50 at $744, RSI sitting at 43.2 with flat 20-day returns, and the regime print is -3/5 Bear \u2014 not ambiguous, not borderline. In that context, the only active decision worth making today is the one I'm making: closing MSFT. That swing was written for a different market \u2014 the signal literally says 'Bull regime large-cap quality setup' \u2014 and we're now three regime grades removed from that environment. With the stop at $371.13 less than $8 away and the stock already down 3.2%, I'm not going to sit and wait for a mechanical stop-out on a thesis that has no legs in this tape; I'm taking the controlled exit at $378.36 and getting that capital back into cash. The long-term book is behaving well \u2014 C and WELL are the performance anchors at +47% and +43% respectively, both sitting comfortably above their trailing stops, and SPY's +18% long-term position has nearly $70 of cushion to its stop at $667.64. The single risk I'm most focused on is a sudden VIX spike through 25 \u2014 right now VIX at 19.7 is the one green flag keeping us out of Strong Bear territory, and if that flips, I'll be reassessing whether to trim the more extended longs like C and WELL before their trailing stops get tested. Into the next cycle, I'm watching whether SPY can stage a credible close above the SMA50 at $744 \u2014 that's the line that would begin to shift regime scoring toward Neutral and reopen the conversation about selective deployment of the $221K in dry powder.",
-      "risk_notes": "1) PORTFOLIO DRAWDOWN: Down 76% from $1M starting capital \u2014 this is the dominant context for every decision. Capital preservation is the primary mandate. 2) MSFT stop proximity: $378.36 current vs $371.13 stop \u2014 1.9% gap, essentially on the doorstep; closing proactively avoids a mechanical stop-out that could gap worse at open. 3) LONG-TERM BOOK HEALTH: C at $131.34 (+47.1%) and WELL at $249.51 (+42.6%) are well above stops ($126.86 and $219.57 respectively) \u2014 trailing stops are doing their job, no action needed but both are extended and vulnerable to a sharp risk-off move. SPY long at $736.08 has stop at $667.64 \u2014 $68 or ~9.2% below current, comfortable. 4) AAPL at $320.91 (+2.9% from $311.81) with stop at $294.05 \u2014 only 8.4% above stop, thin cushion if the tape deteriorates further. 5) CONCENTRATION: Five long-term names span financials (C), healthcare REIT (WELL), consumer staples (KO), tech (AAPL), and broad market (SPY) \u2014 reasonable diversification but all correlated in a sharp risk-off scenario. 6) CASH: $221K / 92.3% of portfolio \u2014 maximum dry powder, correct posture for a Bear regime. No new positions permissible under rules."
-    },
     {
       "timestamp": "2026-07-23T11:52:56.742553-04:00",
       "regime": "BEAR",
@@ -3177,6 +3167,16 @@
       "cash": 210126.12,
       "actions_taken": 0,
       "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ce8styE39uXZ2pCWEM7ZA'}",
+      "risk_notes": ""
+    },
+    {
+      "timestamp": "2026-08-17T15:52:23.456221-04:00",
+      "regime": "STRONG_BULL",
+      "regime_score": 5,
+      "portfolio_value": 239518.28,
+      "cash": 210126.12,
+      "actions_taken": 0,
+      "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ce8uRCYRzgxvKFBjT1wZt'}",
       "risk_notes": ""
     }
   ]
