@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-08-17T10:50:29.928732-04:00",
+    "last_updated": "2026-08-17T11:30:24.568630-04:00",
     "last_trading_day": "2026-08-17",
     "total_sessions": 40,
     "regime": "STRONG_BULL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": 2.48,
-    "portfolio_value": 239613.58,
+    "spy_ytd_return": 2.53,
+    "portfolio_value": 239634.08,
     "cash": 210126.12,
     "cumulative_return_pct": -76.04,
-    "alpha_vs_spy": -78.52,
+    "alpha_vs_spy": -78.57,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -1168,27 +1168,17 @@
     },
     {
       "date": "2026-08-17",
-      "portfolio_value": 239613.58,
-      "daily_pnl": -7.43,
+      "portfolio_value": 239634.08,
+      "daily_pnl": 20.5,
       "cumulative_return": -76.04,
-      "spy_return": 2.48,
-      "alpha": -78.52,
+      "spy_return": 2.53,
+      "alpha": -78.57,
       "regime": "STRONG_BULL",
       "num_positions": 10,
       "cash": 210126.12
     }
   ],
   "agent_decision_log": [
-    {
-      "timestamp": "2026-07-22T12:23:49.039457-04:00",
-      "regime": "NEUTRAL",
-      "regime_score": 1,
-      "portfolio_value": 239882.26,
-      "cash": 218930.67,
-      "actions_taken": 0,
-      "commentary": "The tape is giving us a split picture: SPY is constructive \u2014 above both MAs, RSI at 53.8, VIX a benign 16.8 \u2014 but QQQ can't hold its 50-day, which tells me the large-cap tech bid is soft right now, and that matters because both of our swing positions are tech-adjacent names sitting just underwater. I'm not adding here. The neutral regime trigger plus QQQ's technical deterioration means any new swing entry would be fighting two headwinds simultaneously, and with only $239K left in this book after the prior drawdown, capital preservation isn't a buzzword \u2014 it's the mandate. The long-term book is actually doing its job quietly: C up nearly 50%, WELL up over 40%, SPY compounding nicely \u2014 these are the positions that got built right and I'm not touching them. The active decision this cycle is to hold MSFT and AMZN through their brief -0.5% dips rather than cut them prematurely; both setups are intact, stops are well below current levels, and there's no technical deterioration \u2014 just noise while the market digests. The number I'm watching most closely is QQQ relative to $719 \u2014 if it reclaims that 50-day on volume, the large-cap quality thesis reactivates and MSFT specifically becomes a name I'd add to on strength toward $400. Into next cycle I want to see whether this neutral regime resolves upward with QQQ participation, or whether SPY starts rolling over toward its own SMA50 at $744 \u2014 that level breaking would shift my posture materially and I'd be looking at trimming the swing book entirely.",
-      "risk_notes": "Portfolio is down 76% from starting capital \u2014 the book took severe damage in prior cycles and the current $239,882 total value means every drawdown from here has outsized percentage consequences. Cash sits at 91.3% ($218,931), which is actually the right posture given the regime. Specific flags: (1) MSFT at $388.84 is -0.5% from entry with stop at $371.13, roughly 4.5% of buffer remaining \u2014 not in danger yet but needs to hold and start moving; (2) AMZN at $244.19 is -0.5% from entry $245.50 with stop $233.11, same story \u2014 both swing names are treading water and QQQ underperforming its 50-day ($709 vs $719) is a direct headwind for large-cap tech; (3) C is the standout long-term winner at +49.3% with stop at $126.86 vs current $133.35 \u2014 only $6.49 of cushion, worth watching if financials rotate; (4) WELL at +40.6% has stop $217.69 vs $245.94 \u2014 well-cushioned; (5) SPY long-term position stop at $667.64 is 11% below current \u2014 not imminent. No earnings flags in the immediate term for core positions, but LLY at $1,166 and NVDA at $213.91 are on the watchlist and both are volatile names to monitor for sector rotation signals."
-    },
     {
       "timestamp": "2026-07-22T12:55:13.924619-04:00",
       "regime": "NEUTRAL",
@@ -3177,6 +3167,16 @@
       "cash": 210126.12,
       "actions_taken": 0,
       "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ce8WPTfHr3C9TjPi5DCre'}",
+      "risk_notes": ""
+    },
+    {
+      "timestamp": "2026-08-17T11:30:17.345742-04:00",
+      "regime": "STRONG_BULL",
+      "regime_score": 5,
+      "portfolio_value": 239634.08,
+      "cash": 210126.12,
+      "actions_taken": 0,
+      "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ce8ZRyixHZt7F26EYVAXb'}",
       "risk_notes": ""
     }
   ]
