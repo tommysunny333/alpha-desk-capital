@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-08-17T13:50:43.683085-04:00",
+    "last_updated": "2026-08-17T14:22:24.645346-04:00",
     "last_trading_day": "2026-08-17",
     "total_sessions": 40,
     "regime": "STRONG_BULL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": 2.25,
-    "portfolio_value": 239536.62,
+    "spy_ytd_return": 2.26,
+    "portfolio_value": 239536.63,
     "cash": 210126.12,
     "cumulative_return_pct": -76.05,
-    "alpha_vs_spy": -78.29,
+    "alpha_vs_spy": -78.3,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -1168,27 +1168,17 @@
     },
     {
       "date": "2026-08-17",
-      "portfolio_value": 239536.62,
-      "daily_pnl": -2.24,
+      "portfolio_value": 239536.63,
+      "daily_pnl": 0.01,
       "cumulative_return": -76.05,
-      "spy_return": 2.25,
-      "alpha": -78.29,
+      "spy_return": 2.26,
+      "alpha": -78.3,
       "regime": "STRONG_BULL",
       "num_positions": 10,
       "cash": 210126.12
     }
   ],
   "agent_decision_log": [
-    {
-      "timestamp": "2026-07-22T14:56:03.473222-04:00",
-      "regime": "NEUTRAL",
-      "regime_score": 1,
-      "portfolio_value": 239847.38,
-      "cash": 218930.67,
-      "actions_taken": 0,
-      "commentary": "The tape is giving me a classic mixed signal day \u2014 SPY holding above both the 50 and 200-day, RSI at 52.6 suggesting we're not overbought, but QQQ sitting $11 below its 50-day is a real tell that the market's leadership is fractured and I'm not chasing anything into this close at 14:56. The book's P&L story is honestly two separate narratives: the long-term core is performing exactly as designed, with C up nearly 49%, WELL up 40%, and SPY itself up 20%, but those gains are sitting on top of a catastrophic drawdown from earlier in the fund's history that we're slowly climbing back from. I'm not adding to swings today because MSFT and AMZN entered on a bull regime signal that no longer reflects current conditions \u2014 QQQ sub-SMA50 in a neutral regime means those setups lose their edge, and I'd rather let them either find footing or get stopped out cleanly than average into deteriorating momentum. The single risk I'm watching most closely is C at $132.84 against that $126.86 stop \u2014 financials can reprice fast on any macro surprise, and losing that trailing stop on our biggest winner would hurt more psychologically than the P&L math suggests given position size. Into tomorrow I'm watching QQQ for a reclaim of $719; if it can close above that level on volume, it reopens the swing book for a couple of fresh setups I've had on the watchlist, particularly in semis where NVDA at $213 has been compressing tightly.",
-      "risk_notes": "Primary concern: the book is down 76% from starting capital, meaning the long positions are working but we dug a deep hole early that math can't easily fix. C is +48.8% with a stop at $126.86 vs current $132.84 \u2014 only $6 of cushion, watch that closely on any financials rotation. WELL at +40.6% with stop $217.69 vs $245.90 is better protected. MSFT swing is -0.5% against a $371.13 stop with QQQ printing below its 50-day \u2014 that's the most vulnerable setup in the book right now given growth tech pressure. AMZN swing at -1.0% with stop $233.11 has $9.96 of room but the momentum signal that triggered it is weakening in this regime. Max position size rule at 10% of $239,847 = ~$23,985 \u2014 most current positions are well within that. Cash at 91.3% is extreme and while it protects remaining capital, it's not earning alpha."
-    },
     {
       "timestamp": "2026-07-22T15:58:40.491876-04:00",
       "regime": "NEUTRAL",
@@ -3177,6 +3167,16 @@
       "cash": 210126.12,
       "actions_taken": 0,
       "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ce8k8bAhFrGiGkepKEyvK'}",
+      "risk_notes": ""
+    },
+    {
+      "timestamp": "2026-08-17T14:22:22.097600-04:00",
+      "regime": "STRONG_BULL",
+      "regime_score": 5,
+      "portfolio_value": 239536.63,
+      "cash": 210126.12,
+      "actions_taken": 0,
+      "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ce8nYib5u7YBWvX6xTtQe'}",
       "risk_notes": ""
     }
   ]
