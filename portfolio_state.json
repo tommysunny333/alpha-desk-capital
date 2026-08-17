@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-08-14T16:03:41.020828-04:00",
-    "last_trading_day": "2026-08-14",
-    "total_sessions": 39,
+    "last_updated": "2026-08-17T10:02:28.827003-04:00",
+    "last_trading_day": "2026-08-17",
+    "total_sessions": 40,
     "regime": "STRONG_BULL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": 2.62,
-    "portfolio_value": 239721.3,
+    "spy_ytd_return": 2.51,
+    "portfolio_value": 239619.4,
     "cash": 210126.12,
-    "cumulative_return_pct": -76.03,
-    "alpha_vs_spy": -78.65,
+    "cumulative_return_pct": -76.04,
+    "alpha_vs_spy": -78.55,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -1165,19 +1165,20 @@
       "regime": "STRONG_BULL",
       "num_positions": 10,
       "cash": 210126.12
+    },
+    {
+      "date": "2026-08-17",
+      "portfolio_value": 239619.4,
+      "daily_pnl": -101.9,
+      "cumulative_return": -76.04,
+      "spy_return": 2.51,
+      "alpha": -78.55,
+      "regime": "STRONG_BULL",
+      "num_positions": 10,
+      "cash": 210126.12
     }
   ],
   "agent_decision_log": [
-    {
-      "timestamp": "2026-07-22T11:20:37.195192-04:00",
-      "regime": "NEUTRAL",
-      "regime_score": 1,
-      "portfolio_value": 239845.53,
-      "cash": 218930.67,
-      "actions_taken": 0,
-      "commentary": "The tape is in a credible but unconvincing uptrend \u2014 SPY is holding above both moving averages and VIX at 17 isn't screaming fear, but QQQ can't reclaim its 50-day at $719 and the 20-day SPY return is essentially flat, which tells me institutional money isn't in aggressive accumulation mode right now. Against that backdrop, the right posture is exactly what we're running: let the winners breathe, don't add risk into a choppy tape, and keep 91% cash as both a cushion and dry powder. The book's P&L story is being written by three names \u2014 C is up 49.6% and is the single best contributor on a percentage basis, WELL is up 39.9% and has been quietly grinding, and SPY itself is up 20.2% on the long-term leg; those three are doing the heavy lifting while AAPL and KO are modest contributors. The swing book is the one I'm watching most carefully: both MSFT and AMZN are fractionally below entry and within 4-5% of their stops, which means I need either a constructive tape in the next few sessions to get them moving toward the $437 and $274 targets respectively, or I'm going to be stopped out with small losses \u2014 that's an acceptable outcome given the setup logic, but I'm not adding to either name while QQQ is lagging. The single risk that would change my mind most sharply is QQQ breaking below $700 with momentum \u2014 that would flip the regime signal toward bearish, invalidate the swing setups entirely, and prompt me to exit MSFT and AMZN before the stops get hit. Into the next cycle I'm watching whether QQQ can recapture $719, whether C holds above $126.86 (tightest stop in the book), and whether any of the large-cap tech names on the watchlist \u2014 NVDA at $212, GOOGL at $347 \u2014 set up a clean pullback entry worth sizing into at reduced 30% neutral-regime allocation.",
-      "risk_notes": "Portfolio is deeply underwater on total capital (-76% cumulative) but current mark-to-market on open positions is healthy \u2014 the damage was done historically and the current book is actually performing. Key stop levels to watch: C at $126.86 (stock at $133.56, only 5.0% cushion \u2014 tightest stop in the book), MSFT at $371.13 with stock at $389.34 (-4.7% from here), AMZN at $233.11 with stock at $243.59 (-4.3% from here). Both swing names are slightly underwater on entry and within 5% of their stops \u2014 no panic but no complacency either. WELL at $244.74 is 39.9% up and the trailing stop at $217.69 is well below current price but needs to be ratcheted if the stock makes new highs. Correlation risk: SPY long plus AAPL, MSFT, AMZN means roughly 60% of the book moves with broad market. VIX at 17 is benign but QQQ below its 50-day is a yellow flag for tech names specifically. No known earnings imminent in the key positions but should verify MSFT and AMZN reporting windows before the next cycle."
-    },
     {
       "timestamp": "2026-07-22T11:38:50.079446-04:00",
       "regime": "NEUTRAL",
@@ -3166,6 +3167,16 @@
       "cash": 210126.12,
       "actions_taken": 0,
       "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ce3EqtCWib2vfr2eqUdjy'}",
+      "risk_notes": ""
+    },
+    {
+      "timestamp": "2026-08-17T10:02:25.229237-04:00",
+      "regime": "STRONG_BULL",
+      "regime_score": 5,
+      "portfolio_value": 239619.4,
+      "cash": 210126.12,
+      "actions_taken": 0,
+      "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ce8Sj5k1dyodedF8DbMBG'}",
       "risk_notes": ""
     }
   ]
