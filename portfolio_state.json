@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-08-18T11:56:32.355662-04:00",
+    "last_updated": "2026-08-18T12:37:32.342881-04:00",
     "last_trading_day": "2026-08-18",
     "total_sessions": 41,
     "regime": "BULL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": 1.56,
-    "portfolio_value": 239381.7,
+    "spy_ytd_return": 1.57,
+    "portfolio_value": 239395.96,
     "cash": 214208.13,
     "cumulative_return_pct": -76.06,
-    "alpha_vs_spy": -77.62,
+    "alpha_vs_spy": -77.63,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -1181,27 +1181,17 @@
     },
     {
       "date": "2026-08-18",
-      "portfolio_value": 239381.7,
-      "daily_pnl": 8.77,
+      "portfolio_value": 239395.96,
+      "daily_pnl": 14.26,
       "cumulative_return": -76.06,
-      "spy_return": 1.56,
-      "alpha": -77.62,
+      "spy_return": 1.57,
+      "alpha": -77.63,
       "regime": "BULL",
       "num_positions": 8,
       "cash": 214208.13
     }
   ],
   "agent_decision_log": [
-    {
-      "timestamp": "2026-07-23T13:53:49.931237-04:00",
-      "regime": "BEAR",
-      "regime_score": -3,
-      "portfolio_value": 239521.96,
-      "cash": 223290.96,
-      "actions_taken": 0,
-      "commentary": "The tape is telling a straightforward story right now: SPY is struggling below $744 SMA50, QQQ is 3.7% under its 50-day, and RSI at 44.6 is grinding in no-man's land \u2014 this isn't a market that's bottoming cleanly, it's one that's distributing. Our regime model is reading -3/5 bear, and the rules are explicit: no new positions. That's not a close call today, it's a clear one. The book itself is actually performing reasonably well on a relative basis \u2014 C is up 47%, WELL up 41%, and SPY up 18.5% from entry; the long-term names were sized into better levels and are holding structure above their trailing stops. The single name I'm watching most carefully is C at $131.50, which is sitting uncomfortably close to the $126.86 trailing stop \u2014 a bad tape day or a weak financials tape could clip us there, and I'd rather see that stop hold than chase it down. On the other side, AAPL at $321.13 is the weakest of the five on momentum \u2014 it's barely above cost basis and has done nothing while the rest of the book worked; it earns continued scrutiny but the stop at $294 gives it room to breathe. Into the next cycle, the level I'm watching is SPY reclaiming $744 with volume \u2014 that would shift the regime calculus meaningfully and open the door to deploying some of the $223K in dry powder into setups that have been building. Until then, preservation is the trade.",
-      "risk_notes": "C is within $4.64 of its trailing stop at $126.86 against current price $131.50 \u2014 any 3.5% pullback triggers an exit; watching closely. WELL at $247.32 vs stop $219.57 has comfortable cushion but the +41% unrealized gain is meaningful P&L at risk if healthcare rotates. AAPL at $321.13 is only 3% above entry $311.81 and just $27 clear of its stop \u2014 thin margin of safety in a bear tape. SPY position stop at $667.64 is well below current $738.06 but a broad market leg down in this regime would threaten multiple names simultaneously \u2014 correlation risk is real across SPY/AAPL/C. Overall book is 93.2% cash, which is appropriate given the regime but also reflects the severity of the cumulative drawdown (-76.05% from $1M). No earnings catalysts flagged imminently, but macro data and Fed speak remain live vol events in this environment. VIX at 19.5 is the one constructive data point \u2014 not in panic territory \u2014 but that can change fast."
-    },
     {
       "timestamp": "2026-07-23T14:12:03.610773-04:00",
       "regime": "BEAR",
@@ -3190,6 +3180,16 @@
       "cash": 214208.13,
       "actions_taken": 0,
       "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CeAVETzH5uU3WVEm47GPN'}",
+      "risk_notes": ""
+    },
+    {
+      "timestamp": "2026-08-18T12:37:26.669823-04:00",
+      "regime": "BULL",
+      "regime_score": 3,
+      "portfolio_value": 239395.96,
+      "cash": 214208.13,
+      "actions_taken": 0,
+      "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CeAYMoTM1HgfvLfVeygAP'}",
       "risk_notes": ""
     }
   ]
