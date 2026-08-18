@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-08-18T10:29:51.255699-04:00",
+    "last_updated": "2026-08-18T10:57:52.912357-04:00",
     "last_trading_day": "2026-08-18",
     "total_sessions": 41,
     "regime": "STRONG_BULL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": 1.61,
-    "portfolio_value": 239372.67,
-    "cash": 212316.98,
+    "spy_ytd_return": 1.5,
+    "portfolio_value": 239357.09,
+    "cash": 214208.13,
     "cumulative_return_pct": -76.06,
-    "alpha_vs_spy": -77.67,
+    "alpha_vs_spy": -77.56,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -20,7 +20,7 @@
       "ticker": "SPY",
       "entry_date": "2026-06-02",
       "entry_price": 623.09,
-      "current_price": 769.15,
+      "current_price": 767.82,
       "shares": 13,
       "stop_price": 684.53,
       "days_held": 0
@@ -29,7 +29,7 @@
       "ticker": "WELL",
       "entry_date": "2026-06-02",
       "entry_price": 174.95,
-      "current_price": 237.91,
+      "current_price": 237.57,
       "shares": 12,
       "stop_price": 222.36,
       "days_held": 0
@@ -38,7 +38,7 @@
       "ticker": "KO",
       "entry_date": "2026-06-02",
       "entry_price": 77.91,
-      "current_price": 88.5,
+      "current_price": 88.77,
       "shares": 15,
       "stop_price": 79.42,
       "days_held": 0
@@ -47,7 +47,7 @@
       "ticker": "AAPL",
       "entry_date": "2026-08-04",
       "entry_price": 310.245,
-      "current_price": 309.35,
+      "current_price": 310.71,
       "shares": 7,
       "stop_price": 276.78,
       "days_held": 0
@@ -56,18 +56,9 @@
       "ticker": "LLY",
       "entry_date": "2026-08-04",
       "entry_price": 1114.637,
-      "current_price": 1210.93,
+      "current_price": 1210.98,
       "shares": 2,
       "stop_price": 1083.64,
-      "days_held": 0
-    },
-    {
-      "ticker": "AVGO",
-      "entry_date": "2026-08-05",
-      "entry_price": 418.7293,
-      "current_price": 379.54,
-      "shares": 5,
-      "stop_price": 378.63,
       "days_held": 0
     }
   ],
@@ -76,7 +67,7 @@
       "ticker": "NVDA",
       "entry_date": "2026-08-04",
       "entry_price": 210.8854,
-      "current_price": 219.99,
+      "current_price": 218.88,
       "shares": 11,
       "stop_price": 200.24,
       "days_held": 0,
@@ -87,7 +78,7 @@
       "ticker": "MSFT",
       "entry_date": "2026-08-04",
       "entry_price": 495.6277,
-      "current_price": 481.32,
+      "current_price": 480.77,
       "shares": 4,
       "stop_price": 470.61,
       "days_held": 0,
@@ -98,7 +89,7 @@
       "ticker": "GOOGL",
       "entry_date": "2026-08-05",
       "entry_price": 359.1895,
-      "current_price": 342.15,
+      "current_price": 342.87,
       "shares": 6,
       "stop_price": 341.06,
       "days_held": 0,
@@ -734,6 +725,17 @@
       "signal": "STOP_LOSS",
       "realized_pnl": -144.82,
       "timestamp": "2026-08-18T10:07:48.862125-04:00"
+    },
+    {
+      "action": "SELL",
+      "ticker": "AVGO",
+      "strategy": "LONG_TERM",
+      "price": 378.42,
+      "quantity": 5,
+      "reasoning": "Stop loss hit: $378.42 <= $378.63",
+      "signal": "STOP_LOSS",
+      "realized_pnl": -202.49,
+      "timestamp": "2026-08-18T10:57:50.728110-04:00"
     }
   ],
   "daily_snapshots": [
@@ -1179,27 +1181,17 @@
     },
     {
       "date": "2026-08-18",
-      "portfolio_value": 239372.67,
-      "daily_pnl": -8.76,
+      "portfolio_value": 239357.09,
+      "daily_pnl": -15.58,
       "cumulative_return": -76.06,
-      "spy_return": 1.61,
-      "alpha": -77.67,
+      "spy_return": 1.5,
+      "alpha": -77.56,
       "regime": "STRONG_BULL",
-      "num_positions": 9,
-      "cash": 212316.98
+      "num_positions": 8,
+      "cash": 214208.13
     }
   ],
   "agent_decision_log": [
-    {
-      "timestamp": "2026-07-23T12:39:45.997221-04:00",
-      "regime": "BEAR",
-      "regime_score": -3,
-      "portfolio_value": 239544.97,
-      "cash": 223290.96,
-      "actions_taken": 0,
-      "commentary": "The tape is giving us a textbook bear-regime setup \u2014 SPY at $739.67 is below the 50-day at $744, RSI printing 45.8, and the 20-day return of +0.9% is barely noise. The regime score of -3 tells me this is not a market where I want to be adding risk, and frankly the rulebook enforces what common sense already says: we're in cash-preservation mode. The book's five long-term positions are all in the green, with C and WELL doing the heavy lifting at +48% and +41.5% respectively \u2014 those were right-tail outcomes from earlier entries that I'm letting run behind trailing stops rather than taking off prematurely. Holding here is an active call, not laziness: with 93% in cash and no swing setups that clear the bear-regime restriction, the single best use of capital right now is to do nothing and not compound the -76% drawdown with ill-timed adds. The risk I'm watching most closely is C at $132.29 \u2014 the stop at $126.86 is only $5.43 away, and if credit spreads widen on any Fed commentary or bank-sector news this week, that stop gets tested; I want to see it hold $128 intraday before I feel comfortable the trailing stop has enough buffer. Into the next cycle I'm watching whether SPY can reclaim $744 on the 50-day with volume conviction \u2014 that's the single data point that would shift my posture from 'defend the book' to 'start building swing exposure again.'",
-      "risk_notes": "C is the most exposed to a regime-driven reversal \u2014 it's up 48% from entry and sitting at $132.29 with a stop at $126.86, just 4.1% of cushion; one bad macro print on financials or a credit scare closes that gap fast. WELL at +41.5% is similarly stretched, stop at $219.57 versus current $247.63 \u2014 about 11.3% of downside before we're stopped, which is fine structurally but the name has run hard on defensive rotation and that trade gets unwound quickly if risk-on returns. SPY long-term position is fine \u2014 stop at $667.64 is well below current tape and we're not adding in a bear regime. AAPL at $320.33 is only +2.7% from entry with a stop at $294.05; that's 8.2% of downside and the name is underperforming relative to the book \u2014 lowest-conviction position right now. KO is doing what it should in a bear regime, grinding higher quietly. No earnings catalysts flagged imminently but LLY ($1,181) and MU ($1,008) are on the watchlist for any regime shift \u2014 not touching them today. Concentration risk is low given 93.2% cash; the actual risk is that we've already taken -76% cumulative drawdown and capital preservation is now existential, not tactical."
-    },
     {
       "timestamp": "2026-07-23T12:56:37.778524-04:00",
       "regime": "BEAR",
@@ -3188,6 +3180,16 @@
       "cash": 212316.98,
       "actions_taken": 0,
       "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CeANd54xLWqsF4MVVnx7h'}",
+      "risk_notes": ""
+    },
+    {
+      "timestamp": "2026-08-18T10:57:50.728110-04:00",
+      "regime": "STRONG_BULL",
+      "regime_score": 5,
+      "portfolio_value": 239357.09,
+      "cash": 214208.13,
+      "actions_taken": 0,
+      "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CeAQm2nVmGNWJmy5Yx8ce'}",
       "risk_notes": ""
     }
   ]
