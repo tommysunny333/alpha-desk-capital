@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-08-18T11:36:46.956183-04:00",
+    "last_updated": "2026-08-18T11:56:32.355662-04:00",
     "last_trading_day": "2026-08-18",
     "total_sessions": 41,
-    "regime": "STRONG_BULL",
+    "regime": "BULL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": 1.48,
-    "portfolio_value": 239372.93,
+    "spy_ytd_return": 1.56,
+    "portfolio_value": 239381.7,
     "cash": 214208.13,
     "cumulative_return_pct": -76.06,
-    "alpha_vs_spy": -77.54,
+    "alpha_vs_spy": -77.62,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -1181,27 +1181,17 @@
     },
     {
       "date": "2026-08-18",
-      "portfolio_value": 239372.93,
-      "daily_pnl": 15.84,
+      "portfolio_value": 239381.7,
+      "daily_pnl": 8.77,
       "cumulative_return": -76.06,
-      "spy_return": 1.48,
-      "alpha": -77.54,
-      "regime": "STRONG_BULL",
+      "spy_return": 1.56,
+      "alpha": -77.62,
+      "regime": "BULL",
       "num_positions": 8,
       "cash": 214208.13
     }
   ],
   "agent_decision_log": [
-    {
-      "timestamp": "2026-07-23T13:36:17.085562-04:00",
-      "regime": "BEAR",
-      "regime_score": -3,
-      "portfolio_value": 239510.68,
-      "cash": 223290.96,
-      "actions_taken": 0,
-      "commentary": "The tape continues to trade heavy \u2014 SPY at $738 can't reclaim the SMA50 at $744, RSI is stuck in the low 40s, and the regime score sitting at -3/5 tells me everything I need to know about positioning new risk right now. The ruleset is unambiguous in BEAR: no new longs, full stop, and I'm not going to manufacture a thesis to fight that signal. What I'm actually focused on this cycle is the health of the five names we're carrying. C at $131.41 is the one I'm watching most carefully \u2014 only 3.5% above its trailing stop at $126.86, and if the financials sector catches any incremental selling pressure, we could be forced out of the best percentage winner in the book at +47%; I'd rather trail that stop tighter manually than watch it get clipped on a bad tape day. WELL and SPY are the two anchors \u2014 WELL's 41% gain with a stop at $219.57 gives meaningful cushion, and SPY at $737.55 versus its stop at $667.64 is structurally sound, but both are leveraged to a market that's showing no appetite for upside follow-through right now. Holding everything is the active decision this cycle \u2014 with 93% in cash we're not sitting still, we're preserving maximum optionality for when the regime flips, and deploying into a -3/5 bear environment would be capital destruction dressed up as activity. The single level I'm watching that changes my mind is SPY reclaiming and holding $744 on the SMA50 with RSI pushing back through 50 \u2014 that's the confirmation I need to start building swing exposure into the names queued on the watchlist. Until then, the dry powder stays dry.",
-      "risk_notes": "C is the most exposed name near its stop \u2014 trading at $131.41 with the trailing stop at $126.86, roughly 3.5% of cushion left; any further tape deterioration could trigger. WELL at $247.26 with stop $219.57 has more room but has had a 41% run \u2014 crowded healthcare long in a bear tape is a concentration flag. AAPL at $320.61 vs stop $294.05 has adequate buffer but consumer discretionary/tech names typically lead on the downside in sustained bear regimes. Portfolio is 93.2% cash by value but the five long-term positions are all individually profitable \u2014 cumulative book return of -76% reflects historical losses already crystallized, not current position health. VIX at 19.2 is below the 25 danger threshold which is the one constructive signal, but SPY RSI at 44.3 and price below SMA50 at $744 keeps the regime firmly negative. No earnings catalysts flagged imminently but LLY, MU, NVDA in the watchlist all carry event risk if added \u2014 not relevant today but noted for pipeline."
-    },
     {
       "timestamp": "2026-07-23T13:53:49.931237-04:00",
       "regime": "BEAR",
@@ -3190,6 +3180,16 @@
       "cash": 214208.13,
       "actions_taken": 0,
       "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CeATj5XVPBKBvw4tCqZkH'}",
+      "risk_notes": ""
+    },
+    {
+      "timestamp": "2026-08-18T11:56:28.438399-04:00",
+      "regime": "BULL",
+      "regime_score": 3,
+      "portfolio_value": 239381.7,
+      "cash": 214208.13,
+      "actions_taken": 0,
+      "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CeAVETzH5uU3WVEm47GPN'}",
       "risk_notes": ""
     }
   ]
