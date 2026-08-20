@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-08-20T11:01:00.090376-04:00",
+    "last_updated": "2026-08-20T11:38:49.500290-04:00",
     "last_trading_day": "2026-08-20",
     "total_sessions": 43,
-    "regime": "STRONG_BULL",
+    "regime": "BULL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": 1.43,
-    "portfolio_value": 239519.36,
-    "cash": 214208.13,
+    "spy_ytd_return": 1.22,
+    "portfolio_value": 239496.68,
+    "cash": 216240.93,
     "cumulative_return_pct": -76.05,
-    "alpha_vs_spy": -77.48,
+    "alpha_vs_spy": -77.27,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -20,7 +20,7 @@
       "ticker": "SPY",
       "entry_date": "2026-06-02",
       "entry_price": 623.09,
-      "current_price": 767.82,
+      "current_price": 765.74,
       "shares": 13,
       "stop_price": 684.53,
       "days_held": 0
@@ -29,7 +29,7 @@
       "ticker": "WELL",
       "entry_date": "2026-06-02",
       "entry_price": 174.95,
-      "current_price": 237.57,
+      "current_price": 238.47,
       "shares": 12,
       "stop_price": 222.36,
       "days_held": 0
@@ -38,16 +38,16 @@
       "ticker": "KO",
       "entry_date": "2026-06-02",
       "entry_price": 77.91,
-      "current_price": 88.77,
+      "current_price": 91.44,
       "shares": 15,
-      "stop_price": 80.18,
+      "stop_price": 80.47,
       "days_held": 0
     },
     {
       "ticker": "AAPL",
       "entry_date": "2026-08-04",
       "entry_price": 310.245,
-      "current_price": 310.71,
+      "current_price": 316.44,
       "shares": 7,
       "stop_price": 279.88,
       "days_held": 0
@@ -56,7 +56,7 @@
       "ticker": "LLY",
       "entry_date": "2026-08-04",
       "entry_price": 1114.637,
-      "current_price": 1210.98,
+      "current_price": 1273.6,
       "shares": 2,
       "stop_price": 1134.83,
       "days_held": 0
@@ -67,7 +67,7 @@
       "ticker": "NVDA",
       "entry_date": "2026-08-04",
       "entry_price": 210.8854,
-      "current_price": 218.88,
+      "current_price": 216.43,
       "shares": 11,
       "stop_price": 200.24,
       "days_held": 0,
@@ -78,22 +78,11 @@
       "ticker": "MSFT",
       "entry_date": "2026-08-04",
       "entry_price": 495.6277,
-      "current_price": 480.77,
+      "current_price": 481.22,
       "shares": 4,
       "stop_price": 470.61,
       "days_held": 0,
       "take_profit": 554.83,
-      "signal": "Bull regime large-cap tech momentum"
-    },
-    {
-      "ticker": "GOOGL",
-      "entry_date": "2026-08-05",
-      "entry_price": 359.1895,
-      "current_price": 342.87,
-      "shares": 6,
-      "stop_price": 341.06,
-      "days_held": 0,
-      "take_profit": 402.09,
       "signal": "Bull regime large-cap tech momentum"
     }
   ],
@@ -736,6 +725,17 @@
       "signal": "STOP_LOSS",
       "realized_pnl": -202.49,
       "timestamp": "2026-08-18T10:57:50.728110-04:00"
+    },
+    {
+      "action": "SELL",
+      "ticker": "GOOGL",
+      "strategy": "SWING",
+      "price": 338.97,
+      "quantity": 6,
+      "reasoning": "Stop loss hit: $338.97 <= $341.06",
+      "signal": "STOP_LOSS",
+      "realized_pnl": -122.33,
+      "timestamp": "2026-08-20T11:38:45.397054-04:00"
     }
   ],
   "daily_snapshots": [
@@ -1203,27 +1203,17 @@
     },
     {
       "date": "2026-08-20",
-      "portfolio_value": 239519.36,
-      "daily_pnl": 25.36,
+      "portfolio_value": 239496.68,
+      "daily_pnl": -22.68,
       "cumulative_return": -76.05,
-      "spy_return": 1.43,
-      "alpha": -77.48,
-      "regime": "STRONG_BULL",
-      "num_positions": 8,
-      "cash": 214208.13
+      "spy_return": 1.22,
+      "alpha": -77.27,
+      "regime": "BULL",
+      "num_positions": 7,
+      "cash": 216240.93
     }
   ],
   "agent_decision_log": [
-    {
-      "timestamp": "2026-07-27T14:52:34.564156-04:00",
-      "regime": "BEAR",
-      "regime_score": -3,
-      "portfolio_value": 239681.36,
-      "cash": 223290.96,
-      "actions_taken": 0,
-      "commentary": "The tape is telling a consistent story this cycle: SPY at $738 can't reclaim its SMA50 at $744, RSI is grinding at 38.2 with no real bid behind it, and the 20-day return of 0.5% confirms we're in a slow bleed rather than a sharp flush \u2014 the kind of market where longs quietly die rather than get stopped out clean. The regime read is Bear at -3/5 and the rules are unambiguous: no new capital deployment until that score shifts, full stop. The book is running extremely light at 6.8% gross long, so the P&L story right now is almost entirely about the five legacy longs \u2014 C and WELL are the two names carrying meaningful gains at +47.5% and +42.8% respectively, and those positions are doing the work while everything else treads water. I'm holding all five and not trimming today because each position is still trading above its trailing stop, none have violated a technical level that changes the thesis, and given we're already at $239k on a $1M book, eroding these winners without a clear technical reason would compound the drawdown damage we've already absorbed. The single risk that changes my posture fastest is SPY breaking its SMA200 at $695 \u2014 that's not a technical nuance, that's a regime-level event that would signal we retest levels the current stops weren't sized for. Into the next cycle I'm watching whether SPY can reclaim $744 on the SMA50 and whether RSI can push back through 50; until both of those flip, the cash stays in the drawer and the longs stay on a short leash.",
-      "risk_notes": "C is the closest to its stop at $131.71 vs stop $126.86 \u2014 roughly 3.7% of cushion remaining; any acceleration lower in financials puts that at risk. WELL at $249.78 with stop $222.36 has more room but is a healthcare REIT that could get hit if rates spike on any macro surprise. AAPL at $335.41 sits only 7.6% above entry with stop at $297.52 \u2014 not alarming but thin in a tape that's rolling. SPY itself is just $70 above its SMA200 at $695; a break there would be the regime-level signal that forces broader de-risking across the book. Total equity exposure is only ~6.8% of portfolio given 93.2% cash, so drawdown risk from here is contained \u2014 the real risk is that the five longs give back their embedded gains before conditions improve. No earnings catalysts flagged imminently but LLY, NVDA, and MU are in the watchlist universe and could move the tape on any prints."
-    },
     {
       "timestamp": "2026-07-27T15:10:37.159010-04:00",
       "regime": "BEAR",
@@ -3212,6 +3202,16 @@
       "cash": 214208.13,
       "actions_taken": 0,
       "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CeECcfL45byeqSkmSF5VZ'}",
+      "risk_notes": ""
+    },
+    {
+      "timestamp": "2026-08-20T11:38:45.397054-04:00",
+      "regime": "BULL",
+      "regime_score": 3,
+      "portfolio_value": 239496.68,
+      "cash": 216240.93,
+      "actions_taken": 0,
+      "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CeEFVwq92kYMUdTMx26c3'}",
       "risk_notes": ""
     }
   ]
