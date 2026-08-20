@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-08-20T15:35:43.993303-04:00",
+    "last_updated": "2026-08-20T15:56:26.470670-04:00",
     "last_trading_day": "2026-08-20",
     "total_sessions": 43,
-    "regime": "BEAR",
+    "regime": "BULL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": 0.0,
-    "portfolio_value": 239390.62,
+    "spy_ytd_return": 0.78,
+    "portfolio_value": 239332.46,
     "cash": 216240.93,
-    "cumulative_return_pct": -76.06,
-    "alpha_vs_spy": -76.06,
+    "cumulative_return_pct": -76.07,
+    "alpha_vs_spy": -76.85,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -1203,27 +1203,17 @@
     },
     {
       "date": "2026-08-20",
-      "portfolio_value": 239390.62,
-      "daily_pnl": -14.79,
-      "cumulative_return": -76.06,
-      "spy_return": 0.0,
-      "alpha": -76.06,
-      "regime": "BEAR",
+      "portfolio_value": 239332.46,
+      "daily_pnl": -58.16,
+      "cumulative_return": -76.07,
+      "spy_return": 0.78,
+      "alpha": -76.85,
+      "regime": "BULL",
       "num_positions": 7,
       "cash": 216240.93
     }
   ],
   "agent_decision_log": [
-    {
-      "timestamp": "2026-07-28T13:50:37.712662-04:00",
-      "regime": "BEAR",
-      "regime_score": -3,
-      "portfolio_value": 239771.72,
-      "cash": 223290.96,
-      "actions_taken": 0,
-      "commentary": "The tape is telling a consistent story this cycle \u2014 SPY at $741 can't hold above its 50-day at $744, QQQ is 5.5% below its own 50-day at $716, and RSI at 45.9 has no momentum behind it. That's a bear regime read I have no reason to argue with, and the rules are clear: no new positions get put on until this changes. The book as it stands is five long-term names, all in profit, which is the only silver lining given the cumulative drawdown we're carrying from the earlier part of this fund's life. C is doing the heaviest lifting on a percentage basis at nearly 48% from entry, and WELL isn't far behind at 41% \u2014 both are working, but I'm watching them closely because they're also the most exposed if credit conditions or REIT sentiment crack. Holding everything this cycle is an active decision, not a shrug \u2014 with 93% in cash and a bear regime in force, deploying capital here would be picking up nickels in front of a macro steamroller, and the downside of being wrong is permanent impairment of a book that can't afford another leg down. The number I'm watching most closely is C's stop at $126.86; if financials roll on any Fed or credit headline, that gets tested first and I want to see whether it holds or we honor the stop without hesitation. Into the next session I'm tracking whether SPY can reclaim $744 on volume \u2014 that's the line that flips my posture from defensive to at least considering opportunistic swing setups in the strongest names on the board.",
-      "risk_notes": "C at $131.96 is trading 3.9% above its stop at $126.86 \u2014 tightest cushion in the book and a financials name in a bear tape; one bad macro print and we're stopped out. KO stop at $78.34 vs current $87.75 gives more room but that stop is essentially at breakeven, so any mean reversion in defensives clips us flat. WELL has run 41% from entry and the stop at $222.36 is 10% below current \u2014 a sharp rotation out of healthcare REITs could trigger it fast. SPY position is 18.9% in the green with stop at $667.64, well below current $741 \u2014 that's a wide trailing stop that survived the drawdown but also means we give back meaningful P&L before being cut. Overall book correlation is high: in a risk-off flush, SPY, AAPL, C, and WELL all sell off together regardless of individual fundamentals. No earnings catalysts flagged imminently, but macro data \u2014 CPI, Fed speakers, jobs \u2014 remain live grenades given VIX at 18.1 sitting just below the 25 threshold. Portfolio is down 76% cumulative from $1M starting capital; the small remaining book needs to be protected, not leveraged."
-    },
     {
       "timestamp": "2026-07-28T14:14:23.676538-04:00",
       "regime": "BEAR",
@@ -3212,6 +3202,16 @@
       "cash": 216240.93,
       "actions_taken": 0,
       "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CeEZZkyz9fcpKSw1W19HV'}",
+      "risk_notes": ""
+    },
+    {
+      "timestamp": "2026-08-20T15:56:21.834237-04:00",
+      "regime": "BULL",
+      "regime_score": 3,
+      "portfolio_value": 239332.46,
+      "cash": 216240.93,
+      "actions_taken": 0,
+      "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CeEb9M6NJdY122RCca42N'}",
       "risk_notes": ""
     }
   ]
