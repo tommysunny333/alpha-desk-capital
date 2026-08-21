@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-08-21T10:59:22.574768-04:00",
+    "last_updated": "2026-08-21T11:38:41.576555-04:00",
     "last_trading_day": "2026-08-21",
     "total_sessions": 44,
-    "regime": "BULL",
+    "regime": "STRONG_BULL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": 1.23,
-    "portfolio_value": 239412.73,
+    "spy_ytd_return": 1.34,
+    "portfolio_value": 239458.55,
     "cash": 216240.93,
-    "cumulative_return_pct": -76.06,
-    "alpha_vs_spy": -77.29,
+    "cumulative_return_pct": -76.05,
+    "alpha_vs_spy": -77.39,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -1214,27 +1214,17 @@
     },
     {
       "date": "2026-08-21",
-      "portfolio_value": 239412.73,
-      "daily_pnl": 45.19,
-      "cumulative_return": -76.06,
-      "spy_return": 1.23,
-      "alpha": -77.29,
-      "regime": "BULL",
+      "portfolio_value": 239458.55,
+      "daily_pnl": 45.82,
+      "cumulative_return": -76.05,
+      "spy_return": 1.34,
+      "alpha": -77.39,
+      "regime": "STRONG_BULL",
       "num_positions": 7,
       "cash": 216240.93
     }
   ],
   "agent_decision_log": [
-    {
-      "timestamp": "2026-07-28T16:02:43.456346-04:00",
-      "regime": "BEAR",
-      "regime_score": -3,
-      "portfolio_value": 239743.25,
-      "cash": 223290.96,
-      "actions_taken": 0,
-      "commentary": "The tape is telling a pretty clear story right now: SPY at $741 is below the 50-day at $744, RSI has slipped under 50 at 45.6, and the 20-day return is essentially flat after what looks like a failed recovery attempt \u2014 the regime score of -3/5 is earned, not mechanical noise. Against that backdrop, the book is almost entirely in cash at 93%, which is uncomfortable from a returns perspective but is exactly where we should be given the rules and the environment. The five long-term positions we're carrying are all in positive territory \u2014 C leads at +48.6%, WELL at +39.4% \u2014 and crucially, none of them have violated their trailing stops, so there's no action to take on the exit side either; forcing a trim here without a stop trigger would just be performance-chasing in reverse. The active decision this cycle is to sit on our hands: no setups have cleared the bar, the regime blocks new entries outright, and with $223K in cash we have the optionality to size aggressively when conditions flip \u2014 burning that dry powder into a -3 bear score would be a mistake we can't undo. The level I'm watching most carefully is C's stop at $126.86 \u2014 if financials roll over on macro deterioration and we print below that, I want out same session, no hesitation, because that name has the tightest cushion relative to current price. Into the next cycle I'm monitoring whether SPY can reclaim $744 on the 50-day and whether RSI builds back above 50 \u2014 those two in combination would shift the regime read and open the door to deploying some of this cash pile.",
-      "risk_notes": "C at $132.68 is the most exposed name on the stop side \u2014 trailing stop sits at $126.86, roughly 4.4% of downside before we're forced out; given financials' sensitivity to rate narrative shifts and credit cycle fears in a bear tape, this is the one I'm watching most closely. WELL at $243.84 has run 39.4% from entry and the trailing stop at $222.36 is now 8.8% below current \u2014 healthy cushion but any healthcare policy headline could gap it. KO stop at $78.34 is effectively at the entry price ($77.91), so that position is essentially stopped to breakeven \u2014 fine, just means we're riding free money. AAPL stop at $299.34 is 12% below entry, giving $340 room to breathe, but with QQQ sitting 5.6% below its own 50-day, tech names could see continued multiple compression. SPY position has a stop at $667.64 which is well below current \u2014 not the immediate concern. Total long exposure is roughly $16,400 against $239,743 AUM \u2014 we are overwhelmingly in cash at 93.1%, which is the correct posture in this regime but also reflects the severity of the drawdown we've already absorbed from $1M. No earnings imminent in the next 24 hours for held names that would create overnight gap risk."
-    },
     {
       "timestamp": "2026-07-29T11:31:24.417393-04:00",
       "regime": "BEAR",
@@ -3223,6 +3213,16 @@
       "cash": 216240.93,
       "actions_taken": 0,
       "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CeG6JPVcQUDTKLCd3xqrs'}",
+      "risk_notes": ""
+    },
+    {
+      "timestamp": "2026-08-21T11:38:37.812977-04:00",
+      "regime": "STRONG_BULL",
+      "regime_score": 5,
+      "portfolio_value": 239458.55,
+      "cash": 216240.93,
+      "actions_taken": 0,
+      "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CeG9JHFfZmpv932VomRxv'}",
       "risk_notes": ""
     }
   ]
