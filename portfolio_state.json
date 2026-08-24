@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-08-24T11:06:18.877651-04:00",
+    "last_updated": "2026-08-24T11:44:27.665751-04:00",
     "last_trading_day": "2026-08-24",
     "total_sessions": 45,
     "regime": "NEUTRAL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": 0.84,
-    "portfolio_value": 239320.29,
+    "spy_ytd_return": 1.01,
+    "portfolio_value": 239361.37,
     "cash": 216240.93,
-    "cumulative_return_pct": -76.07,
-    "alpha_vs_spy": -76.91,
+    "cumulative_return_pct": -76.06,
+    "alpha_vs_spy": -77.07,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -1225,27 +1225,17 @@
     },
     {
       "date": "2026-08-24",
-      "portfolio_value": 239320.29,
-      "daily_pnl": -40.45,
-      "cumulative_return": -76.07,
-      "spy_return": 0.84,
-      "alpha": -76.91,
+      "portfolio_value": 239361.37,
+      "daily_pnl": 41.08,
+      "cumulative_return": -76.06,
+      "spy_return": 1.01,
+      "alpha": -77.07,
       "regime": "NEUTRAL",
       "num_positions": 7,
       "cash": 216240.93
     }
   ],
   "agent_decision_log": [
-    {
-      "timestamp": "2026-07-30T11:33:40.889141-04:00",
-      "regime": "BEAR",
-      "regime_score": -3,
-      "portfolio_value": 239483.84,
-      "cash": 223800.22,
-      "actions_taken": 0,
-      "commentary": "The tape is telling a clear story this morning: SPY at $735 is sitting $9 below the 50-day at $744, QQQ is $36 under its own 50-day, and the RSI at 33.4 hasn't yet put in a convincing oversold bounce \u2014 that's a market looking for a floor, not confirming one. In this environment the rules aren't a constraint, they're the strategy: bear regime means no new positions, and I'm not going to front-run a regime flip that the data hasn't delivered. The four long-term names in the book are all in the black \u2014 WELL is carrying the most P&L at +34.4%, KO is holding steady as the defensive anchor, and SPY and AAPL are grinding with positive but modest gains \u2014 so the active decision this cycle is to let winners run without adding risk into deteriorating breadth. The one name I'm watching most closely is WELL at $235.13; if this tape rolls over and we see sector rotation out of healthcare REITs, that stop at $222.36 could get tested quickly, and I'd rather see it triggered cleanly than override it chasing a mean-reversion thesis in a bear market. Into the next cycle I want to see SPY reclaim the 50-day at $744 and RSI push back through 40 before I even start building a watchlist \u2014 until then, 93% cash is not laziness, it's the position.",
-      "risk_notes": "WELL at $235.13 is the most exposed name to a regime-driven reversal \u2014 stop sits at $222.36, roughly 5.4% below current price, and healthcare REIT multiples compress fast in risk-off tape. SPY stop at $667.64 is 9.2% below current $734.98, giving it room, but the RSI at 33.4 is flirting with oversold without confirmation of a floor. KO stop at $79.42 is 9.6% below $87.88 \u2014 defensive name, least concern. AAPL at $331.52 with stop at $302.84 is 8.6% below; tech names are vulnerable in a sustained bear, and AAPL's 6.3% gain is the thinnest cushion in the book. No positions are near take-profit. Correlation risk is moderate \u2014 SPY and AAPL will move together in any macro selloff. Cash at 93.5% is the dominant posture and appropriately so given -76% cumulative drawdown context."
-    },
     {
       "timestamp": "2026-07-30T11:50:28.751492-04:00",
       "regime": "BEAR",
@@ -3234,6 +3224,16 @@
       "cash": 216240.93,
       "actions_taken": 0,
       "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CeMnFpdnykYUEwU2NPjq2'}",
+      "risk_notes": ""
+    },
+    {
+      "timestamp": "2026-08-24T11:44:24.865989-04:00",
+      "regime": "NEUTRAL",
+      "regime_score": 1,
+      "portfolio_value": 239361.37,
+      "cash": 216240.93,
+      "actions_taken": 0,
+      "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CeMqAY8aKmoBiEYuuRkoo'}",
       "risk_notes": ""
     }
   ]
