@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-08-25T11:10:53.411361-04:00",
+    "last_updated": "2026-08-25T11:49:26.216526-04:00",
     "last_trading_day": "2026-08-25",
     "total_sessions": 46,
     "regime": "NEUTRAL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": 1.07,
-    "portfolio_value": 239404.24,
+    "spy_ytd_return": 1.08,
+    "portfolio_value": 239390.66,
     "cash": 216240.93,
     "cumulative_return_pct": -76.06,
-    "alpha_vs_spy": -77.13,
+    "alpha_vs_spy": -77.14,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -1236,27 +1236,17 @@
     },
     {
       "date": "2026-08-25",
-      "portfolio_value": 239404.24,
-      "daily_pnl": 11.27,
+      "portfolio_value": 239390.66,
+      "daily_pnl": -13.58,
       "cumulative_return": -76.06,
-      "spy_return": 1.07,
-      "alpha": -77.13,
+      "spy_return": 1.08,
+      "alpha": -77.14,
       "regime": "NEUTRAL",
       "num_positions": 7,
       "cash": 216240.93
     }
   ],
   "agent_decision_log": [
-    {
-      "timestamp": "2026-07-31T12:14:47.832878-04:00",
-      "regime": "BEAR",
-      "regime_score": -3,
-      "portfolio_value": 239429.75,
-      "cash": 225615.33,
-      "actions_taken": 0,
-      "commentary": "The tape is telling a consistent story right now \u2014 SPY is pinned below its 50-day at $744, QQQ is even weaker sitting 4.4% under its own 50-day at $715, and the regime score of -3 means the rules are doing their job keeping us on the sideline for new deployment. I'm not fighting that read. The book is almost entirely in cash at 94.2%, which is both a function of the rules working correctly in a bear tape and a sobering reflection of the -76% cumulative hole we're digging out of \u2014 the three legacy longs represent the survivors of a much larger book. WELL is the standout, up 35% from the $174.95 entry and the only position with genuine momentum behind it; I'm letting it run against the $222.36 trailing stop and watching the $240 round number as the next logical area where sellers may show up. KO is grinding quietly at $87.61 \u2014 it's not doing much but the stop at $79.42 is essentially at breakeven-plus, so the risk there is near zero and I'm content to hold it as a defensive anchor. The active decision this cycle is holding cash: with QQQ 4% under its 50-day and no regime inflection in sight, deploying into this tape would be catching a falling knife \u2014 the one thing that changes my mind is a regime upgrade to NEUTRAL or better, which I'd need to see SPY close above $744 with RSI reclaiming 50 and QQQ closing the gap back toward $715. Into the next cycle I'm watching whether SPY can defend the $740 level; a break there with volume would likely tag WELL's stop and accelerate the drawdown on the equity sleeve.",
-      "risk_notes": "WELL at $236.35 is the name to watch closest \u2014 stop sits at $222.36, roughly 6% below current, and at +35.1% this is the book's biggest winner; any reversal in healthcare REITs or a broad tape flush could threaten that stop. KO at $87.61 has a stop at $79.42 which is 9.3% below current price and 2.2% above entry \u2014 effectively a near-breakeven stop, so that position has very little room to breathe on a down move before we're out near cost. SPY long is fine structurally at +19.3% with stop at $667.64, but with SPY RSI at 45.4 and the index below its 50-day, the underlying momentum is soft. Total equity exposure is only ~$18,700 across three names, roughly 7.8% of the book \u2014 the remaining 92%+ is cash, which is itself a risk given the -76% cumulative drawdown; we are deeply in the hole and need to rebuild, but the regime forbids new entries. No earnings catalysts in the immediate term for SPY/WELL/KO, but watch macro data prints that could accelerate the bear leg."
-    },
     {
       "timestamp": "2026-07-31T12:48:31.785076-04:00",
       "regime": "NEUTRAL",
@@ -3245,6 +3235,16 @@
       "cash": 216240.93,
       "actions_taken": 0,
       "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CePgQyY8m76xRt1LkYPbe'}",
+      "risk_notes": ""
+    },
+    {
+      "timestamp": "2026-08-25T11:49:22.412079-04:00",
+      "regime": "NEUTRAL",
+      "regime_score": 1,
+      "portfolio_value": 239390.66,
+      "cash": 216240.93,
+      "actions_taken": 0,
+      "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CePjMTRuoZNKCbBcasgXE'}",
       "risk_notes": ""
     }
   ]
