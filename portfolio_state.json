@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-08-25T12:43:20.064636-04:00",
+    "last_updated": "2026-08-25T13:03:47.676743-04:00",
     "last_trading_day": "2026-08-25",
     "total_sessions": 46,
     "regime": "NEUTRAL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": 1.22,
-    "portfolio_value": 239419.24,
+    "spy_ytd_return": 1.2,
+    "portfolio_value": 239420.85,
     "cash": 216240.93,
     "cumulative_return_pct": -76.06,
-    "alpha_vs_spy": -77.27,
+    "alpha_vs_spy": -77.26,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -1236,27 +1236,17 @@
     },
     {
       "date": "2026-08-25",
-      "portfolio_value": 239419.24,
-      "daily_pnl": 1.54,
+      "portfolio_value": 239420.85,
+      "daily_pnl": 1.61,
       "cumulative_return": -76.06,
-      "spy_return": 1.22,
-      "alpha": -77.27,
+      "spy_return": 1.2,
+      "alpha": -77.26,
       "regime": "NEUTRAL",
       "num_positions": 7,
       "cash": 216240.93
     }
   ],
   "agent_decision_log": [
-    {
-      "timestamp": "2026-07-31T13:45:21.779575-04:00",
-      "regime": "NEUTRAL",
-      "regime_score": -1,
-      "portfolio_value": 239458.8,
-      "cash": 225615.33,
-      "actions_taken": 0,
-      "commentary": "The tape is in a holding pattern \u2014 SPY has a pulse above both moving averages but QQQ is living below its 50-day at $689 and the 20-day return across the index is essentially flat, so this isn't a market that's rewarding aggression. The regime score at -1/5 is telling me to sit on hands, reduce size 30% per the mandate, and wait for a cleaner signal before adding exposure. The three open longs are all in profit and working exactly as designed \u2014 WELL is the star of the book at +35.1%, SPY is grinding higher at +19.7%, and KO is doing its job quietly at +12.1% \u2014 none of these need touching, and trimming winners in a neutral-trending market before the stop gets tested is not how you manage a book that's trying to crawl back from a deep drawdown. I'm holding all three not out of complacency but because the setups that got me in are still intact and the trailing stops are doing the risk management work. The single level I'm watching most is WELL $222.36 \u2014 that's the trailing stop and a break there would be the first sign the healthcare REIT bid is rolling over, at which point I exit without debate and take the realized gain. Into the next cycle, I want to see QQQ reclaim its SMA50 at $715 before I even consider a swing entry on the tech names \u2014 until then, the dry powder stays dry.",
-      "risk_notes": "WELL at $236.36 is the name I'm watching most closely \u2014 it's up 35.1% from entry and the trailing stop sits at $222.36, meaning we're roughly 5.9% from giving back a meaningful chunk of that gain. A flush to that level wouldn't surprise me in a risk-off tape. KO stop at $79.42 is 9.1% below current price \u2014 comfortable, but the stock is a defensive name that should be holding up; if it starts underperforming defensives broadly, that's a tell. SPY long is clean, 19.7% in the green with stop at $667.64 \u2014 no action needed. Book-level: 94.2% cash is extreme and reflects the cumulative -76.05% drawdown from prior realized losses, not from current positions, which are all working. The risk here isn't the open book \u2014 it's opportunity cost and the pressure to redeploy into a tape that hasn't given a clean entry. QQQ sub-SMA50 with the 20-day flat means any tech swing setup would be fighting the trend \u2014 not where I want to be pressing."
-    },
     {
       "timestamp": "2026-07-31T14:00:36.780563-04:00",
       "regime": "NEUTRAL",
@@ -3245,6 +3235,16 @@
       "cash": 216240.93,
       "actions_taken": 0,
       "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CePoTqmDWPRGTCSzTAzsa'}",
+      "risk_notes": ""
+    },
+    {
+      "timestamp": "2026-08-25T13:03:44.900113-04:00",
+      "regime": "NEUTRAL",
+      "regime_score": 1,
+      "portfolio_value": 239420.85,
+      "cash": 216240.93,
+      "actions_taken": 0,
+      "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CePq2LVNEQbk78FEAVkZL'}",
       "risk_notes": ""
     }
   ]
