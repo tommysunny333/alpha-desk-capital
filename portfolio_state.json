@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-08-25T15:09:32.679635-04:00",
+    "last_updated": "2026-08-25T15:35:54.028947-04:00",
     "last_trading_day": "2026-08-25",
     "total_sessions": 46,
     "regime": "NEUTRAL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": 1.17,
-    "portfolio_value": 239402.24,
+    "spy_ytd_return": 1.16,
+    "portfolio_value": 239397.03,
     "cash": 216240.93,
     "cumulative_return_pct": -76.06,
-    "alpha_vs_spy": -77.23,
+    "alpha_vs_spy": -77.22,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -1236,27 +1236,17 @@
     },
     {
       "date": "2026-08-25",
-      "portfolio_value": 239402.24,
-      "daily_pnl": -14.39,
+      "portfolio_value": 239397.03,
+      "daily_pnl": -5.21,
       "cumulative_return": -76.06,
-      "spy_return": 1.17,
-      "alpha": -77.23,
+      "spy_return": 1.16,
+      "alpha": -77.22,
       "regime": "NEUTRAL",
       "num_positions": 7,
       "cash": 216240.93
     }
   ],
   "agent_decision_log": [
-    {
-      "timestamp": "2026-07-31T16:04:06.909109-04:00",
-      "regime": "NEUTRAL",
-      "regime_score": -1,
-      "portfolio_value": 239455.29,
-      "cash": 225615.33,
-      "actions_taken": 0,
-      "commentary": "The tape this cycle is giving us a split signal: SPY is holding above both the 50 and 200-day, which in isolation looks constructive, but QQQ sitting 3.8% below its 50-day at $688 versus $715 resistance tells a different story about where institutional money is actually going. When the growth complex is lagging this materially, I don't trust the broad market headline number \u2014 the index is being held up by defensives and value while the momentum names roll over, and that's not a tape where I want to be adding exposure. Within the book, WELL is doing the heavy lifting at +34.2% and is frankly the one position that's earned the right to run \u2014 I'm not trimming that here, the healthcare REIT thesis is intact and the trailing stop at $222.36 protects a substantial gain if this reverses. KO and SPY are contributing positively but more modestly, and together these three names are the only reason we're not deeper in the hole given the overall portfolio drawdown. The active decision this cycle is to hold cash and not force swing trades into a regime that penalizes size \u2014 at 30% reduced allocation, most swing setups don't generate enough dollar P&L to justify the risk in an account that's already severely impaired. What I'm watching hardest into next cycle is whether QQQ can reclaim $700-$715 \u2014 if it does and RSI on SPY crosses back above 50 with volume, that's the confirmation I need to start rebuilding swing exposure in names like NVDA or AVGO that have been compressing; if QQQ fails here and SPY RSI rolls lower, I'll be watching KO's stop at $79.42 as the first line of defense in the book.",
-      "risk_notes": "Primary concern is the catastrophic drawdown context: we're down 76% from $1M starting capital, sitting at $239K, which means recovery math is brutal \u2014 we need roughly a 4x from here just to get back to even. The three long-term positions (SPY, WELL, KO) are all working and represent our only real P&L lifeline. WELL at $234.80 is the strongest performer (+34.2%) and its trailing stop at $222.36 is tight enough to lock in meaningful gains \u2014 watching that level closely. KO stop at $79.42 is within ~$8 of current price ($87.58), roughly 9% downside to stop, which is within normal bounds but worth noting given the neutral tape. SPY stop at $667.64 is far from current levels ($746.82), providing comfortable cushion. QQQ's inability to hold its 50-day ($715 vs $688 current) is a macro warning sign \u2014 if that spread widens, it pressures the risk-on side of the book. No swing positions open, which is appropriate given the NEUTRAL regime signal and the 30% size reduction rule that makes swing R/R less attractive. With 94.2% cash and only $239K total AUM, deploying aggressively into a non-confirming tape would be reckless \u2014 preservation is the mandate until regime clears."
-    },
     {
       "timestamp": "2026-08-03T12:04:12.100076-04:00",
       "regime": "NEUTRAL",
@@ -3245,6 +3235,16 @@
       "cash": 216240.93,
       "actions_taken": 0,
       "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CePzcWEFQcJ6BWofFXjD5'}",
+      "risk_notes": ""
+    },
+    {
+      "timestamp": "2026-08-25T15:35:51.313309-04:00",
+      "regime": "NEUTRAL",
+      "regime_score": 1,
+      "portfolio_value": 239397.03,
+      "cash": 216240.93,
+      "actions_taken": 0,
+      "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CeQ2d5Yx2GwKF5YFoT8ot'}",
       "risk_notes": ""
     }
   ]
