@@ -1,14 +1,14 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-08-25T13:31:30.843352-04:00",
+    "last_updated": "2026-08-25T13:51:39.795522-04:00",
     "last_trading_day": "2026-08-25",
     "total_sessions": 46,
     "regime": "NEUTRAL",
     "vix": 15.32,
     "spy_price": 756.48,
     "spy_ytd_return": 1.11,
-    "portfolio_value": 239407.91,
+    "portfolio_value": 239410.68,
     "cash": 216240.93,
     "cumulative_return_pct": -76.06,
     "alpha_vs_spy": -77.17,
@@ -1236,8 +1236,8 @@
     },
     {
       "date": "2026-08-25",
-      "portfolio_value": 239407.91,
-      "daily_pnl": -12.94,
+      "portfolio_value": 239410.68,
+      "daily_pnl": 2.77,
       "cumulative_return": -76.06,
       "spy_return": 1.11,
       "alpha": -77.17,
@@ -1247,16 +1247,6 @@
     }
   ],
   "agent_decision_log": [
-    {
-      "timestamp": "2026-07-31T14:20:55.518339-04:00",
-      "regime": "NEUTRAL",
-      "regime_score": -1,
-      "portfolio_value": 239463.1,
-      "cash": 225615.33,
-      "actions_taken": 0,
-      "commentary": "The tape is in a stalemate \u2014 SPY is technically above water versus its key moving averages, but QQQ lagging the 50-day by nearly 4% tells me the leadership names are not participating, and an RSI of 47.7 on the index confirms we are not in a momentum-driven tape where you want to be pressing size. Given that context and the neutral regime read, the 30% size reduction rule applies, and frankly the book's condition enforces even more caution than the rules require. WELL is the standout performer at +35% and is the name I'm most focused on preserving \u2014 it's within 6% of its trailing stop and I will not second-guess the systematic level, but I want the MD to know that one bad session in REITs could close that position. SPY and KO are both working quietly, providing ballast, and I have no reason to touch them. The reason I am holding everything flat today rather than deploying into swing setups is simple: no name on the watchlist is clearing the bar in this regime. NVDA at $199, MSFT at $462, META at $551 \u2014 all interesting longer-term, but none is showing the kind of pullback-to-support, declining-volume reset that warrants a swing entry when QQQ is structurally below its 50-day and we have 94% in cash earning its keep as optionality. The single most important risk I'm watching is a QQQ reclaim of $715 \u2014 that would shift the regime score materially and open the door to deploying some of this dry powder into a measured tech swing; conversely, SPY breaking back below $744 SMA50 support would push the regime to bearish and freeze us entirely. Into the next cycle I want to see whether QQQ can close the gap to its 50-day or whether it rolls further \u2014 that resolution is the fulcrum for whether this cash starts working for us or stays parked.",
-      "risk_notes": "Primary concern is the catastrophic drawdown state of this book \u2014 we are down 76% from $1M starting capital, sitting at $239K. Every decision from here is capital preservation first. Long-term positions: WELL at $236.15 is 6.2% above its stop at $222.36, the closest to the trigger and needs watching \u2014 any tape deterioration and that 12-share position gets clipped automatically. SPY at $746 is well clear of the $667.64 stop (10.5% cushion). KO at $87.61 is only 10.3% above stop at $79.42, a moderate pullback in defensives would challenge it. No swing positions open, so correlation risk is low. Cash at 94.2% is effectively a short-volatility position on the portfolio itself \u2014 too much dry powder sitting idle, but the regime score does not justify deploying aggressively today. QQQ below its 50-day at $715 vs current $689 is a meaningful structural warning for tech \u2014 no tech exposure is appropriate right now. No known earnings catalysts in current holdings this week, but monitor WELL for any REIT sector moves tied to rate commentary."
-    },
     {
       "timestamp": "2026-07-31T14:49:06.127639-04:00",
       "regime": "NEUTRAL",
@@ -3245,6 +3235,16 @@
       "cash": 216240.93,
       "actions_taken": 0,
       "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CePs8v7bG9aNiLd3SSG1n'}",
+      "risk_notes": ""
+    },
+    {
+      "timestamp": "2026-08-25T13:51:35.702150-04:00",
+      "regime": "NEUTRAL",
+      "regime_score": 1,
+      "portfolio_value": 239410.68,
+      "cash": 216240.93,
+      "actions_taken": 0,
+      "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CePtg4351uoyDieKGLwMV'}",
       "risk_notes": ""
     }
   ]
