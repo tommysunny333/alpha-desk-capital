@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-08-25T10:21:42.046576-04:00",
+    "last_updated": "2026-08-25T10:41:18.634591-04:00",
     "last_trading_day": "2026-08-25",
     "total_sessions": 46,
     "regime": "NEUTRAL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": 1.15,
-    "portfolio_value": 239407.81,
+    "spy_ytd_return": 1.08,
+    "portfolio_value": 239392.97,
     "cash": 216240.93,
     "cumulative_return_pct": -76.06,
-    "alpha_vs_spy": -77.21,
+    "alpha_vs_spy": -77.14,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -1236,27 +1236,17 @@
     },
     {
       "date": "2026-08-25",
-      "portfolio_value": 239407.81,
-      "daily_pnl": 54.92,
+      "portfolio_value": 239392.97,
+      "daily_pnl": -14.84,
       "cumulative_return": -76.06,
-      "spy_return": 1.15,
-      "alpha": -77.21,
+      "spy_return": 1.08,
+      "alpha": -77.14,
       "regime": "NEUTRAL",
       "num_positions": 7,
       "cash": 216240.93
     }
   ],
   "agent_decision_log": [
-    {
-      "timestamp": "2026-07-31T11:38:23.606708-04:00",
-      "regime": "BEAR",
-      "regime_score": -3,
-      "portfolio_value": 239417.62,
-      "cash": 225615.33,
-      "actions_taken": 0,
-      "commentary": "The tape is not giving us anything to work with \u2014 SPY at $742 is below the 50-day at $744, RSI sitting at 44 with a -0.3% 20-day print, and the regime model is scoring -3 out of -5 possible bear signals. That's not a market you wade into; that's a market you watch from the sidelines with your hands in your pockets. The book reflects exactly that posture: $225K in cash, three legacy longs that are all working and were entered at much better levels. WELL is the standout \u2014 up 35% from entry at $174.95, and healthcare has been a genuine safe haven in this tape, which is the only reason I haven't trimmed it further. KO is doing what KO does, grinding higher on yield and defensiveness, no action needed. The active decision this cycle is to hold all three and do nothing else \u2014 not because I'm frozen, but because deploying capital into a confirmed bear regime with no swing setups clearing the bar would be a rules violation and, more importantly, just bad risk management given where this book sits. The single level I'm watching most closely is WELL's trailing stop at $222.36; a break there on volume would tell me the defensive rotation is unwinding and I'd want to be out ahead of that if possible. Into the next few sessions I'm watching whether SPY can reclaim $744 on the 50-day \u2014 that's the line that would begin to soften the regime read and reopen the door to selective swing entries in names that have already based.",
-      "risk_notes": "Three live positions, all profitable but each carrying distinct risk. WELL at $236.35 is 35% in the green but now only ~6% above its trailing stop at $222.36 \u2014 if this name gives back another 6 points on a broad flush, we get stopped. KO stop at $79.42 is 9.6% below current; that one has room. SPY stop at $667.64 is 10.1% below current \u2014 less urgent but worth watching given the index is already below its 50-day. Total gross exposure is roughly $14,800 across three names on a $239K book \u2014 we're running 6.2% invested, 94% cash. The book is essentially flat-to-defensive. No earnings landmines on SPY, KO, or WELL near-term, but macro catalysts (Fed speak, CPI) could reprice the tape quickly in either direction. Drawdown from peak capital is severe at -76%; protecting what remains is the only mandate."
-    },
     {
       "timestamp": "2026-07-31T12:00:28.134268-04:00",
       "regime": "BEAR",
@@ -3245,6 +3235,16 @@
       "cash": 216240.93,
       "actions_taken": 0,
       "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CePcfRD9cdQ1yWZi7DXz6'}",
+      "risk_notes": ""
+    },
+    {
+      "timestamp": "2026-08-25T10:41:14.549984-04:00",
+      "regime": "NEUTRAL",
+      "regime_score": 1,
+      "portfolio_value": 239392.97,
+      "cash": 216240.93,
+      "actions_taken": 0,
+      "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CePeA9dTSZ1BJ2kZi5Mbm'}",
       "risk_notes": ""
     }
   ]
