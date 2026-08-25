@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-08-25T13:03:47.676743-04:00",
+    "last_updated": "2026-08-25T13:31:30.843352-04:00",
     "last_trading_day": "2026-08-25",
     "total_sessions": 46,
     "regime": "NEUTRAL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": 1.2,
-    "portfolio_value": 239420.85,
+    "spy_ytd_return": 1.11,
+    "portfolio_value": 239407.91,
     "cash": 216240.93,
     "cumulative_return_pct": -76.06,
-    "alpha_vs_spy": -77.26,
+    "alpha_vs_spy": -77.17,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -1236,27 +1236,17 @@
     },
     {
       "date": "2026-08-25",
-      "portfolio_value": 239420.85,
-      "daily_pnl": 1.61,
+      "portfolio_value": 239407.91,
+      "daily_pnl": -12.94,
       "cumulative_return": -76.06,
-      "spy_return": 1.2,
-      "alpha": -77.26,
+      "spy_return": 1.11,
+      "alpha": -77.17,
       "regime": "NEUTRAL",
       "num_positions": 7,
       "cash": 216240.93
     }
   ],
   "agent_decision_log": [
-    {
-      "timestamp": "2026-07-31T14:00:36.780563-04:00",
-      "regime": "NEUTRAL",
-      "regime_score": -1,
-      "portfolio_value": 239443.33,
-      "cash": 225615.33,
-      "actions_taken": 0,
-      "commentary": "The tape is telling a two-speed story right now \u2014 SPY holding above both the 50 and 200-day is constructive on its face, but QQQ sitting $26 under its 50-day at $689 versus $715 tells me tech is carrying real distribution pressure, and with RSI at 47.2 and a 20-day return of essentially zero, this is not a market that's earning new risk capital at 14:00 today. Our book is small but it's clean: WELL continues to be the best trade in the portfolio, up 34.6% and sitting comfortably above its $222.36 trailing stop, and SPY long is doing exactly what a core long should do \u2014 grinding higher with room to breathe. I'm holding all three positions without action this cycle because trimming winners in a neutral regime without a technical trigger is just noise-trading, and the stops are calibrated to let these names work. The active decision here is to preserve the $225K in cash rather than force entries into a tape where the regime score is negative-one and the growth side of the market is technically broken \u2014 I need setups that clear a high bar, and nothing on the watchlist does that today with QQQ below its 50-day. The level I'm watching most carefully is KO's proximity to its $79.42 stop \u2014 at $87.36 it has cushion, but a 3-4 point move lower would put that trailing stop in play and I'd exit without hesitation. Into the next cycle, I want to see QQQ reclaim $715 before I consider any new tech-adjacent swing names, and I'm watching whether SPY can hold $744 SMA50 support \u2014 a break there would shift my regime read and trigger a more defensive posture on the remaining longs.",
-      "risk_notes": "Primary concern is the catastrophic drawdown \u2014 we are down 76% from $1M starting capital, sitting at $239K, and that context shapes everything. Long positions are all working: WELL is the standout at +34.6% with stop at $222.36 (current $235.40, ~5.5% above stop), SPY +19.7% with stop at $667.64 (>10% below current), KO +12.1% with stop at $79.42 (now ~9% below current $87.36 \u2014 worth watching if it softens). The KO stop is the tightest relative situation in the book. QQQ trading $26 below its 50-day SMA is a meaningful divergence warning; tech is lagging and any new swing names in that sector would be swimming upstream. Max position size at 10% of $239K is roughly $23.9K \u2014 that's a constraint that limits meaningful position-building even if a clean setup appears. VIX at 16.5 is benign, not flashing systemic stress, but the QQQ underperformance is idiosyncratic sector weakness, not macro fear."
-    },
     {
       "timestamp": "2026-07-31T14:20:55.518339-04:00",
       "regime": "NEUTRAL",
@@ -3245,6 +3235,16 @@
       "cash": 216240.93,
       "actions_taken": 0,
       "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CePq2LVNEQbk78FEAVkZL'}",
+      "risk_notes": ""
+    },
+    {
+      "timestamp": "2026-08-25T13:31:26.877548-04:00",
+      "regime": "NEUTRAL",
+      "regime_score": 1,
+      "portfolio_value": 239407.91,
+      "cash": 216240.93,
+      "actions_taken": 0,
+      "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CePs8v7bG9aNiLd3SSG1n'}",
       "risk_notes": ""
     }
   ]
