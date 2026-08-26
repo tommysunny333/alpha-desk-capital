@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-08-26T10:40:50.049634-04:00",
+    "last_updated": "2026-08-26T11:56:42.695358-04:00",
     "last_trading_day": "2026-08-26",
     "total_sessions": 47,
     "regime": "NEUTRAL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": 1.18,
-    "portfolio_value": 239358.67,
+    "spy_ytd_return": 1.2,
+    "portfolio_value": 239329.11,
     "cash": 216240.93,
-    "cumulative_return_pct": -76.06,
-    "alpha_vs_spy": -77.25,
+    "cumulative_return_pct": -76.07,
+    "alpha_vs_spy": -77.27,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -1247,27 +1247,17 @@
     },
     {
       "date": "2026-08-26",
-      "portfolio_value": 239358.67,
-      "daily_pnl": -28.66,
-      "cumulative_return": -76.06,
-      "spy_return": 1.18,
-      "alpha": -77.25,
+      "portfolio_value": 239329.11,
+      "daily_pnl": -29.56,
+      "cumulative_return": -76.07,
+      "spy_return": 1.2,
+      "alpha": -77.27,
       "regime": "NEUTRAL",
       "num_positions": 7,
       "cash": 216240.93
     }
   ],
   "agent_decision_log": [
-    {
-      "timestamp": "2026-08-03T13:12:33.052631-04:00",
-      "regime": "NEUTRAL",
-      "regime_score": 1,
-      "portfolio_value": 239545.33,
-      "cash": 225615.33,
-      "actions_taken": 0,
-      "commentary": "The tape is giving us a mixed read \u2014 SPY is constructive above both the 50 and 200-day, RSI sitting at 53 is not overbought, but QQQ can't reclaim its SMA50 at $714 and the 20-day momentum is essentially flat. That divergence matters: when large-cap tech is underperforming, the regime doesn't have the breadth to support aggressive deployment, and with neutral scoring only 1-of-5 on the momentum side, the rules call for 30% size reduction on any new position anyway. Inside the book, WELL is doing the heavy lifting \u2014 a 33% unrealized gain off a $174.95 entry with the stop now trailing at $222.32, it's the one name I'd be most reluctant to touch right now because it's working and the healthcare sector has been a refuge in this choppy macro. SPY long is similarly healthy, and KO is the one I'm watching most carefully: stop at $79.42 versus current $86.76 means there's only about $1,100 of buffer in a 15-share position, so any tape deterioration gets that name reviewed first. The reason I'm not adding swings this cycle is simple: I don't have a setup that clears the quality bar under a neutral regime \u2014 QQQ weakness makes adding semiconductor or mega-cap tech names wrong-footed, and I'm not going to chase META at $592 or NVDA at $207 without a confirmed pullback-and-hold at a key level. What I'm watching into next cycle is whether QQQ can close back above $714 \u2014 that reclaim would shift the regime more decisively bullish and give me the conviction to start rebuilding the swing book with a name like AVGO, which has been acting better than its peers.",
-      "risk_notes": "Book is deeply impaired at -76% cumulative, which means capital preservation and disciplined rebuilding are the only mandates. Long book is actually performing: SPY +21.4% with stop at $667.64, WELL +33.1% with stop at $222.36 \u2014 WELL is the standout, 12 shares riding a 33% winner with meaningful cushion above stop. KO +11.4% is grinding higher but stop at $79.42 is close relative to entry; current price $86.76 gives ~8.5% downside before stop triggers. QQQ below its SMA50 at $714 is a yellow flag \u2014 tech leadership is fraying, which argues against adding NVDA, MSFT, or any semiconductor name this cycle. VIX at 15.6 is benign, but with only $239K total portfolio value, a 5% drawdown on existing longs costs roughly $1,500, which is manageable. The real risk is deploying new capital into a regime that isn't confirming: SPY 20-day return is only +0.7% and QQQ is lagging \u2014 two of six regime signals are failing. Swing book is empty; no setups have cleared the bar."
-    },
     {
       "timestamp": "2026-08-03T13:24:22.868976-04:00",
       "regime": "NEUTRAL",
@@ -3256,6 +3246,16 @@
       "cash": 216240.93,
       "actions_taken": 0,
       "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CeRXvxYu4UTyTqoKMU9pS'}",
+      "risk_notes": ""
+    },
+    {
+      "timestamp": "2026-08-26T11:56:38.469546-04:00",
+      "regime": "NEUTRAL",
+      "regime_score": 1,
+      "portfolio_value": 239329.11,
+      "cash": 216240.93,
+      "actions_taken": 0,
+      "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CeRdiYvx9UCLfLzxkGqVh'}",
       "risk_notes": ""
     }
   ]
