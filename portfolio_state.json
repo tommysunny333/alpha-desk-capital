@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-09-03T15:58:14.884263-04:00",
-    "last_trading_day": "2026-09-03",
-    "total_sessions": 51,
+    "last_updated": "2026-09-04T12:59:31.182384-04:00",
+    "last_trading_day": "2026-09-04",
+    "total_sessions": 52,
     "regime": "NEUTRAL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": 2.18,
-    "portfolio_value": 239686.36,
+    "spy_ytd_return": 1.92,
+    "portfolio_value": 239526.1,
     "cash": 216240.93,
-    "cumulative_return_pct": -76.03,
-    "alpha_vs_spy": -78.21,
+    "cumulative_return_pct": -76.05,
+    "alpha_vs_spy": -77.97,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -1299,19 +1299,20 @@
       "regime": "NEUTRAL",
       "num_positions": 7,
       "cash": 216240.93
+    },
+    {
+      "date": "2026-09-04",
+      "portfolio_value": 239526.1,
+      "daily_pnl": -160.26,
+      "cumulative_return": -76.05,
+      "spy_return": 1.92,
+      "alpha": -77.97,
+      "regime": "NEUTRAL",
+      "num_positions": 7,
+      "cash": 216240.93
     }
   ],
   "agent_decision_log": [
-    {
-      "timestamp": "2026-08-07T14:08:02.191093-04:00",
-      "regime": "BULL",
-      "regime_score": 3,
-      "portfolio_value": 239960.84,
-      "cash": 209071.73,
-      "actions_taken": 0,
-      "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdoqNKTHWxJ286gjcJYH3'}",
-      "risk_notes": ""
-    },
     {
       "timestamp": "2026-08-07T14:38:26.913803-04:00",
       "regime": "BULL",
@@ -3300,6 +3301,16 @@
       "cash": 216240.93,
       "actions_taken": 0,
       "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ceh6cAFEMy9CtR8VSyKiX'}",
+      "risk_notes": ""
+    },
+    {
+      "timestamp": "2026-09-04T12:59:29.010686-04:00",
+      "regime": "NEUTRAL",
+      "regime_score": 1,
+      "portfolio_value": 239526.1,
+      "cash": 216240.93,
+      "actions_taken": 0,
+      "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CeiknazDZxPtiWzcPr5BZ'}",
       "risk_notes": ""
     }
   ]
