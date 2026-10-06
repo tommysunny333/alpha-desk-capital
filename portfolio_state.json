@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-10-02T16:03:54.043947-04:00",
-    "last_trading_day": "2026-10-02",
-    "total_sessions": 71,
+    "last_updated": "2026-10-06T15:00:21.033697-04:00",
+    "last_trading_day": "2026-10-06",
+    "total_sessions": 72,
     "regime": "BULL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": 1.74,
-    "portfolio_value": 239500.31,
-    "cash": 218494.98,
-    "cumulative_return_pct": -76.05,
-    "alpha_vs_spy": -77.79,
+    "spy_ytd_return": 3.13,
+    "portfolio_value": 239738.17,
+    "cash": 221138.72,
+    "cumulative_return_pct": -76.03,
+    "alpha_vs_spy": -79.16,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -20,16 +20,16 @@
       "ticker": "SPY",
       "entry_date": "2026-06-02",
       "entry_price": 623.09,
-      "current_price": 767.54,
+      "current_price": 780.16,
       "shares": 13,
-      "stop_price": 684.53,
+      "stop_price": 686.54,
       "days_held": 0
     },
     {
       "ticker": "WELL",
       "entry_date": "2026-06-02",
       "entry_price": 174.95,
-      "current_price": 239.45,
+      "current_price": 225.0,
       "shares": 12,
       "stop_price": 222.36,
       "days_held": 0
@@ -38,7 +38,7 @@
       "ticker": "KO",
       "entry_date": "2026-06-02",
       "entry_price": 77.91,
-      "current_price": 88.28,
+      "current_price": 86.81,
       "shares": 15,
       "stop_price": 81.25,
       "days_held": 0
@@ -47,7 +47,7 @@
       "ticker": "AAPL",
       "entry_date": "2026-08-04",
       "entry_price": 310.245,
-      "current_price": 315.98,
+      "current_price": 333.18,
       "shares": 7,
       "stop_price": 300.41,
       "days_held": 0
@@ -55,21 +55,10 @@
   ],
   "swing_positions": [
     {
-      "ticker": "NVDA",
-      "entry_date": "2026-08-04",
-      "entry_price": 210.8854,
-      "current_price": 225.94,
-      "shares": 11,
-      "stop_price": 200.24,
-      "days_held": 0,
-      "take_profit": 236.07,
-      "signal": "Bull regime momentum entry"
-    },
-    {
       "ticker": "MSFT",
       "entry_date": "2026-08-04",
       "entry_price": 495.6277,
-      "current_price": 492.28,
+      "current_price": 530.74,
       "shares": 4,
       "stop_price": 470.61,
       "days_held": 0,
@@ -738,6 +727,17 @@
       "signal": "STOP_LOSS",
       "realized_pnl": 24.78,
       "timestamp": "2026-09-08T13:22:57.812764-04:00"
+    },
+    {
+      "action": "SELL",
+      "ticker": "NVDA",
+      "strategy": "SWING",
+      "price": 240.46,
+      "quantity": 11,
+      "reasoning": "Take profit hit: $240.46 >= $236.07",
+      "signal": "TAKE_PROFIT",
+      "realized_pnl": 324.0,
+      "timestamp": "2026-10-06T15:00:17.747642-04:00"
     }
   ],
   "daily_snapshots": [
@@ -1521,19 +1521,20 @@
       "regime": "BULL",
       "num_positions": 6,
       "cash": 218494.98
+    },
+    {
+      "date": "2026-10-06",
+      "portfolio_value": 239738.17,
+      "daily_pnl": 237.86,
+      "cumulative_return": -76.03,
+      "spy_return": 3.13,
+      "alpha": -79.16,
+      "regime": "BULL",
+      "num_positions": 5,
+      "cash": 221138.72
     }
   ],
   "agent_decision_log": [
-    {
-      "timestamp": "2026-08-24T15:10:42.662802-04:00",
-      "regime": "NEUTRAL",
-      "regime_score": 1,
-      "portfolio_value": 239349.72,
-      "cash": 216240.93,
-      "actions_taken": 0,
-      "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CeN6twLk9jUR8aNfXvYJZ'}",
-      "risk_notes": ""
-    },
     {
       "timestamp": "2026-08-24T15:33:59.643431-04:00",
       "regime": "NEUTRAL",
@@ -3522,6 +3523,16 @@
       "cash": 218494.98,
       "actions_taken": 0,
       "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cfe1Vi1d72AfTzgYcQhiJ'}",
+      "risk_notes": ""
+    },
+    {
+      "timestamp": "2026-10-06T15:00:17.747642-04:00",
+      "regime": "BULL",
+      "regime_score": 3,
+      "portfolio_value": 239738.17,
+      "cash": 221138.72,
+      "actions_taken": 0,
+      "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfmVtJKX3fkQwxCs6Tcbm'}",
       "risk_notes": ""
     }
   ]
