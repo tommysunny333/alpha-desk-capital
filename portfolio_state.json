@@ -1,17 +1,17 @@
 {
   "meta": {
     "starting_capital": 241228,
-    "last_updated": "2026-10-06T16:06:46.389902-04:00",
-    "last_trading_day": "2026-10-06",
-    "total_sessions": 72,
+    "last_updated": "2026-10-07T15:28:21.754305-04:00",
+    "last_trading_day": "2026-10-07",
+    "total_sessions": 73,
     "regime": "BULL",
     "vix": 15.32,
     "spy_price": 756.48,
-    "spy_ytd_return": 3.0,
-    "portfolio_value": 239722.82,
-    "cash": 221138.72,
+    "spy_ytd_return": 2.74,
+    "portfolio_value": 239662.33,
+    "cash": 223793.23,
     "cumulative_return_pct": -76.03,
-    "alpha_vs_spy": -79.02,
+    "alpha_vs_spy": -78.77,
     "circuit_breaker_active": false,
     "daily_high_watermark": 241228
   },
@@ -20,25 +20,16 @@
       "ticker": "SPY",
       "entry_date": "2026-06-02",
       "entry_price": 623.09,
-      "current_price": 780.16,
+      "current_price": 777.17,
       "shares": 13,
       "stop_price": 686.54,
-      "days_held": 0
-    },
-    {
-      "ticker": "WELL",
-      "entry_date": "2026-06-02",
-      "entry_price": 174.95,
-      "current_price": 225.0,
-      "shares": 12,
-      "stop_price": 222.36,
       "days_held": 0
     },
     {
       "ticker": "KO",
       "entry_date": "2026-06-02",
       "entry_price": 77.91,
-      "current_price": 86.81,
+      "current_price": 85.89,
       "shares": 15,
       "stop_price": 81.25,
       "days_held": 0
@@ -47,7 +38,7 @@
       "ticker": "AAPL",
       "entry_date": "2026-08-04",
       "entry_price": 310.245,
-      "current_price": 333.18,
+      "current_price": 336.78,
       "shares": 7,
       "stop_price": 300.41,
       "days_held": 0
@@ -58,7 +49,7 @@
       "ticker": "MSFT",
       "entry_date": "2026-08-04",
       "entry_price": 495.6277,
-      "current_price": 530.74,
+      "current_price": 530.02,
       "shares": 4,
       "stop_price": 470.61,
       "days_held": 0,
@@ -738,6 +729,17 @@
       "signal": "TAKE_PROFIT",
       "realized_pnl": 324.0,
       "timestamp": "2026-10-06T15:00:17.747642-04:00"
+    },
+    {
+      "action": "SELL",
+      "ticker": "WELL",
+      "strategy": "LONG_TERM",
+      "price": 221.32,
+      "quantity": 12,
+      "reasoning": "Stop loss hit: $221.32 <= $222.36",
+      "signal": "STOP_LOSS",
+      "realized_pnl": 555.11,
+      "timestamp": "2026-10-07T15:28:18.498346-04:00"
     }
   ],
   "daily_snapshots": [
@@ -1532,19 +1534,20 @@
       "regime": "BULL",
       "num_positions": 5,
       "cash": 221138.72
+    },
+    {
+      "date": "2026-10-07",
+      "portfolio_value": 239662.33,
+      "daily_pnl": -60.49,
+      "cumulative_return": -76.03,
+      "spy_return": 2.74,
+      "alpha": -78.77,
+      "regime": "BULL",
+      "num_positions": 4,
+      "cash": 223793.23
     }
   ],
   "agent_decision_log": [
-    {
-      "timestamp": "2026-08-25T10:41:14.549984-04:00",
-      "regime": "NEUTRAL",
-      "regime_score": 1,
-      "portfolio_value": 239392.97,
-      "cash": 216240.93,
-      "actions_taken": 0,
-      "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CePeA9dTSZ1BJ2kZi5Mbm'}",
-      "risk_notes": ""
-    },
     {
       "timestamp": "2026-08-25T11:10:47.713451-04:00",
       "regime": "NEUTRAL",
@@ -3533,6 +3536,16 @@
       "cash": 221138.72,
       "actions_taken": 0,
       "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cfmax5NbkhpnGtiugXuPf'}",
+      "risk_notes": ""
+    },
+    {
+      "timestamp": "2026-10-07T15:28:18.498346-04:00",
+      "regime": "BULL",
+      "regime_score": 3,
+      "portfolio_value": 239662.33,
+      "cash": 223793.23,
+      "actions_taken": 0,
+      "commentary": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfoRq79mNWjfWRob2qRsp'}",
       "risk_notes": ""
     }
   ]
